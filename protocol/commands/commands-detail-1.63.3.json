@@ -8,8 +8,8 @@
    "class": "§`%2§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Marker",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeBytes"
@@ -239,7 +239,7 @@
      "readUTF"
     ]
    ],
-   "name_guess": "PlayerActionNotify",
+   "name_guess": "PlayerBattleAction",
    "note": "действие игрока в бою: action, battleId, message",
    "reads": [
     "readBytes",
@@ -1317,7 +1317,7 @@
    "class": "§'%22`§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "BuyTask",
    "note": "",
    "reads": [],
    "writes": [
@@ -1332,7 +1332,7 @@
    "class": "§%3C%22m§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SetValues",
    "note": "",
    "reads": [],
    "writes": [
@@ -1349,8 +1349,8 @@
    "class": "§##`§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty146",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeInt",
@@ -1363,8 +1363,8 @@
    "class": "§`#]§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty160",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeInt",
@@ -1377,8 +1377,8 @@
    "class": "§%22+e§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty161",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeBytes"
@@ -1390,8 +1390,8 @@
    "class": "§!#I§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty162",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeBytes"
@@ -1403,8 +1403,8 @@
    "class": "§6&c§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty163",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeBytes"
@@ -1416,8 +1416,8 @@
    "class": "§5+c§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty164",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeUTF",
@@ -1430,7 +1430,7 @@
    "class": "§;&F§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "KickByProfile",
    "note": "",
    "reads": [],
    "writes": [
@@ -1444,8 +1444,8 @@
    "class": "§1!6§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty167",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeInt",
@@ -1567,7 +1567,7 @@
    "class": "§++n§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "EnterBattleWithWager",
    "note": "",
    "reads": [],
    "writes": [
@@ -1590,7 +1590,7 @@
    "class": "§6%22Q§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "InviteToBattle",
    "note": "",
    "reads": [],
    "writes": [
@@ -1610,7 +1610,7 @@
    "class": "§`$p§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "JoinBattle",
    "note": "",
    "reads": [],
    "writes": [
@@ -1631,7 +1631,7 @@
    "class": "§4'=§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "BattleError",
    "note": "",
    "reads": [],
    "writes": [
@@ -1700,8 +1700,8 @@
    "class": "§]#_§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty1008",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeBytes"
@@ -1745,7 +1745,7 @@
    "class": "§'%X§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "BattleConnect",
    "note": "",
    "reads": [],
    "writes": [
@@ -1933,7 +1933,7 @@
    "class": "§0%22S§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "LeaveBattle",
    "note": "",
    "reads": [],
    "writes": [
@@ -2044,7 +2044,7 @@
      "readUnsignedInt"
     ]
    ],
-   "name_guess": "BattleByIdCommand",
+   "name_guess": "BattleById",
    "note": "только battleId",
    "reads": [
     "readBytes",
@@ -2226,7 +2226,7 @@
    "class": "§%+;§",
    "direction": "?",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "ClanInfoRequest",
    "note": "",
    "reads": [],
    "writes": []
@@ -2237,7 +2237,7 @@
    "class": "§&!1§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "CreateClan",
    "note": "",
    "reads": [],
    "writes": [
@@ -2251,8 +2251,8 @@
    "class": "§^%22%3C§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "ClanLeaveRequest",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeInt",
@@ -2266,8 +2266,8 @@
    "class": "§!$M§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "ClanKeepAlive",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeInt"
@@ -2279,7 +2279,7 @@
    "class": "§%3C$3§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialProfileCommand",
    "note": "",
    "reads": [],
    "writes": [
@@ -2294,7 +2294,7 @@
    "class": "§ '#§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialProfileCommand2",
    "note": "",
    "reads": [],
    "writes": [
@@ -2308,8 +2308,8 @@
    "class": "§-&P§",
    "direction": "?",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "SocialEmpty7105",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": []
   },
@@ -2319,7 +2319,7 @@
    "class": "§8#8§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialFriendCommand",
    "note": "",
    "reads": [],
    "writes": [
@@ -2334,7 +2334,7 @@
    "class": "§%22&7§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialFriendCommand2",
    "note": "",
    "reads": [],
    "writes": [
@@ -2349,7 +2349,7 @@
    "class": "§;l§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetLevel",
    "note": "",
    "reads": [],
    "writes": [
@@ -2363,7 +2363,7 @@
    "class": "§3%]§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetText",
    "note": "",
    "reads": [],
    "writes": [
@@ -2376,7 +2376,7 @@
    "class": "§]'r§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetScope",
    "note": "",
    "reads": [],
    "writes": [
@@ -2390,7 +2390,7 @@
    "class": "§6+!§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetLimit",
    "note": "",
    "reads": [],
    "writes": [
@@ -2405,7 +2405,7 @@
    "class": "§ 'v§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetName",
    "note": "",
    "reads": [],
    "writes": [
@@ -2419,8 +2419,8 @@
    "class": "§3&g§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "SocialEmpty7115",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeBoolean"
@@ -2432,7 +2432,7 @@
    "class": "§%22#Z§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetDescription",
    "note": "",
    "reads": [],
    "writes": [
@@ -2446,7 +2446,7 @@
    "class": "§`$%3E§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetSeason",
    "note": "",
    "reads": [],
    "writes": [
@@ -2459,8 +2459,8 @@
    "class": "§%22#%3E§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "SocialEmpty7120",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeInt"
@@ -2472,7 +2472,7 @@
    "class": "§;!U§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetDonation",
    "note": "",
    "reads": [],
    "writes": [
@@ -2485,7 +2485,7 @@
    "class": "§%#5§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetClosed",
    "note": "",
    "reads": [],
    "writes": [
@@ -2498,8 +2498,8 @@
    "class": "§9+J§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "SocialEmpty7123",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": [
     "writeByte"
@@ -2511,7 +2511,7 @@
    "class": "§3!P§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetMedals",
    "note": "",
    "reads": [],
    "writes": [
@@ -2524,8 +2524,8 @@
    "class": "§ 'p§",
    "direction": "?",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "SocialEmpty7125",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [],
    "writes": []
   },
@@ -2535,7 +2535,7 @@
    "class": "§2&R§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetFlag",
    "note": "",
    "reads": [],
    "writes": [
@@ -2550,7 +2550,7 @@
    "class": "§@&k§",
    "direction": "c->s",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "SocialSetFlag2",
    "note": "",
    "reads": [],
    "writes": [
@@ -2565,8 +2565,8 @@
    "class": "§6$[§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "ClanEmpty7209",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readUnsignedShort"
    ],
@@ -4349,7 +4349,7 @@
    "class": "§3j§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
+   "name_guess": "BattleMarker10144",
    "note": "",
    "reads": [
     "readShort",
@@ -4365,8 +4365,8 @@
    "class": "§6+3§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty10160",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readBytes",
     "readInt",
@@ -4381,8 +4381,8 @@
    "class": "§=%§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty10161",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readBytes",
     "readUnsignedShort",
@@ -4396,8 +4396,8 @@
    "class": "§%3C$w§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty10162",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readBytes",
     "readUnsignedShort",
@@ -4411,8 +4411,8 @@
    "class": "§1%22+§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty10163",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readBytes",
     "readUnsignedShort",
@@ -4426,8 +4426,8 @@
    "class": "§1#f§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty10164",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readBytes",
     "readUnsignedShort",
@@ -4463,8 +4463,8 @@
    "class": "§`!q§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty10167",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readBytes",
     "readUnsignedShort",
@@ -4478,8 +4478,8 @@
    "class": "§]%22,§",
    "direction": "s->c",
    "fields": [],
-   "name_guess": "",
-   "note": "",
+   "name_guess": "Empty10168",
+   "note": "payload нет (маркер/подтверждение)",
    "reads": [
     "readBytes",
     "readUnsignedShort",
@@ -4671,7 +4671,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17003",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4693,7 +4693,7 @@
      "readInt"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceComeback",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -4712,7 +4712,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17102",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -4741,7 +4741,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceProfileSocial",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -4773,7 +4773,7 @@
      "readInt"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceRank",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -4798,7 +4798,7 @@
      "readInt"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceLevel",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -4817,7 +4817,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17109",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4835,7 +4835,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17112",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -4854,7 +4854,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17113",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -4874,7 +4874,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17114",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4892,7 +4892,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17115",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4910,7 +4910,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17116",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4928,7 +4928,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17120",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4946,7 +4946,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17121",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4964,7 +4964,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17122",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -4982,7 +4982,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17123",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -5000,7 +5000,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17124",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -5018,7 +5018,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17125",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort",
@@ -5038,7 +5038,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17127",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
@@ -5056,7 +5056,7 @@
      "readShort"
     ]
    ],
-   "name_guess": "ServiceResult",
+   "name_guess": "ServiceResult17128",
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
