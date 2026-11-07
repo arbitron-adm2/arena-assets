@@ -1,271 +1,271 @@
 # Карта команд (id протокола)
 
-Всего id: **262** — same 171, new (только 1.63.3) 78, gone (были в 1.61.7) 13.
+Всего id: **262** — same 171, new 78, gone 13.
 
-Извлечено из `getCommandId()` сериализаторов: 1.61.7 — из читаемых исходников,
-1.63.3 — из обфусцированного ABC (имена классов манглированы, id разрешены через константы).
+Читаемых имён сообщений (из `serializers.xml` 1.61.7): **184**. Для новых id 1.63.3 имя пока неизвестно —
+классы в клиенте обфусцированы, сообщения переименованы.
 
-| id | 1.61.7 | 1.63.3 | статус |
-|---:|---|---|---|
-| 1 | LoginBinarySerializer | §=&#§ | same |
-| 2 | NeedMoneyBinarySerializer | — | gone |
-| 3 | BuyShopItemsBinarySerializer | §%3C++§ | same |
-| 5 | GetProfilesBinarySerializer | — | gone |
-| 6 | StartBattleBinarySerializer | §9&I§ | same |
-| 10 | ActivatePromoKeyBinarySerializer | §`&8§ | same |
-| 11 | BuyBattleBinarySerializer | §%22&2§ | same |
-| 12 | AddToGroupBinarySerializer | §8&m§ | same |
-| 13 | RemoveFromGroupBinarySerializer | §%3CH§ | same |
-| 14 | DistributePointsBinarySerializer | §,z§ | same |
-| 15 | ResetParametersBinarySerializer | §9T§ | same |
-| 16 | PingBinarySerializer | §%3F#S§ | same |
-| 17 | — | §`+I§ | new |
-| 18 | GetFriendListPageBinarySerializer | — | gone |
-| 19 | GetRatingBinarySerializer | §@&l§ | same |
-| 20 | LoginByProfileStringIdBinarySerializer | §%3F#g§ | same |
-| 22 | ReorderGroupBinarySerializer | §`%c§ | same |
-| 25 | SelectStuffBinarySerializer | §^!l§ | same |
-| 29 | BuySkinBinarySerializer | §%3F&y§ | same |
-| 36 | BuyRaceBinarySerializer | §=$8§ | same |
-| 44 | SelectRaceBinarySerializer | §`u§ | same |
-| 46 | GetWhoPumpedReactionBinarySerializer | §4!=§ | same |
-| 48 | WipeProfileBinarySerializer | §=#3§ | same |
-| 49 | BuyReactionRateBinarySerializer | §;#,§ | same |
-| 50 | BuySelectRaceBinarySerializer | §@#b§ | same |
-| 52 | SendWipeConfirmCodeBinarySerializer | §[$6§ | same |
-| 57 | SyncInvestedAwardPointsBinarySerializer | §`f§ | same |
-| 58 | BuyUnlockMissionBinarySerializer | §-&7§ | same |
-| 81 | SearchTheHouseBinarySerializer | §5%!§ | same |
-| 84 | EndBattleBinarySerializer | §&&k§ | same |
-| 85 | GetReagentsForProfileBinarySerializer | — | gone |
-| 86 | UpgradeWeaponBinarySerializer | §]'`§ | same |
-| 88 | DowngradeWeaponBinarySerializer | §;$&§ | same |
-| 89 | GetAbandonedFriendsBinarySerializer | §;#%3F§ | same |
-| 90 | ReturnFriendBinarySerializer | §;%E§ | same |
-| 92 | RewardReturnFriendBinarySerializer | §9#W§ | same |
-| 93 | GetFriendsForMissionBinarySerializer | §'$l§ | same |
-| 94 | InviteFriendToClanBinarySerializer | §6+E§ | same |
-| 95 | ClanSummaryMainRequestBinarySerializer | §&D§ | same |
-| 96 | TopClansMainRequestBinarySerializer | §`&M§ | same |
-| 97 | ListClansRequestMainBinarySerializer | §%22%22c§ | same |
-| 98 | GetJoinClansMainRequestBinarySerializer | §!%22Q§ | same |
-| 99 | AssembleEquipBinarySerializer | §,&r§ | same |
-| 100 | FbFullfillPaymentBinarySerializer | — | gone |
-| 101 | FbRegisterPaymentBinarySerializer | §1'h§ | same |
-| 102 | OpenChestBinarySerializer | §'!J§ | same |
-| 105 | FbRegisterMobilePaymentBinarySerializer | §,!M§ | same |
-| 106 | ToggleTeamMemberBinarySerializer | §+%22o§ | same |
-| 107 | GetDailyBonusBinarySerializer | §-!%§ | same |
-| 108 | GetSpecialDealBinarySerializer | §%22H§ | same |
-| 109 | ExecuteSpecialDealBinarySerializer | §5!P§ | same |
-| 110 | GetColiseumStateBinarySerializer | §%3E%220§ | same |
-| 111 | AddGladiatorTeamMemberBinarySerializer | § %J§ | same |
-| 112 | BuyColiseumTicketBinarySerializer | §^%22_§ | same |
-| 113 | RegenerateCandidatesBinarySerializer | §+%_§ | same |
-| 114 | GetColiseumRewardBinarySerializer | §'$S§ | same |
-| 115 | ColliseumInterruptSeriesBinarySerializer | §1#8§ | same |
-| 116 | GetBundlesBinarySerializer | §-'0§ | same |
-| 117 | GetQuestProgressBinarySerializer | §['w§ | same |
-| 118 | GetQuestRewardBinarySerializer | §%22&E§ | same |
-| 119 | BuyRenameCharBinarySerializer | §@%22=§ | same |
-| 120 | EndTurnBinarySerializer | §4'I§ | same |
-| 122 | BuyGroupSlotBinarySerializer | §]#q§ | same |
-| 123 | BuyMercenariesTicketBinarySerializer | § &c§ | same |
-| 124 | GetMercenariesDefsBinarySerializer | §5u§ | same |
-| 125 | GetMercenariesRewardBinarySerializer | §##=§ | same |
-| 126 | GetMercenariesStateBinarySerializer | § 'X§ | same |
-| 127 | SetMercenariesTeamMembersBinarySerializer | §5'%3E§ | same |
-| 128 | SetHotkeysBinarySerializer | §]&l§ | same |
-| 129 | SetBackpackConfBinarySerializer | §6+N§ | same |
-| 131 | ClearNameBinarySerializer | §^''§ | same |
-| 135 | GetRaceExceptExclusiveBinarySerializer | §9!w§ | same |
-| 136 | SetCookiesBinarySerializer | §0#=§ | same |
-| 137 | SellStuffBinarySerializer | §-+0§ | same |
-| 139 | GetMoveProfileSecureTokenBinarySerializer | §!!i§ | same |
-| 140 | GetVipSubscriptionBinarySerializer | §4+b§ | same |
-| 141 | GetProfileExtraInfoBinarySerializer | — | gone |
-| 142 | GetPromocodeBonusBinarySerializer | §3'%§ | same |
-| 143 | StartTurnBinarySerializer | §3&m§ | same |
-| 144 | — | §'%22`§ | new |
-| 145 | — | §%3C%22m§ | new |
-| 146 | — | §##`§ | new |
-| 160 | — | §`#]§ | new |
-| 161 | — | §%22+e§ | new |
-| 162 | — | §!#I§ | new |
-| 163 | — | §6&c§ | new |
-| 164 | — | §5+c§ | new |
-| 166 | — | §;&F§ | new |
-| 167 | — | §1!6§ | new |
-| 301 | JoinToChatBinarySerializer | §0'§ | same |
-| 302 | PostToChatBinarySerializer | §'%B§ | same |
-| 303 | LeaveFromChatBinarySerializer | §[&u§ | same |
-| 704 | PumpReactionRateBinarySerializer | §+#F§ | same |
-| 705 | PumpReactionRatesBinarySerializer | §&$u§ | same |
-| 708 | GetArenaBinarySerializer | §%'x§ | same |
-| 1001 | — | §++n§ | new |
-| 1002 | — | §6%22Q§ | new |
-| 1003 | — | §`$p§ | new |
-| 1004 | — | §4'=§ | new |
-| 1006 | PvpDropPlayerBinarySerializer | §%22%222§ | same |
-| 1007 | PvpActionExBinarySerializer | §0+C§ | same |
-| 1008 | — | §]#_§ | new |
-| 1014 | PvpEndTurnBinarySerializer | §1'=§ | same |
-| 1015 | — | §'%X§ | new |
-| 1016 | PvpRetryCommandRequestServerBinarySerializer | §%3F!m§ | same |
-| 1017 | PvpEndTurnResponseBinarySerializer | §9'E§ | same |
-| 1018 | PvpRetryCommandRequestClientBinarySerializer | §#!B§ | same |
-| 1019 | PvpStartTurnBinarySerializer | §%22$W§ | same |
-| 1021 | PvpEndBattleBinarySerializer | §!!%3C§ | same |
-| 1022 | ReorderGroupResultBinarySerializer | §7%22%3C§ | same |
-| 1023 | — | §0%22S§ | new |
-| 1093 | GetFriendsForMissionResultBinarySerializer | §1%^§ | same |
-| 1098 | GetJoinClansMainResponseBinarySerializer | §7!U§ | same |
-| 1099 | FbRegisterPaymentResultBinarySerializer | §-%22K§ | same |
-| 2002 | — | §#$,§ | new |
-| 2003 | — | §%z§ | new |
-| 2004 | BattleLoginErrorBinarySerializer | §#&t§ | same |
-| 2006 | — | §7!G§ | new |
-| 2021 | PvpSystemMessageBinarySerializer | §3%22C§ | same |
-| 3001 | AchieveLoginBinarySerializer | — | gone |
-| 3002 | GetAchievementsBinarySerializer | §&$n§ | same |
-| 3003 | IncreaseAchievementsBinarySerializer | §%3Fw§ | same |
-| 3005 | ChooseBonusItemBinarySerializer | § $z§ | same |
-| 3010 | BuyResetBonusItemsBinarySerializer | §9+C§ | same |
-| 7001 | — | §%+;§ | new |
-| 7002 | — | §&!1§ | new |
-| 7003 | — | §^%22%3C§ | new |
-| 7011 | — | §!$M§ | new |
-| 7102 | — | §%3C$3§ | new |
-| 7104 | — | § '#§ | new |
-| 7105 | — | §-&P§ | new |
-| 7106 | — | §8#8§ | new |
-| 7107 | — | §%22&7§ | new |
-| 7108 | — | §;l§ | new |
-| 7110 | — | §3%]§ | new |
-| 7112 | — | §]'r§ | new |
-| 7113 | — | §6+!§ | new |
-| 7114 | — | § 'v§ | new |
-| 7115 | — | §3&g§ | new |
-| 7116 | — | §%22#Z§ | new |
-| 7117 | — | §`$%3E§ | new |
-| 7120 | — | §%22#%3E§ | new |
-| 7121 | — | §;!U§ | new |
-| 7122 | — | §%#5§ | new |
-| 7123 | — | §9+J§ | new |
-| 7124 | — | §3!P§ | new |
-| 7125 | — | § 'p§ | new |
-| 7127 | — | §2&R§ | new |
-| 7128 | — | §@&k§ | new |
-| 7209 | — | §6$[§ | new |
-| 10001 | EnterAccountBinarySerializer | §!%22G§ | same |
-| 10002 | LoginErrorBinarySerializer | §0+S§ | same |
-| 10003 | ShopResultBinarySerializer | §`&t§ | same |
-| 10004 | ArenaResultBinarySerializer | §-%22%22§ | same |
-| 10005 | ProfilesResultBinarySerializer | — | gone |
-| 10006 | StartBattleResultBinarySerializer | §%3F#W§ | same |
-| 10007 | ArenaLockedBinarySerializer | §%22+R§ | same |
-| 10008 | NeedMoneyResultBinarySerializer | §%3C$I§ | same |
-| 10009 | ActivatePromoKeyErrorBinarySerializer | §6+h§ | same |
-| 10011 | ShowSystemMessageBinarySerializer | §%3E%22e§ | same |
-| 10012 | BuyBattleResultBinarySerializer | §3$C§ | same |
-| 10013 | AddToGroupResultBinarySerializer | §2;§ | same |
-| 10014 | RemoveFromGroupResultBinarySerializer | §'!A§ | same |
-| 10015 | DistributePointsResultBinarySerializer | §3y§ | same |
-| 10016 | ResetParametersResultBinarySerializer | §1'C§ | same |
-| 10017 | PongBinarySerializer | §2'%§ | same |
-| 10018 | GetFriendListPageResultBinarySerializer | — | gone |
-| 10019 | GetRatingResultBinarySerializer | §5%22e§ | same |
-| 10021 | SearchTheHouseResultBinarySerializer | §&+a§ | same |
-| 10022 | SelectStuffResultBinarySerializer | §-%227§ | same |
-| 10023 | UserIsBannedBinarySerializer | §#!t§ | same |
-| 10028 | BuyRaceResponseBinarySerializer | §9%22G§ | same |
-| 10029 | BuySkinResponseBinarySerializer | §^'#§ | same |
-| 10031 | IncomingPaymentBinarySerializer | §@$n§ | same |
-| 10032 | PumpReactionRateResultBinarySerializer | §#$a§ | same |
-| 10033 | PumpReactionRatesResultBinarySerializer | §%3E#g§ | same |
-| 10034 | WhoPumpedReactionResultBinarySerializer | §#%22n§ | same |
-| 10036 | WipeProfileResultBinarySerializer | §#%U§ | same |
-| 10037 | BuyReactionRateResultBinarySerializer | § +=§ | same |
-| 10040 | SendWipeConfirmCodeResponseBinarySerializer | §-!3§ | same |
-| 10041 | SyncInvestedAwardPointsResultBinarySerializer | §,%225§ | same |
-| 10042 | BuyUnlockMissionResultBinarySerializer | §9$&§ | same |
-| 10044 | SelectRaceResultBinarySerializer | §7$u§ | same |
-| 10050 | BuySelectRaceResponseBinarySerializer | §6!'§ | same |
-| 10051 | PrivateChatMessageBinarySerializer | §,y§ | same |
-| 10085 | ReagentsForProfileBinarySerializer | — | gone |
-| 10086 | UpgradeWeaponResultBinarySerializer | §5#u§ | same |
-| 10088 | DowngradeWeaponResultBinarySerializer | §5&r§ | same |
-| 10089 | GetAbandonedFriendsResultBinarySerializer | §'!6§ | same |
-| 10090 | ReturnFriendResultBinarySerializer | §%22'n§ | same |
-| 10091 | AwardedFriendsComebackBinarySerializer | §%3C$H§ | same |
-| 10092 | RewardReturnFriendResultBinarySerializer | §%22+c§ | same |
-| 10093 | EquipExpiredBinarySerializer | §7%X§ | same |
-| 10094 | AwardGrantedBinarySerializer | §1%22`§ | same |
-| 10099 | AssembleStuffResultBinarySerializer | §9%f§ | same |
-| 10102 | OpenChestResultBinarySerializer | §%3E&0§ | same |
-| 10104 | ItemGrantedBinarySerializer | §#!g§ | same |
-| 10106 | ToggleTeamMemberResultBinarySerializer | §9&Z§ | same |
-| 10107 | GetDailyBonusResultBinarySerializer | §;!#§ | same |
-| 10108 | GetSpecialDealResponseBinarySerializer | §1$6§ | same |
-| 10109 | ExecuteSpecialDealResponseBinarySerializer | §]&V§ | same |
-| 10110 | ColiseumStateResponseBinarySerializer | §2$ § | same |
-| 10114 | GetColiseumRewardResponseBinarySerializer | §3%v§ | same |
-| 10116 | GetBundlesResultBinarySerializer | §-+;§ | same |
-| 10117 | GetQuestProgressResultBinarySerializer | §'%`§ | same |
-| 10118 | GetQuestRewardResponseBinarySerializer | §9%3F§ | same |
-| 10119 | BuyRenameCharResultBinarySerializer | §8$r§ | same |
-| 10120 | EndTurnResponseBinarySerializer | §%3E+R§ | same |
-| 10121 | EndBattleResultBinarySerializer | § &C§ | same |
-| 10122 | BuyGroupSlotResultBinarySerializer | §0L§ | same |
-| 10124 | MercenariesDefsResponseBinarySerializer | §%3E%3F§ | same |
-| 10125 | MercenariesRewardResponseBinarySerializer | §%22$X§ | same |
-| 10126 | MercenariesStateResponseBinarySerializer | §9$h§ | same |
-| 10129 | SetBackpackConfResultBinarySerializer | §4'h§ | same |
-| 10131 | ClearNameResultBinarySerializer | §+#H§ | same |
-| 10134 | WithdrawSeasonWeaponsResultBinarySerializer | §2'E§ | same |
-| 10135 | RaceExceptExclusiveResultBinarySerializer | §##L§ | same |
-| 10137 | SellStuffResultBinarySerializer | §6Z§ | same |
-| 10139 | MoveProfileSecureTokenBinarySerializer | §@&!§ | same |
-| 10140 | VipSubscriptionResponseBinarySerializer | §;$m§ | same |
-| 10141 | ProfileExtraInfoResponseBinarySerializer | — | gone |
-| 10142 | GetPromocodeBonusResultBinarySerializer | §5!-§ | same |
-| 10143 | StartTurnResponseBinarySerializer | §@v§ | same |
-| 10144 | — | §3j§ | new |
-| 10160 | — | §6+3§ | new |
-| 10161 | — | §=%§ | new |
-| 10162 | — | §%3C$w§ | new |
-| 10163 | — | §1%22+§ | new |
-| 10164 | — | §1#f§ | new |
-| 10166 | — | §7$Y§ | new |
-| 10167 | — | §`!q§ | new |
-| 10168 | — | §]%22,§ | new |
-| 10169 | — | §%%22g§ | new |
-| 10301 | JoinToChatResultBinarySerializer | §4%2§ | same |
-| 10302 | ChatMessageEventBinarySerializer | §;4§ | same |
-| 13001 | AchieveLoginSuccessBinarySerializer | — | gone |
-| 13002 | AchieveLoginErrorBinarySerializer | — | gone |
-| 13003 | GetAchievementsResultBinarySerializer | §3+F§ | same |
-| 13004 | IncreaseAchievementResultBinarySerializer | §0%l§ | same |
-| 13006 | ChooseBonusItemResultBinarySerializer | §^'v§ | same |
-| 13010 | BuyResetBonusItemsResultBinarySerializer | §%3C&;§ | same |
-| 17001 | — | §@%a§ | new |
-| 17003 | — | §9%22^§ | new |
-| 17011 | — | §6+H§ | new |
-| 17102 | — | §9#S§ | new |
-| 17104 | — | §%3F'e§ | new |
-| 17106 | — | §2!t§ | new |
-| 17108 | — | §!i§ | new |
-| 17109 | — | §[%225§ | new |
-| 17112 | — | §,%22K§ | new |
-| 17113 | — | §0'=§ | new |
-| 17114 | — | §6+W§ | new |
-| 17115 | — | §7%%§ | new |
-| 17116 | — | §2%+§ | new |
-| 17120 | — | §%3C!l§ | new |
-| 17121 | — | §%3F+M§ | new |
-| 17122 | — | §@#%22§ | new |
-| 17123 | — | §'$,§ | new |
-| 17124 | — | §&$=§ | new |
-| 17125 | — | §&+&§ | new |
-| 17127 | — | §6%22#§ | new |
-| 17128 | — | §%3E$Y§ | new |
+| id | сообщение (1.61.7) | сериализатор 1.61.7 | сериализатор 1.63.3 | статус |
+|---:|---|---|---|---|
+| 1 | Login | LoginBinarySerializer | §=&#§ | same |
+| 2 | NeedMoney | NeedMoneyBinarySerializer | — | gone |
+| 3 | BuyShopItems | BuyShopItemsBinarySerializer | §%3C++§ | same |
+| 5 | GetProfiles | GetProfilesBinarySerializer | — | gone |
+| 6 | StartBattle | StartBattleBinarySerializer | §9&I§ | same |
+| 10 | ActivatePromoKey | ActivatePromoKeyBinarySerializer | §`&8§ | same |
+| 11 | BuyBattle | BuyBattleBinarySerializer | §%22&2§ | same |
+| 12 | AddToGroup | AddToGroupBinarySerializer | §8&m§ | same |
+| 13 | RemoveFromGroup | RemoveFromGroupBinarySerializer | §%3CH§ | same |
+| 14 | DistributePoints | DistributePointsBinarySerializer | §,z§ | same |
+| 15 | ResetParameters | ResetParametersBinarySerializer | §9T§ | same |
+| 16 | Ping | PingBinarySerializer | §%3F#S§ | same |
+| 17 | — | — | §`+I§ | new |
+| 18 | GetFriendListPage | GetFriendListPageBinarySerializer | — | gone |
+| 19 | GetRating | GetRatingBinarySerializer | §@&l§ | same |
+| 20 | LoginByProfileStringId | LoginByProfileStringIdBinarySerializer | §%3F#g§ | same |
+| 22 | ReorderGroup | ReorderGroupBinarySerializer | §`%c§ | same |
+| 25 | SelectStuff | SelectStuffBinarySerializer | §^!l§ | same |
+| 29 | BuySkin | BuySkinBinarySerializer | §%3F&y§ | same |
+| 36 | BuyRace | BuyRaceBinarySerializer | §=$8§ | same |
+| 44 | SelectRace | SelectRaceBinarySerializer | §`u§ | same |
+| 46 | GetWhoPumpedReaction | GetWhoPumpedReactionBinarySerializer | §4!=§ | same |
+| 48 | WipeProfile | WipeProfileBinarySerializer | §=#3§ | same |
+| 49 | BuyReactionRate | BuyReactionRateBinarySerializer | §;#,§ | same |
+| 50 | BuySelectRace | BuySelectRaceBinarySerializer | §@#b§ | same |
+| 52 | SendWipeConfirmCode | SendWipeConfirmCodeBinarySerializer | §[$6§ | same |
+| 57 | SyncInvestedAwardPoints | SyncInvestedAwardPointsBinarySerializer | §`f§ | same |
+| 58 | BuyUnlockMission | BuyUnlockMissionBinarySerializer | §-&7§ | same |
+| 81 | SearchTheHouse | SearchTheHouseBinarySerializer | §5%!§ | same |
+| 84 | EndBattle | EndBattleBinarySerializer | §&&k§ | same |
+| 85 | GetReagentsForProfile | GetReagentsForProfileBinarySerializer | — | gone |
+| 86 | UpgradeWeapon | UpgradeWeaponBinarySerializer | §]'`§ | same |
+| 88 | DowngradeWeapon | DowngradeWeaponBinarySerializer | §;$&§ | same |
+| 89 | GetAbandonedFriends | GetAbandonedFriendsBinarySerializer | §;#%3F§ | same |
+| 90 | ReturnFriend | ReturnFriendBinarySerializer | §;%E§ | same |
+| 92 | RewardReturnFriend | RewardReturnFriendBinarySerializer | §9#W§ | same |
+| 93 | GetFriendsForMission | GetFriendsForMissionBinarySerializer | §'$l§ | same |
+| 94 | InviteFriendToClan | InviteFriendToClanBinarySerializer | §6+E§ | same |
+| 95 | ClanSummaryMainRequest | ClanSummaryMainRequestBinarySerializer | §&D§ | same |
+| 96 | TopClansMainRequest | TopClansMainRequestBinarySerializer | §`&M§ | same |
+| 97 | ListClansRequestMain | ListClansRequestMainBinarySerializer | §%22%22c§ | same |
+| 98 | GetJoinClansMainRequest | GetJoinClansMainRequestBinarySerializer | §!%22Q§ | same |
+| 99 | AssembleEquip | AssembleEquipBinarySerializer | §,&r§ | same |
+| 100 | FbFullfillPayment | FbFullfillPaymentBinarySerializer | — | gone |
+| 101 | FbRegisterPayment | FbRegisterPaymentBinarySerializer | §1'h§ | same |
+| 102 | OpenChest | OpenChestBinarySerializer | §'!J§ | same |
+| 105 | FbRegisterMobilePayment | FbRegisterMobilePaymentBinarySerializer | §,!M§ | same |
+| 106 | ToggleTeamMember | ToggleTeamMemberBinarySerializer | §+%22o§ | same |
+| 107 | GetDailyBonus | GetDailyBonusBinarySerializer | §-!%§ | same |
+| 108 | GetSpecialDeal | GetSpecialDealBinarySerializer | §%22H§ | same |
+| 109 | ExecuteSpecialDeal | ExecuteSpecialDealBinarySerializer | §5!P§ | same |
+| 110 | GetColiseumState | GetColiseumStateBinarySerializer | §%3E%220§ | same |
+| 111 | AddGladiatorTeamMember | AddGladiatorTeamMemberBinarySerializer | § %J§ | same |
+| 112 | BuyColiseumTicket | BuyColiseumTicketBinarySerializer | §^%22_§ | same |
+| 113 | RegenerateCandidates | RegenerateCandidatesBinarySerializer | §+%_§ | same |
+| 114 | GetColiseumReward | GetColiseumRewardBinarySerializer | §'$S§ | same |
+| 115 | ColliseumInterruptSeries | ColliseumInterruptSeriesBinarySerializer | §1#8§ | same |
+| 116 | GetBundles | GetBundlesBinarySerializer | §-'0§ | same |
+| 117 | GetQuestProgress | GetQuestProgressBinarySerializer | §['w§ | same |
+| 118 | GetQuestReward | GetQuestRewardBinarySerializer | §%22&E§ | same |
+| 119 | BuyRenameChar | BuyRenameCharBinarySerializer | §@%22=§ | same |
+| 120 | EndTurn | EndTurnBinarySerializer | §4'I§ | same |
+| 122 | BuyGroupSlot | BuyGroupSlotBinarySerializer | §]#q§ | same |
+| 123 | BuyMercenariesTicket | BuyMercenariesTicketBinarySerializer | § &c§ | same |
+| 124 | GetMercenariesDefs | GetMercenariesDefsBinarySerializer | §5u§ | same |
+| 125 | GetMercenariesReward | GetMercenariesRewardBinarySerializer | §##=§ | same |
+| 126 | GetMercenariesState | GetMercenariesStateBinarySerializer | § 'X§ | same |
+| 127 | SetMercenariesTeamMembers | SetMercenariesTeamMembersBinarySerializer | §5'%3E§ | same |
+| 128 | SetHotkeys | SetHotkeysBinarySerializer | §]&l§ | same |
+| 129 | SetBackpackConf | SetBackpackConfBinarySerializer | §6+N§ | same |
+| 131 | ClearName | ClearNameBinarySerializer | §^''§ | same |
+| 135 | GetRaceExceptExclusive | GetRaceExceptExclusiveBinarySerializer | §9!w§ | same |
+| 136 | SetCookies | SetCookiesBinarySerializer | §0#=§ | same |
+| 137 | SellStuff | SellStuffBinarySerializer | §-+0§ | same |
+| 139 | GetMoveProfileSecureToken | GetMoveProfileSecureTokenBinarySerializer | §!!i§ | same |
+| 140 | GetVipSubscription | GetVipSubscriptionBinarySerializer | §4+b§ | same |
+| 141 | GetProfileExtraInfo | GetProfileExtraInfoBinarySerializer | — | gone |
+| 142 | GetPromocodeBonus | GetPromocodeBonusBinarySerializer | §3'%§ | same |
+| 143 | StartTurn | StartTurnBinarySerializer | §3&m§ | same |
+| 144 | — | — | §'%22`§ | new |
+| 145 | — | — | §%3C%22m§ | new |
+| 146 | — | — | §##`§ | new |
+| 160 | — | — | §`#]§ | new |
+| 161 | — | — | §%22+e§ | new |
+| 162 | — | — | §!#I§ | new |
+| 163 | — | — | §6&c§ | new |
+| 164 | — | — | §5+c§ | new |
+| 166 | — | — | §;&F§ | new |
+| 167 | — | — | §1!6§ | new |
+| 301 | JoinToChat | JoinToChatBinarySerializer | §0'§ | same |
+| 302 | PostToChat | PostToChatBinarySerializer | §'%B§ | same |
+| 303 | LeaveFromChat | LeaveFromChatBinarySerializer | §[&u§ | same |
+| 704 | PumpReactionRate | PumpReactionRateBinarySerializer | §+#F§ | same |
+| 705 | PumpReactionRates | PumpReactionRatesBinarySerializer | §&$u§ | same |
+| 708 | GetArena | GetArenaBinarySerializer | §%'x§ | same |
+| 1001 | — | — | §++n§ | new |
+| 1002 | — | — | §6%22Q§ | new |
+| 1003 | — | — | §`$p§ | new |
+| 1004 | — | — | §4'=§ | new |
+| 1006 | PvpDropPlayer | PvpDropPlayerBinarySerializer | §%22%222§ | same |
+| 1007 | PvpActionEx | PvpActionExBinarySerializer | §0+C§ | same |
+| 1008 | — | — | §]#_§ | new |
+| 1014 | PvpEndTurn | PvpEndTurnBinarySerializer | §1'=§ | same |
+| 1015 | — | — | §'%X§ | new |
+| 1016 | PvpRetryCommandRequestServer | PvpRetryCommandRequestServerBinarySerializer | §%3F!m§ | same |
+| 1017 | PvpEndTurnResponse | PvpEndTurnResponseBinarySerializer | §9'E§ | same |
+| 1018 | PvpRetryCommandRequestClient | PvpRetryCommandRequestClientBinarySerializer | §#!B§ | same |
+| 1019 | PvpStartTurn | PvpStartTurnBinarySerializer | §%22$W§ | same |
+| 1021 | PvpEndBattle | PvpEndBattleBinarySerializer | §!!%3C§ | same |
+| 1022 | ReorderGroupResult | ReorderGroupResultBinarySerializer | §7%22%3C§ | same |
+| 1023 | — | — | §0%22S§ | new |
+| 1093 | GetFriendsForMissionResult | GetFriendsForMissionResultBinarySerializer | §1%^§ | same |
+| 1098 | GetJoinClansMainResponse | GetJoinClansMainResponseBinarySerializer | §7!U§ | same |
+| 1099 | FbRegisterPaymentResult | FbRegisterPaymentResultBinarySerializer | §-%22K§ | same |
+| 2002 | — | — | §#$,§ | new |
+| 2003 | — | — | §%z§ | new |
+| 2004 | BattleLoginError | BattleLoginErrorBinarySerializer | §#&t§ | same |
+| 2006 | — | — | §7!G§ | new |
+| 2021 | PvpSystemMessage | PvpSystemMessageBinarySerializer | §3%22C§ | same |
+| 3001 | AchieveLogin | AchieveLoginBinarySerializer | — | gone |
+| 3002 | GetAchievements | GetAchievementsBinarySerializer | §&$n§ | same |
+| 3003 | IncreaseAchievements | IncreaseAchievementsBinarySerializer | §%3Fw§ | same |
+| 3005 | ChooseBonusItem | ChooseBonusItemBinarySerializer | § $z§ | same |
+| 3010 | BuyResetBonusItems | BuyResetBonusItemsBinarySerializer | §9+C§ | same |
+| 7001 | — | — | §%+;§ | new |
+| 7002 | — | — | §&!1§ | new |
+| 7003 | — | — | §^%22%3C§ | new |
+| 7011 | — | — | §!$M§ | new |
+| 7102 | — | — | §%3C$3§ | new |
+| 7104 | — | — | § '#§ | new |
+| 7105 | — | — | §-&P§ | new |
+| 7106 | — | — | §8#8§ | new |
+| 7107 | — | — | §%22&7§ | new |
+| 7108 | — | — | §;l§ | new |
+| 7110 | — | — | §3%]§ | new |
+| 7112 | — | — | §]'r§ | new |
+| 7113 | — | — | §6+!§ | new |
+| 7114 | — | — | § 'v§ | new |
+| 7115 | — | — | §3&g§ | new |
+| 7116 | — | — | §%22#Z§ | new |
+| 7117 | — | — | §`$%3E§ | new |
+| 7120 | — | — | §%22#%3E§ | new |
+| 7121 | — | — | §;!U§ | new |
+| 7122 | — | — | §%#5§ | new |
+| 7123 | — | — | §9+J§ | new |
+| 7124 | — | — | §3!P§ | new |
+| 7125 | — | — | § 'p§ | new |
+| 7127 | — | — | §2&R§ | new |
+| 7128 | — | — | §@&k§ | new |
+| 7209 | — | — | §6$[§ | new |
+| 10001 | EnterAccount | EnterAccountBinarySerializer | §!%22G§ | same |
+| 10002 | LoginError | LoginErrorBinarySerializer | §0+S§ | same |
+| 10003 | ShopResult | ShopResultBinarySerializer | §`&t§ | same |
+| 10004 | ArenaResult | ArenaResultBinarySerializer | §-%22%22§ | same |
+| 10005 | ProfilesResult | ProfilesResultBinarySerializer | — | gone |
+| 10006 | StartBattleResult | StartBattleResultBinarySerializer | §%3F#W§ | same |
+| 10007 | ArenaLocked | ArenaLockedBinarySerializer | §%22+R§ | same |
+| 10008 | NeedMoneyResult | NeedMoneyResultBinarySerializer | §%3C$I§ | same |
+| 10009 | ActivatePromoKeyError | ActivatePromoKeyErrorBinarySerializer | §6+h§ | same |
+| 10011 | ShowSystemMessage | ShowSystemMessageBinarySerializer | §%3E%22e§ | same |
+| 10012 | BuyBattleResult | BuyBattleResultBinarySerializer | §3$C§ | same |
+| 10013 | AddToGroupResult | AddToGroupResultBinarySerializer | §2;§ | same |
+| 10014 | RemoveFromGroupResult | RemoveFromGroupResultBinarySerializer | §'!A§ | same |
+| 10015 | DistributePoints | DistributePointsResultBinarySerializer | §3y§ | same |
+| 10016 | ResetParametersResult | ResetParametersResultBinarySerializer | §1'C§ | same |
+| 10017 | Pong | PongBinarySerializer | §2'%§ | same |
+| 10018 | GetFriendListPageResult | GetFriendListPageResultBinarySerializer | — | gone |
+| 10019 | GetRatingResult | GetRatingResultBinarySerializer | §5%22e§ | same |
+| 10021 | SearchTheHouseResult | SearchTheHouseResultBinarySerializer | §&+a§ | same |
+| 10022 | SelectStuffResult | SelectStuffResultBinarySerializer | §-%227§ | same |
+| 10023 | UserIsBanned | UserIsBannedBinarySerializer | §#!t§ | same |
+| 10028 | BuyRaceResponse | BuyRaceResponseBinarySerializer | §9%22G§ | same |
+| 10029 | BuySkinResponse | BuySkinResponseBinarySerializer | §^'#§ | same |
+| 10031 | IncomingPaymen | IncomingPaymentBinarySerializer | §@$n§ | same |
+| 10032 | PumpReactionRateTheHouseResult | PumpReactionRateResultBinarySerializer | §#$a§ | same |
+| 10033 | PumpReactionRatesResult | PumpReactionRatesResultBinarySerializer | §%3E#g§ | same |
+| 10034 | WhoPumpedReactionResult | WhoPumpedReactionResultBinarySerializer | §#%22n§ | same |
+| 10036 | WipeProfileResult | WipeProfileResultBinarySerializer | §#%U§ | same |
+| 10037 | BuyReactionRateResult | BuyReactionRateResultBinarySerializer | § +=§ | same |
+| 10040 | SendWipeConfirmCodeResponse | SendWipeConfirmCodeResponseBinarySerializer | §-!3§ | same |
+| 10041 | SyncInvestedAwardPointsResult | SyncInvestedAwardPointsResultBinarySerializer | §,%225§ | same |
+| 10042 | BuyUnlockMissionResult | BuyUnlockMissionResultBinarySerializer | §9$&§ | same |
+| 10044 | SelectRaceResult | SelectRaceResultBinarySerializer | §7$u§ | same |
+| 10050 | BuySelectRaceResponse | BuySelectRaceResponseBinarySerializer | §6!'§ | same |
+| 10051 | PrivateChatMessage | PrivateChatMessageBinarySerializer | §,y§ | same |
+| 10085 | ReagentsForProfile | ReagentsForProfileBinarySerializer | — | gone |
+| 10086 | UpgradeWeaponResult | UpgradeWeaponResultBinarySerializer | §5#u§ | same |
+| 10088 | DowngradeWeaponResult | DowngradeWeaponResultBinarySerializer | §5&r§ | same |
+| 10089 | GetAbandonedFriendsResult | GetAbandonedFriendsResultBinarySerializer | §'!6§ | same |
+| 10090 | ReturnFriendResult | ReturnFriendResultBinarySerializer | §%22'n§ | same |
+| 10091 | AwardedFriendsComeback | AwardedFriendsComebackBinarySerializer | §%3C$H§ | same |
+| 10092 | RewardReturnFriendResult | RewardReturnFriendResultBinarySerializer | §%22+c§ | same |
+| 10093 | EquipExpired | EquipExpiredBinarySerializer | §7%X§ | same |
+| 10094 | AwardGranted | AwardGrantedBinarySerializer | §1%22`§ | same |
+| 10099 | AssembleStuffResult | AssembleStuffResultBinarySerializer | §9%f§ | same |
+| 10102 | OpenChestResult | OpenChestResultBinarySerializer | §%3E&0§ | same |
+| 10104 | ItemGranted | ItemGrantedBinarySerializer | §#!g§ | same |
+| 10106 | ToggleTeamMemberResult | ToggleTeamMemberResultBinarySerializer | §9&Z§ | same |
+| 10107 | GetDailyBonusResult | GetDailyBonusResultBinarySerializer | §;!#§ | same |
+| 10108 | GetSpecialDealResponse | GetSpecialDealResponseBinarySerializer | §1$6§ | same |
+| 10109 | ExecuteSpecialDealResponse | ExecuteSpecialDealResponseBinarySerializer | §]&V§ | same |
+| 10110 | ColiseumStateResponse | ColiseumStateResponseBinarySerializer | §2$ § | same |
+| 10114 | GetColiseumRewardResponse | GetColiseumRewardResponseBinarySerializer | §3%v§ | same |
+| 10116 | GetBundlesResult | GetBundlesResultBinarySerializer | §-+;§ | same |
+| 10117 | GetQuestProgressResult | GetQuestProgressResultBinarySerializer | §'%`§ | same |
+| 10118 | GetQuestRewardResponse | GetQuestRewardResponseBinarySerializer | §9%3F§ | same |
+| 10119 | BuyRenameCharResult | BuyRenameCharResultBinarySerializer | §8$r§ | same |
+| 10120 | EndTurnResponse | EndTurnResponseBinarySerializer | §%3E+R§ | same |
+| 10121 | EndBattleResult | EndBattleResultBinarySerializer | § &C§ | same |
+| 10122 | BuyGroupSlotResult | BuyGroupSlotResultBinarySerializer | §0L§ | same |
+| 10124 | MercenariesDefsResponse | MercenariesDefsResponseBinarySerializer | §%3E%3F§ | same |
+| 10125 | MercenariesRewardResponse | MercenariesRewardResponseBinarySerializer | §%22$X§ | same |
+| 10126 | MercenariesStateResponse | MercenariesStateResponseBinarySerializer | §9$h§ | same |
+| 10129 | SetBackpackConfResult | SetBackpackConfResultBinarySerializer | §4'h§ | same |
+| 10131 | ClearNameResult | ClearNameResultBinarySerializer | §+#H§ | same |
+| 10134 | WithdrawSeasonWeaponsResult | WithdrawSeasonWeaponsResultBinarySerializer | §2'E§ | same |
+| 10135 | RaceExceptExclusiveResult | RaceExceptExclusiveResultBinarySerializer | §##L§ | same |
+| 10137 | SellStuffResult | SellStuffResultBinarySerializer | §6Z§ | same |
+| 10139 | MoveProfileSecureToken | MoveProfileSecureTokenBinarySerializer | §@&!§ | same |
+| 10140 | VipSubscriptionResponse | VipSubscriptionResponseBinarySerializer | §;$m§ | same |
+| 10141 | ProfileExtraInfoResponse | ProfileExtraInfoResponseBinarySerializer | — | gone |
+| 10142 | GetPromocodeBonusResult | GetPromocodeBonusResultBinarySerializer | §5!-§ | same |
+| 10143 | StartTurnResponse | StartTurnResponseBinarySerializer | §@v§ | same |
+| 10144 | — | — | §3j§ | new |
+| 10160 | — | — | §6+3§ | new |
+| 10161 | — | — | §=%§ | new |
+| 10162 | — | — | §%3C$w§ | new |
+| 10163 | — | — | §1%22+§ | new |
+| 10164 | — | — | §1#f§ | new |
+| 10166 | — | — | §7$Y§ | new |
+| 10167 | — | — | §`!q§ | new |
+| 10168 | — | — | §]%22,§ | new |
+| 10169 | — | — | §%%22g§ | new |
+| 10301 | JoinToChatResult | JoinToChatResultBinarySerializer | §4%2§ | same |
+| 10302 | ChatMessageEvent | ChatMessageEventBinarySerializer | §;4§ | same |
+| 13001 | AchieveLoginSuccess | AchieveLoginSuccessBinarySerializer | — | gone |
+| 13002 | AchieveLoginError | AchieveLoginErrorBinarySerializer | — | gone |
+| 13003 | GetAchievementsResult | GetAchievementsResultBinarySerializer | §3+F§ | same |
+| 13004 | IncreaseAchievementResult | IncreaseAchievementResultBinarySerializer | §0%l§ | same |
+| 13006 | ChooseBonusItemResult | ChooseBonusItemResultBinarySerializer | §^'v§ | same |
+| 13010 | BuyResetBonusItemsResult | BuyResetBonusItemsResultBinarySerializer | §%3C&;§ | same |
+| 17001 | — | — | §@%a§ | new |
+| 17003 | — | — | §9%22^§ | new |
+| 17011 | — | — | §6+H§ | new |
+| 17102 | — | — | §9#S§ | new |
+| 17104 | — | — | §%3F'e§ | new |
+| 17106 | — | — | §2!t§ | new |
+| 17108 | — | — | §!i§ | new |
+| 17109 | — | — | §[%225§ | new |
+| 17112 | — | — | §,%22K§ | new |
+| 17113 | — | — | §0'=§ | new |
+| 17114 | — | — | §6+W§ | new |
+| 17115 | — | — | §7%%§ | new |
+| 17116 | — | — | §2%+§ | new |
+| 17120 | — | — | §%3C!l§ | new |
+| 17121 | — | — | §%3F+M§ | new |
+| 17122 | — | — | §@#%22§ | new |
+| 17123 | — | — | §'$,§ | new |
+| 17124 | — | — | §&$=§ | new |
+| 17125 | — | — | §&+&§ | new |
+| 17127 | — | — | §6%22#§ | new |
+| 17128 | — | — | §%3E$Y§ | new |
