@@ -1,0 +1,626 @@
+{
+ "version": "1.63.3",
+ "count": 30,
+ "structures": {
+  "§%3FK§": [
+   {
+    "field": "profileId",
+    "type": "Int"
+   },
+   {
+    "field": "socialId",
+    "type": "Short"
+   }
+  ],
+  "§ #w§": [
+   {
+    "field": "socialId",
+    "type": "Short"
+   },
+   {
+    "field": "donation",
+    "type": "Int"
+   },
+   {
+    "field": "rating",
+    "type": "Int"
+   },
+   {
+    "field": "muteMode",
+    "type": "Boolean"
+   },
+   {
+    "field": "profileId",
+    "type": "Int"
+   },
+   {
+    "field": "expelPermit",
+    "type": "Boolean"
+   },
+   {
+    "field": "name",
+    "type": "UTF"
+   }
+  ],
+  "§@$A§": [
+   {
+    "field": "date",
+    "type": "Int"
+   },
+   {
+    "field": "action",
+    "type": "Short"
+   }
+  ],
+  "§%22!m§": [
+   {
+    "field": "id",
+    "type": "Int"
+   },
+   {
+    "field": "size",
+    "type": "Int"
+   },
+   {
+    "field": "level",
+    "type": "Int"
+   },
+   {
+    "field": "rating",
+    "type": "Int"
+   },
+   {
+    "field": "seasonRating",
+    "type": "Int"
+   },
+   {
+    "field": "name",
+    "type": "UTF"
+   }
+  ],
+  "§5&b§": [
+   {
+    "field": "params",
+    "type": "UTF"
+   },
+   {
+    "field": "memberProfileId",
+    "type": "Int"
+   },
+   {
+    "field": "memberName",
+    "type": "UTF"
+   }
+  ],
+  "§@$0§": [
+   {
+    "field": "clanName",
+    "type": "UTF"
+   },
+   {
+    "field": "socialId",
+    "type": "Short"
+   },
+   {
+    "field": "name",
+    "type": "UTF"
+   },
+   {
+    "field": "rank",
+    "type": "Short"
+   },
+   {
+    "field": "profileId",
+    "type": "UnsignedInt"
+   }
+  ],
+  "§[#W§": [
+   {
+    "field": "rank",
+    "type": "Short"
+   },
+   {
+    "field": "clanName",
+    "type": "UTF"
+   }
+  ],
+  "§&E§": [
+   {
+    "field": "ownerId",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "armor",
+    "type": "Byte"
+   },
+   {
+    "field": "level",
+    "type": "Byte"
+   },
+   {
+    "field": "hatId",
+    "type": "Short"
+   },
+   {
+    "field": "experience",
+    "type": "Int"
+   },
+   {
+    "field": "skin",
+    "type": "Byte"
+   },
+   {
+    "field": "artifactId",
+    "type": "Short"
+   },
+   {
+    "field": "name",
+    "type": "UTF"
+   },
+   {
+    "field": "teamMemberType",
+    "type": "Short"
+   },
+   {
+    "field": "isActive",
+    "type": "Boolean"
+   },
+   {
+    "field": "attack",
+    "type": "Byte"
+   },
+   {
+    "field": "raceId",
+    "type": "Byte"
+   }
+  ],
+  "§'%22#§": [
+   {
+    "field": "order",
+    "type": "Int"
+   },
+   {
+    "field": "code",
+    "type": "UTF"
+   },
+   {
+    "field": "discount",
+    "type": "Int"
+   }
+  ],
+  "§[%226§": [
+   {
+    "field": "weaponId",
+    "type": "Int"
+   },
+   {
+    "field": "count",
+    "type": "Int"
+   }
+  ],
+  "§&%q§": [
+   {
+    "field": "itemId",
+    "type": "Int"
+   },
+   {
+    "field": "count",
+    "type": "Int"
+   }
+  ],
+  "§%3F!l§": [
+   {
+    "field": "reactionRate",
+    "type": "Int"
+   },
+   {
+    "field": "socialId",
+    "type": "UTF"
+   },
+   {
+    "field": "artifactId",
+    "type": "Short"
+   },
+   {
+    "field": "id",
+    "type": "Int"
+   },
+   {
+    "field": "rating",
+    "type": "Int"
+   },
+   {
+    "field": "raceId",
+    "type": "Short"
+   },
+   {
+    "field": "name",
+    "type": "UTF"
+   },
+   {
+    "field": "armor",
+    "type": "Int"
+   },
+   {
+    "field": "rank",
+    "type": "Byte"
+   },
+   {
+    "field": "hatId",
+    "type": "Short"
+   },
+   {
+    "field": "attack",
+    "type": "Int"
+   },
+   {
+    "field": "level",
+    "type": "Int"
+   },
+   {
+    "field": "money",
+    "type": "Int"
+   },
+   {
+    "field": "realMoney",
+    "type": "Int"
+   }
+  ],
+  "§[!h§": [
+   {
+    "field": "raceId",
+    "type": "Byte"
+   },
+   {
+    "field": "attack",
+    "type": "Byte"
+   },
+   {
+    "field": "artifactId",
+    "type": "Short"
+   },
+   {
+    "field": "armor",
+    "type": "Byte"
+   },
+   {
+    "field": "hatId",
+    "type": "Short"
+   }
+  ],
+  "§7%!§": [
+   {
+    "field": "id",
+    "type": "Byte"
+   },
+   {
+    "field": "armor",
+    "type": "Byte"
+   },
+   {
+    "field": "skin",
+    "type": "Short"
+   },
+   {
+    "field": "level",
+    "type": "Byte"
+   },
+   {
+    "field": "attack",
+    "type": "Byte"
+   },
+   {
+    "field": "hat",
+    "type": "Short"
+   },
+   {
+    "field": "race",
+    "type": "Byte"
+   }
+  ],
+  "§%3E&5§": [
+   {
+    "field": "profileId",
+    "type": "Int"
+   },
+   {
+    "field": "hatId",
+    "type": "Short"
+   },
+   {
+    "field": "artifactId",
+    "type": "Short"
+   }
+  ],
+  "§`!]§": [
+   {
+    "field": "id",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "moneyType",
+    "type": "Int"
+   },
+   {
+    "field": "count",
+    "type": "Int"
+   }
+  ],
+  "§;'k§": [
+   {
+    "field": "defeatCount",
+    "type": "Int"
+   },
+   {
+    "field": "winCount",
+    "type": "Int"
+   }
+  ],
+  "§-%22C§": [
+   {
+    "field": "type",
+    "type": "Byte"
+   },
+   {
+    "field": "amount",
+    "type": "Int"
+   }
+  ],
+  "§1!D§": [
+   {
+    "field": "source",
+    "type": "Byte"
+   },
+   {
+    "field": "hp",
+    "type": "Int"
+   },
+   {
+    "field": "hatId",
+    "type": "Short"
+   },
+   {
+    "field": "role",
+    "type": "Byte"
+   }
+  ],
+  "§['-§": [
+   {
+    "field": "longId",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "stringId",
+    "type": "UTF"
+   }
+  ],
+  "§#%22=§": [
+   {
+    "field": "attack",
+    "type": "Int"
+   },
+   {
+    "field": "hatId",
+    "type": "Short"
+   },
+   {
+    "field": "raceId",
+    "type": "Byte"
+   },
+   {
+    "field": "skin",
+    "type": "Byte"
+   },
+   {
+    "field": "level",
+    "type": "Int"
+   },
+   {
+    "field": "armor",
+    "type": "Int"
+   },
+   {
+    "field": "reactionRate",
+    "type": "Int"
+   },
+   {
+    "field": "rating",
+    "type": "Int"
+   },
+   {
+    "field": "realMoney",
+    "type": "Int"
+   },
+   {
+    "field": "id",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "name",
+    "type": "UTF"
+   },
+   {
+    "field": "money",
+    "type": "Int"
+   },
+   {
+    "field": "artifactId",
+    "type": "Short"
+   },
+   {
+    "field": "rank",
+    "type": "Byte"
+   }
+  ],
+  "§;'u§": [
+   {
+    "field": "value",
+    "type": "Int"
+   },
+   {
+    "field": "itemId",
+    "type": "Int"
+   }
+  ],
+  "§2!'§": [
+   {
+    "field": "id",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "action",
+    "type": "Short"
+   },
+   {
+    "field": "socialId",
+    "type": "Byte"
+   },
+   {
+    "field": "profileId",
+    "type": "Int"
+   },
+   {
+    "field": "params",
+    "type": "UTF"
+   },
+   {
+    "field": "message",
+    "type": "UTF"
+   }
+  ],
+  "§%3F#x§": [
+   {
+    "field": "progress",
+    "type": "UTF"
+   },
+   {
+    "field": "rewarded",
+    "type": "Boolean"
+   }
+  ],
+  "§%22!4§": [
+   {
+    "field": "money",
+    "type": "Int"
+   },
+   {
+    "field": "realMoney",
+    "type": "Int"
+   },
+   {
+    "field": "experience",
+    "type": "Int"
+   }
+  ],
+  "§4$6§": [
+   {
+    "field": "friendId",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "result",
+    "type": "Byte"
+   }
+  ],
+  "§%!U§": [
+   {
+    "field": "awardType",
+    "type": "Short"
+   },
+   {
+    "field": "attach",
+    "type": "UTF"
+   }
+  ],
+  "§['X§": [
+   {
+    "field": "realMoney",
+    "type": "Int"
+   },
+   {
+    "field": "id",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "money",
+    "type": "Int"
+   },
+   {
+    "field": "rating",
+    "type": "Int"
+   },
+   {
+    "field": "reactionRate",
+    "type": "Int"
+   }
+  ],
+  "§%3E!F§": [
+   {
+    "field": "money",
+    "type": "Int"
+   },
+   {
+    "field": "id",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "realMoney",
+    "type": "Int"
+   },
+   {
+    "field": "rating",
+    "type": "Int"
+   },
+   {
+    "field": "reactionRate",
+    "type": "Int"
+   },
+   {
+    "field": "rankPoints",
+    "type": "Int"
+   },
+   {
+    "field": "bestRank",
+    "type": "Byte"
+   }
+  ],
+  "§%22!^§": [
+   {
+    "field": "reactionRate",
+    "type": "Int"
+   },
+   {
+    "field": "rating",
+    "type": "Int"
+   },
+   {
+    "field": "id",
+    "type": "UnsignedInt"
+   },
+   {
+    "field": "hatId",
+    "type": "Short"
+   },
+   {
+    "field": "raceId",
+    "type": "Short"
+   },
+   {
+    "field": "name",
+    "type": "UTF"
+   },
+   {
+    "field": "money",
+    "type": "Int"
+   },
+   {
+    "field": "realMoney",
+    "type": "Int"
+   },
+   {
+    "field": "attack",
+    "type": "Int"
+   }
+  ]
+ }
+}
