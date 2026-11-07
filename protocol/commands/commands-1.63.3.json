@@ -1,0 +1,1578 @@
+{
+ "extracted_from": "Wormix.swf 1.63.3 getCommandId()",
+ "count": 262,
+ "rows": [
+  {
+   "id": 1,
+   "v1617": "LoginBinarySerializer",
+   "v1633": "§=&#§",
+   "status": "same"
+  },
+  {
+   "id": 2,
+   "v1617": "NeedMoneyBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 3,
+   "v1617": "BuyShopItemsBinarySerializer",
+   "v1633": "§%3C++§",
+   "status": "same"
+  },
+  {
+   "id": 5,
+   "v1617": "GetProfilesBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 6,
+   "v1617": "StartBattleBinarySerializer",
+   "v1633": "§9&I§",
+   "status": "same"
+  },
+  {
+   "id": 10,
+   "v1617": "ActivatePromoKeyBinarySerializer",
+   "v1633": "§`&8§",
+   "status": "same"
+  },
+  {
+   "id": 11,
+   "v1617": "BuyBattleBinarySerializer",
+   "v1633": "§%22&2§",
+   "status": "same"
+  },
+  {
+   "id": 12,
+   "v1617": "AddToGroupBinarySerializer",
+   "v1633": "§8&m§",
+   "status": "same"
+  },
+  {
+   "id": 13,
+   "v1617": "RemoveFromGroupBinarySerializer",
+   "v1633": "§%3CH§",
+   "status": "same"
+  },
+  {
+   "id": 14,
+   "v1617": "DistributePointsBinarySerializer",
+   "v1633": "§,z§",
+   "status": "same"
+  },
+  {
+   "id": 15,
+   "v1617": "ResetParametersBinarySerializer",
+   "v1633": "§9T§",
+   "status": "same"
+  },
+  {
+   "id": 16,
+   "v1617": "PingBinarySerializer",
+   "v1633": "§%3F#S§",
+   "status": "same"
+  },
+  {
+   "id": 17,
+   "v1617": null,
+   "v1633": "§`+I§",
+   "status": "new"
+  },
+  {
+   "id": 18,
+   "v1617": "GetFriendListPageBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 19,
+   "v1617": "GetRatingBinarySerializer",
+   "v1633": "§@&l§",
+   "status": "same"
+  },
+  {
+   "id": 20,
+   "v1617": "LoginByProfileStringIdBinarySerializer",
+   "v1633": "§%3F#g§",
+   "status": "same"
+  },
+  {
+   "id": 22,
+   "v1617": "ReorderGroupBinarySerializer",
+   "v1633": "§`%c§",
+   "status": "same"
+  },
+  {
+   "id": 25,
+   "v1617": "SelectStuffBinarySerializer",
+   "v1633": "§^!l§",
+   "status": "same"
+  },
+  {
+   "id": 29,
+   "v1617": "BuySkinBinarySerializer",
+   "v1633": "§%3F&y§",
+   "status": "same"
+  },
+  {
+   "id": 36,
+   "v1617": "BuyRaceBinarySerializer",
+   "v1633": "§=$8§",
+   "status": "same"
+  },
+  {
+   "id": 44,
+   "v1617": "SelectRaceBinarySerializer",
+   "v1633": "§`u§",
+   "status": "same"
+  },
+  {
+   "id": 46,
+   "v1617": "GetWhoPumpedReactionBinarySerializer",
+   "v1633": "§4!=§",
+   "status": "same"
+  },
+  {
+   "id": 48,
+   "v1617": "WipeProfileBinarySerializer",
+   "v1633": "§=#3§",
+   "status": "same"
+  },
+  {
+   "id": 49,
+   "v1617": "BuyReactionRateBinarySerializer",
+   "v1633": "§;#,§",
+   "status": "same"
+  },
+  {
+   "id": 50,
+   "v1617": "BuySelectRaceBinarySerializer",
+   "v1633": "§@#b§",
+   "status": "same"
+  },
+  {
+   "id": 52,
+   "v1617": "SendWipeConfirmCodeBinarySerializer",
+   "v1633": "§[$6§",
+   "status": "same"
+  },
+  {
+   "id": 57,
+   "v1617": "SyncInvestedAwardPointsBinarySerializer",
+   "v1633": "§`f§",
+   "status": "same"
+  },
+  {
+   "id": 58,
+   "v1617": "BuyUnlockMissionBinarySerializer",
+   "v1633": "§-&7§",
+   "status": "same"
+  },
+  {
+   "id": 81,
+   "v1617": "SearchTheHouseBinarySerializer",
+   "v1633": "§5%!§",
+   "status": "same"
+  },
+  {
+   "id": 84,
+   "v1617": "EndBattleBinarySerializer",
+   "v1633": "§&&k§",
+   "status": "same"
+  },
+  {
+   "id": 85,
+   "v1617": "GetReagentsForProfileBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 86,
+   "v1617": "UpgradeWeaponBinarySerializer",
+   "v1633": "§]'`§",
+   "status": "same"
+  },
+  {
+   "id": 88,
+   "v1617": "DowngradeWeaponBinarySerializer",
+   "v1633": "§;$&§",
+   "status": "same"
+  },
+  {
+   "id": 89,
+   "v1617": "GetAbandonedFriendsBinarySerializer",
+   "v1633": "§;#%3F§",
+   "status": "same"
+  },
+  {
+   "id": 90,
+   "v1617": "ReturnFriendBinarySerializer",
+   "v1633": "§;%E§",
+   "status": "same"
+  },
+  {
+   "id": 92,
+   "v1617": "RewardReturnFriendBinarySerializer",
+   "v1633": "§9#W§",
+   "status": "same"
+  },
+  {
+   "id": 93,
+   "v1617": "GetFriendsForMissionBinarySerializer",
+   "v1633": "§'$l§",
+   "status": "same"
+  },
+  {
+   "id": 94,
+   "v1617": "InviteFriendToClanBinarySerializer",
+   "v1633": "§6+E§",
+   "status": "same"
+  },
+  {
+   "id": 95,
+   "v1617": "ClanSummaryMainRequestBinarySerializer",
+   "v1633": "§&D§",
+   "status": "same"
+  },
+  {
+   "id": 96,
+   "v1617": "TopClansMainRequestBinarySerializer",
+   "v1633": "§`&M§",
+   "status": "same"
+  },
+  {
+   "id": 97,
+   "v1617": "ListClansRequestMainBinarySerializer",
+   "v1633": "§%22%22c§",
+   "status": "same"
+  },
+  {
+   "id": 98,
+   "v1617": "GetJoinClansMainRequestBinarySerializer",
+   "v1633": "§!%22Q§",
+   "status": "same"
+  },
+  {
+   "id": 99,
+   "v1617": "AssembleEquipBinarySerializer",
+   "v1633": "§,&r§",
+   "status": "same"
+  },
+  {
+   "id": 100,
+   "v1617": "FbFullfillPaymentBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 101,
+   "v1617": "FbRegisterPaymentBinarySerializer",
+   "v1633": "§1'h§",
+   "status": "same"
+  },
+  {
+   "id": 102,
+   "v1617": "OpenChestBinarySerializer",
+   "v1633": "§'!J§",
+   "status": "same"
+  },
+  {
+   "id": 105,
+   "v1617": "FbRegisterMobilePaymentBinarySerializer",
+   "v1633": "§,!M§",
+   "status": "same"
+  },
+  {
+   "id": 106,
+   "v1617": "ToggleTeamMemberBinarySerializer",
+   "v1633": "§+%22o§",
+   "status": "same"
+  },
+  {
+   "id": 107,
+   "v1617": "GetDailyBonusBinarySerializer",
+   "v1633": "§-!%§",
+   "status": "same"
+  },
+  {
+   "id": 108,
+   "v1617": "GetSpecialDealBinarySerializer",
+   "v1633": "§%22H§",
+   "status": "same"
+  },
+  {
+   "id": 109,
+   "v1617": "ExecuteSpecialDealBinarySerializer",
+   "v1633": "§5!P§",
+   "status": "same"
+  },
+  {
+   "id": 110,
+   "v1617": "GetColiseumStateBinarySerializer",
+   "v1633": "§%3E%220§",
+   "status": "same"
+  },
+  {
+   "id": 111,
+   "v1617": "AddGladiatorTeamMemberBinarySerializer",
+   "v1633": "§ %J§",
+   "status": "same"
+  },
+  {
+   "id": 112,
+   "v1617": "BuyColiseumTicketBinarySerializer",
+   "v1633": "§^%22_§",
+   "status": "same"
+  },
+  {
+   "id": 113,
+   "v1617": "RegenerateCandidatesBinarySerializer",
+   "v1633": "§+%_§",
+   "status": "same"
+  },
+  {
+   "id": 114,
+   "v1617": "GetColiseumRewardBinarySerializer",
+   "v1633": "§'$S§",
+   "status": "same"
+  },
+  {
+   "id": 115,
+   "v1617": "ColliseumInterruptSeriesBinarySerializer",
+   "v1633": "§1#8§",
+   "status": "same"
+  },
+  {
+   "id": 116,
+   "v1617": "GetBundlesBinarySerializer",
+   "v1633": "§-'0§",
+   "status": "same"
+  },
+  {
+   "id": 117,
+   "v1617": "GetQuestProgressBinarySerializer",
+   "v1633": "§['w§",
+   "status": "same"
+  },
+  {
+   "id": 118,
+   "v1617": "GetQuestRewardBinarySerializer",
+   "v1633": "§%22&E§",
+   "status": "same"
+  },
+  {
+   "id": 119,
+   "v1617": "BuyRenameCharBinarySerializer",
+   "v1633": "§@%22=§",
+   "status": "same"
+  },
+  {
+   "id": 120,
+   "v1617": "EndTurnBinarySerializer",
+   "v1633": "§4'I§",
+   "status": "same"
+  },
+  {
+   "id": 122,
+   "v1617": "BuyGroupSlotBinarySerializer",
+   "v1633": "§]#q§",
+   "status": "same"
+  },
+  {
+   "id": 123,
+   "v1617": "BuyMercenariesTicketBinarySerializer",
+   "v1633": "§ &c§",
+   "status": "same"
+  },
+  {
+   "id": 124,
+   "v1617": "GetMercenariesDefsBinarySerializer",
+   "v1633": "§5u§",
+   "status": "same"
+  },
+  {
+   "id": 125,
+   "v1617": "GetMercenariesRewardBinarySerializer",
+   "v1633": "§##=§",
+   "status": "same"
+  },
+  {
+   "id": 126,
+   "v1617": "GetMercenariesStateBinarySerializer",
+   "v1633": "§ 'X§",
+   "status": "same"
+  },
+  {
+   "id": 127,
+   "v1617": "SetMercenariesTeamMembersBinarySerializer",
+   "v1633": "§5'%3E§",
+   "status": "same"
+  },
+  {
+   "id": 128,
+   "v1617": "SetHotkeysBinarySerializer",
+   "v1633": "§]&l§",
+   "status": "same"
+  },
+  {
+   "id": 129,
+   "v1617": "SetBackpackConfBinarySerializer",
+   "v1633": "§6+N§",
+   "status": "same"
+  },
+  {
+   "id": 131,
+   "v1617": "ClearNameBinarySerializer",
+   "v1633": "§^''§",
+   "status": "same"
+  },
+  {
+   "id": 135,
+   "v1617": "GetRaceExceptExclusiveBinarySerializer",
+   "v1633": "§9!w§",
+   "status": "same"
+  },
+  {
+   "id": 136,
+   "v1617": "SetCookiesBinarySerializer",
+   "v1633": "§0#=§",
+   "status": "same"
+  },
+  {
+   "id": 137,
+   "v1617": "SellStuffBinarySerializer",
+   "v1633": "§-+0§",
+   "status": "same"
+  },
+  {
+   "id": 139,
+   "v1617": "GetMoveProfileSecureTokenBinarySerializer",
+   "v1633": "§!!i§",
+   "status": "same"
+  },
+  {
+   "id": 140,
+   "v1617": "GetVipSubscriptionBinarySerializer",
+   "v1633": "§4+b§",
+   "status": "same"
+  },
+  {
+   "id": 141,
+   "v1617": "GetProfileExtraInfoBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 142,
+   "v1617": "GetPromocodeBonusBinarySerializer",
+   "v1633": "§3'%§",
+   "status": "same"
+  },
+  {
+   "id": 143,
+   "v1617": "StartTurnBinarySerializer",
+   "v1633": "§3&m§",
+   "status": "same"
+  },
+  {
+   "id": 144,
+   "v1617": null,
+   "v1633": "§'%22`§",
+   "status": "new"
+  },
+  {
+   "id": 145,
+   "v1617": null,
+   "v1633": "§%3C%22m§",
+   "status": "new"
+  },
+  {
+   "id": 146,
+   "v1617": null,
+   "v1633": "§##`§",
+   "status": "new"
+  },
+  {
+   "id": 160,
+   "v1617": null,
+   "v1633": "§`#]§",
+   "status": "new"
+  },
+  {
+   "id": 161,
+   "v1617": null,
+   "v1633": "§%22+e§",
+   "status": "new"
+  },
+  {
+   "id": 162,
+   "v1617": null,
+   "v1633": "§!#I§",
+   "status": "new"
+  },
+  {
+   "id": 163,
+   "v1617": null,
+   "v1633": "§6&c§",
+   "status": "new"
+  },
+  {
+   "id": 164,
+   "v1617": null,
+   "v1633": "§5+c§",
+   "status": "new"
+  },
+  {
+   "id": 166,
+   "v1617": null,
+   "v1633": "§;&F§",
+   "status": "new"
+  },
+  {
+   "id": 167,
+   "v1617": null,
+   "v1633": "§1!6§",
+   "status": "new"
+  },
+  {
+   "id": 301,
+   "v1617": "JoinToChatBinarySerializer",
+   "v1633": "§0'§",
+   "status": "same"
+  },
+  {
+   "id": 302,
+   "v1617": "PostToChatBinarySerializer",
+   "v1633": "§'%B§",
+   "status": "same"
+  },
+  {
+   "id": 303,
+   "v1617": "LeaveFromChatBinarySerializer",
+   "v1633": "§[&u§",
+   "status": "same"
+  },
+  {
+   "id": 704,
+   "v1617": "PumpReactionRateBinarySerializer",
+   "v1633": "§+#F§",
+   "status": "same"
+  },
+  {
+   "id": 705,
+   "v1617": "PumpReactionRatesBinarySerializer",
+   "v1633": "§&$u§",
+   "status": "same"
+  },
+  {
+   "id": 708,
+   "v1617": "GetArenaBinarySerializer",
+   "v1633": "§%'x§",
+   "status": "same"
+  },
+  {
+   "id": 1001,
+   "v1617": null,
+   "v1633": "§++n§",
+   "status": "new"
+  },
+  {
+   "id": 1002,
+   "v1617": null,
+   "v1633": "§6%22Q§",
+   "status": "new"
+  },
+  {
+   "id": 1003,
+   "v1617": null,
+   "v1633": "§`$p§",
+   "status": "new"
+  },
+  {
+   "id": 1004,
+   "v1617": null,
+   "v1633": "§4'=§",
+   "status": "new"
+  },
+  {
+   "id": 1006,
+   "v1617": "PvpDropPlayerBinarySerializer",
+   "v1633": "§%22%222§",
+   "status": "same"
+  },
+  {
+   "id": 1007,
+   "v1617": "PvpActionExBinarySerializer",
+   "v1633": "§0+C§",
+   "status": "same"
+  },
+  {
+   "id": 1008,
+   "v1617": null,
+   "v1633": "§]#_§",
+   "status": "new"
+  },
+  {
+   "id": 1014,
+   "v1617": "PvpEndTurnBinarySerializer",
+   "v1633": "§1'=§",
+   "status": "same"
+  },
+  {
+   "id": 1015,
+   "v1617": null,
+   "v1633": "§'%X§",
+   "status": "new"
+  },
+  {
+   "id": 1016,
+   "v1617": "PvpRetryCommandRequestServerBinarySerializer",
+   "v1633": "§%3F!m§",
+   "status": "same"
+  },
+  {
+   "id": 1017,
+   "v1617": "PvpEndTurnResponseBinarySerializer",
+   "v1633": "§9'E§",
+   "status": "same"
+  },
+  {
+   "id": 1018,
+   "v1617": "PvpRetryCommandRequestClientBinarySerializer",
+   "v1633": "§#!B§",
+   "status": "same"
+  },
+  {
+   "id": 1019,
+   "v1617": "PvpStartTurnBinarySerializer",
+   "v1633": "§%22$W§",
+   "status": "same"
+  },
+  {
+   "id": 1021,
+   "v1617": "PvpEndBattleBinarySerializer",
+   "v1633": "§!!%3C§",
+   "status": "same"
+  },
+  {
+   "id": 1022,
+   "v1617": "ReorderGroupResultBinarySerializer",
+   "v1633": "§7%22%3C§",
+   "status": "same"
+  },
+  {
+   "id": 1023,
+   "v1617": null,
+   "v1633": "§0%22S§",
+   "status": "new"
+  },
+  {
+   "id": 1093,
+   "v1617": "GetFriendsForMissionResultBinarySerializer",
+   "v1633": "§1%^§",
+   "status": "same"
+  },
+  {
+   "id": 1098,
+   "v1617": "GetJoinClansMainResponseBinarySerializer",
+   "v1633": "§7!U§",
+   "status": "same"
+  },
+  {
+   "id": 1099,
+   "v1617": "FbRegisterPaymentResultBinarySerializer",
+   "v1633": "§-%22K§",
+   "status": "same"
+  },
+  {
+   "id": 2002,
+   "v1617": null,
+   "v1633": "§#$,§",
+   "status": "new"
+  },
+  {
+   "id": 2003,
+   "v1617": null,
+   "v1633": "§%z§",
+   "status": "new"
+  },
+  {
+   "id": 2004,
+   "v1617": "BattleLoginErrorBinarySerializer",
+   "v1633": "§#&t§",
+   "status": "same"
+  },
+  {
+   "id": 2006,
+   "v1617": null,
+   "v1633": "§7!G§",
+   "status": "new"
+  },
+  {
+   "id": 2021,
+   "v1617": "PvpSystemMessageBinarySerializer",
+   "v1633": "§3%22C§",
+   "status": "same"
+  },
+  {
+   "id": 3001,
+   "v1617": "AchieveLoginBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 3002,
+   "v1617": "GetAchievementsBinarySerializer",
+   "v1633": "§&$n§",
+   "status": "same"
+  },
+  {
+   "id": 3003,
+   "v1617": "IncreaseAchievementsBinarySerializer",
+   "v1633": "§%3Fw§",
+   "status": "same"
+  },
+  {
+   "id": 3005,
+   "v1617": "ChooseBonusItemBinarySerializer",
+   "v1633": "§ $z§",
+   "status": "same"
+  },
+  {
+   "id": 3010,
+   "v1617": "BuyResetBonusItemsBinarySerializer",
+   "v1633": "§9+C§",
+   "status": "same"
+  },
+  {
+   "id": 7001,
+   "v1617": null,
+   "v1633": "§%+;§",
+   "status": "new"
+  },
+  {
+   "id": 7002,
+   "v1617": null,
+   "v1633": "§&!1§",
+   "status": "new"
+  },
+  {
+   "id": 7003,
+   "v1617": null,
+   "v1633": "§^%22%3C§",
+   "status": "new"
+  },
+  {
+   "id": 7011,
+   "v1617": null,
+   "v1633": "§!$M§",
+   "status": "new"
+  },
+  {
+   "id": 7102,
+   "v1617": null,
+   "v1633": "§%3C$3§",
+   "status": "new"
+  },
+  {
+   "id": 7104,
+   "v1617": null,
+   "v1633": "§ '#§",
+   "status": "new"
+  },
+  {
+   "id": 7105,
+   "v1617": null,
+   "v1633": "§-&P§",
+   "status": "new"
+  },
+  {
+   "id": 7106,
+   "v1617": null,
+   "v1633": "§8#8§",
+   "status": "new"
+  },
+  {
+   "id": 7107,
+   "v1617": null,
+   "v1633": "§%22&7§",
+   "status": "new"
+  },
+  {
+   "id": 7108,
+   "v1617": null,
+   "v1633": "§;l§",
+   "status": "new"
+  },
+  {
+   "id": 7110,
+   "v1617": null,
+   "v1633": "§3%]§",
+   "status": "new"
+  },
+  {
+   "id": 7112,
+   "v1617": null,
+   "v1633": "§]'r§",
+   "status": "new"
+  },
+  {
+   "id": 7113,
+   "v1617": null,
+   "v1633": "§6+!§",
+   "status": "new"
+  },
+  {
+   "id": 7114,
+   "v1617": null,
+   "v1633": "§ 'v§",
+   "status": "new"
+  },
+  {
+   "id": 7115,
+   "v1617": null,
+   "v1633": "§3&g§",
+   "status": "new"
+  },
+  {
+   "id": 7116,
+   "v1617": null,
+   "v1633": "§%22#Z§",
+   "status": "new"
+  },
+  {
+   "id": 7117,
+   "v1617": null,
+   "v1633": "§`$%3E§",
+   "status": "new"
+  },
+  {
+   "id": 7120,
+   "v1617": null,
+   "v1633": "§%22#%3E§",
+   "status": "new"
+  },
+  {
+   "id": 7121,
+   "v1617": null,
+   "v1633": "§;!U§",
+   "status": "new"
+  },
+  {
+   "id": 7122,
+   "v1617": null,
+   "v1633": "§%#5§",
+   "status": "new"
+  },
+  {
+   "id": 7123,
+   "v1617": null,
+   "v1633": "§9+J§",
+   "status": "new"
+  },
+  {
+   "id": 7124,
+   "v1617": null,
+   "v1633": "§3!P§",
+   "status": "new"
+  },
+  {
+   "id": 7125,
+   "v1617": null,
+   "v1633": "§ 'p§",
+   "status": "new"
+  },
+  {
+   "id": 7127,
+   "v1617": null,
+   "v1633": "§2&R§",
+   "status": "new"
+  },
+  {
+   "id": 7128,
+   "v1617": null,
+   "v1633": "§@&k§",
+   "status": "new"
+  },
+  {
+   "id": 7209,
+   "v1617": null,
+   "v1633": "§6$[§",
+   "status": "new"
+  },
+  {
+   "id": 10001,
+   "v1617": "EnterAccountBinarySerializer",
+   "v1633": "§!%22G§",
+   "status": "same"
+  },
+  {
+   "id": 10002,
+   "v1617": "LoginErrorBinarySerializer",
+   "v1633": "§0+S§",
+   "status": "same"
+  },
+  {
+   "id": 10003,
+   "v1617": "ShopResultBinarySerializer",
+   "v1633": "§`&t§",
+   "status": "same"
+  },
+  {
+   "id": 10004,
+   "v1617": "ArenaResultBinarySerializer",
+   "v1633": "§-%22%22§",
+   "status": "same"
+  },
+  {
+   "id": 10005,
+   "v1617": "ProfilesResultBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 10006,
+   "v1617": "StartBattleResultBinarySerializer",
+   "v1633": "§%3F#W§",
+   "status": "same"
+  },
+  {
+   "id": 10007,
+   "v1617": "ArenaLockedBinarySerializer",
+   "v1633": "§%22+R§",
+   "status": "same"
+  },
+  {
+   "id": 10008,
+   "v1617": "NeedMoneyResultBinarySerializer",
+   "v1633": "§%3C$I§",
+   "status": "same"
+  },
+  {
+   "id": 10009,
+   "v1617": "ActivatePromoKeyErrorBinarySerializer",
+   "v1633": "§6+h§",
+   "status": "same"
+  },
+  {
+   "id": 10011,
+   "v1617": "ShowSystemMessageBinarySerializer",
+   "v1633": "§%3E%22e§",
+   "status": "same"
+  },
+  {
+   "id": 10012,
+   "v1617": "BuyBattleResultBinarySerializer",
+   "v1633": "§3$C§",
+   "status": "same"
+  },
+  {
+   "id": 10013,
+   "v1617": "AddToGroupResultBinarySerializer",
+   "v1633": "§2;§",
+   "status": "same"
+  },
+  {
+   "id": 10014,
+   "v1617": "RemoveFromGroupResultBinarySerializer",
+   "v1633": "§'!A§",
+   "status": "same"
+  },
+  {
+   "id": 10015,
+   "v1617": "DistributePointsResultBinarySerializer",
+   "v1633": "§3y§",
+   "status": "same"
+  },
+  {
+   "id": 10016,
+   "v1617": "ResetParametersResultBinarySerializer",
+   "v1633": "§1'C§",
+   "status": "same"
+  },
+  {
+   "id": 10017,
+   "v1617": "PongBinarySerializer",
+   "v1633": "§2'%§",
+   "status": "same"
+  },
+  {
+   "id": 10018,
+   "v1617": "GetFriendListPageResultBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 10019,
+   "v1617": "GetRatingResultBinarySerializer",
+   "v1633": "§5%22e§",
+   "status": "same"
+  },
+  {
+   "id": 10021,
+   "v1617": "SearchTheHouseResultBinarySerializer",
+   "v1633": "§&+a§",
+   "status": "same"
+  },
+  {
+   "id": 10022,
+   "v1617": "SelectStuffResultBinarySerializer",
+   "v1633": "§-%227§",
+   "status": "same"
+  },
+  {
+   "id": 10023,
+   "v1617": "UserIsBannedBinarySerializer",
+   "v1633": "§#!t§",
+   "status": "same"
+  },
+  {
+   "id": 10028,
+   "v1617": "BuyRaceResponseBinarySerializer",
+   "v1633": "§9%22G§",
+   "status": "same"
+  },
+  {
+   "id": 10029,
+   "v1617": "BuySkinResponseBinarySerializer",
+   "v1633": "§^'#§",
+   "status": "same"
+  },
+  {
+   "id": 10031,
+   "v1617": "IncomingPaymentBinarySerializer",
+   "v1633": "§@$n§",
+   "status": "same"
+  },
+  {
+   "id": 10032,
+   "v1617": "PumpReactionRateResultBinarySerializer",
+   "v1633": "§#$a§",
+   "status": "same"
+  },
+  {
+   "id": 10033,
+   "v1617": "PumpReactionRatesResultBinarySerializer",
+   "v1633": "§%3E#g§",
+   "status": "same"
+  },
+  {
+   "id": 10034,
+   "v1617": "WhoPumpedReactionResultBinarySerializer",
+   "v1633": "§#%22n§",
+   "status": "same"
+  },
+  {
+   "id": 10036,
+   "v1617": "WipeProfileResultBinarySerializer",
+   "v1633": "§#%U§",
+   "status": "same"
+  },
+  {
+   "id": 10037,
+   "v1617": "BuyReactionRateResultBinarySerializer",
+   "v1633": "§ +=§",
+   "status": "same"
+  },
+  {
+   "id": 10040,
+   "v1617": "SendWipeConfirmCodeResponseBinarySerializer",
+   "v1633": "§-!3§",
+   "status": "same"
+  },
+  {
+   "id": 10041,
+   "v1617": "SyncInvestedAwardPointsResultBinarySerializer",
+   "v1633": "§,%225§",
+   "status": "same"
+  },
+  {
+   "id": 10042,
+   "v1617": "BuyUnlockMissionResultBinarySerializer",
+   "v1633": "§9$&§",
+   "status": "same"
+  },
+  {
+   "id": 10044,
+   "v1617": "SelectRaceResultBinarySerializer",
+   "v1633": "§7$u§",
+   "status": "same"
+  },
+  {
+   "id": 10050,
+   "v1617": "BuySelectRaceResponseBinarySerializer",
+   "v1633": "§6!'§",
+   "status": "same"
+  },
+  {
+   "id": 10051,
+   "v1617": "PrivateChatMessageBinarySerializer",
+   "v1633": "§,y§",
+   "status": "same"
+  },
+  {
+   "id": 10085,
+   "v1617": "ReagentsForProfileBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 10086,
+   "v1617": "UpgradeWeaponResultBinarySerializer",
+   "v1633": "§5#u§",
+   "status": "same"
+  },
+  {
+   "id": 10088,
+   "v1617": "DowngradeWeaponResultBinarySerializer",
+   "v1633": "§5&r§",
+   "status": "same"
+  },
+  {
+   "id": 10089,
+   "v1617": "GetAbandonedFriendsResultBinarySerializer",
+   "v1633": "§'!6§",
+   "status": "same"
+  },
+  {
+   "id": 10090,
+   "v1617": "ReturnFriendResultBinarySerializer",
+   "v1633": "§%22'n§",
+   "status": "same"
+  },
+  {
+   "id": 10091,
+   "v1617": "AwardedFriendsComebackBinarySerializer",
+   "v1633": "§%3C$H§",
+   "status": "same"
+  },
+  {
+   "id": 10092,
+   "v1617": "RewardReturnFriendResultBinarySerializer",
+   "v1633": "§%22+c§",
+   "status": "same"
+  },
+  {
+   "id": 10093,
+   "v1617": "EquipExpiredBinarySerializer",
+   "v1633": "§7%X§",
+   "status": "same"
+  },
+  {
+   "id": 10094,
+   "v1617": "AwardGrantedBinarySerializer",
+   "v1633": "§1%22`§",
+   "status": "same"
+  },
+  {
+   "id": 10099,
+   "v1617": "AssembleStuffResultBinarySerializer",
+   "v1633": "§9%f§",
+   "status": "same"
+  },
+  {
+   "id": 10102,
+   "v1617": "OpenChestResultBinarySerializer",
+   "v1633": "§%3E&0§",
+   "status": "same"
+  },
+  {
+   "id": 10104,
+   "v1617": "ItemGrantedBinarySerializer",
+   "v1633": "§#!g§",
+   "status": "same"
+  },
+  {
+   "id": 10106,
+   "v1617": "ToggleTeamMemberResultBinarySerializer",
+   "v1633": "§9&Z§",
+   "status": "same"
+  },
+  {
+   "id": 10107,
+   "v1617": "GetDailyBonusResultBinarySerializer",
+   "v1633": "§;!#§",
+   "status": "same"
+  },
+  {
+   "id": 10108,
+   "v1617": "GetSpecialDealResponseBinarySerializer",
+   "v1633": "§1$6§",
+   "status": "same"
+  },
+  {
+   "id": 10109,
+   "v1617": "ExecuteSpecialDealResponseBinarySerializer",
+   "v1633": "§]&V§",
+   "status": "same"
+  },
+  {
+   "id": 10110,
+   "v1617": "ColiseumStateResponseBinarySerializer",
+   "v1633": "§2$ §",
+   "status": "same"
+  },
+  {
+   "id": 10114,
+   "v1617": "GetColiseumRewardResponseBinarySerializer",
+   "v1633": "§3%v§",
+   "status": "same"
+  },
+  {
+   "id": 10116,
+   "v1617": "GetBundlesResultBinarySerializer",
+   "v1633": "§-+;§",
+   "status": "same"
+  },
+  {
+   "id": 10117,
+   "v1617": "GetQuestProgressResultBinarySerializer",
+   "v1633": "§'%`§",
+   "status": "same"
+  },
+  {
+   "id": 10118,
+   "v1617": "GetQuestRewardResponseBinarySerializer",
+   "v1633": "§9%3F§",
+   "status": "same"
+  },
+  {
+   "id": 10119,
+   "v1617": "BuyRenameCharResultBinarySerializer",
+   "v1633": "§8$r§",
+   "status": "same"
+  },
+  {
+   "id": 10120,
+   "v1617": "EndTurnResponseBinarySerializer",
+   "v1633": "§%3E+R§",
+   "status": "same"
+  },
+  {
+   "id": 10121,
+   "v1617": "EndBattleResultBinarySerializer",
+   "v1633": "§ &C§",
+   "status": "same"
+  },
+  {
+   "id": 10122,
+   "v1617": "BuyGroupSlotResultBinarySerializer",
+   "v1633": "§0L§",
+   "status": "same"
+  },
+  {
+   "id": 10124,
+   "v1617": "MercenariesDefsResponseBinarySerializer",
+   "v1633": "§%3E%3F§",
+   "status": "same"
+  },
+  {
+   "id": 10125,
+   "v1617": "MercenariesRewardResponseBinarySerializer",
+   "v1633": "§%22$X§",
+   "status": "same"
+  },
+  {
+   "id": 10126,
+   "v1617": "MercenariesStateResponseBinarySerializer",
+   "v1633": "§9$h§",
+   "status": "same"
+  },
+  {
+   "id": 10129,
+   "v1617": "SetBackpackConfResultBinarySerializer",
+   "v1633": "§4'h§",
+   "status": "same"
+  },
+  {
+   "id": 10131,
+   "v1617": "ClearNameResultBinarySerializer",
+   "v1633": "§+#H§",
+   "status": "same"
+  },
+  {
+   "id": 10134,
+   "v1617": "WithdrawSeasonWeaponsResultBinarySerializer",
+   "v1633": "§2'E§",
+   "status": "same"
+  },
+  {
+   "id": 10135,
+   "v1617": "RaceExceptExclusiveResultBinarySerializer",
+   "v1633": "§##L§",
+   "status": "same"
+  },
+  {
+   "id": 10137,
+   "v1617": "SellStuffResultBinarySerializer",
+   "v1633": "§6Z§",
+   "status": "same"
+  },
+  {
+   "id": 10139,
+   "v1617": "MoveProfileSecureTokenBinarySerializer",
+   "v1633": "§@&!§",
+   "status": "same"
+  },
+  {
+   "id": 10140,
+   "v1617": "VipSubscriptionResponseBinarySerializer",
+   "v1633": "§;$m§",
+   "status": "same"
+  },
+  {
+   "id": 10141,
+   "v1617": "ProfileExtraInfoResponseBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 10142,
+   "v1617": "GetPromocodeBonusResultBinarySerializer",
+   "v1633": "§5!-§",
+   "status": "same"
+  },
+  {
+   "id": 10143,
+   "v1617": "StartTurnResponseBinarySerializer",
+   "v1633": "§@v§",
+   "status": "same"
+  },
+  {
+   "id": 10144,
+   "v1617": null,
+   "v1633": "§3j§",
+   "status": "new"
+  },
+  {
+   "id": 10160,
+   "v1617": null,
+   "v1633": "§6+3§",
+   "status": "new"
+  },
+  {
+   "id": 10161,
+   "v1617": null,
+   "v1633": "§=%§",
+   "status": "new"
+  },
+  {
+   "id": 10162,
+   "v1617": null,
+   "v1633": "§%3C$w§",
+   "status": "new"
+  },
+  {
+   "id": 10163,
+   "v1617": null,
+   "v1633": "§1%22+§",
+   "status": "new"
+  },
+  {
+   "id": 10164,
+   "v1617": null,
+   "v1633": "§1#f§",
+   "status": "new"
+  },
+  {
+   "id": 10166,
+   "v1617": null,
+   "v1633": "§7$Y§",
+   "status": "new"
+  },
+  {
+   "id": 10167,
+   "v1617": null,
+   "v1633": "§`!q§",
+   "status": "new"
+  },
+  {
+   "id": 10168,
+   "v1617": null,
+   "v1633": "§]%22,§",
+   "status": "new"
+  },
+  {
+   "id": 10169,
+   "v1617": null,
+   "v1633": "§%%22g§",
+   "status": "new"
+  },
+  {
+   "id": 10301,
+   "v1617": "JoinToChatResultBinarySerializer",
+   "v1633": "§4%2§",
+   "status": "same"
+  },
+  {
+   "id": 10302,
+   "v1617": "ChatMessageEventBinarySerializer",
+   "v1633": "§;4§",
+   "status": "same"
+  },
+  {
+   "id": 13001,
+   "v1617": "AchieveLoginSuccessBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 13002,
+   "v1617": "AchieveLoginErrorBinarySerializer",
+   "v1633": null,
+   "status": "gone"
+  },
+  {
+   "id": 13003,
+   "v1617": "GetAchievementsResultBinarySerializer",
+   "v1633": "§3+F§",
+   "status": "same"
+  },
+  {
+   "id": 13004,
+   "v1617": "IncreaseAchievementResultBinarySerializer",
+   "v1633": "§0%l§",
+   "status": "same"
+  },
+  {
+   "id": 13006,
+   "v1617": "ChooseBonusItemResultBinarySerializer",
+   "v1633": "§^'v§",
+   "status": "same"
+  },
+  {
+   "id": 13010,
+   "v1617": "BuyResetBonusItemsResultBinarySerializer",
+   "v1633": "§%3C&;§",
+   "status": "same"
+  },
+  {
+   "id": 17001,
+   "v1617": null,
+   "v1633": "§@%a§",
+   "status": "new"
+  },
+  {
+   "id": 17003,
+   "v1617": null,
+   "v1633": "§9%22^§",
+   "status": "new"
+  },
+  {
+   "id": 17011,
+   "v1617": null,
+   "v1633": "§6+H§",
+   "status": "new"
+  },
+  {
+   "id": 17102,
+   "v1617": null,
+   "v1633": "§9#S§",
+   "status": "new"
+  },
+  {
+   "id": 17104,
+   "v1617": null,
+   "v1633": "§%3F'e§",
+   "status": "new"
+  },
+  {
+   "id": 17106,
+   "v1617": null,
+   "v1633": "§2!t§",
+   "status": "new"
+  },
+  {
+   "id": 17108,
+   "v1617": null,
+   "v1633": "§!i§",
+   "status": "new"
+  },
+  {
+   "id": 17109,
+   "v1617": null,
+   "v1633": "§[%225§",
+   "status": "new"
+  },
+  {
+   "id": 17112,
+   "v1617": null,
+   "v1633": "§,%22K§",
+   "status": "new"
+  },
+  {
+   "id": 17113,
+   "v1617": null,
+   "v1633": "§0'=§",
+   "status": "new"
+  },
+  {
+   "id": 17114,
+   "v1617": null,
+   "v1633": "§6+W§",
+   "status": "new"
+  },
+  {
+   "id": 17115,
+   "v1617": null,
+   "v1633": "§7%%§",
+   "status": "new"
+  },
+  {
+   "id": 17116,
+   "v1617": null,
+   "v1633": "§2%+§",
+   "status": "new"
+  },
+  {
+   "id": 17120,
+   "v1617": null,
+   "v1633": "§%3C!l§",
+   "status": "new"
+  },
+  {
+   "id": 17121,
+   "v1617": null,
+   "v1633": "§%3F+M§",
+   "status": "new"
+  },
+  {
+   "id": 17122,
+   "v1617": null,
+   "v1633": "§@#%22§",
+   "status": "new"
+  },
+  {
+   "id": 17123,
+   "v1617": null,
+   "v1633": "§'$,§",
+   "status": "new"
+  },
+  {
+   "id": 17124,
+   "v1617": null,
+   "v1633": "§&$=§",
+   "status": "new"
+  },
+  {
+   "id": 17125,
+   "v1617": null,
+   "v1633": "§&+&§",
+   "status": "new"
+  },
+  {
+   "id": 17127,
+   "v1617": null,
+   "v1633": "§6%22#§",
+   "status": "new"
+  },
+  {
+   "id": 17128,
+   "v1617": null,
+   "v1633": "§%3E$Y§",
+   "status": "new"
+  }
+ ]
+}
