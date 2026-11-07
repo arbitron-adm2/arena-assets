@@ -1,0 +1,4174 @@
+{
+ "version": "1.63.3",
+ "count": 250,
+ "rows": [
+  {
+   "id": 0,
+   "status": "new",
+   "class": "§`%2§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1,
+   "status": "same",
+   "class": "§=&#§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 3,
+   "status": "same",
+   "class": "§%3C++§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 6,
+   "status": "same",
+   "class": "§9&I§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10,
+   "status": "same",
+   "class": "§`&8§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "key",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUTF"
+   ]
+  },
+  {
+   "id": 11,
+   "status": "same",
+   "class": "§%22&2§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 12,
+   "status": "same",
+   "class": "§8&m§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "profileId",
+     "readUnsignedInt"
+    ],
+    [
+     "moneyType",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedInt",
+    "readShort"
+   ]
+  },
+  {
+   "id": 13,
+   "status": "same",
+   "class": "§%3CH§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "profileId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedInt"
+   ]
+  },
+  {
+   "id": 14,
+   "status": "same",
+   "class": "§,z§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "armor",
+     "readUnsignedInt"
+    ],
+    [
+     "attack",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedInt",
+    "readInt"
+   ]
+  },
+  {
+   "id": 15,
+   "status": "same",
+   "class": "§9T§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "moneyType",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt"
+   ]
+  },
+  {
+   "id": 16,
+   "status": "same",
+   "class": "§%3F#S§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 17,
+   "status": "new",
+   "class": "§`+I§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "action",
+     "readShort"
+    ],
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "message",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "PlayerActionNotify",
+   "note": "действие игрока в бою: action, battleId, message",
+   "reads": [
+    "readBytes",
+    "readByte",
+    "readShort",
+    "readUnsignedInt",
+    "readByte",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 19,
+   "status": "same",
+   "class": "§@&l§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 20,
+   "status": "same",
+   "class": "§%3F#g§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 22,
+   "status": "same",
+   "class": "§`%c§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 25,
+   "status": "same",
+   "class": "§^!l§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 29,
+   "status": "same",
+   "class": "§%3F&y§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 36,
+   "status": "same",
+   "class": "§=$8§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "raceId",
+     "readShort"
+    ],
+    [
+     "moneyType",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 44,
+   "status": "same",
+   "class": "§`u§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "raceId",
+     "readShort"
+    ],
+    [
+     "skinId",
+     "readByte"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 46,
+   "status": "same",
+   "class": "§4!=§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBoolean"
+   ]
+  },
+  {
+   "id": 48,
+   "status": "same",
+   "class": "§=#3§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUTF"
+   ]
+  },
+  {
+   "id": 49,
+   "status": "same",
+   "class": "§;#,§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt"
+   ]
+  },
+  {
+   "id": 50,
+   "status": "same",
+   "class": "§@#b§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "raceId",
+     "readShort"
+    ],
+    [
+     "skinId",
+     "readByte"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 52,
+   "status": "same",
+   "class": "§[$6§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "level",
+     "readInt"
+    ],
+    [
+     "rating",
+     "readInt"
+    ],
+    [
+     "experience",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt",
+    "readInt",
+    "readInt"
+   ]
+  },
+  {
+   "id": 57,
+   "status": "same",
+   "class": "§`f§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 58,
+   "status": "same",
+   "class": "§-&7§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 81,
+   "status": "same",
+   "class": "§5%!§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "sessionKey",
+     "readUTF"
+    ],
+    [
+     "friendId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUTF",
+    "readUnsignedInt",
+    "readByte"
+   ]
+  },
+  {
+   "id": 84,
+   "status": "same",
+   "class": "§&&k§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readUnsignedInt"
+    ],
+    [
+     "type",
+     "readShort"
+    ],
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "expBonus",
+     "readInt"
+    ],
+    [
+     "banType",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readShort",
+    "readUnsignedInt",
+    "readInt",
+    "readShort",
+    "readUnsignedShort",
+    "readUTF",
+    "readShort",
+    "readShort",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 86,
+   "status": "same",
+   "class": "§]'`§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 88,
+   "status": "same",
+   "class": "§;$&§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 89,
+   "status": "same",
+   "class": "§;#%3F§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 90,
+   "status": "same",
+   "class": "§;%E§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 92,
+   "status": "same",
+   "class": "§9#W§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 93,
+   "status": "same",
+   "class": "§'$l§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 94,
+   "status": "same",
+   "class": "§6+E§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 95,
+   "status": "same",
+   "class": "§&D§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 96,
+   "status": "same",
+   "class": "§`&M§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 97,
+   "status": "same",
+   "class": "§%22%22c§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 98,
+   "status": "same",
+   "class": "§!%22Q§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 99,
+   "status": "same",
+   "class": "§,&r§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 101,
+   "status": "same",
+   "class": "§1'h§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 102,
+   "status": "same",
+   "class": "§'!J§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 105,
+   "status": "same",
+   "class": "§,!M§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 106,
+   "status": "same",
+   "class": "§+%22o§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 107,
+   "status": "same",
+   "class": "§-!%§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 108,
+   "status": "same",
+   "class": "§%22H§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 109,
+   "status": "same",
+   "class": "§5!P§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "itemId",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 110,
+   "status": "same",
+   "class": "§%3E%220§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 111,
+   "status": "same",
+   "class": "§ %J§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 112,
+   "status": "same",
+   "class": "§^%22_§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 113,
+   "status": "same",
+   "class": "§+%_§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 114,
+   "status": "same",
+   "class": "§'$S§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 115,
+   "status": "same",
+   "class": "§1#8§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 116,
+   "status": "same",
+   "class": "§-'0§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 117,
+   "status": "same",
+   "class": "§['w§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 118,
+   "status": "same",
+   "class": "§%22&E§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 119,
+   "status": "same",
+   "class": "§@%22=§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 120,
+   "status": "same",
+   "class": "§4'I§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "banType",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readUnsignedInt",
+    "readUTF",
+    "readShort",
+    "readShort",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 122,
+   "status": "same",
+   "class": "§]#q§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 123,
+   "status": "same",
+   "class": "§ &c§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 124,
+   "status": "same",
+   "class": "§5u§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 125,
+   "status": "same",
+   "class": "§##=§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 126,
+   "status": "same",
+   "class": "§ 'X§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 127,
+   "status": "same",
+   "class": "§5'%3E§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 128,
+   "status": "same",
+   "class": "§]&l§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 129,
+   "status": "same",
+   "class": "§6+N§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 131,
+   "status": "same",
+   "class": "§^''§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 135,
+   "status": "same",
+   "class": "§9!w§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 136,
+   "status": "same",
+   "class": "§0#=§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 137,
+   "status": "same",
+   "class": "§-+0§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 139,
+   "status": "same",
+   "class": "§!!i§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 140,
+   "status": "same",
+   "class": "§4+b§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 142,
+   "status": "same",
+   "class": "§3'%§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 143,
+   "status": "same",
+   "class": "§3&m§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 144,
+   "status": "new",
+   "class": "§'%22`§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 145,
+   "status": "new",
+   "class": "§%3C%22m§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 146,
+   "status": "new",
+   "class": "§##`§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 160,
+   "status": "new",
+   "class": "§`#]§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 161,
+   "status": "new",
+   "class": "§%22+e§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 162,
+   "status": "new",
+   "class": "§!#I§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 163,
+   "status": "new",
+   "class": "§6&c§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 164,
+   "status": "new",
+   "class": "§5+c§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 166,
+   "status": "new",
+   "class": "§;&F§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 167,
+   "status": "new",
+   "class": "§1!6§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 301,
+   "status": "same",
+   "class": "§0'§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 302,
+   "status": "same",
+   "class": "§'%B§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 303,
+   "status": "same",
+   "class": "§[&u§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 704,
+   "status": "same",
+   "class": "§+#F§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "friendId",
+     "readUnsignedInt"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 705,
+   "status": "same",
+   "class": "§&$u§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readUnsignedInt",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 708,
+   "status": "same",
+   "class": "§%'x§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1001,
+   "status": "new",
+   "class": "§++n§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1002,
+   "status": "new",
+   "class": "§6%22Q§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1003,
+   "status": "new",
+   "class": "§`$p§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1004,
+   "status": "new",
+   "class": "§4'=§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1006,
+   "status": "same",
+   "class": "§%22%222§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "type",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readByte",
+    "readUnsignedInt",
+    "readShort"
+   ]
+  },
+  {
+   "id": 1007,
+   "status": "same",
+   "class": "§0+C§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readUnsignedInt",
+    "readShort",
+    "readShort",
+    "readUnsignedInt",
+    "readByte",
+    "readShort",
+    "readUnsignedInt",
+    "readUnsignedInt",
+    "readUnsignedInt",
+    "readUnsignedInt"
+   ]
+  },
+  {
+   "id": 1008,
+   "status": "new",
+   "class": "§]#_§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1014,
+   "status": "same",
+   "class": "§1'=§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "banType",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readUnsignedInt",
+    "readByte",
+    "readUnsignedShort",
+    "readShort",
+    "readInt",
+    "readByte",
+    "readUTF",
+    "readShort"
+   ]
+  },
+  {
+   "id": 1015,
+   "status": "new",
+   "class": "§'%X§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1016,
+   "status": "same",
+   "class": "§%3F!m§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readShort"
+   ]
+  },
+  {
+   "id": 1017,
+   "status": "same",
+   "class": "§9'E§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readInt",
+    "readUnsignedShort",
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 1018,
+   "status": "same",
+   "class": "§#!B§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 1019,
+   "status": "same",
+   "class": "§%22$W§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readByte",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 1021,
+   "status": "same",
+   "class": "§!!%3C§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "rankPoints",
+     "readInt"
+    ],
+    [
+     "note",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readInt",
+    "readInt",
+    "readUnsignedShort",
+    "readShort",
+    "readUTF",
+    "readByte"
+   ]
+  },
+  {
+   "id": 1022,
+   "status": "same",
+   "class": "§7%22%3C§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 1023,
+   "status": "new",
+   "class": "§0%22S§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 1093,
+   "status": "same",
+   "class": "§1%^§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 1098,
+   "status": "same",
+   "class": "§7!U§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 1099,
+   "status": "same",
+   "class": "§-%22K§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "itemId",
+     "readUTF"
+    ],
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "paymentId",
+     "readInt"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUTF",
+    "readShort",
+    "readInt",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 2002,
+   "status": "new",
+   "class": "§#$,§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "profileId",
+     "readUnsignedInt"
+    ],
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "BattleMemberCommand",
+   "note": "profileId + battleId",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readShort",
+    "readUnsignedInt",
+    "readUnsignedInt",
+    "readUnsignedShort",
+    "readShort",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 2003,
+   "status": "new",
+   "class": "§%z§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "BattleByIdCommand",
+   "note": "только battleId",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readUnsignedInt",
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 2004,
+   "status": "same",
+   "class": "§#&t§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 2006,
+   "status": "new",
+   "class": "§7!G§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "seed",
+     "readInt"
+    ],
+    [
+     "serverTime",
+     "readInt"
+    ]
+   ],
+   "name_guess": "BattleSeed",
+   "note": "battleId + seed + serverTime",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readUnsignedInt",
+    "readInt",
+    "readShort",
+    "readUnsignedShort",
+    "readShort",
+    "readInt",
+    "readUnsignedShort",
+    "readByte",
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 2021,
+   "status": "same",
+   "class": "§3%22C§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "type",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 3002,
+   "status": "same",
+   "class": "§&$n§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "profileId",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readByte",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 3003,
+   "status": "same",
+   "class": "§%3Fw§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "timeSequence",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUTF",
+    "readUnsignedShort",
+    "readUnsignedShort",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readUnsignedInt",
+    "readUnsignedShort"
+   ]
+  },
+  {
+   "id": 3005,
+   "status": "same",
+   "class": "§ $z§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "itemId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readInt"
+   ]
+  },
+  {
+   "id": 3010,
+   "status": "same",
+   "class": "§9+C§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7001,
+   "status": "new",
+   "class": "§%+;§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7002,
+   "status": "new",
+   "class": "§&!1§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7003,
+   "status": "new",
+   "class": "§^%22%3C§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7011,
+   "status": "new",
+   "class": "§!$M§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7102,
+   "status": "new",
+   "class": "§%3C$3§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7104,
+   "status": "new",
+   "class": "§ '#§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7105,
+   "status": "new",
+   "class": "§-&P§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7106,
+   "status": "new",
+   "class": "§8#8§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7107,
+   "status": "new",
+   "class": "§%22&7§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7108,
+   "status": "new",
+   "class": "§;l§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7110,
+   "status": "new",
+   "class": "§3%]§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7112,
+   "status": "new",
+   "class": "§]'r§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7113,
+   "status": "new",
+   "class": "§6+!§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7114,
+   "status": "new",
+   "class": "§ 'v§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7115,
+   "status": "new",
+   "class": "§3&g§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7116,
+   "status": "new",
+   "class": "§%22#Z§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7117,
+   "status": "new",
+   "class": "§`$%3E§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7120,
+   "status": "new",
+   "class": "§%22#%3E§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7121,
+   "status": "new",
+   "class": "§;!U§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7122,
+   "status": "new",
+   "class": "§%#5§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7123,
+   "status": "new",
+   "class": "§9+J§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7124,
+   "status": "new",
+   "class": "§3!P§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7125,
+   "status": "new",
+   "class": "§ 'p§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7127,
+   "status": "new",
+   "class": "§2&R§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7128,
+   "status": "new",
+   "class": "§@&k§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 7209,
+   "status": "new",
+   "class": "§6$[§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedShort"
+   ]
+  },
+  {
+   "id": 10001,
+   "status": "same",
+   "class": "§!%22G§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "availableSearchKeys",
+     "readByte"
+    ],
+    [
+     "friends",
+     "readShort"
+    ],
+    [
+     "serverTime",
+     "readInt"
+    ],
+    [
+     "loginSequence",
+     "readByte"
+    ],
+    [
+     "races",
+     "readShort"
+    ],
+    [
+     "races",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readUnsignedShort",
+    "readShort",
+    "readUnsignedShort",
+    "readShort",
+    "readShort",
+    "readByte",
+    "readShort",
+    "readUnsignedShort",
+    "readInt",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10002,
+   "status": "same",
+   "class": "§0+S§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "code",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10003,
+   "status": "same",
+   "class": "§`&t§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10004,
+   "status": "same",
+   "class": "§-%22%22§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battlesCount",
+     "readInt"
+    ],
+    [
+     "delay",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readInt",
+    "readShort",
+    "readShort",
+    "readBoolean",
+    "readBoolean",
+    "readUnsignedShort",
+    "readShort",
+    "readUnsignedInt",
+    "readUnsignedInt",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10006,
+   "status": "same",
+   "class": "§%3F#W§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readUnsignedShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 10007,
+   "status": "same",
+   "class": "§%22+R§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "delay",
+     "readUnsignedInt"
+    ],
+    [
+     "currentMission",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedInt",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10008,
+   "status": "same",
+   "class": "§%3C$I§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "value",
+     "readInt"
+    ],
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10009,
+   "status": "same",
+   "class": "§6+h§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "key",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10011,
+   "status": "same",
+   "class": "§%3E%22e§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "msg",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10012,
+   "status": "same",
+   "class": "§3$C§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10013,
+   "status": "same",
+   "class": "§2;§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10014,
+   "status": "same",
+   "class": "§'!A§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10015,
+   "status": "same",
+   "class": "§3y§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10016,
+   "status": "same",
+   "class": "§1'C§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10017,
+   "status": "same",
+   "class": "§2'%§",
+   "direction": "?",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": []
+  },
+  {
+   "id": 10019,
+   "status": "same",
+   "class": "§5%22e§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "rating",
+     "readInt"
+    ],
+    [
+     "place",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedShort",
+    "readInt",
+    "readInt",
+    "readShort",
+    "readInt",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10021,
+   "status": "same",
+   "class": "§&+a§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readByte"
+    ],
+    [
+     "value",
+     "readInt"
+    ],
+    [
+     "friendId",
+     "readUnsignedInt"
+    ],
+    [
+     "availableSearchKeys",
+     "readByte"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readByte",
+    "readInt",
+    "readUnsignedInt",
+    "readByte"
+   ]
+  },
+  {
+   "id": 10022,
+   "status": "same",
+   "class": "§-%227§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10023,
+   "status": "same",
+   "class": "§#!t§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "reason",
+     "readInt"
+    ],
+    [
+     "profileId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt",
+    "readUnsignedInt",
+    "readUnsignedInt"
+   ]
+  },
+  {
+   "id": 10028,
+   "status": "same",
+   "class": "§9%22G§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "races",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ],
+    [
+     "race",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readUTF",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10029,
+   "status": "same",
+   "class": "§^'#§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ],
+    [
+     "skin",
+     "readByte"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readUTF",
+    "readByte"
+   ]
+  },
+  {
+   "id": 10031,
+   "status": "same",
+   "class": "§@$n§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "item",
+     "readUTF"
+    ],
+    [
+     "note",
+     "readUTF"
+    ],
+    [
+     "count",
+     "readInt"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readUTF",
+    "readUTF",
+    "readInt",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10032,
+   "status": "same",
+   "class": "§#$a§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readByte"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readByte"
+   ]
+  },
+  {
+   "id": 10033,
+   "status": "same",
+   "class": "§%3E#g§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10034,
+   "status": "same",
+   "class": "§#%22n§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10036,
+   "status": "same",
+   "class": "§#%U§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10037,
+   "status": "same",
+   "class": "§ +=§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readInt",
+    "readInt"
+   ]
+  },
+  {
+   "id": 10040,
+   "status": "same",
+   "class": "§-!3§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readByte"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readByte"
+   ]
+  },
+  {
+   "id": 10041,
+   "status": "same",
+   "class": "§,%225§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "points",
+     "readByte"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readByte"
+   ]
+  },
+  {
+   "id": 10042,
+   "status": "same",
+   "class": "§9$&§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10044,
+   "status": "same",
+   "class": "§7$u§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "skin",
+     "readByte"
+    ],
+    [
+     "race",
+     "readShort"
+    ],
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readByte",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10050,
+   "status": "same",
+   "class": "§6!'§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ],
+    [
+     "skin",
+     "readByte"
+    ],
+    [
+     "race",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readUTF",
+    "readByte",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10051,
+   "status": "same",
+   "class": "§,y§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "msg",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedInt",
+    "readByte",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10086,
+   "status": "same",
+   "class": "§5#u§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10088,
+   "status": "same",
+   "class": "§5&r§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10089,
+   "status": "same",
+   "class": "§'!6§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readInt",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10090,
+   "status": "same",
+   "class": "§%22'n§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10091,
+   "status": "same",
+   "class": "§%3C$H§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10092,
+   "status": "same",
+   "class": "§%22+c§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10093,
+   "status": "same",
+   "class": "§7%X§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "artifactId",
+     "readShort"
+    ],
+    [
+     "hatId",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10094,
+   "status": "same",
+   "class": "§1%22`§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "awardType",
+     "readShort"
+    ],
+    [
+     "attach",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedShort",
+    "readShort",
+    "readShort",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10099,
+   "status": "same",
+   "class": "§9%f§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "familyId",
+     "readShort"
+    ],
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10102,
+   "status": "same",
+   "class": "§%3E&0§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "weaponId",
+     "readInt"
+    ],
+    [
+     "fuzyCount",
+     "readInt"
+    ],
+    [
+     "rubyCount",
+     "readInt"
+    ],
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "medalCount",
+     "readInt"
+    ],
+    [
+     "experience",
+     "readInt"
+    ],
+    [
+     "bossToken",
+     "readInt"
+    ],
+    [
+     "wagerToken",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readShort",
+    "readInt",
+    "readShort",
+    "readUTF",
+    "readInt",
+    "readInt",
+    "readInt"
+   ]
+  },
+  {
+   "id": 10104,
+   "status": "same",
+   "class": "§#!g§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "itemId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readInt",
+    "readInt",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10106,
+   "status": "same",
+   "class": "§9&Z§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "teamMemberId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 10107,
+   "status": "same",
+   "class": "§;!#§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10108,
+   "status": "same",
+   "class": "§1$6§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "weaponId",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 10109,
+   "status": "same",
+   "class": "§]&V§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "itemId",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readByte",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10110,
+   "status": "same",
+   "class": "§2$ §",
+   "direction": "s->c",
+   "fields": [
+    [
+     "error",
+     "readInt"
+    ],
+    [
+     "defeatCount",
+     "readInt"
+    ],
+    [
+     "winCount",
+     "readInt"
+    ],
+    [
+     "profileId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readBoolean",
+    "readInt",
+    "readUnsignedShort",
+    "readShort",
+    "readShort",
+    "readInt",
+    "readInt",
+    "readInt"
+   ]
+  },
+  {
+   "id": 10114,
+   "status": "same",
+   "class": "§3%v§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10116,
+   "status": "same",
+   "class": "§-+;§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10117,
+   "status": "same",
+   "class": "§'%`§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10118,
+   "status": "same",
+   "class": "§9%3F§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "rewardId",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readShort",
+    "readUnsignedShort",
+    "readShort",
+    "readUTF",
+    "readBytes",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10119,
+   "status": "same",
+   "class": "§8$r§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "teamMemberId",
+     "readInt"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ],
+    [
+     "name",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readInt",
+    "readUTF",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10120,
+   "status": "same",
+   "class": "§%3E+R§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readUnsignedInt",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10121,
+   "status": "same",
+   "class": "§ &C§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readInt"
+    ],
+    [
+     "battleId",
+     "readInt"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readInt",
+    "readInt",
+    "readUTF",
+    "readShort",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10122,
+   "status": "same",
+   "class": "§0L§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readByte",
+    "readShort",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10124,
+   "status": "same",
+   "class": "§%3E%3F§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10125,
+   "status": "same",
+   "class": "§%22$X§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10126,
+   "status": "same",
+   "class": "§9$h§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "win",
+     "readInt"
+    ],
+    [
+     "draw",
+     "readInt"
+    ],
+    [
+     "defeat",
+     "readInt"
+    ],
+    [
+     "error",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt",
+    "readBytes",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readBoolean",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readUnsignedShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 10129,
+   "status": "same",
+   "class": "§4'h§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort",
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 10131,
+   "status": "same",
+   "class": "§+#H§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 10134,
+   "status": "same",
+   "class": "§2'E§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort",
+    "readInt",
+    "readInt"
+   ]
+  },
+  {
+   "id": 10135,
+   "status": "same",
+   "class": "§##L§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "profileId",
+     "readUnsignedInt"
+    ],
+    [
+     "skin",
+     "readByte"
+    ],
+    [
+     "race",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readUnsignedInt",
+    "readByte",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10137,
+   "status": "same",
+   "class": "§6Z§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes"
+   ]
+  },
+  {
+   "id": 10139,
+   "status": "same",
+   "class": "§@&!§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "secureToken",
+     "readUTF"
+    ],
+    [
+     "sessionKey",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUTF",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10140,
+   "status": "same",
+   "class": "§;$m§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "id",
+     "readInt"
+    ],
+    [
+     "status",
+     "readShort"
+    ],
+    [
+     "period",
+     "readInt"
+    ],
+    [
+     "price",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readInt",
+    "readShort",
+    "readInt",
+    "readShort",
+    "readInt",
+    "readInt",
+    "readByte",
+    "readInt",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10142,
+   "status": "same",
+   "class": "§5!-§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10143,
+   "status": "same",
+   "class": "§@v§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readShort",
+    "readShort",
+    "readUnsignedInt",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10144,
+   "status": "new",
+   "class": "§3j§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readShort",
+    "readShort",
+    "readUTF",
+    "readInt"
+   ]
+  },
+  {
+   "id": 10160,
+   "status": "new",
+   "class": "§6+3§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readInt",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10161,
+   "status": "new",
+   "class": "§=%§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10162,
+   "status": "new",
+   "class": "§%3C$w§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10163,
+   "status": "new",
+   "class": "§1%22+§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10164,
+   "status": "new",
+   "class": "§1#f§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10166,
+   "status": "new",
+   "class": "§7$Y§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "profileId",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "GetProfile",
+   "note": "profileId",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readUnsignedShort",
+    "readShort",
+    "readByte"
+   ]
+  },
+  {
+   "id": 10167,
+   "status": "new",
+   "class": "§`!q§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10168,
+   "status": "new",
+   "class": "§]%22,§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10169,
+   "status": "new",
+   "class": "§%%22g§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "version",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "VersionCheck",
+   "note": "version (UTF)",
+   "reads": [
+    "readUTF"
+   ]
+  },
+  {
+   "id": 10301,
+   "status": "same",
+   "class": "§4%2§",
+   "direction": "c->s",
+   "fields": [],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 10302,
+   "status": "same",
+   "class": "§;4§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "state",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 13003,
+   "status": "same",
+   "class": "§3+F§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "profileId",
+     "readUTF"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readByte",
+    "readBytes",
+    "readUTF"
+   ]
+  },
+  {
+   "id": 13004,
+   "status": "same",
+   "class": "§0%l§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "timeSequence",
+     "readUnsignedInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readUnsignedInt",
+    "readByte"
+   ]
+  },
+  {
+   "id": 13006,
+   "status": "same",
+   "class": "§^'v§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ],
+    [
+     "itemId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 13010,
+   "status": "same",
+   "class": "§%3C&;§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "result",
+     "readShort"
+    ]
+   ],
+   "name_guess": "",
+   "note": "",
+   "reads": [
+    "readBytes",
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 17001,
+   "status": "new",
+   "class": "§@%a§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readUnsignedShort",
+    "readShort",
+    "readUnsignedShort",
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 17003,
+   "status": "new",
+   "class": "§9%22^§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17011,
+   "status": "new",
+   "class": "§6+H§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "comeback",
+     "readInt"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 17102,
+   "status": "new",
+   "class": "§9#S§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readInt",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 17104,
+   "status": "new",
+   "class": "§%3F'e§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "profileId",
+     "readInt"
+    ],
+    [
+     "socialId",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readInt",
+    "readShort"
+   ]
+  },
+  {
+   "id": 17106,
+   "status": "new",
+   "class": "§2!t§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "socialId",
+     "readShort"
+    ],
+    [
+     "rank",
+     "readShort"
+    ],
+    [
+     "profileId",
+     "readInt"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readShort",
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 17108,
+   "status": "new",
+   "class": "§!i§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "level",
+     "readInt"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readInt"
+   ]
+  },
+  {
+   "id": 17109,
+   "status": "new",
+   "class": "§[%225§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17112,
+   "status": "new",
+   "class": "§,%22K§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 17113,
+   "status": "new",
+   "class": "§0'=§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 17114,
+   "status": "new",
+   "class": "§6+W§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17115,
+   "status": "new",
+   "class": "§7%%§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17116,
+   "status": "new",
+   "class": "§2%+§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17120,
+   "status": "new",
+   "class": "§%3C!l§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17121,
+   "status": "new",
+   "class": "§%3F+M§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17122,
+   "status": "new",
+   "class": "§@#%22§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17123,
+   "status": "new",
+   "class": "§'$,§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17124,
+   "status": "new",
+   "class": "§&$=§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17125,
+   "status": "new",
+   "class": "§&+&§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort",
+    "readUnsignedShort",
+    "readShort"
+   ]
+  },
+  {
+   "id": 17127,
+   "status": "new",
+   "class": "§6%22#§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  },
+  {
+   "id": 17128,
+   "status": "new",
+   "class": "§%3E$Y§",
+   "direction": "s->c",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ],
+   "name_guess": "ServiceResult",
+   "note": "serviceResult: Short — семейство сервисных ответов",
+   "reads": [
+    "readShort"
+   ]
+  }
+ ]
+}
