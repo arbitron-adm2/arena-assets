@@ -2,8 +2,24 @@
  "version": "1.63.3",
  "new": [
   {
+   "path": "data/common/bosses/divergence.swf",
+   "bytes": 37009
+  },
+  {
    "path": "data/common/general/mainMenu-autumn.swf",
    "bytes": 261275
+  },
+  {
+   "path": "data/common/objects/ashAura.swf",
+   "bytes": 111132
+  },
+  {
+   "path": "data/common/objects/ash.swf",
+   "bytes": 119812
+  },
+  {
+   "path": "data/common/objects/ashLight.swf",
+   "bytes": 868
   }
  ],
  "changed_count": 72,
