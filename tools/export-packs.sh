@@ -5,7 +5,7 @@ set -u
 VER="${1:-1.61.7}"
 JOBS="${2:-6}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-FFDEC="${FFDEC:-/home/fsdf1234/Projects/_tmp/wormix-browser/ffdec/ffdec.jar}"
+FFDEC="${FFDEC:-$HOME/.local/share/ffdec/ffdec.jar}"
 SRC="$ROOT/swf/$VER"
 OUT="$ROOT/packs/$VER"
 LOG="$ROOT/packs/_logs"

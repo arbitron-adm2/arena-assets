@@ -10,7 +10,7 @@ GLOB="${2:-data/common/chars/*.swf}"
 FORMAT="${SPRITE_FORMAT:-webp_animated}"
 JOBS="${JOBS:-4}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-FFDEC="${FFDEC:-/home/fsdf1234/Projects/_tmp/wormix-browser/ffdec/ffdec.jar}"
+FFDEC="${FFDEC:-$HOME/.local/share/ffdec/ffdec.jar}"
 SRC="$ROOT/swf/$VER"
 LOG="$ROOT/packs/_logs"; mkdir -p "$LOG"
 

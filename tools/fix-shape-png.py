@@ -2,7 +2,7 @@
 """Re-export shape PNGs for packs where FFDec aborted on a zero-size shape."""
 import os, re, subprocess, sys, glob
 
-FFDEC = os.environ.get('FFDEC', '/home/fsdf1234/Projects/_tmp/wormix-browser/ffdec/ffdec.jar')
+FFDEC = os.environ.get('FFDEC', os.path.expanduser('~/.local/share/ffdec/ffdec.jar'))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VER = sys.argv[1] if len(sys.argv) > 1 else '1.61.7'
 
