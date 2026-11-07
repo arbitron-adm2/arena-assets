@@ -1,0 +1,585 @@
+{
+ "version": "1.63.3",
+ "source": "deserializer assignments",
+ "count": 250,
+ "new_ids": [
+  {
+   "id": 0,
+   "class": "§`%2§",
+   "fields": []
+  },
+  {
+   "id": 17,
+   "class": "§`+I§",
+   "fields": [
+    [
+     "action",
+     "readShort"
+    ],
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "message",
+     "readUTF"
+    ]
+   ]
+  },
+  {
+   "id": 144,
+   "class": "§'%22`§",
+   "fields": []
+  },
+  {
+   "id": 145,
+   "class": "§%3C%22m§",
+   "fields": []
+  },
+  {
+   "id": 146,
+   "class": "§##`§",
+   "fields": []
+  },
+  {
+   "id": 160,
+   "class": "§`#]§",
+   "fields": []
+  },
+  {
+   "id": 161,
+   "class": "§%22+e§",
+   "fields": []
+  },
+  {
+   "id": 162,
+   "class": "§!#I§",
+   "fields": []
+  },
+  {
+   "id": 163,
+   "class": "§6&c§",
+   "fields": []
+  },
+  {
+   "id": 164,
+   "class": "§5+c§",
+   "fields": []
+  },
+  {
+   "id": 166,
+   "class": "§;&F§",
+   "fields": []
+  },
+  {
+   "id": 167,
+   "class": "§1!6§",
+   "fields": []
+  },
+  {
+   "id": 1001,
+   "class": "§++n§",
+   "fields": []
+  },
+  {
+   "id": 1002,
+   "class": "§6%22Q§",
+   "fields": []
+  },
+  {
+   "id": 1003,
+   "class": "§`$p§",
+   "fields": []
+  },
+  {
+   "id": 1004,
+   "class": "§4'=§",
+   "fields": []
+  },
+  {
+   "id": 1008,
+   "class": "§]#_§",
+   "fields": []
+  },
+  {
+   "id": 1015,
+   "class": "§'%X§",
+   "fields": []
+  },
+  {
+   "id": 1023,
+   "class": "§0%22S§",
+   "fields": []
+  },
+  {
+   "id": 2002,
+   "class": "§#$,§",
+   "fields": [
+    [
+     "profileId",
+     "readUnsignedInt"
+    ],
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ]
+  },
+  {
+   "id": 2003,
+   "class": "§%z§",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ]
+   ]
+  },
+  {
+   "id": 2006,
+   "class": "§7!G§",
+   "fields": [
+    [
+     "battleId",
+     "readUnsignedInt"
+    ],
+    [
+     "seed",
+     "readInt"
+    ],
+    [
+     "serverTime",
+     "readInt"
+    ]
+   ]
+  },
+  {
+   "id": 7001,
+   "class": "§%+;§",
+   "fields": []
+  },
+  {
+   "id": 7002,
+   "class": "§&!1§",
+   "fields": []
+  },
+  {
+   "id": 7003,
+   "class": "§^%22%3C§",
+   "fields": []
+  },
+  {
+   "id": 7011,
+   "class": "§!$M§",
+   "fields": []
+  },
+  {
+   "id": 7102,
+   "class": "§%3C$3§",
+   "fields": []
+  },
+  {
+   "id": 7104,
+   "class": "§ '#§",
+   "fields": []
+  },
+  {
+   "id": 7105,
+   "class": "§-&P§",
+   "fields": []
+  },
+  {
+   "id": 7106,
+   "class": "§8#8§",
+   "fields": []
+  },
+  {
+   "id": 7107,
+   "class": "§%22&7§",
+   "fields": []
+  },
+  {
+   "id": 7108,
+   "class": "§;l§",
+   "fields": []
+  },
+  {
+   "id": 7110,
+   "class": "§3%]§",
+   "fields": []
+  },
+  {
+   "id": 7112,
+   "class": "§]'r§",
+   "fields": []
+  },
+  {
+   "id": 7113,
+   "class": "§6+!§",
+   "fields": []
+  },
+  {
+   "id": 7114,
+   "class": "§ 'v§",
+   "fields": []
+  },
+  {
+   "id": 7115,
+   "class": "§3&g§",
+   "fields": []
+  },
+  {
+   "id": 7116,
+   "class": "§%22#Z§",
+   "fields": []
+  },
+  {
+   "id": 7117,
+   "class": "§`$%3E§",
+   "fields": []
+  },
+  {
+   "id": 7120,
+   "class": "§%22#%3E§",
+   "fields": []
+  },
+  {
+   "id": 7121,
+   "class": "§;!U§",
+   "fields": []
+  },
+  {
+   "id": 7122,
+   "class": "§%#5§",
+   "fields": []
+  },
+  {
+   "id": 7123,
+   "class": "§9+J§",
+   "fields": []
+  },
+  {
+   "id": 7124,
+   "class": "§3!P§",
+   "fields": []
+  },
+  {
+   "id": 7125,
+   "class": "§ 'p§",
+   "fields": []
+  },
+  {
+   "id": 7127,
+   "class": "§2&R§",
+   "fields": []
+  },
+  {
+   "id": 7128,
+   "class": "§@&k§",
+   "fields": []
+  },
+  {
+   "id": 7209,
+   "class": "§6$[§",
+   "fields": []
+  },
+  {
+   "id": 10144,
+   "class": "§3j§",
+   "fields": []
+  },
+  {
+   "id": 10160,
+   "class": "§6+3§",
+   "fields": []
+  },
+  {
+   "id": 10161,
+   "class": "§=%§",
+   "fields": []
+  },
+  {
+   "id": 10162,
+   "class": "§%3C$w§",
+   "fields": []
+  },
+  {
+   "id": 10163,
+   "class": "§1%22+§",
+   "fields": []
+  },
+  {
+   "id": 10164,
+   "class": "§1#f§",
+   "fields": []
+  },
+  {
+   "id": 10166,
+   "class": "§7$Y§",
+   "fields": [
+    [
+     "profileId",
+     "readUnsignedInt"
+    ]
+   ]
+  },
+  {
+   "id": 10167,
+   "class": "§`!q§",
+   "fields": []
+  },
+  {
+   "id": 10168,
+   "class": "§]%22,§",
+   "fields": []
+  },
+  {
+   "id": 10169,
+   "class": "§%%22g§",
+   "fields": [
+    [
+     "version",
+     "readUTF"
+    ]
+   ]
+  },
+  {
+   "id": 17001,
+   "class": "§@%a§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17003,
+   "class": "§9%22^§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17011,
+   "class": "§6+H§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "comeback",
+     "readInt"
+    ]
+   ]
+  },
+  {
+   "id": 17102,
+   "class": "§9#S§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17104,
+   "class": "§%3F'e§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "profileId",
+     "readInt"
+    ],
+    [
+     "socialId",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17106,
+   "class": "§2!t§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "socialId",
+     "readShort"
+    ],
+    [
+     "rank",
+     "readShort"
+    ],
+    [
+     "profileId",
+     "readInt"
+    ]
+   ]
+  },
+  {
+   "id": 17108,
+   "class": "§!i§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ],
+    [
+     "level",
+     "readInt"
+    ]
+   ]
+  },
+  {
+   "id": 17109,
+   "class": "§[%225§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17112,
+   "class": "§,%22K§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17113,
+   "class": "§0'=§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17114,
+   "class": "§6+W§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17115,
+   "class": "§7%%§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17116,
+   "class": "§2%+§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17120,
+   "class": "§%3C!l§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17121,
+   "class": "§%3F+M§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17122,
+   "class": "§@#%22§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17123,
+   "class": "§'$,§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17124,
+   "class": "§&$=§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17125,
+   "class": "§&+&§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17127,
+   "class": "§6%22#§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  },
+  {
+   "id": 17128,
+   "class": "§%3E$Y§",
+   "fields": [
+    [
+     "serviceResult",
+     "readShort"
+    ]
+   ]
+  }
+ ]
+}
