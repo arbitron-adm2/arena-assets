@@ -6,45 +6,70 @@
    "id": 0,
    "status": "new",
    "class": "§`%2§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 1,
    "status": "same",
    "class": "§=&#§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeInt",
+    "writeShort",
+    "writeByte",
+    "writeShort",
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 3,
    "status": "same",
    "class": "§%3C++§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readUnsignedShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
    "id": 6,
    "status": "same",
    "class": "§9&I§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -62,17 +87,26 @@
    "note": "",
    "reads": [
     "readUTF"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
    ]
   },
   {
    "id": 11,
    "status": "same",
    "class": "§%22&2§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBoolean",
+    "writeBytes"
+   ]
   },
   {
    "id": 12,
@@ -94,6 +128,14 @@
    "reads": [
     "readUnsignedInt",
     "readShort"
+   ],
+   "writes": [
+    "writeInt",
+    "writeShort",
+    "writeInt",
+    "writeBytes",
+    "writeShort",
+    "writeBoolean"
    ]
   },
   {
@@ -111,6 +153,10 @@
    "note": "",
    "reads": [
     "readUnsignedInt"
+   ],
+   "writes": [
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
@@ -133,6 +179,11 @@
    "reads": [
     "readUnsignedInt",
     "readInt"
+   ],
+   "writes": [
+    "writeInt",
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
@@ -150,17 +201,24 @@
    "note": "",
    "reads": [
     "readInt"
+   ],
+   "writes": [
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
    "id": 16,
    "status": "same",
    "class": "§%3F#S§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 17,
@@ -190,57 +248,98 @@
     "readUnsignedInt",
     "readByte",
     "readUTF"
+   ],
+   "writes": [
+    "writeByte",
+    "writeShort",
+    "writeUnsignedInt",
+    "writeBoolean",
+    "writeBytes",
+    "writeUTF"
    ]
   },
   {
    "id": 19,
    "status": "same",
    "class": "§@&l§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 20,
    "status": "same",
    "class": "§%3F#g§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeUTF",
+    "writeUTF",
+    "writeInt",
+    "writeShort",
+    "writeByte",
+    "writeShort",
+    "writeUTF",
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 22,
    "status": "same",
    "class": "§`%c§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 25,
    "status": "same",
    "class": "§^!l§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 29,
    "status": "same",
    "class": "§%3F&y§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeByte",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 36,
@@ -262,6 +361,11 @@
    "reads": [
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -284,42 +388,59 @@
    "reads": [
     "readShort",
     "readByte"
+   ],
+   "writes": [
+    "writeShort",
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
    "id": 46,
    "status": "same",
    "class": "§4!=§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readBoolean"
+   ],
+   "writes": [
+    "writeBoolean",
+    "writeBytes"
    ]
   },
   {
    "id": 48,
    "status": "same",
    "class": "§=#3§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readUTF"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
    ]
   },
   {
    "id": 49,
    "status": "same",
    "class": "§;#,§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readInt"
+   ],
+   "writes": [
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
@@ -342,6 +463,11 @@
    "reads": [
     "readShort",
     "readByte"
+   ],
+   "writes": [
+    "writeShort",
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
@@ -369,28 +495,42 @@
     "readInt",
     "readInt",
     "readInt"
+   ],
+   "writes": [
+    "writeInt",
+    "writeInt",
+    "writeBytes",
+    "writeInt"
    ]
   },
   {
    "id": 57,
    "status": "same",
    "class": "§`f§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 58,
    "status": "same",
    "class": "§-&7§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -415,6 +555,12 @@
     "readUTF",
     "readUnsignedInt",
     "readByte"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeUnsignedInt",
+    "writeBytes",
+    "writeByte"
    ]
   },
   {
@@ -463,111 +609,163 @@
     "readShort",
     "readUnsignedShort",
     "readShort"
+   ],
+   "writes": [
+    "writeUnsignedInt",
+    "writeShort",
+    "writeUnsignedInt",
+    "writeInt",
+    "writeShort",
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeUTF",
+    "writeShort",
+    "writeShort",
+    "writeByte"
    ]
   },
   {
    "id": 86,
    "status": "same",
    "class": "§]'`§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
    "id": 88,
    "status": "same",
    "class": "§;$&§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 89,
    "status": "same",
    "class": "§;#%3F§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 90,
    "status": "same",
    "class": "§;%E§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 92,
    "status": "same",
    "class": "§9#W§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 93,
    "status": "same",
    "class": "§'$l§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes",
+    "writeShort"
+   ]
   },
   {
    "id": 94,
    "status": "same",
    "class": "§6+E§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 95,
    "status": "same",
    "class": "§&D§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeInt"
+   ]
   },
   {
    "id": 96,
    "status": "same",
    "class": "§`&M§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBoolean"
+   ]
   },
   {
    "id": 97,
    "status": "same",
    "class": "§%22%22c§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeInt",
+    "writeInt"
+   ]
   },
   {
    "id": 98,
@@ -577,77 +775,111 @@
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": []
   },
   {
    "id": 99,
    "status": "same",
    "class": "§,&r§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 101,
    "status": "same",
    "class": "§1'h§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 102,
    "status": "same",
    "class": "§'!J§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 105,
    "status": "same",
    "class": "§,!M§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeShort",
+    "writeUTF",
+    "writeInt",
+    "writeBytes",
+    "writeFloat"
+   ]
   },
   {
    "id": 106,
    "status": "same",
    "class": "§+%22o§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBoolean",
+    "writeBytes"
+   ]
   },
   {
    "id": 107,
    "status": "same",
    "class": "§-!%§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 108,
    "status": "same",
    "class": "§%22H§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 109,
@@ -665,107 +897,150 @@
    "reads": [
     "readShort",
     "readByte"
+   ],
+   "writes": [
+    "writeShort",
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
    "id": 110,
    "status": "same",
    "class": "§%3E%220§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 111,
    "status": "same",
    "class": "§ %J§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 112,
    "status": "same",
    "class": "§^%22_§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 113,
    "status": "same",
    "class": "§+%_§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBoolean",
+    "writeBytes"
+   ]
   },
   {
    "id": 114,
    "status": "same",
    "class": "§'$S§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 115,
    "status": "same",
    "class": "§1#8§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 116,
    "status": "same",
    "class": "§-'0§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 117,
    "status": "same",
    "class": "§['w§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 118,
    "status": "same",
    "class": "§%22&E§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 119,
    "status": "same",
    "class": "§@%22=§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeUTF",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 120,
@@ -796,297 +1071,428 @@
     "readShort",
     "readShort",
     "readUTF"
+   ],
+   "writes": [
+    "writeShort",
+    "writeUnsignedInt",
+    "writeShort",
+    "writeShort",
+    "writeUTF",
+    "writeUTF",
+    "writeBytes",
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeShort"
    ]
   },
   {
    "id": 122,
    "status": "same",
    "class": "§]#q§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeByte",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 123,
    "status": "same",
    "class": "§ &c§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 124,
    "status": "same",
    "class": "§5u§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 125,
    "status": "same",
    "class": "§##=§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 126,
    "status": "same",
    "class": "§ 'X§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 127,
    "status": "same",
    "class": "§5'%3E§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 128,
    "status": "same",
    "class": "§]&l§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 129,
    "status": "same",
    "class": "§6+N§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeBytes",
+    "writeByte",
+    "writeBytes"
+   ]
   },
   {
    "id": 131,
    "status": "same",
    "class": "§^''§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 135,
    "status": "same",
    "class": "§9!w§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 136,
    "status": "same",
    "class": "§0#=§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 137,
    "status": "same",
    "class": "§-+0§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 139,
    "status": "same",
    "class": "§!!i§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 140,
    "status": "same",
    "class": "§4+b§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 142,
    "status": "same",
    "class": "§3'%§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 143,
    "status": "same",
    "class": "§3&m§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeUnsignedInt",
+    "writeShort",
+    "writeBytes",
+    "writeUTF",
+    "writeBytes",
+    "writeShort"
+   ]
   },
   {
    "id": 144,
    "status": "new",
    "class": "§'%22`§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 145,
    "status": "new",
    "class": "§%3C%22m§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeInt",
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 146,
    "status": "new",
    "class": "§##`§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 160,
    "status": "new",
    "class": "§`#]§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 161,
    "status": "new",
    "class": "§%22+e§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 162,
    "status": "new",
    "class": "§!#I§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 163,
    "status": "new",
    "class": "§6&c§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 164,
    "status": "new",
    "class": "§5+c§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 166,
    "status": "new",
    "class": "§;&F§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 167,
    "status": "new",
    "class": "§1!6§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 301,
    "status": "same",
    "class": "§0'§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 302,
    "status": "same",
    "class": "§'%B§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeUTF",
+    "writeUTF",
+    "writeBytes"
+   ]
   },
   {
    "id": 303,
    "status": "same",
    "class": "§[&u§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 704,
@@ -1109,6 +1515,11 @@
     "readBytes",
     "readUnsignedInt",
     "readUTF"
+   ],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeBytes"
    ]
   },
   {
@@ -1129,57 +1540,105 @@
     "readShort",
     "readUnsignedInt",
     "readUTF"
+   ],
+   "writes": [
+    "writeShort",
+    "writeUTF",
+    "writeBytes",
+    "writeUnsignedInt"
    ]
   },
   {
    "id": 708,
    "status": "same",
    "class": "§%'x§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 1001,
    "status": "new",
    "class": "§++n§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeUnsignedInt",
+    "writeByte",
+    "writeShort",
+    "writeUTF",
+    "writeShort",
+    "writeUTF",
+    "writeUTF",
+    "writeByte",
+    "writeBytes"
+   ]
   },
   {
    "id": 1002,
    "status": "new",
    "class": "§6%22Q§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeByte",
+    "writeUTF",
+    "writeBytes",
+    "writeShort",
+    "writeUnsignedInt",
+    "writeUTF"
+   ]
   },
   {
    "id": 1003,
    "status": "new",
    "class": "§`$p§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeUTF",
+    "writeUTF",
+    "writeShort",
+    "writeBoolean",
+    "writeUnsignedInt",
+    "writeBytes",
+    "writeByte"
+   ]
   },
   {
    "id": 1004,
    "status": "new",
    "class": "§4'=§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeShort",
+    "writeBytes"
+   ]
   },
   {
    "id": 1006,
@@ -1203,13 +1662,19 @@
     "readByte",
     "readUnsignedInt",
     "readShort"
+   ],
+   "writes": [
+    "writeByte",
+    "writeUnsignedInt",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
    "id": 1007,
    "status": "same",
    "class": "§0+C§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -1226,17 +1691,21 @@
     "readUnsignedInt",
     "readUnsignedInt",
     "readUnsignedInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 1008,
    "status": "new",
    "class": "§]#_§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 1014,
@@ -1267,17 +1736,31 @@
     "readByte",
     "readUTF",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 1015,
    "status": "new",
    "class": "§'%X§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeShort",
+    "writeByte",
+    "writeShort",
+    "writeByte",
+    "writeShort",
+    "writeBytes",
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeUTF"
+   ]
   },
   {
    "id": 1016,
@@ -1296,6 +1779,11 @@
     "readBytes",
     "readUnsignedInt",
     "readShort"
+   ],
+   "writes": [
+    "writeUnsignedInt",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -1319,6 +1807,14 @@
     "readUnsignedShort",
     "readShort",
     "readInt"
+   ],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeInt",
+    "writeShort",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -1339,6 +1835,12 @@
     "readShort",
     "readShort",
     "readInt"
+   ],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeBytes",
+    "writeInt"
    ]
   },
   {
@@ -1360,6 +1862,15 @@
     "readByte",
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeInt",
+    "writeByte",
+    "writeShort",
+    "writeShort",
+    "writeShort",
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
@@ -1395,7 +1906,8 @@
     "readShort",
     "readUTF",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 1022,
@@ -1412,23 +1924,28 @@
    "note": "",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 1023,
    "status": "new",
    "class": "§0%22S§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUnsignedInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 1093,
    "status": "same",
    "class": "§1%^§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -1436,20 +1953,22 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 1098,
    "status": "same",
    "class": "§7!U§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 1099,
@@ -1482,7 +2001,8 @@
     "readShort",
     "readInt",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 2002,
@@ -1510,7 +2030,8 @@
     "readUnsignedShort",
     "readShort",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 2003,
@@ -1531,19 +2052,21 @@
     "readUnsignedInt",
     "readShort",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 2004,
    "status": "same",
    "class": "§#&t§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 2006,
@@ -1579,7 +2102,8 @@
     "readByte",
     "readShort",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 2021,
@@ -1597,7 +2121,8 @@
    "reads": [
     "readShort",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 3002,
@@ -1616,6 +2141,11 @@
     "readBytes",
     "readByte",
     "readUTF"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
@@ -1641,6 +2171,17 @@
     "readInt",
     "readUnsignedInt",
     "readUnsignedShort"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeShort",
+    "writeShort",
+    "writeInt",
+    "writeInt",
+    "writeShort",
+    "writeInt",
+    "writeUnsignedInt",
+    "writeBytes"
    ]
   },
   {
@@ -1659,17 +2200,25 @@
    "reads": [
     "readBytes",
     "readInt"
+   ],
+   "writes": [
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
    "id": 3010,
    "status": "same",
    "class": "§9+C§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBytes"
+   ]
   },
   {
    "id": 7001,
@@ -1679,57 +2228,79 @@
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": []
   },
   {
    "id": 7002,
    "status": "new",
    "class": "§&!1§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeUTF"
+   ]
   },
   {
    "id": 7003,
    "status": "new",
    "class": "§^%22%3C§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeInt",
+    "writeShort"
+   ]
   },
   {
    "id": 7011,
    "status": "new",
    "class": "§!$M§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt"
+   ]
   },
   {
    "id": 7102,
    "status": "new",
    "class": "§%3C$3§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeInt",
+    "writeShort"
+   ]
   },
   {
    "id": 7104,
    "status": "new",
    "class": "§ '#§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeInt"
+   ]
   },
   {
    "id": 7105,
@@ -1739,157 +2310,213 @@
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": []
   },
   {
    "id": 7106,
    "status": "new",
    "class": "§8#8§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeInt"
+   ]
   },
   {
    "id": 7107,
    "status": "new",
    "class": "§%22&7§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeInt"
+   ]
   },
   {
    "id": 7108,
    "status": "new",
    "class": "§;l§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeBoolean"
+   ]
   },
   {
    "id": 7110,
    "status": "new",
    "class": "§3%]§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF"
+   ]
   },
   {
    "id": 7112,
    "status": "new",
    "class": "§]'r§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt",
+    "writeInt"
+   ]
   },
   {
    "id": 7113,
    "status": "new",
    "class": "§6+!§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeInt",
+    "writeInt"
+   ]
   },
   {
    "id": 7114,
    "status": "new",
    "class": "§ 'v§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeBoolean"
+   ]
   },
   {
    "id": 7115,
    "status": "new",
    "class": "§3&g§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBoolean"
+   ]
   },
   {
    "id": 7116,
    "status": "new",
    "class": "§%22#Z§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeUTF",
+    "writeBoolean"
+   ]
   },
   {
    "id": 7117,
    "status": "new",
    "class": "§`$%3E§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBoolean"
+   ]
   },
   {
    "id": 7120,
    "status": "new",
    "class": "§%22#%3E§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt"
+   ]
   },
   {
    "id": 7121,
    "status": "new",
    "class": "§;!U§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt"
+   ]
   },
   {
    "id": 7122,
    "status": "new",
    "class": "§%#5§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBoolean"
+   ]
   },
   {
    "id": 7123,
    "status": "new",
    "class": "§9+J§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeByte"
+   ]
   },
   {
    "id": 7124,
    "status": "new",
    "class": "§3!P§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeInt"
+   ]
   },
   {
    "id": 7125,
@@ -1899,39 +2526,51 @@
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": []
   },
   {
    "id": 7127,
    "status": "new",
    "class": "§2&R§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeBoolean",
+    "writeInt"
+   ]
   },
   {
    "id": 7128,
    "status": "new",
    "class": "§@&k§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeShort",
+    "writeBoolean",
+    "writeInt"
+   ]
   },
   {
    "id": 7209,
    "status": "new",
    "class": "§6$[§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readUnsignedShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10001,
@@ -1983,7 +2622,8 @@
     "readUnsignedShort",
     "readInt",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10002,
@@ -2000,6 +2640,10 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2024,6 +2668,20 @@
     "readShort",
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeShort",
+    "writeBytes",
+    "writeBytes",
+    "writeShort",
+    "writeShort",
+    "writeShort",
+    "writeShort",
+    "writeBytes",
+    "writeBytes",
+    "writeShort"
    ]
   },
   {
@@ -2056,7 +2714,8 @@
     "readUnsignedInt",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10006,
@@ -2076,7 +2735,8 @@
     "readUnsignedInt",
     "readUnsignedShort",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10007,
@@ -2099,6 +2759,12 @@
     "readUnsignedInt",
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeUnsignedInt",
+    "writeShort",
+    "writeBytes",
+    "writeShort"
    ]
   },
   {
@@ -2121,6 +2787,11 @@
    "reads": [
     "readInt",
     "readShort"
+   ],
+   "writes": [
+    "writeInt",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2138,6 +2809,10 @@
    "note": "",
    "reads": [
     "readUTF"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
    ]
   },
   {
@@ -2155,6 +2830,10 @@
    "note": "",
    "reads": [
     "readUTF"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeBytes"
    ]
   },
   {
@@ -2172,6 +2851,10 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2189,6 +2872,10 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2206,6 +2893,10 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2223,6 +2914,10 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2240,17 +2935,24 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
    "id": 10017,
    "status": "same",
    "class": "§2'%§",
-   "direction": "?",
+   "direction": "c->s",
    "fields": [],
    "name_guess": "",
    "note": "",
-   "reads": []
+   "reads": [],
+   "writes": [
+    "writeBytes"
+   ]
   },
   {
    "id": 10019,
@@ -2277,6 +2979,17 @@
     "readInt",
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeInt",
+    "writeInt",
+    "writeInt",
+    "writeBytes",
+    "writeInt",
+    "writeInt",
+    "writeBytes",
+    "writeShort"
    ]
   },
   {
@@ -2310,13 +3023,20 @@
     "readInt",
     "readUnsignedInt",
     "readByte"
+   ],
+   "writes": [
+    "writeByte",
+    "writeInt",
+    "writeBytes",
+    "writeByte",
+    "writeUnsignedInt"
    ]
   },
   {
    "id": 10022,
    "status": "same",
    "class": "§-%227§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -2324,7 +3044,8 @@
     "readBytes",
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10023,
@@ -2347,6 +3068,12 @@
     "readInt",
     "readUnsignedInt",
     "readUnsignedInt"
+   ],
+   "writes": [
+    "writeInt",
+    "writeUnsignedInt",
+    "writeUnsignedInt",
+    "writeBytes"
    ]
   },
   {
@@ -2382,7 +3109,8 @@
     "readShort",
     "readUTF",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10029,
@@ -2412,7 +3140,8 @@
     "readShort",
     "readUTF",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10031,
@@ -2446,6 +3175,13 @@
     "readUTF",
     "readInt",
     "readUTF"
+   ],
+   "writes": [
+    "writeShort",
+    "writeUTF",
+    "writeUTF",
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
@@ -2463,26 +3199,36 @@
    "note": "",
    "reads": [
     "readByte"
+   ],
+   "writes": [
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
    "id": 10033,
    "status": "same",
    "class": "§%3E#g§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readUnsignedShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
    "id": 10034,
    "status": "same",
    "class": "§#%22n§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -2493,6 +3239,20 @@
     "readShort",
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeBytes",
+    "writeShort",
+    "writeShort",
+    "writeBytes",
+    "writeBytes",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2510,6 +3270,10 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2529,6 +3293,12 @@
     "readShort",
     "readInt",
     "readInt"
+   ],
+   "writes": [
+    "writeShort",
+    "writeInt",
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
@@ -2546,6 +3316,10 @@
    "note": "",
    "reads": [
     "readByte"
+   ],
+   "writes": [
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
@@ -2563,7 +3337,8 @@
    "note": "",
    "reads": [
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10042,
@@ -2580,6 +3355,10 @@
    "note": "",
    "reads": [
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2608,6 +3387,12 @@
     "readByte",
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeByte",
+    "writeBytes"
    ]
   },
   {
@@ -2643,7 +3428,8 @@
     "readByte",
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10051,
@@ -2662,6 +3448,12 @@
     "readUnsignedInt",
     "readByte",
     "readUTF"
+   ],
+   "writes": [
+    "writeUnsignedInt",
+    "writeUTF",
+    "writeBytes",
+    "writeByte"
    ]
   },
   {
@@ -2681,6 +3473,11 @@
     "readBytes",
     "readShort",
     "readShort"
+   ],
+   "writes": [
+    "writeShort",
+    "writeShort",
+    "writeBytes"
    ]
   },
   {
@@ -2700,13 +3497,14 @@
     "readBytes",
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10089,
    "status": "same",
    "class": "§'!6§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -2715,7 +3513,8 @@
     "readInt",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10090,
@@ -2732,13 +3531,14 @@
    "note": "",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10091,
    "status": "same",
    "class": "§%3C$H§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -2746,7 +3546,8 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10092,
@@ -2763,7 +3564,8 @@
    "note": "",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10093,
@@ -2786,7 +3588,8 @@
     "readBytes",
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10094,
@@ -2810,7 +3613,8 @@
     "readShort",
     "readShort",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10099,
@@ -2835,7 +3639,8 @@
     "readShort",
     "readShort",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10102,
@@ -2891,7 +3696,8 @@
     "readInt",
     "readInt",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10104,
@@ -2911,7 +3717,8 @@
     "readInt",
     "readInt",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10106,
@@ -2933,7 +3740,8 @@
    "reads": [
     "readShort",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10107,
@@ -2952,7 +3760,8 @@
     "readShort",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10108,
@@ -2970,7 +3779,8 @@
    "reads": [
     "readShort",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10109,
@@ -2999,7 +3809,8 @@
     "readShort",
     "readByte",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10110,
@@ -3039,7 +3850,8 @@
     "readInt",
     "readInt",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10114,
@@ -3059,26 +3871,28 @@
     "readUnsignedShort",
     "readShort",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10116,
    "status": "same",
    "class": "§-+;§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10117,
    "status": "same",
    "class": "§'%`§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3086,7 +3900,8 @@
     "readShort",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10118,
@@ -3113,7 +3928,8 @@
     "readUTF",
     "readBytes",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10119,
@@ -3146,6 +3962,13 @@
     "readInt",
     "readUTF",
     "readUTF"
+   ],
+   "writes": [
+    "writeShort",
+    "writeInt",
+    "writeUTF",
+    "writeBytes",
+    "writeUTF"
    ]
   },
   {
@@ -3170,7 +3993,8 @@
     "readUnsignedInt",
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10121,
@@ -3202,7 +4026,8 @@
     "readShort",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10122,
@@ -3226,13 +4051,19 @@
     "readByte",
     "readShort",
     "readUTF"
+   ],
+   "writes": [
+    "writeShort",
+    "writeInt",
+    "writeBytes",
+    "writeUTF"
    ]
   },
   {
    "id": 10124,
    "status": "same",
    "class": "§%3E%3F§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3240,7 +4071,8 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10125,
@@ -3260,7 +4092,8 @@
     "readUnsignedShort",
     "readShort",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10126,
@@ -3300,7 +4133,8 @@
     "readInt",
     "readUnsignedShort",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10129,
@@ -3321,7 +4155,8 @@
     "readShort",
     "readShort",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10131,
@@ -3338,13 +4173,14 @@
    "note": "",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10134,
    "status": "same",
    "class": "§2'E§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3354,7 +4190,8 @@
     "readShort",
     "readInt",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10135,
@@ -3381,19 +4218,21 @@
     "readUnsignedInt",
     "readByte",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10137,
    "status": "same",
    "class": "§6Z§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
    "reads": [
     "readBytes"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10139,
@@ -3416,7 +4255,8 @@
     "readBytes",
     "readUTF",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10140,
@@ -3453,7 +4293,8 @@
     "readByte",
     "readInt",
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10142,
@@ -3472,7 +4313,8 @@
     "readShort",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10143,
@@ -3498,13 +4340,14 @@
     "readUnsignedInt",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10144,
    "status": "new",
    "class": "§3j§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3513,13 +4356,14 @@
     "readShort",
     "readUTF",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10160,
    "status": "new",
    "class": "§6+3§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3528,13 +4372,14 @@
     "readInt",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10161,
    "status": "new",
    "class": "§=%§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3542,13 +4387,14 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10162,
    "status": "new",
    "class": "§%3C$w§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3556,13 +4402,14 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10163,
    "status": "new",
    "class": "§1%22+§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3570,13 +4417,14 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10164,
    "status": "new",
    "class": "§1#f§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3584,7 +4432,8 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10166,
@@ -3605,13 +4454,14 @@
     "readUnsignedShort",
     "readShort",
     "readByte"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10167,
    "status": "new",
    "class": "§`!q§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3619,13 +4469,14 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10168,
    "status": "new",
    "class": "§]%22,§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3633,7 +4484,8 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10169,
@@ -3650,13 +4502,14 @@
    "note": "version (UTF)",
    "reads": [
     "readUTF"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10301,
    "status": "same",
    "class": "§4%2§",
-   "direction": "c->s",
+   "direction": "s->c",
    "fields": [],
    "name_guess": "",
    "note": "",
@@ -3664,7 +4517,8 @@
     "readBytes",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 10302,
@@ -3683,7 +4537,8 @@
     "readBytes",
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 13003,
@@ -3702,6 +4557,12 @@
     "readByte",
     "readBytes",
     "readUTF"
+   ],
+   "writes": [
+    "writeUTF",
+    "writeBytes",
+    "writeInt",
+    "writeByte"
    ]
   },
   {
@@ -3721,6 +4582,11 @@
     "readBytes",
     "readUnsignedInt",
     "readByte"
+   ],
+   "writes": [
+    "writeByte",
+    "writeUnsignedInt",
+    "writeBytes"
    ]
   },
   {
@@ -3744,6 +4610,11 @@
     "readBytes",
     "readShort",
     "readInt"
+   ],
+   "writes": [
+    "writeShort",
+    "writeInt",
+    "writeBytes"
    ]
   },
   {
@@ -3763,7 +4634,8 @@
     "readBytes",
     "readShort",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17001,
@@ -3785,7 +4657,8 @@
     "readUnsignedShort",
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17003,
@@ -3802,7 +4675,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17011,
@@ -3824,7 +4698,8 @@
    "reads": [
     "readShort",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17102,
@@ -3844,7 +4719,8 @@
     "readInt",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17104,
@@ -3871,7 +4747,8 @@
     "readShort",
     "readInt",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17106,
@@ -3903,7 +4780,8 @@
     "readShort",
     "readShort",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17108,
@@ -3925,7 +4803,8 @@
    "reads": [
     "readShort",
     "readInt"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17109,
@@ -3942,7 +4821,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17112,
@@ -3960,7 +4840,8 @@
    "reads": [
     "readShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17113,
@@ -3979,7 +4860,8 @@
     "readShort",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17114,
@@ -3996,7 +4878,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17115,
@@ -4013,7 +4896,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17116,
@@ -4030,7 +4914,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17120,
@@ -4047,7 +4932,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17121,
@@ -4064,7 +4950,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17122,
@@ -4081,7 +4968,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17123,
@@ -4098,7 +4986,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17124,
@@ -4115,7 +5004,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17125,
@@ -4134,7 +5024,8 @@
     "readShort",
     "readUnsignedShort",
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17127,
@@ -4151,7 +5042,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   },
   {
    "id": 17128,
@@ -4168,7 +5060,8 @@
    "note": "serviceResult: Short — семейство сервисных ответов",
    "reads": [
     "readShort"
-   ]
+   ],
+   "writes": []
   }
  ]
 }
