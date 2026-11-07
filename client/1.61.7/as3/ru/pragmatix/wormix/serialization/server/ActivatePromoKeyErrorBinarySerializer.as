@@ -1,0 +1,50 @@
+package ru.pragmatix.wormix.serialization.server
+{
+   import §!K§.§!!n§;
+   import §!K§.§"%$§;
+   import §,"v§.§&"a§;
+   import §,"v§.§9%d§;
+   import §0&F§.§0%v§;
+   import §7$t§.§;#_§;
+   import §>%S§.§^!V§;
+   import §@<§.§+%]§;
+   import flash.display.DisplayObject;
+   import flash.utils.ByteArray;
+   import flash.utils.IDataInput;
+   import flash.utils.IDataOutput;
+   import ru.pragmatix.wormix.messages.server.ActivatePromoKeyError;
+   
+   public class ActivatePromoKeyErrorBinarySerializer implements §&"a§
+   {
+      
+      public function ActivatePromoKeyErrorBinarySerializer()
+      {
+         super();
+      }
+      
+      public function getCommandId() : uint
+      {
+         return 10009;
+      }
+      
+      public function serializeCommand(param1:Object, param2:IDataOutput) : void
+      {
+         var _loc3_:ActivatePromoKeyError = ActivatePromoKeyError(param1);
+         var _loc4_:§^!V§ = new §^!V§();
+         _loc4_.§@&I§(this.getCommandId());
+         var _loc5_:ByteArray = new ByteArray();
+         _loc5_.writeUTF(_loc3_.key);
+         _loc4_.§<!§(_loc5_.length);
+         _loc4_.§2$t§(param2);
+         param2.writeBytes(_loc5_);
+      }
+      
+      public function deserializeCommand(param1:IDataInput, param2:§9%d§) : Object
+      {
+         var _loc3_:ActivatePromoKeyError = new ActivatePromoKeyError();
+         _loc3_.key = param1.readUTF();
+         return _loc3_;
+      }
+   }
+}
+

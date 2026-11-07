@@ -1,0 +1,15812 @@
+{
+"Wormix": [
+{
+"id": 0,
+"class": "Application"
+}
+],
+"common/bosses/alchemist": [
+{
+"id": 10,
+"class": "CrystalBlue"
+},
+{
+"id": 8,
+"class": "CrystalGreen"
+},
+{
+"id": 6,
+"class": "CrystalRed"
+},
+{
+"id": 4,
+"class": "CrystaWhite"
+},
+{
+"id": 2,
+"class": "CrystalYellow"
+}
+],
+"common/bosses/ancientGhost": [
+{
+"id": 80,
+"class": "StormCloud"
+}
+],
+"common/bosses/archbot": [
+{
+"id": 37,
+"class": "ArchbotSpell"
+},
+{
+"id": 32,
+"class": "ArchbotStormCloud"
+}
+],
+"common/bosses/archdemon": [
+{
+"id": 110,
+"class": "CageDamage"
+},
+{
+"id": 75,
+"class": "ArchidemonCage"
+},
+{
+"id": 73,
+"class": "ChainLink"
+},
+{
+"id": 71,
+"class": "ChainClip"
+},
+{
+"id": 69,
+"class": "ChainBall"
+},
+{
+"id": 67,
+"class": "BossAbsorptionHealth"
+},
+{
+"id": 30,
+"class": "VictimExhaustionHealth"
+}
+],
+"common/bosses/archivist": [
+{
+"id": 12,
+"class": "ArchivistSeal"
+},
+{
+"id": 10,
+"class": "ArchivistPlatform"
+},
+{
+"id": 8,
+"class": "ArchivistAuraAppear"
+},
+{
+"id": 7,
+"class": "ArchivistAuraFading"
+},
+{
+"id": 5,
+"class": "ArchivistAuraIdle"
+}
+],
+"common/bosses/arcticwarrior": [
+{
+"id": 39,
+"class": "FrozenZombie"
+}
+],
+"common/bosses/blacksmith": [
+{
+"id": 19,
+"class": "HammerHit"
+},
+{
+"id": 2,
+"class": "BossAnvil"
+}
+],
+"common/bosses/cyborg": [
+{
+"id": 139,
+"class": "InjectorCore"
+},
+{
+"id": 136,
+"class": "BeamInjectorPartMC"
+},
+{
+"id": 125,
+"class": "PolaritySignMC"
+},
+{
+"id": 124,
+"class": "cyborg_fla.primer_01_1"
+},
+{
+"id": 85,
+"class": "cyborg_fla.primer_02_8"
+},
+{
+"id": 62,
+"class": "CyborgGenerator"
+},
+{
+"id": 42,
+"class": "BlueAura"
+},
+{
+"id": 21,
+"class": "RedAura"
+}
+],
+"common/bosses/darkKnight": [
+{
+"id": 373,
+"class": "ResurrectionDarkKnight"
+},
+{
+"id": 298,
+"class": "ProtectiveShieldDarkKnight_idle"
+},
+{
+"id": 279,
+"class": "ProtectiveShieldDarkKnight_apper"
+},
+{
+"id": 278,
+"class": "darkKnight_fla.anim_01_graphics01_19"
+},
+{
+"id": 216,
+"class": "ProtectiveShieldDarkKnight_fading"
+},
+{
+"id": 192,
+"class": "AbsorbShieldDarkKnight_apper"
+},
+{
+"id": 120,
+"class": "AbsorbShieldDarkKnight_fading"
+},
+{
+"id": 76,
+"class": "AbsorbShieldDarkKnight_idle"
+},
+{
+"id": 19,
+"class": "SacrificeMinionDarkKnight"
+}
+],
+"common/bosses/devotee": [
+{
+"id": 6,
+"class": "AmFlightYellow"
+},
+{
+"id": 3,
+"class": "AmFlightBlack"
+}
+],
+"common/bosses/druid": [
+{
+"id": 40,
+"class": "PoisonSporeIdle"
+},
+{
+"id": 39,
+"class": "PoisonSporeExplode"
+},
+{
+"id": 36,
+"class": "FireDruidTotem"
+},
+{
+"id": 32,
+"class": "PoisonDruidTotem"
+}
+],
+"common/bosses/emperor": [
+{
+"id": 203,
+"class": "ArcherIdle"
+},
+{
+"id": 198,
+"class": "GeneralIdle"
+},
+{
+"id": 195,
+"class": "SpearmanIdle"
+},
+{
+"id": 192,
+"class": "DefenderIdle"
+},
+{
+"id": 176,
+"class": "SpearmanFade"
+},
+{
+"id": 173,
+"class": "SpearmanAppear"
+},
+{
+"id": 155,
+"class": "GeneralFade"
+},
+{
+"id": 150,
+"class": "GeneralAppear"
+},
+{
+"id": 111,
+"class": "DefenderAppear"
+},
+{
+"id": 103,
+"class": "DefenderFade"
+},
+{
+"id": 61,
+"class": "ArcherFade"
+},
+{
+"id": 53,
+"class": "ArcherAppear"
+},
+{
+"id": 2,
+"class": "ArrowClip"
+}
+],
+"common/bosses/enchanter": [
+{
+"id": 34,
+"class": "FireAppear"
+},
+{
+"id": 30,
+"class": "FireDisappear"
+},
+{
+"id": 28,
+"class": "FireIdle"
+}
+],
+"common/bosses/engineer": [
+{
+"id": 17,
+"class": "LaserActivatorIndestructible"
+}
+],
+"common/bosses/farmer": [
+{
+"id": 12,
+"class": "AppleBoss"
+}
+],
+"common/bosses/gravitymaster": [
+{
+"id": 54,
+"class": "AnomalyIdle"
+},
+{
+"id": 37,
+"class": "AnomalyAppear"
+},
+{
+"id": 32,
+"class": "AnomalyDisappear"
+},
+{
+"id": 8,
+"class": "VoidZone"
+},
+{
+"id": 4,
+"class": "VoidZoneMaxState"
+}
+],
+"common/bosses/guardiansDepths": [
+{
+"id": 148,
+"class": "SafetyAreaBlue"
+},
+{
+"id": 146,
+"class": "SafetyAreaRed"
+},
+{
+"id": 103,
+"class": "SafetyAreaYellow"
+},
+{
+"id": 57,
+"class": "SafetyAreaGreen"
+},
+{
+"id": 22,
+"class": "SafetyArea"
+}
+],
+"common/bosses/hacker": [
+{
+"id": 371,
+"class": "HackerGenerationActivated"
+},
+{
+"id": 292,
+"class": "HackerGenerationDamaged"
+},
+{
+"id": 210,
+"class": "HackerGenerationDeactivated"
+},
+{
+"id": 165,
+"class": "HackerGenerationIdle"
+},
+{
+"id": 97,
+"class": "HackerShield_apper"
+},
+{
+"id": 58,
+"class": "HackerShield_fading"
+},
+{
+"id": 28,
+"class": "HackerShield_idle"
+}
+],
+"common/bosses/hunter": [
+{
+"id": 17,
+"class": "LaserActivatorDestructible"
+}
+],
+"common/bosses/jarl": [
+{
+"id": 93,
+"class": "BaseAlarm"
+},
+{
+"id": 90,
+"class": "ShockAlarm"
+},
+{
+"id": 87,
+"class": "FireAlarm"
+},
+{
+"id": 85,
+"class": "PoisonAlarm"
+},
+{
+"id": 80,
+"class": "BasicRune"
+},
+{
+"id": 72,
+"class": "FireLine"
+},
+{
+"id": 62,
+"class": "FireGenerator"
+},
+{
+"id": 60,
+"class": "BasicGenerator"
+},
+{
+"id": 58,
+"class": "BasicLine"
+},
+{
+"id": 48,
+"class": "PoisonLine"
+},
+{
+"id": 38,
+"class": "PoisonGenerator"
+},
+{
+"id": 36,
+"class": "ShockGenerator"
+},
+{
+"id": 34,
+"class": "ShockLine"
+},
+{
+"id": 24,
+"class": "FireRune"
+},
+{
+"id": 16,
+"class": "PoisonRune"
+},
+{
+"id": 8,
+"class": "ShockRune"
+}
+],
+"common/bosses/madRobot": [
+{
+"id": 45,
+"class": "RebelRobotTurret"
+},
+{
+"id": 36,
+"class": "RebelRobotTurretMount"
+},
+{
+"id": 31,
+"class": "RebelRobotDroid"
+}
+],
+"common/bosses/miner": [
+{
+"id": 3,
+"class": "AmGravityGun"
+}
+],
+"common/bosses/paladin": [
+{
+"id": 84,
+"class": "PaladinHeal"
+},
+{
+"id": 63,
+"class": "Obelisk_apper"
+},
+{
+"id": 37,
+"class": "Obelisk_fading"
+},
+{
+"id": 26,
+"class": "Obelisk_idle"
+},
+{
+"id": 16,
+"class": "SwordJustice"
+}
+],
+"common/bosses/phantom": [
+{
+"id": 54,
+"class": "FlyingSoul"
+},
+{
+"id": 43,
+"class": "FearStart"
+},
+{
+"id": 42,
+"class": "FearIdle"
+},
+{
+"id": 31,
+"class": "FearEnd"
+}
+],
+"common/bosses/pharaon": [
+{
+"id": 78,
+"class": "DomeBuffFading"
+},
+{
+"id": 76,
+"class": "DomeBuffAppear"
+},
+{
+"id": 74,
+"class": "DomeBuffIdle"
+},
+{
+"id": 69,
+"class": "TotemBoxer"
+},
+{
+"id": 67,
+"class": "TotemCat"
+},
+{
+"id": 65,
+"class": "TotemDragon"
+},
+{
+"id": 63,
+"class": "TotemRabbit"
+},
+{
+"id": 61,
+"class": "TotemZombie"
+},
+{
+"id": 38,
+"class": "PharaonTransform"
+}
+],
+"common/bosses/psionic": [
+{
+"id": 38,
+"class": "LoopTimeBegin"
+},
+{
+"id": 37,
+"class": "LoopTimeEnd"
+},
+{
+"id": 23,
+"class": "TeleportationPointIdle"
+},
+{
+"id": 22,
+"class": "TeleportationPointBegin"
+},
+{
+"id": 21,
+"class": "TeleportationPointEnd"
+},
+{
+"id": 17,
+"class": "FunnelBegin"
+},
+{
+"id": 14,
+"class": "FunnelEnd"
+},
+{
+"id": 10,
+"class": "FunnelIdle"
+}
+],
+"common/bosses/queenSpidersFix": [
+{
+"id": 109,
+"class": "ArrowScorpion"
+},
+{
+"id": 107,
+"class": "QueenAuraFading"
+},
+{
+"id": 106,
+"class": "QueenAuraIdle"
+},
+{
+"id": 105,
+"class": "QueenAuraAppear"
+},
+{
+"id": 98,
+"class": "ScorpionIdle"
+},
+{
+"id": 97,
+"class": "ScorpionFade"
+},
+{
+"id": 94,
+"class": "ScorpionAppear"
+},
+{
+"id": 93,
+"class": "ScorpionAttack"
+},
+{
+"id": 51,
+"class": "SpiderEggAppear"
+},
+{
+"id": 50,
+"class": "SpiderEggFading"
+},
+{
+"id": 37,
+"class": "SpiderEggIdle"
+},
+{
+"id": 35,
+"class": "SpiderCocoonFading"
+},
+{
+"id": 28,
+"class": "SpiderCocoonAppear"
+},
+{
+"id": 12,
+"class": "SpiderCocoonIdle"
+},
+{
+"id": 10,
+"class": "SpidersTrapIdle"
+},
+{
+"id": 9,
+"class": "SpidersTrapLaunch"
+},
+{
+"id": 8,
+"class": "SpidersTrapTargetAppear"
+},
+{
+"id": 7,
+"class": "SpidersTrapTargetFading"
+},
+{
+"id": 6,
+"class": "SpidersTrapTargetIdle"
+},
+{
+"id": 5,
+"class": "SpidersTrapTargetHit"
+}
+],
+"common/bosses/scientist": [
+{
+"id": 76,
+"class": "Magnet"
+},
+{
+"id": 69,
+"class": "Generator"
+},
+{
+"id": 13,
+"class": "LightningBolt"
+},
+{
+"id": 2,
+"class": "LightningRod"
+}
+],
+"common/bosses/solarpriest": [
+{
+"id": 55,
+"class": "SolarAura"
+},
+{
+"id": 53,
+"class": "SphereConversion"
+},
+{
+"id": 14,
+"class": "SolarSphere"
+},
+{
+"id": 9,
+"class": "SolarBlink"
+},
+{
+"id": 4,
+"class": "SolarTrail"
+}
+],
+"common/bosses/soulmaster": [
+{
+"id": 58,
+"class": "SoulAm"
+},
+{
+"id": 31,
+"class": "BossSoulCapture"
+},
+{
+"id": 30,
+"class": "BossSoulRelease"
+}
+],
+"common/bosses/symbiote": [
+{
+"id": 124,
+"class": "Infection"
+},
+{
+"id": 115,
+"class": "CocoonIdle"
+},
+{
+"id": 114,
+"class": "CocoonFade"
+},
+{
+"id": 80,
+"class": "CocoonAppear"
+},
+{
+"id": 70,
+"class": "MosquitoCloud"
+},
+{
+"id": 38,
+"class": "Mosquito"
+},
+{
+"id": 26,
+"class": "BloodRage"
+}
+],
+"common/bosses/thieves": [
+{
+"id": 41,
+"class": "ThievesBoxBlack"
+},
+{
+"id": 38,
+"class": "ThievesBoxBlue"
+},
+{
+"id": 35,
+"class": "ThievesBoxRed"
+},
+{
+"id": 32,
+"class": "ThievesBoxSilver"
+},
+{
+"id": 20,
+"class": "KeyThievesBoxBlack"
+},
+{
+"id": 15,
+"class": "KeyThievesBoxBlue"
+},
+{
+"id": 10,
+"class": "KeyThievesBoxRed"
+},
+{
+"id": 5,
+"class": "KeyThievesBoxSilver"
+}
+],
+"common/bosses/wanderingSoul": [
+{
+"id": 36,
+"class": "SoulAura"
+}
+],
+"common/chars/alien": [
+{
+"id": 739,
+"class": "ManiacAlienBat"
+},
+{
+"id": 730,
+"class": "ManiacAlienBoom"
+},
+{
+"id": 725,
+"class": "ManiacAlienBreath"
+},
+{
+"id": 724,
+"class": "ManiacAlienClap"
+},
+{
+"id": 718,
+"class": "ManiacAlienHammerHit"
+},
+{
+"id": 709,
+"class": "ManiacAlienHappy"
+},
+{
+"id": 706,
+"class": "ManiacAlienJetpack"
+},
+{
+"id": 705,
+"class": "ManiacAlienJetpackStay"
+},
+{
+"id": 704,
+"class": "ManiacAlienEndJump"
+},
+{
+"id": 703,
+"class": "ManiacAlienJump"
+},
+{
+"id": 702,
+"class": "ManiacAlienPrepareToJump"
+},
+{
+"id": 701,
+"class": "ManiacAlienJumpBack"
+},
+{
+"id": 700,
+"class": "ManiacAlienPiece"
+},
+{
+"id": 699,
+"class": "ManiacAlienRope"
+},
+{
+"id": 698,
+"class": "ManiacAlienSad"
+},
+{
+"id": 691,
+"class": "ManiacAlienStay"
+},
+{
+"id": 690,
+"class": "ManiacAlienStatic"
+},
+{
+"id": 689,
+"class": "ManiacAlienThinkCoffee"
+},
+{
+"id": 688,
+"class": "ManiacAlienThinkDeath"
+},
+{
+"id": 687,
+"class": "ManiacAlienThinkGrenade"
+},
+{
+"id": 686,
+"class": "ManiacAlienThinkPizza"
+},
+{
+"id": 668,
+"class": "ManiacAlienGo"
+},
+{
+"id": 667,
+"class": "ManiacAlienWave"
+},
+{
+"id": 652,
+"class": "ManiacAlienWink"
+},
+{
+"id": 614,
+"class": "ManiacAlienGiggle"
+},
+{
+"id": 589,
+"class": "ManiacAlienHandtrick"
+},
+{
+"id": 588,
+"class": "ManiacAlienImmune"
+},
+{
+"id": 583,
+"class": "ManiacAlienTreat"
+},
+{
+"id": 578,
+"class": "ManiacAlienZombieParody"
+},
+{
+"id": 568,
+"class": "ManiacAlienRoar"
+},
+{
+"id": 542,
+"class": "ForgedAlienBat"
+},
+{
+"id": 536,
+"class": "ForgedAlienBoom"
+},
+{
+"id": 531,
+"class": "ForgedAlienBreath"
+},
+{
+"id": 530,
+"class": "ForgedAlienClap"
+},
+{
+"id": 525,
+"class": "ForgedAlienHammerHit"
+},
+{
+"id": 516,
+"class": "ForgedAlienHappy"
+},
+{
+"id": 513,
+"class": "ForgedAlienJetpack"
+},
+{
+"id": 512,
+"class": "ForgedAlienJetpackStay"
+},
+{
+"id": 511,
+"class": "ForgedAlienEndJump"
+},
+{
+"id": 510,
+"class": "ForgedAlienJump"
+},
+{
+"id": 509,
+"class": "ForgedAlienPrepareToJump"
+},
+{
+"id": 508,
+"class": "ForgedAlienJumpBack"
+},
+{
+"id": 507,
+"class": "ForgedAlienPiece"
+},
+{
+"id": 506,
+"class": "ForgedAlienRope"
+},
+{
+"id": 505,
+"class": "ForgedAlienSad"
+},
+{
+"id": 498,
+"class": "ForgedAlienStay"
+},
+{
+"id": 497,
+"class": "ForgedAlienStatic"
+},
+{
+"id": 496,
+"class": "ForgedAlienThinkCoffee"
+},
+{
+"id": 495,
+"class": "ForgedAlienThinkDeath"
+},
+{
+"id": 494,
+"class": "ForgedAlienThinkGrenade"
+},
+{
+"id": 493,
+"class": "ForgedAlienThinkPizza"
+},
+{
+"id": 482,
+"class": "ForgedAlienGo"
+},
+{
+"id": 481,
+"class": "ForgedAlienWave"
+},
+{
+"id": 466,
+"class": "ForgedAlienWink"
+},
+{
+"id": 449,
+"class": "ForgedAlienGiggle"
+},
+{
+"id": 430,
+"class": "ForgedAlienHandtrick"
+},
+{
+"id": 429,
+"class": "ForgedAlienImmune"
+},
+{
+"id": 424,
+"class": "ForgedAlienTreat"
+},
+{
+"id": 420,
+"class": "ForgedAlienZombieParody"
+},
+{
+"id": 409,
+"class": "ForgedAlienRoar"
+},
+{
+"id": 381,
+"class": "ToadAlienBat"
+},
+{
+"id": 371,
+"class": "ToadAlienBoom"
+},
+{
+"id": 366,
+"class": "ToadAlienBreath"
+},
+{
+"id": 365,
+"class": "ToadAlienClap"
+},
+{
+"id": 361,
+"class": "ToadAlienHammerHit"
+},
+{
+"id": 353,
+"class": "ToadAlienHappy"
+},
+{
+"id": 350,
+"class": "ToadAlienJetpack"
+},
+{
+"id": 349,
+"class": "ToadAlienJetpackStay"
+},
+{
+"id": 348,
+"class": "ToadAlienEndJump"
+},
+{
+"id": 347,
+"class": "ToadAlienJump"
+},
+{
+"id": 346,
+"class": "ToadAlienPrepareToJump"
+},
+{
+"id": 345,
+"class": "ToadAlienJumpBack"
+},
+{
+"id": 344,
+"class": "ToadAlienPiece"
+},
+{
+"id": 343,
+"class": "ToadAlienRope"
+},
+{
+"id": 342,
+"class": "ToadAlienSad"
+},
+{
+"id": 335,
+"class": "ToadAlienStay"
+},
+{
+"id": 334,
+"class": "ToadAlienStatic"
+},
+{
+"id": 333,
+"class": "ToadAlienThinkCoffee"
+},
+{
+"id": 332,
+"class": "ToadAlienThinkDeath"
+},
+{
+"id": 331,
+"class": "ToadAlienThinkGrenade"
+},
+{
+"id": 330,
+"class": "ToadAlienThinkPizza"
+},
+{
+"id": 314,
+"class": "ToadAlienGo"
+},
+{
+"id": 313,
+"class": "ToadAlienWave"
+},
+{
+"id": 306,
+"class": "ToadAlienWink"
+},
+{
+"id": 294,
+"class": "ToadAlienGiggle"
+},
+{
+"id": 275,
+"class": "ToadAlienHandtrick"
+},
+{
+"id": 274,
+"class": "ToadAlienImmune"
+},
+{
+"id": 269,
+"class": "ToadAlienTreat"
+},
+{
+"id": 264,
+"class": "ToadAlienZombieParody"
+},
+{
+"id": 254,
+"class": "ToadAlienRoar"
+},
+{
+"id": 229,
+"class": "AlienBat"
+},
+{
+"id": 216,
+"class": "AlienBoom"
+},
+{
+"id": 211,
+"class": "AlienBreath"
+},
+{
+"id": 210,
+"class": "AlienClap"
+},
+{
+"id": 204,
+"class": "AlienHammerHit"
+},
+{
+"id": 188,
+"class": "AlienHappy"
+},
+{
+"id": 185,
+"class": "AlienJetpack"
+},
+{
+"id": 181,
+"class": "AlienJetpackStay"
+},
+{
+"id": 172,
+"class": "AlienEndJump"
+},
+{
+"id": 171,
+"class": "AlienJump"
+},
+{
+"id": 170,
+"class": "AlienPrepareToJump"
+},
+{
+"id": 169,
+"class": "AlienJumpBack"
+},
+{
+"id": 168,
+"class": "AlienPiece"
+},
+{
+"id": 167,
+"class": "AlienRope"
+},
+{
+"id": 165,
+"class": "AlienSad"
+},
+{
+"id": 158,
+"class": "AlienStay"
+},
+{
+"id": 157,
+"class": "AlienStatic"
+},
+{
+"id": 156,
+"class": "AlienThinkCoffee"
+},
+{
+"id": 152,
+"class": "AlienThinkDeath"
+},
+{
+"id": 148,
+"class": "AlienThinkGrenade"
+},
+{
+"id": 144,
+"class": "AlienThinkPizza"
+},
+{
+"id": 123,
+"class": "AlienGo"
+},
+{
+"id": 122,
+"class": "AlienWave"
+},
+{
+"id": 112,
+"class": "AlienWink"
+},
+{
+"id": 76,
+"class": "AlienGiggle"
+},
+{
+"id": 55,
+"class": "AlienHandtrick"
+},
+{
+"id": 54,
+"class": "AlienImmune"
+},
+{
+"id": 49,
+"class": "AlienTreat"
+},
+{
+"id": 44,
+"class": "AlienZombieParody"
+},
+{
+"id": 34,
+"class": "AlienRoar"
+}
+],
+"common/chars/boar": [
+{
+"id": 782,
+"class": "BurglarBoarBat"
+},
+{
+"id": 775,
+"class": "BurglarBoarBoom"
+},
+{
+"id": 772,
+"class": "BurglarBoarBreath"
+},
+{
+"id": 771,
+"class": "BurglarBoarClap"
+},
+{
+"id": 768,
+"class": "BurglarBoarHammerHit"
+},
+{
+"id": 757,
+"class": "BurglarBoarHappy"
+},
+{
+"id": 755,
+"class": "BurglarBoarJetpack"
+},
+{
+"id": 754,
+"class": "BurglarBoarJetpackStay"
+},
+{
+"id": 753,
+"class": "BurglarBoarJumpBack"
+},
+{
+"id": 752,
+"class": "BurglarBoarRope"
+},
+{
+"id": 751,
+"class": "BurglarBoarSad"
+},
+{
+"id": 740,
+"class": "BurglarBoarStay"
+},
+{
+"id": 737,
+"class": "BurglarBoarStatic"
+},
+{
+"id": 736,
+"class": "BurglarBoarThinkCoffee"
+},
+{
+"id": 735,
+"class": "BurglarBoarThinkDeath"
+},
+{
+"id": 734,
+"class": "BurglarBoarThinkGrenade"
+},
+{
+"id": 733,
+"class": "BurglarBoarThinkPizza"
+},
+{
+"id": 727,
+"class": "BurglarBoarGo"
+},
+{
+"id": 726,
+"class": "BurglarBoarWave"
+},
+{
+"id": 715,
+"class": "BurglarBoarWink"
+},
+{
+"id": 694,
+"class": "BurglarBoarEndJump"
+},
+{
+"id": 693,
+"class": "BurglarBoarJump"
+},
+{
+"id": 692,
+"class": "BurglarBoarPiece"
+},
+{
+"id": 691,
+"class": "BurglarBoarPrepareToJump"
+},
+{
+"id": 690,
+"class": "BurglarBoarDance"
+},
+{
+"id": 673,
+"class": "BurglarBoarFart1"
+},
+{
+"id": 658,
+"class": "BurglarBoarFart2"
+},
+{
+"id": 655,
+"class": "BurglarBoarRoar"
+},
+{
+"id": 623,
+"class": "HellBoarBat"
+},
+{
+"id": 616,
+"class": "HellBoarBoom"
+},
+{
+"id": 613,
+"class": "HellBoarBreath"
+},
+{
+"id": 612,
+"class": "HellBoarClap"
+},
+{
+"id": 608,
+"class": "HellBoarHammerHit"
+},
+{
+"id": 593,
+"class": "HellBoarHappy"
+},
+{
+"id": 590,
+"class": "HellBoarJetpack"
+},
+{
+"id": 589,
+"class": "HellBoarJetpackStay"
+},
+{
+"id": 588,
+"class": "HellBoarJumpBack"
+},
+{
+"id": 587,
+"class": "HellBoarRope"
+},
+{
+"id": 586,
+"class": "HellBoarSad"
+},
+{
+"id": 574,
+"class": "HellBoarStay"
+},
+{
+"id": 569,
+"class": "HellBoarStatic"
+},
+{
+"id": 568,
+"class": "HellBoarThinkCoffee"
+},
+{
+"id": 567,
+"class": "HellBoarThinkDeath"
+},
+{
+"id": 566,
+"class": "HellBoarThinkGrenade"
+},
+{
+"id": 565,
+"class": "HellBoarThinkPizza"
+},
+{
+"id": 551,
+"class": "HellBoarGo"
+},
+{
+"id": 550,
+"class": "HellBoarWave"
+},
+{
+"id": 533,
+"class": "HellBoarWink"
+},
+{
+"id": 507,
+"class": "HellBoarEndJump"
+},
+{
+"id": 506,
+"class": "HellBoarJump"
+},
+{
+"id": 505,
+"class": "HellBoarPiece"
+},
+{
+"id": 504,
+"class": "HellBoarPrepareToJump"
+},
+{
+"id": 503,
+"class": "HellBoarDance"
+},
+{
+"id": 480,
+"class": "HellBoarFart1"
+},
+{
+"id": 464,
+"class": "HellBoarFart2"
+},
+{
+"id": 461,
+"class": "HellBoarRoar"
+},
+{
+"id": 426,
+"class": "HulkBoarBat"
+},
+{
+"id": 419,
+"class": "HulkBoarBoom"
+},
+{
+"id": 416,
+"class": "HulkBoarBreath"
+},
+{
+"id": 415,
+"class": "HulkBoarClap"
+},
+{
+"id": 411,
+"class": "HulkBoarHammerHit"
+},
+{
+"id": 396,
+"class": "HulkBoarHappy"
+},
+{
+"id": 393,
+"class": "HulkBoarJetpack"
+},
+{
+"id": 392,
+"class": "HulkBoarJetpackStay"
+},
+{
+"id": 391,
+"class": "HulkBoarJumpBack"
+},
+{
+"id": 390,
+"class": "HulkBoarRope"
+},
+{
+"id": 389,
+"class": "HulkBoarSad"
+},
+{
+"id": 377,
+"class": "HulkBoarStay"
+},
+{
+"id": 369,
+"class": "HulkBoarStatic"
+},
+{
+"id": 368,
+"class": "HulkBoarThinkCoffee"
+},
+{
+"id": 367,
+"class": "HulkBoarThinkDeath"
+},
+{
+"id": 366,
+"class": "HulkBoarThinkGrenade"
+},
+{
+"id": 365,
+"class": "HulkBoarThinkPizza"
+},
+{
+"id": 354,
+"class": "HulkBoarGo"
+},
+{
+"id": 353,
+"class": "HulkBoarWave"
+},
+{
+"id": 338,
+"class": "HulkBoarWink"
+},
+{
+"id": 311,
+"class": "HulkBoarEndJump"
+},
+{
+"id": 310,
+"class": "HulkBoarJump"
+},
+{
+"id": 309,
+"class": "HulkBoarPiece"
+},
+{
+"id": 308,
+"class": "HulkBoarPrepareToJump"
+},
+{
+"id": 307,
+"class": "HulkBoarDance"
+},
+{
+"id": 286,
+"class": "HulkBoarFart1"
+},
+{
+"id": 268,
+"class": "HulkBoarFart2"
+},
+{
+"id": 265,
+"class": "HulkBoarRoar"
+},
+{
+"id": 232,
+"class": "BoarBat"
+},
+{
+"id": 221,
+"class": "BoarBoom"
+},
+{
+"id": 218,
+"class": "BoarBreath"
+},
+{
+"id": 217,
+"class": "BoarClap"
+},
+{
+"id": 213,
+"class": "BoarHammerHit"
+},
+{
+"id": 190,
+"class": "BoarHappy"
+},
+{
+"id": 187,
+"class": "BoarJetpack"
+},
+{
+"id": 183,
+"class": "BoarJetpackStay"
+},
+{
+"id": 174,
+"class": "BoarJumpBack"
+},
+{
+"id": 173,
+"class": "BoarRope"
+},
+{
+"id": 171,
+"class": "BoarSad"
+},
+{
+"id": 167,
+"class": "BoarStay"
+},
+{
+"id": 160,
+"class": "BoarStatic"
+},
+{
+"id": 159,
+"class": "BoarThinkCoffee"
+},
+{
+"id": 155,
+"class": "BoarThinkDeath"
+},
+{
+"id": 151,
+"class": "BoarThinkGrenade"
+},
+{
+"id": 147,
+"class": "BoarThinkPizza"
+},
+{
+"id": 120,
+"class": "BoarGo"
+},
+{
+"id": 119,
+"class": "BoarWave"
+},
+{
+"id": 113,
+"class": "BoarWink"
+},
+{
+"id": 93,
+"class": "BoarEndJump"
+},
+{
+"id": 92,
+"class": "BoarJump"
+},
+{
+"id": 91,
+"class": "BoarPiece"
+},
+{
+"id": 90,
+"class": "BoarPrepareToJump"
+},
+{
+"id": 89,
+"class": "BoarDance"
+},
+{
+"id": 68,
+"class": "BoarFart1"
+},
+{
+"id": 46,
+"class": "BoarFart2"
+},
+{
+"id": 39,
+"class": "BoarRoar"
+}
+],
+"common/chars/boxer": [
+{
+"id": 812,
+"class": "BoxerBat"
+},
+{
+"id": 808,
+"class": "BoxerBoom"
+},
+{
+"id": 802,
+"class": "BoxerBreath"
+},
+{
+"id": 801,
+"class": "BoxerClap"
+},
+{
+"id": 791,
+"class": "BoxerHammerHit"
+},
+{
+"id": 775,
+"class": "BoxerHappy"
+},
+{
+"id": 770,
+"class": "BoxerJetpack"
+},
+{
+"id": 769,
+"class": "BoxerJetpackStay"
+},
+{
+"id": 768,
+"class": "BoxerJumpBack"
+},
+{
+"id": 767,
+"class": "BoxerRope"
+},
+{
+"id": 766,
+"class": "BoxerSad"
+},
+{
+"id": 756,
+"class": "BoxerStay"
+},
+{
+"id": 755,
+"class": "BoxerStatic"
+},
+{
+"id": 754,
+"class": "BoxerThinkCoffee"
+},
+{
+"id": 753,
+"class": "BoxerThinkDeath"
+},
+{
+"id": 752,
+"class": "BoxerThinkGrenade"
+},
+{
+"id": 751,
+"class": "BoxerThinkPizza"
+},
+{
+"id": 749,
+"class": "BoxerGo"
+},
+{
+"id": 748,
+"class": "BoxerWave"
+},
+{
+"id": 741,
+"class": "BoxerWink"
+},
+{
+"id": 728,
+"class": "BoxerEndJump"
+},
+{
+"id": 727,
+"class": "BoxerJump"
+},
+{
+"id": 726,
+"class": "BoxerPiece"
+},
+{
+"id": 725,
+"class": "BoxerPrepareToJump"
+},
+{
+"id": 713,
+"class": "BoxerRoarLeader"
+},
+{
+"id": 702,
+"class": "BoxerRoar"
+},
+{
+"id": 677,
+"class": "SteelBoxerBat"
+},
+{
+"id": 668,
+"class": "SteelBoxerBoom"
+},
+{
+"id": 663,
+"class": "SteelBoxerBreath"
+},
+{
+"id": 662,
+"class": "SteelBoxerClap"
+},
+{
+"id": 655,
+"class": "SteelBoxerHammerHit"
+},
+{
+"id": 637,
+"class": "SteelBoxerHappy"
+},
+{
+"id": 632,
+"class": "SteelBoxerJetpack"
+},
+{
+"id": 631,
+"class": "SteelBoxerJetpackStay"
+},
+{
+"id": 630,
+"class": "SteelBoxerJumpBack"
+},
+{
+"id": 629,
+"class": "SteelBoxerRope"
+},
+{
+"id": 628,
+"class": "SteelBoxerSad"
+},
+{
+"id": 587,
+"class": "SteelBoxerStay"
+},
+{
+"id": 586,
+"class": "SteelBoxerStatic"
+},
+{
+"id": 585,
+"class": "SteelBoxerThinkCoffee"
+},
+{
+"id": 584,
+"class": "SteelBoxerThinkDeath"
+},
+{
+"id": 583,
+"class": "SteelBoxerThinkGrenade"
+},
+{
+"id": 582,
+"class": "SteelBoxerThinkPizza"
+},
+{
+"id": 568,
+"class": "SteelBoxerGo"
+},
+{
+"id": 567,
+"class": "SteelBoxerWave"
+},
+{
+"id": 553,
+"class": "SteelBoxerWink"
+},
+{
+"id": 526,
+"class": "SteelBoxerEndJump"
+},
+{
+"id": 525,
+"class": "SteelBoxerJump"
+},
+{
+"id": 524,
+"class": "SteelBoxerPiece"
+},
+{
+"id": 523,
+"class": "SteelBoxerPrepareToJump"
+},
+{
+"id": 506,
+"class": "SteelBoxerRoarLeader"
+},
+{
+"id": 497,
+"class": "SteelBoxerRoar"
+},
+{
+"id": 476,
+"class": "BerserkBoxerBat"
+},
+{
+"id": 468,
+"class": "BerserkBoxerBoom"
+},
+{
+"id": 463,
+"class": "BerserkBoxerBreath"
+},
+{
+"id": 462,
+"class": "BerserkBoxerClap"
+},
+{
+"id": 456,
+"class": "BerserkBoxerHammerHit"
+},
+{
+"id": 438,
+"class": "BerserkBoxerHappy"
+},
+{
+"id": 433,
+"class": "BerserkBoxerJetpack"
+},
+{
+"id": 432,
+"class": "BerserkBoxerJetpackStay"
+},
+{
+"id": 431,
+"class": "BerserkBoxerJumpBack"
+},
+{
+"id": 430,
+"class": "BerserkBoxerRope"
+},
+{
+"id": 429,
+"class": "BerserkBoxerSad"
+},
+{
+"id": 385,
+"class": "BerserkBoxerStay"
+},
+{
+"id": 384,
+"class": "BerserkBoxerStatic"
+},
+{
+"id": 383,
+"class": "BerserkBoxerThinkCoffee"
+},
+{
+"id": 382,
+"class": "BerserkBoxerThinkDeath"
+},
+{
+"id": 381,
+"class": "BerserkBoxerThinkGrenade"
+},
+{
+"id": 380,
+"class": "BerserkBoxerThinkPizza"
+},
+{
+"id": 365,
+"class": "BerserkBoxerGo"
+},
+{
+"id": 364,
+"class": "BerserkBoxerWave"
+},
+{
+"id": 350,
+"class": "BerserkBoxerWink"
+},
+{
+"id": 325,
+"class": "BerserkBoxerEndJump"
+},
+{
+"id": 324,
+"class": "BerserkBoxerJump"
+},
+{
+"id": 323,
+"class": "BerserkBoxerPiece"
+},
+{
+"id": 322,
+"class": "BerserkBoxerPrepareToJump"
+},
+{
+"id": 303,
+"class": "BerserkBoxerRoarLeader"
+},
+{
+"id": 286,
+"class": "BerserkBoxerRoar"
+},
+{
+"id": 259,
+"class": "DetectiveBoxerBat"
+},
+{
+"id": 243,
+"class": "DetectiveBoxerBoom"
+},
+{
+"id": 237,
+"class": "DetectiveBoxerBreath"
+},
+{
+"id": 236,
+"class": "DetectiveBoxerClap"
+},
+{
+"id": 226,
+"class": "DetectiveBoxerHammerHit"
+},
+{
+"id": 198,
+"class": "DetectiveBoxerHappy"
+},
+{
+"id": 193,
+"class": "DetectiveBoxerJetpack"
+},
+{
+"id": 189,
+"class": "DetectiveBoxerJetpackStay"
+},
+{
+"id": 178,
+"class": "DetectiveBoxerJumpBack"
+},
+{
+"id": 177,
+"class": "DetectiveBoxerRope"
+},
+{
+"id": 175,
+"class": "DetectiveBoxerSad"
+},
+{
+"id": 136,
+"class": "DetectiveBoxerStay"
+},
+{
+"id": 135,
+"class": "DetectiveBoxerStatic"
+},
+{
+"id": 134,
+"class": "DetectiveBoxerThinkCoffee"
+},
+{
+"id": 130,
+"class": "DetectiveBoxerThinkDeath"
+},
+{
+"id": 126,
+"class": "DetectiveBoxerThinkGrenade"
+},
+{
+"id": 122,
+"class": "DetectiveBoxerThinkPizza"
+},
+{
+"id": 93,
+"class": "DetectiveBoxerGo"
+},
+{
+"id": 92,
+"class": "DetectiveBoxerWave"
+},
+{
+"id": 77,
+"class": "DetectiveBoxerWink"
+},
+{
+"id": 57,
+"class": "DetectiveBoxerEndJump"
+},
+{
+"id": 56,
+"class": "DetectiveBoxerJump"
+},
+{
+"id": 55,
+"class": "DetectiveBoxerPiece"
+},
+{
+"id": 53,
+"class": "DetectiveBoxerPrepareToJump"
+},
+{
+"id": 39,
+"class": "DetectiveBoxerRoarLeader"
+},
+{
+"id": 36,
+"class": "DetectiveBoxerRoar"
+}
+],
+"common/chars/cat": [
+{
+"id": 706,
+"class": "FuzzyCatBat"
+},
+{
+"id": 699,
+"class": "FuzzyCatBoom"
+},
+{
+"id": 694,
+"class": "FuzzyCatBreath"
+},
+{
+"id": 693,
+"class": "FuzzyCatHammerHit"
+},
+{
+"id": 675,
+"class": "FuzzyCatHappy"
+},
+{
+"id": 670,
+"class": "FuzzyCatJetpack"
+},
+{
+"id": 669,
+"class": "FuzzyCatJetpackStay"
+},
+{
+"id": 668,
+"class": "FuzzyCatJumpBack"
+},
+{
+"id": 667,
+"class": "FuzzyCatRope"
+},
+{
+"id": 666,
+"class": "FuzzyCatSad"
+},
+{
+"id": 645,
+"class": "FuzzyCatStay"
+},
+{
+"id": 644,
+"class": "FuzzyCatStatic"
+},
+{
+"id": 643,
+"class": "FuzzyCatThinkCoffee"
+},
+{
+"id": 642,
+"class": "FuzzyCatThinkDeath"
+},
+{
+"id": 641,
+"class": "FuzzyCatThinkGrenade"
+},
+{
+"id": 640,
+"class": "FuzzyCatThinkPizza"
+},
+{
+"id": 635,
+"class": "FuzzyCatGo"
+},
+{
+"id": 634,
+"class": "FuzzyCatWave"
+},
+{
+"id": 632,
+"class": "FuzzyCatWink"
+},
+{
+"id": 617,
+"class": "FuzzyCatEndJump"
+},
+{
+"id": 616,
+"class": "FuzzyCatClap"
+},
+{
+"id": 615,
+"class": "FuzzyCatJump"
+},
+{
+"id": 614,
+"class": "FuzzyCatPrepareToJump"
+},
+{
+"id": 613,
+"class": "FuzzyCatClimbs"
+},
+{
+"id": 612,
+"class": "FuzzyCatFlying"
+},
+{
+"id": 573,
+"class": "FuzzyCatPiece"
+},
+{
+"id": 572,
+"class": "FuzzyCatRoar"
+},
+{
+"id": 550,
+"class": "WereCatBat"
+},
+{
+"id": 545,
+"class": "WereCatBoom"
+},
+{
+"id": 540,
+"class": "WereCatBreath"
+},
+{
+"id": 539,
+"class": "WereCatHammerHit"
+},
+{
+"id": 522,
+"class": "WereCatHappy"
+},
+{
+"id": 517,
+"class": "WereCatJetpack"
+},
+{
+"id": 516,
+"class": "WereCatJetpackStay"
+},
+{
+"id": 515,
+"class": "WereCatJumpBack"
+},
+{
+"id": 514,
+"class": "WereCatRope"
+},
+{
+"id": 513,
+"class": "WereCatSad"
+},
+{
+"id": 480,
+"class": "WereCatStay"
+},
+{
+"id": 479,
+"class": "WereCatStatic"
+},
+{
+"id": 478,
+"class": "WereCatThinkCoffee"
+},
+{
+"id": 477,
+"class": "WereCatThinkDeath"
+},
+{
+"id": 476,
+"class": "WereCatThinkGrenade"
+},
+{
+"id": 475,
+"class": "WereCatThinkPizza"
+},
+{
+"id": 470,
+"class": "WereCatGo"
+},
+{
+"id": 469,
+"class": "WereCatWave"
+},
+{
+"id": 467,
+"class": "WereCatWink"
+},
+{
+"id": 453,
+"class": "WereCatEndJump"
+},
+{
+"id": 452,
+"class": "WereCatClap"
+},
+{
+"id": 451,
+"class": "WereCatJump"
+},
+{
+"id": 450,
+"class": "WereCatPrepareToJump"
+},
+{
+"id": 449,
+"class": "WereCatClimbs"
+},
+{
+"id": 448,
+"class": "WereCatFlying"
+},
+{
+"id": 413,
+"class": "WereCatPiece"
+},
+{
+"id": 412,
+"class": "WereCatRoar"
+},
+{
+"id": 390,
+"class": "IceCatBat"
+},
+{
+"id": 383,
+"class": "IceCatBoom"
+},
+{
+"id": 378,
+"class": "IceCatBreath"
+},
+{
+"id": 377,
+"class": "IceCatHammerHit"
+},
+{
+"id": 360,
+"class": "IceCatHappy"
+},
+{
+"id": 355,
+"class": "IceCatJetpack"
+},
+{
+"id": 354,
+"class": "IceCatJetpackStay"
+},
+{
+"id": 353,
+"class": "IceCatJumpBack"
+},
+{
+"id": 352,
+"class": "IceCatRope"
+},
+{
+"id": 351,
+"class": "IceCatSad"
+},
+{
+"id": 318,
+"class": "IceCatStay"
+},
+{
+"id": 317,
+"class": "IceCatStatic"
+},
+{
+"id": 316,
+"class": "IceCatThinkCoffee"
+},
+{
+"id": 315,
+"class": "IceCatThinkDeath"
+},
+{
+"id": 314,
+"class": "IceCatThinkGrenade"
+},
+{
+"id": 313,
+"class": "IceCatThinkPizza"
+},
+{
+"id": 308,
+"class": "IceCatGo"
+},
+{
+"id": 307,
+"class": "IceCatWave"
+},
+{
+"id": 305,
+"class": "IceCatWink"
+},
+{
+"id": 289,
+"class": "IceCatEndJump"
+},
+{
+"id": 288,
+"class": "IceCatClap"
+},
+{
+"id": 287,
+"class": "IceCatJump"
+},
+{
+"id": 286,
+"class": "IceCatPrepareToJump"
+},
+{
+"id": 285,
+"class": "IceCatClimbs"
+},
+{
+"id": 284,
+"class": "IceCatFlying"
+},
+{
+"id": 250,
+"class": "IceCatPiece"
+},
+{
+"id": 249,
+"class": "IceCatRoar"
+},
+{
+"id": 227,
+"class": "CatBat"
+},
+{
+"id": 218,
+"class": "CatBoom"
+},
+{
+"id": 213,
+"class": "CatBreath"
+},
+{
+"id": 212,
+"class": "CatHammerHit"
+},
+{
+"id": 181,
+"class": "CatHappy"
+},
+{
+"id": 176,
+"class": "CatJetpack"
+},
+{
+"id": 172,
+"class": "CatJetpackStay"
+},
+{
+"id": 163,
+"class": "CatJumpBack"
+},
+{
+"id": 162,
+"class": "CatRope"
+},
+{
+"id": 160,
+"class": "CatSad"
+},
+{
+"id": 148,
+"class": "CatStay"
+},
+{
+"id": 147,
+"class": "CatStatic"
+},
+{
+"id": 146,
+"class": "CatThinkCoffee"
+},
+{
+"id": 142,
+"class": "CatThinkDeath"
+},
+{
+"id": 138,
+"class": "CatThinkGrenade"
+},
+{
+"id": 134,
+"class": "CatThinkPizza"
+},
+{
+"id": 112,
+"class": "CatGo"
+},
+{
+"id": 111,
+"class": "CatWave"
+},
+{
+"id": 107,
+"class": "CatWink"
+},
+{
+"id": 78,
+"class": "CatEndJump"
+},
+{
+"id": 77,
+"class": "CatClap"
+},
+{
+"id": 76,
+"class": "CatJump"
+},
+{
+"id": 75,
+"class": "CatPrepareToJump"
+},
+{
+"id": 74,
+"class": "CatClimbs"
+},
+{
+"id": 73,
+"class": "CatFlying"
+},
+{
+"id": 28,
+"class": "CatPiece"
+},
+{
+"id": 27,
+"class": "CatRoar"
+}
+],
+"common/chars/demon": [
+{
+"id": 571,
+"class": "BoiledDemonBat"
+},
+{
+"id": 562,
+"class": "BoiledDemonBoom"
+},
+{
+"id": 557,
+"class": "BoiledDemonBreath"
+},
+{
+"id": 556,
+"class": "BoiledDemonClap"
+},
+{
+"id": 548,
+"class": "BoiledDemonEndJump"
+},
+{
+"id": 547,
+"class": "BoiledDemonGo"
+},
+{
+"id": 546,
+"class": "BoiledDemonHammerHit"
+},
+{
+"id": 526,
+"class": "BoiledDemonHappy"
+},
+{
+"id": 522,
+"class": "BoiledDemonJetpack"
+},
+{
+"id": 521,
+"class": "BoiledDemonJetpackStay"
+},
+{
+"id": 520,
+"class": "BoiledDemonJump"
+},
+{
+"id": 519,
+"class": "BoiledDemonJumpBack"
+},
+{
+"id": 518,
+"class": "BoiledDemonPiece"
+},
+{
+"id": 517,
+"class": "BoiledDemonPrepareToJump"
+},
+{
+"id": 516,
+"class": "BoiledDemonRope"
+},
+{
+"id": 515,
+"class": "BoiledDemonSad"
+},
+{
+"id": 514,
+"class": "demon_fla.Boileddemon_mouth_poisoned_49"
+},
+{
+"id": 513,
+"class": "demon_fla.Boileddemon_eyes_poisoned_48"
+},
+{
+"id": 509,
+"class": "BoiledDemonStatic"
+},
+{
+"id": 508,
+"class": "BoiledDemonStay"
+},
+{
+"id": 502,
+"class": "BoiledDemonThinkCoffee"
+},
+{
+"id": 501,
+"class": "BoiledDemonThinkDeath"
+},
+{
+"id": 500,
+"class": "BoiledDemonThinkGrenade"
+},
+{
+"id": 499,
+"class": "BoiledDemonThinkPizza"
+},
+{
+"id": 479,
+"class": "BoiledDemonWave"
+},
+{
+"id": 460,
+"class": "BoiledDemonWink"
+},
+{
+"id": 435,
+"class": "BoiledDemonRoar"
+},
+{
+"id": 413,
+"class": "WillieDemonBat"
+},
+{
+"id": 405,
+"class": "WillieDemonBoom"
+},
+{
+"id": 401,
+"class": "WillieDemonBreath"
+},
+{
+"id": 400,
+"class": "WillieDemonClap"
+},
+{
+"id": 393,
+"class": "WillieDemonEndJump"
+},
+{
+"id": 392,
+"class": "WillieDemonGo"
+},
+{
+"id": 391,
+"class": "WillieDemonHammerHit"
+},
+{
+"id": 374,
+"class": "WillieDemonHappy"
+},
+{
+"id": 370,
+"class": "WillieDemonJetpack"
+},
+{
+"id": 369,
+"class": "WillieDemonJetpackStay"
+},
+{
+"id": 368,
+"class": "WillieDemonJump"
+},
+{
+"id": 367,
+"class": "WillieDemonJumpBack"
+},
+{
+"id": 366,
+"class": "WillieDemonPiece"
+},
+{
+"id": 365,
+"class": "WillieDemonPrepareToJump"
+},
+{
+"id": 364,
+"class": "WillieDemonRope"
+},
+{
+"id": 363,
+"class": "WillieDemonSad"
+},
+{
+"id": 362,
+"class": "demon_fla.demon_eyes_poisoned_110"
+},
+{
+"id": 360,
+"class": "demon_fla.demon_mouth_poisoned_109"
+},
+{
+"id": 357,
+"class": "WillieDemonStatic"
+},
+{
+"id": 356,
+"class": "WillieDemonStay"
+},
+{
+"id": 348,
+"class": "WillieDemonThinkCoffee"
+},
+{
+"id": 347,
+"class": "WillieDemonThinkDeath"
+},
+{
+"id": 346,
+"class": "WillieDemonThinkGrenade"
+},
+{
+"id": 345,
+"class": "WillieDemonThinkPizza"
+},
+{
+"id": 327,
+"class": "WillieDemonWave"
+},
+{
+"id": 309,
+"class": "WillieDemonWink"
+},
+{
+"id": 287,
+"class": "DemonRoar"
+},
+{
+"id": 283,
+"class": "HiderDemonRoar"
+},
+{
+"id": 280,
+"class": "WillieDemonRoar"
+},
+{
+"id": 258,
+"class": "HiderDemonBat"
+},
+{
+"id": 254,
+"class": "HiderDemonBoom"
+},
+{
+"id": 250,
+"class": "HiderDemonBreath"
+},
+{
+"id": 249,
+"class": "HiderDemonClap"
+},
+{
+"id": 244,
+"class": "HiderDemonEndJump"
+},
+{
+"id": 243,
+"class": "HiderDemonGo"
+},
+{
+"id": 242,
+"class": "HiderDemonHammerHit"
+},
+{
+"id": 229,
+"class": "HiderDemonHappy"
+},
+{
+"id": 225,
+"class": "HiderDemonJetpack"
+},
+{
+"id": 224,
+"class": "HiderDemonJetpackStay"
+},
+{
+"id": 223,
+"class": "HiderDemonJump"
+},
+{
+"id": 222,
+"class": "HiderDemonJumpBack"
+},
+{
+"id": 221,
+"class": "HiderDemonPiece"
+},
+{
+"id": 220,
+"class": "HiderDemonPrepareToJump"
+},
+{
+"id": 219,
+"class": "HiderDemonRope"
+},
+{
+"id": 218,
+"class": "HiderDemonSad"
+},
+{
+"id": 217,
+"class": "demon_fla.demon_eyes_poisoned_178"
+},
+{
+"id": 215,
+"class": "demon_fla.demon_mouth_poisoned_177"
+},
+{
+"id": 213,
+"class": "HiderDemonStatic"
+},
+{
+"id": 210,
+"class": "HiderDemonStay"
+},
+{
+"id": 206,
+"class": "HiderDemonThinkCoffee"
+},
+{
+"id": 205,
+"class": "HiderDemonThinkDeath"
+},
+{
+"id": 204,
+"class": "HiderDemonThinkGrenade"
+},
+{
+"id": 203,
+"class": "HiderDemonThinkPizza"
+},
+{
+"id": 195,
+"class": "HiderDemonWave"
+},
+{
+"id": 190,
+"class": "HiderDemonWink"
+},
+{
+"id": 156,
+"class": "DemonBat"
+},
+{
+"id": 148,
+"class": "DemonBoom"
+},
+{
+"id": 143,
+"class": "DemonBreath"
+},
+{
+"id": 142,
+"class": "DemonClap"
+},
+{
+"id": 135,
+"class": "DemonEndJump"
+},
+{
+"id": 134,
+"class": "DemonGo"
+},
+{
+"id": 133,
+"class": "DemonHammerHit"
+},
+{
+"id": 113,
+"class": "DemonHappy"
+},
+{
+"id": 108,
+"class": "DemonJetpack"
+},
+{
+"id": 104,
+"class": "DemonJetpackStay"
+},
+{
+"id": 95,
+"class": "DemonJump"
+},
+{
+"id": 94,
+"class": "DemonJumpBack"
+},
+{
+"id": 93,
+"class": "DemonPiece"
+},
+{
+"id": 92,
+"class": "DemonPrepareToJump"
+},
+{
+"id": 91,
+"class": "DemonRope"
+},
+{
+"id": 89,
+"class": "DemonSad"
+},
+{
+"id": 88,
+"class": "demon_fla.demon_eyes_poisoned_217"
+},
+{
+"id": 86,
+"class": "demon_fla.demon_mouth_poisoned_216"
+},
+{
+"id": 83,
+"class": "DemonStatic"
+},
+{
+"id": 81,
+"class": "DemonStay"
+},
+{
+"id": 79,
+"class": "DemonThinkCoffee"
+},
+{
+"id": 75,
+"class": "DemonThinkDeath"
+},
+{
+"id": 71,
+"class": "DemonThinkGrenade"
+},
+{
+"id": 67,
+"class": "DemonThinkPizza"
+},
+{
+"id": 39,
+"class": "DemonWave"
+},
+{
+"id": 37,
+"class": "DemonWink"
+}
+],
+"common/chars/dragon": [
+{
+"id": 762,
+"class": "BankerDragonFly"
+},
+{
+"id": 759,
+"class": "BankerDragonBat"
+},
+{
+"id": 751,
+"class": "BankerDragonBoom"
+},
+{
+"id": 746,
+"class": "BankerDragonBreath"
+},
+{
+"id": 745,
+"class": "BankerDragonClap"
+},
+{
+"id": 744,
+"class": "BankerDragonEndJump"
+},
+{
+"id": 743,
+"class": "BankerDragonGo"
+},
+{
+"id": 742,
+"class": "BankerDragonHammerHit"
+},
+{
+"id": 727,
+"class": "BankerDragonHappy"
+},
+{
+"id": 722,
+"class": "BankerDragonJetpack"
+},
+{
+"id": 721,
+"class": "BankerDragonJetpackStay"
+},
+{
+"id": 720,
+"class": "BankerDragonJump"
+},
+{
+"id": 719,
+"class": "BankerDragonJumpBack"
+},
+{
+"id": 718,
+"class": "BankerDragonPiece"
+},
+{
+"id": 717,
+"class": "BankerDragonPrepareToJump"
+},
+{
+"id": 716,
+"class": "BankerDragonRope"
+},
+{
+"id": 715,
+"class": "BankerDragonSad"
+},
+{
+"id": 685,
+"class": "BankerDragonStatic"
+},
+{
+"id": 684,
+"class": "BankerDragonStay"
+},
+{
+"id": 675,
+"class": "BankerDragonThinkCoffee"
+},
+{
+"id": 674,
+"class": "BankerDragonThinkDeath"
+},
+{
+"id": 673,
+"class": "BankerDragonThinkGrenade"
+},
+{
+"id": 672,
+"class": "BankerDragonThinkPizza"
+},
+{
+"id": 663,
+"class": "BankerDragonWave"
+},
+{
+"id": 659,
+"class": "BankerDragonWink"
+},
+{
+"id": 634,
+"class": "BankerDragonRoar"
+},
+{
+"id": 606,
+"class": "FieryDragonFly"
+},
+{
+"id": 603,
+"class": "FieryDragonBat"
+},
+{
+"id": 595,
+"class": "FieryDragonBoom"
+},
+{
+"id": 590,
+"class": "FieryDragonBreath"
+},
+{
+"id": 589,
+"class": "FieryDragonClap"
+},
+{
+"id": 588,
+"class": "FieryDragonEndJump"
+},
+{
+"id": 587,
+"class": "FieryDragonGo"
+},
+{
+"id": 586,
+"class": "FieryDragonHammerHit"
+},
+{
+"id": 579,
+"class": "FieryDragonHappy"
+},
+{
+"id": 574,
+"class": "FieryDragonJetpack"
+},
+{
+"id": 573,
+"class": "FieryDragonJetpackStay"
+},
+{
+"id": 572,
+"class": "FieryDragonJump"
+},
+{
+"id": 571,
+"class": "FieryDragonJumpBack"
+},
+{
+"id": 570,
+"class": "FieryDragonPiece"
+},
+{
+"id": 569,
+"class": "FieryDragonPrepareToJump"
+},
+{
+"id": 568,
+"class": "FieryDragonRope"
+},
+{
+"id": 567,
+"class": "FieryDragonSad"
+},
+{
+"id": 536,
+"class": "FieryDragonStatic"
+},
+{
+"id": 535,
+"class": "FieryDragonStay"
+},
+{
+"id": 527,
+"class": "FieryDragonThinkCoffee"
+},
+{
+"id": 526,
+"class": "FieryDragonThinkDeath"
+},
+{
+"id": 525,
+"class": "FieryDragonThinkGrenade"
+},
+{
+"id": 524,
+"class": "FieryDragonThinkPizza"
+},
+{
+"id": 506,
+"class": "FieryDragonWave"
+},
+{
+"id": 488,
+"class": "FieryDragonWink"
+},
+{
+"id": 459,
+"class": "FieryDragonRoar"
+},
+{
+"id": 432,
+"class": "NightDragonFly"
+},
+{
+"id": 429,
+"class": "NightDragonBat"
+},
+{
+"id": 421,
+"class": "NightDragonBoom"
+},
+{
+"id": 416,
+"class": "NightDragonBreath"
+},
+{
+"id": 415,
+"class": "NightDragonClap"
+},
+{
+"id": 414,
+"class": "NightDragonEndJump"
+},
+{
+"id": 413,
+"class": "NightDragonGo"
+},
+{
+"id": 412,
+"class": "NightDragonHammerHit"
+},
+{
+"id": 398,
+"class": "NightDragonHappy"
+},
+{
+"id": 393,
+"class": "NightDragonJetpack"
+},
+{
+"id": 392,
+"class": "NightDragonJetpackStay"
+},
+{
+"id": 391,
+"class": "NightDragonJump"
+},
+{
+"id": 390,
+"class": "NightDragonJumpBack"
+},
+{
+"id": 389,
+"class": "NightDragonPiece"
+},
+{
+"id": 388,
+"class": "NightDragonPrepareToJump"
+},
+{
+"id": 387,
+"class": "NightDragonRope"
+},
+{
+"id": 386,
+"class": "NightDragonSad"
+},
+{
+"id": 354,
+"class": "NightDragonStatic"
+},
+{
+"id": 351,
+"class": "NightDragonStay"
+},
+{
+"id": 343,
+"class": "NightDragonThinkCoffee"
+},
+{
+"id": 342,
+"class": "NightDragonThinkDeath"
+},
+{
+"id": 341,
+"class": "NightDragonThinkGrenade"
+},
+{
+"id": 340,
+"class": "NightDragonThinkPizza"
+},
+{
+"id": 322,
+"class": "NightDragonWave"
+},
+{
+"id": 305,
+"class": "NightDragonWink"
+},
+{
+"id": 276,
+"class": "NightDragonRoar"
+},
+{
+"id": 249,
+"class": "DragonFly"
+},
+{
+"id": 246,
+"class": "DragonBat"
+},
+{
+"id": 234,
+"class": "DragonBoom"
+},
+{
+"id": 229,
+"class": "DragonBreath"
+},
+{
+"id": 228,
+"class": "DragonClap"
+},
+{
+"id": 227,
+"class": "DragonEndJump"
+},
+{
+"id": 226,
+"class": "DragonGo"
+},
+{
+"id": 225,
+"class": "DragonHammerHit"
+},
+{
+"id": 203,
+"class": "DragonHappy"
+},
+{
+"id": 198,
+"class": "DragonJetpack"
+},
+{
+"id": 193,
+"class": "DragonJetpackStay"
+},
+{
+"id": 185,
+"class": "DragonJump"
+},
+{
+"id": 184,
+"class": "DragonJumpBack"
+},
+{
+"id": 183,
+"class": "DragonPiece"
+},
+{
+"id": 182,
+"class": "DragonPrepareToJump"
+},
+{
+"id": 181,
+"class": "DragonRope"
+},
+{
+"id": 179,
+"class": "DragonSad"
+},
+{
+"id": 172,
+"class": "DragonStatic"
+},
+{
+"id": 171,
+"class": "DragonStay"
+},
+{
+"id": 163,
+"class": "DragonThinkCoffee"
+},
+{
+"id": 159,
+"class": "DragonThinkDeath"
+},
+{
+"id": 155,
+"class": "DragonThinkGrenade"
+},
+{
+"id": 151,
+"class": "DragonThinkPizza"
+},
+{
+"id": 129,
+"class": "DragonWave"
+},
+{
+"id": 125,
+"class": "DragonWink"
+},
+{
+"id": 96,
+"class": "DragonRoar"
+},
+{
+"id": 65,
+"class": "DragonFireActiveMC"
+},
+{
+"id": 44,
+"class": "DragonFireInactiveMC"
+},
+{
+"id": 22,
+"class": "HealingFireActiveMC"
+}
+],
+"common/chars/rabbit": [
+{
+"id": 947,
+"class": "SingerRabbitBat"
+},
+{
+"id": 940,
+"class": "SingerRabbitBoom"
+},
+{
+"id": 935,
+"class": "SingerRabbitBreath"
+},
+{
+"id": 934,
+"class": "SingerRabbitClap"
+},
+{
+"id": 916,
+"class": "SingerRabbitEndJump"
+},
+{
+"id": 915,
+"class": "SingerRabbitGo"
+},
+{
+"id": 914,
+"class": "SingerRabbitHammerHit"
+},
+{
+"id": 894,
+"class": "SingerRabbitHappy"
+},
+{
+"id": 889,
+"class": "SingerRabbitJetpack"
+},
+{
+"id": 888,
+"class": "SingerRabbitJetpackStay"
+},
+{
+"id": 887,
+"class": "SingerRabbitJump"
+},
+{
+"id": 886,
+"class": "SingerRabbitJumpBack"
+},
+{
+"id": 885,
+"class": "SingerRabbitPiece"
+},
+{
+"id": 884,
+"class": "SingerRabbitPrepareToJump"
+},
+{
+"id": 883,
+"class": "SingerRabbitRope"
+},
+{
+"id": 882,
+"class": "SingerRabbitSad"
+},
+{
+"id": 881,
+"class": "rabbit_fla.Singerrabbit_eyes_poisoned_49"
+},
+{
+"id": 879,
+"class": "rabbit_fla.Singerrabbit_mouth_poisoned_48"
+},
+{
+"id": 876,
+"class": "SingerRabbitStatic"
+},
+{
+"id": 875,
+"class": "SingerRabbitStay"
+},
+{
+"id": 867,
+"class": "SingerRabbitThinkCoffee"
+},
+{
+"id": 866,
+"class": "SingerRabbitThinkDeath"
+},
+{
+"id": 865,
+"class": "SingerRabbitThinkGrenade"
+},
+{
+"id": 864,
+"class": "SingerRabbitThinkPizza"
+},
+{
+"id": 835,
+"class": "SingerRabbitWave"
+},
+{
+"id": 814,
+"class": "SingerRabbitWink"
+},
+{
+"id": 784,
+"class": "SingerRabbitCarrotEating"
+},
+{
+"id": 692,
+"class": "MurkRabbitBat"
+},
+{
+"id": 685,
+"class": "MurkRabbitBoom"
+},
+{
+"id": 680,
+"class": "MurkRabbitBreath"
+},
+{
+"id": 679,
+"class": "MurkRabbitClap"
+},
+{
+"id": 665,
+"class": "MurkRabbitEndJump"
+},
+{
+"id": 664,
+"class": "MurkRabbitGo"
+},
+{
+"id": 663,
+"class": "MurkRabbitHammerHit"
+},
+{
+"id": 644,
+"class": "MurkRabbitHappy"
+},
+{
+"id": 640,
+"class": "MurkRabbitJetpack"
+},
+{
+"id": 639,
+"class": "MurkRabbitJetpackStay"
+},
+{
+"id": 638,
+"class": "MurkRabbitJump"
+},
+{
+"id": 637,
+"class": "MurkRabbitJumpBack"
+},
+{
+"id": 636,
+"class": "MurkRabbitPiece"
+},
+{
+"id": 635,
+"class": "MurkRabbitPrepareToJump"
+},
+{
+"id": 634,
+"class": "MurkRabbitRope"
+},
+{
+"id": 633,
+"class": "MurkRabbitSad"
+},
+{
+"id": 632,
+"class": "rabbit_fla.murk_rabbit_eyes_poisoned_109"
+},
+{
+"id": 630,
+"class": "rabbit_fla.murk_rabbit_mouth_poisoned_108"
+},
+{
+"id": 628,
+"class": "MurkRabbitStatic"
+},
+{
+"id": 627,
+"class": "MurkRabbitStay"
+},
+{
+"id": 619,
+"class": "MurkRabbitThinkCoffee"
+},
+{
+"id": 618,
+"class": "MurkRabbitThinkDeath"
+},
+{
+"id": 617,
+"class": "MurkRabbitThinkGrenade"
+},
+{
+"id": 616,
+"class": "MurkRabbitThinkPizza"
+},
+{
+"id": 596,
+"class": "MurkRabbitWave"
+},
+{
+"id": 579,
+"class": "MurkRabbitWink"
+},
+{
+"id": 553,
+"class": "MurkRabbitCarrotEating"
+},
+{
+"id": 516,
+"class": "WildRabbitBat"
+},
+{
+"id": 509,
+"class": "WildRabbitBoom"
+},
+{
+"id": 504,
+"class": "WildRabbitBreath"
+},
+{
+"id": 503,
+"class": "WildRabbitClap"
+},
+{
+"id": 488,
+"class": "WildRabbitEndJump"
+},
+{
+"id": 487,
+"class": "WildRabbitGo"
+},
+{
+"id": 486,
+"class": "WildRabbitHammerHit"
+},
+{
+"id": 467,
+"class": "WildRabbitHappy"
+},
+{
+"id": 462,
+"class": "WildRabbitJetpack"
+},
+{
+"id": 461,
+"class": "WildRabbitJetpackStay"
+},
+{
+"id": 460,
+"class": "WildRabbitJump"
+},
+{
+"id": 459,
+"class": "WildRabbitJumpBack"
+},
+{
+"id": 458,
+"class": "WildRabbitPiece"
+},
+{
+"id": 457,
+"class": "WildRabbitPrepareToJump"
+},
+{
+"id": 456,
+"class": "WildRabbitRope"
+},
+{
+"id": 455,
+"class": "WildRabbitSad"
+},
+{
+"id": 454,
+"class": "rabbit_fla.wild_rabbit_eyes_poisoned_161"
+},
+{
+"id": 452,
+"class": "rabbit_fla.wild_rabbit_mouth_poisoned_160"
+},
+{
+"id": 449,
+"class": "WildRabbitStatic"
+},
+{
+"id": 448,
+"class": "WildRabbitStay"
+},
+{
+"id": 441,
+"class": "WildRabbitThinkCoffee"
+},
+{
+"id": 440,
+"class": "WildRabbitThinkDeath"
+},
+{
+"id": 439,
+"class": "WildRabbitThinkGrenade"
+},
+{
+"id": 438,
+"class": "WildRabbitThinkPizza"
+},
+{
+"id": 419,
+"class": "WildRabbitWave"
+},
+{
+"id": 402,
+"class": "WildRabbitWink"
+},
+{
+"id": 376,
+"class": "WildRabbitCarrotEating"
+},
+{
+"id": 326,
+"class": "RabbitBat"
+},
+{
+"id": 314,
+"class": "RabbitBoom"
+},
+{
+"id": 309,
+"class": "RabbitBreath"
+},
+{
+"id": 308,
+"class": "RabbitClap"
+},
+{
+"id": 298,
+"class": "RabbitEndJump"
+},
+{
+"id": 297,
+"class": "RabbitGo"
+},
+{
+"id": 296,
+"class": "RabbitHammerHit"
+},
+{
+"id": 270,
+"class": "RabbitHappy"
+},
+{
+"id": 265,
+"class": "RabbitJetpack"
+},
+{
+"id": 261,
+"class": "RabbitJetpackStay"
+},
+{
+"id": 252,
+"class": "RabbitJump"
+},
+{
+"id": 251,
+"class": "RabbitJumpBack"
+},
+{
+"id": 250,
+"class": "RabbitPiece"
+},
+{
+"id": 249,
+"class": "RabbitPrepareToJump"
+},
+{
+"id": 248,
+"class": "RabbitRope"
+},
+{
+"id": 246,
+"class": "RabbitSad"
+},
+{
+"id": 245,
+"class": "rabbit_fla.rabbit_eyes_poisoned_213"
+},
+{
+"id": 243,
+"class": "rabbit_fla.rabbit_mouth_poisoned_212"
+},
+{
+"id": 239,
+"class": "RabbitStatic"
+},
+{
+"id": 238,
+"class": "RabbitStay"
+},
+{
+"id": 231,
+"class": "RabbitThinkCoffee"
+},
+{
+"id": 227,
+"class": "RabbitThinkDeath"
+},
+{
+"id": 223,
+"class": "RabbitThinkGrenade"
+},
+{
+"id": 219,
+"class": "RabbitThinkPizza"
+},
+{
+"id": 190,
+"class": "RabbitWave"
+},
+{
+"id": 175,
+"class": "RabbitWink"
+},
+{
+"id": 150,
+"class": "RabbitCarrotEating"
+},
+{
+"id": 93,
+"class": "RabbitRoar"
+},
+{
+"id": 71,
+"class": "WildRabbitRoar"
+},
+{
+"id": 48,
+"class": "MurkRabbitRoar"
+},
+{
+"id": 26,
+"class": "SingerRabbitRoar"
+}
+],
+"common/chars/rhino": [
+{
+"id": 653,
+"class": "BladeRhinoBat"
+},
+{
+"id": 649,
+"class": "BladeRhinoBoom"
+},
+{
+"id": 642,
+"class": "BladeRhinoBreath"
+},
+{
+"id": 641,
+"class": "BladeRhinoClap"
+},
+{
+"id": 639,
+"class": "BladeRhinoHammerHit"
+},
+{
+"id": 632,
+"class": "BladeRhinoHappy"
+},
+{
+"id": 627,
+"class": "BladeRhinoJetpack"
+},
+{
+"id": 626,
+"class": "BladeRhinoJetpackStay"
+},
+{
+"id": 625,
+"class": "BladeRhinoJump"
+},
+{
+"id": 624,
+"class": "BladeRhinoJumpBack"
+},
+{
+"id": 623,
+"class": "BladeRhinoEndJump"
+},
+{
+"id": 622,
+"class": "BladeRhinoPrepareToJump"
+},
+{
+"id": 621,
+"class": "BladeRhinoPiece"
+},
+{
+"id": 620,
+"class": "BladeRhinoRope"
+},
+{
+"id": 619,
+"class": "BladeRhinoSad"
+},
+{
+"id": 600,
+"class": "BladeRhinoStay"
+},
+{
+"id": 598,
+"class": "BladeRhinoStatic"
+},
+{
+"id": 597,
+"class": "BladeRhinoThinkCoffee"
+},
+{
+"id": 596,
+"class": "BladeRhinoThinkDeath"
+},
+{
+"id": 595,
+"class": "BladeRhinoThinkGrenade"
+},
+{
+"id": 594,
+"class": "BladeRhinoThinkPizza"
+},
+{
+"id": 592,
+"class": "BladeRhinoGo"
+},
+{
+"id": 590,
+"class": "BladeRhinoWave"
+},
+{
+"id": 588,
+"class": "BladeRhinoWink"
+},
+{
+"id": 586,
+"class": "BladeRhinoEnrageDamageAnim"
+},
+{
+"id": 584,
+"class": "rhino_fla.rhino_DS_left_hand_colorswap_97"
+},
+{
+"id": 581,
+"class": "rhino_fla.rhino_DS_left_foot_colorswap_95"
+},
+{
+"id": 577,
+"class": "rhino_fla.rhino_DS_horn_colorswap_93"
+},
+{
+"id": 573,
+"class": "rhino_fla.rhino_DS_mouth_colorswap_92"
+},
+{
+"id": 564,
+"class": "rhino_fla.rhino_DS_eyes_colorswap_85"
+},
+{
+"id": 557,
+"class": "rhino_fla.rhino_DS_body_colorswap_83"
+},
+{
+"id": 553,
+"class": "rhino_fla.rhino_DS_right_hand_colorswap_81"
+},
+{
+"id": 549,
+"class": "rhino_fla.rhino_DS_tail_colorswap_79"
+},
+{
+"id": 547,
+"class": "rhino_fla.rhino_DS_right_foot_colorswap_77"
+},
+{
+"id": 543,
+"class": "GoonRhinoBat"
+},
+{
+"id": 538,
+"class": "GoonRhinoBoom"
+},
+{
+"id": 530,
+"class": "GoonRhinoBreath"
+},
+{
+"id": 529,
+"class": "GoonRhinoClap"
+},
+{
+"id": 527,
+"class": "GoonRhinoHammerHit"
+},
+{
+"id": 520,
+"class": "GoonRhinoHappy"
+},
+{
+"id": 515,
+"class": "GoonRhinoJetpack"
+},
+{
+"id": 514,
+"class": "GoonRhinoJetpackStay"
+},
+{
+"id": 513,
+"class": "GoonRhinoJump"
+},
+{
+"id": 512,
+"class": "GoonRhinoJumpBack"
+},
+{
+"id": 511,
+"class": "GoonRhinoEndJump"
+},
+{
+"id": 510,
+"class": "GoonRhinoPrepareToJump"
+},
+{
+"id": 509,
+"class": "GoonRhinoPiece"
+},
+{
+"id": 508,
+"class": "GoonRhinoRope"
+},
+{
+"id": 507,
+"class": "GoonRhinoSad"
+},
+{
+"id": 490,
+"class": "GoonRhinoStay"
+},
+{
+"id": 488,
+"class": "GoonRhinoStatic"
+},
+{
+"id": 487,
+"class": "GoonRhinoThinkCoffee"
+},
+{
+"id": 486,
+"class": "GoonRhinoThinkDeath"
+},
+{
+"id": 485,
+"class": "GoonRhinoThinkGrenade"
+},
+{
+"id": 484,
+"class": "GoonRhinoThinkPizza"
+},
+{
+"id": 479,
+"class": "GoonRhinoGo"
+},
+{
+"id": 474,
+"class": "GoonRhinoWave"
+},
+{
+"id": 469,
+"class": "GoonRhinoWink"
+},
+{
+"id": 464,
+"class": "GoonRhinoEnrageDamageAnim"
+},
+{
+"id": 462,
+"class": "rhino_fla.Goonrhino_DS_left_hand_colorswap_176"
+},
+{
+"id": 459,
+"class": "rhino_fla.Goonrhino_DS_left_foot_colorswap_174"
+},
+{
+"id": 455,
+"class": "rhino_fla.Goonrhino_DS_horn_colorswap_172"
+},
+{
+"id": 451,
+"class": "rhino_fla.Goonrhino_DS_mouth_colorswap_171"
+},
+{
+"id": 441,
+"class": "rhino_fla.Goonrhino_DS_eyes_colorswap_164"
+},
+{
+"id": 432,
+"class": "rhino_fla.Goonrhino_DS_body_colorswap_162"
+},
+{
+"id": 428,
+"class": "rhino_fla.Goonrhino_DS_right_hand_colorswap_160"
+},
+{
+"id": 424,
+"class": "rhino_fla.Goonrhino_DS_tail_colorswap_158"
+},
+{
+"id": 422,
+"class": "rhino_fla.Goonrhino_DS_right_foot_colorswap_156"
+},
+{
+"id": 418,
+"class": "RhinoBat"
+},
+{
+"id": 413,
+"class": "RhinoBoom"
+},
+{
+"id": 405,
+"class": "RhinoBreath"
+},
+{
+"id": 404,
+"class": "RhinoClap"
+},
+{
+"id": 402,
+"class": "RhinoHammerHit"
+},
+{
+"id": 395,
+"class": "RhinoHappy"
+},
+{
+"id": 390,
+"class": "RhinoJetpack"
+},
+{
+"id": 389,
+"class": "RhinoJetpackStay"
+},
+{
+"id": 388,
+"class": "RhinoJump"
+},
+{
+"id": 387,
+"class": "RhinoJumpBack"
+},
+{
+"id": 386,
+"class": "RhinoEndJump"
+},
+{
+"id": 385,
+"class": "RhinoPrepareToJump"
+},
+{
+"id": 384,
+"class": "RhinoPiece"
+},
+{
+"id": 383,
+"class": "RhinoRope"
+},
+{
+"id": 382,
+"class": "RhinoSad"
+},
+{
+"id": 378,
+"class": "RhinoStay"
+},
+{
+"id": 376,
+"class": "RhinoStatic"
+},
+{
+"id": 375,
+"class": "RhinoThinkCoffee"
+},
+{
+"id": 374,
+"class": "RhinoThinkDeath"
+},
+{
+"id": 373,
+"class": "RhinoThinkGrenade"
+},
+{
+"id": 372,
+"class": "RhinoThinkPizza"
+},
+{
+"id": 370,
+"class": "RhinoGo"
+},
+{
+"id": 369,
+"class": "RhinoWave"
+},
+{
+"id": 367,
+"class": "RhinoWink"
+},
+{
+"id": 364,
+"class": "RhinoEnrageDamageAnim"
+},
+{
+"id": 362,
+"class": "rhino_fla.rhino_DS_left_hand_colorswap_254"
+},
+{
+"id": 359,
+"class": "rhino_fla.rhino_DS_left_foot_colorswap_252"
+},
+{
+"id": 355,
+"class": "rhino_fla.rhino_DS_horn_colorswap_250"
+},
+{
+"id": 351,
+"class": "rhino_fla.rhino_DS_mouth_colorswap_249"
+},
+{
+"id": 343,
+"class": "rhino_fla.rhino_DS_eyes_colorswap_242"
+},
+{
+"id": 334,
+"class": "rhino_fla.rhino_DS_body_colorswap_240"
+},
+{
+"id": 330,
+"class": "rhino_fla.rhino_DS_right_hand_colorswap_238"
+},
+{
+"id": 326,
+"class": "rhino_fla.rhino_DS_tail_colorswap_236"
+},
+{
+"id": 323,
+"class": "rhino_fla.rhino_DS_right_foot_colorswap_234"
+},
+{
+"id": 319,
+"class": "RhinoRoar"
+},
+{
+"id": 291,
+"class": "GoonRhinoRoar"
+},
+{
+"id": 261,
+"class": "BladeRhinoRoar"
+},
+{
+"id": 228,
+"class": "FugitiveRhinoRoar"
+},
+{
+"id": 224,
+"class": "FugitiveRhinoBat"
+},
+{
+"id": 214,
+"class": "FugitiveRhinoBoom"
+},
+{
+"id": 205,
+"class": "FugitiveRhinoBreath"
+},
+{
+"id": 204,
+"class": "FugitiveRhinoClap"
+},
+{
+"id": 202,
+"class": "FugitiveRhinoHammerHit"
+},
+{
+"id": 187,
+"class": "FugitiveRhinoHappy"
+},
+{
+"id": 182,
+"class": "FugitiveRhinoJetpack"
+},
+{
+"id": 178,
+"class": "FugitiveRhinoJetpackStay"
+},
+{
+"id": 170,
+"class": "FugitiveRhinoJump"
+},
+{
+"id": 169,
+"class": "FugitiveRhinoJumpBack"
+},
+{
+"id": 168,
+"class": "FugitiveRhinoEndJump"
+},
+{
+"id": 167,
+"class": "FugitiveRhinoPrepareToJump"
+},
+{
+"id": 166,
+"class": "FugitiveRhinoPiece"
+},
+{
+"id": 165,
+"class": "FugitiveRhinoRope"
+},
+{
+"id": 163,
+"class": "FugitiveRhinoSad"
+},
+{
+"id": 144,
+"class": "FugitiveRhinoStay"
+},
+{
+"id": 141,
+"class": "FugitiveRhinoStatic"
+},
+{
+"id": 139,
+"class": "FugitiveRhinoThinkCoffee"
+},
+{
+"id": 135,
+"class": "FugitiveRhinoThinkDeath"
+},
+{
+"id": 131,
+"class": "FugitiveRhinoThinkGrenade"
+},
+{
+"id": 127,
+"class": "FugitiveRhinoThinkPizza"
+},
+{
+"id": 107,
+"class": "FugitiveRhinoGo"
+},
+{
+"id": 101,
+"class": "FugitiveRhinoWave"
+},
+{
+"id": 95,
+"class": "FugitiveRhinoWink"
+},
+{
+"id": 64,
+"class": "FugitiveRhinoEnrageDamageAnim"
+},
+{
+"id": 61,
+"class": "rhino_fla.Fugitiverhino_DS_left_hand_colorswap_346"
+},
+{
+"id": 56,
+"class": "rhino_fla.Fugitiverhino_DS_left_foot_colorswap_345"
+},
+{
+"id": 52,
+"class": "rhino_fla.Fugitiverhino_DS_horn_colorswap_343"
+},
+{
+"id": 48,
+"class": "rhino_fla.Fugitiverhino_DS_mouth_colorswap_341"
+},
+{
+"id": 31,
+"class": "rhino_fla.Fugitiverhino_DS_eyes_colorswap_334"
+},
+{
+"id": 16,
+"class": "rhino_fla.Fugitiverhino_DS_body_colorswap_332"
+},
+{
+"id": 12,
+"class": "rhino_fla.Fugitiverhino_DS_right_hand_colorswap_330"
+},
+{
+"id": 8,
+"class": "rhino_fla.Fugitiverhino_DS_tail_colorswap_328"
+},
+{
+"id": 4,
+"class": "rhino_fla.Fugitiverhino_DS_right_foot_colorswap_326"
+}
+],
+"common/chars/robot": [
+{
+"id": 781,
+"class": "CopBotBat"
+},
+{
+"id": 776,
+"class": "CopBotBoom"
+},
+{
+"id": 771,
+"class": "CopBotBreath"
+},
+{
+"id": 770,
+"class": "CopBotClap"
+},
+{
+"id": 769,
+"class": "CopBotHammerHit"
+},
+{
+"id": 763,
+"class": "CopBotHappy"
+},
+{
+"id": 758,
+"class": "CopBotJetpack"
+},
+{
+"id": 757,
+"class": "CopBotJetpackStay"
+},
+{
+"id": 756,
+"class": "CopBotJumpBack"
+},
+{
+"id": 755,
+"class": "CopBotRope"
+},
+{
+"id": 753,
+"class": "CopBotSad"
+},
+{
+"id": 739,
+"class": "CopBotStay"
+},
+{
+"id": 738,
+"class": "CopBotStatic"
+},
+{
+"id": 737,
+"class": "CopBotThinkCoffee"
+},
+{
+"id": 736,
+"class": "CopBotThinkDeath"
+},
+{
+"id": 735,
+"class": "CopBotThinkGrenade"
+},
+{
+"id": 734,
+"class": "CopBotThinkPizza"
+},
+{
+"id": 724,
+"class": "CopBotGo"
+},
+{
+"id": 723,
+"class": "CopBotWave"
+},
+{
+"id": 714,
+"class": "CopBotWink"
+},
+{
+"id": 696,
+"class": "CopBotEndJump"
+},
+{
+"id": 695,
+"class": "CopBotJump"
+},
+{
+"id": 694,
+"class": "CopBotPiece"
+},
+{
+"id": 693,
+"class": "CopBotPrepareToJump"
+},
+{
+"id": 690,
+"class": "CopBotElectrified"
+},
+{
+"id": 670,
+"class": "CopDroneAiming"
+},
+{
+"id": 667,
+"class": "CopDroneActive"
+},
+{
+"id": 666,
+"class": "CopDroneDeactivate"
+},
+{
+"id": 658,
+"class": "CopBotRoar"
+},
+{
+"id": 634,
+"class": "DozerBotBat"
+},
+{
+"id": 630,
+"class": "DozerBotBoom"
+},
+{
+"id": 624,
+"class": "DozerBotBreath"
+},
+{
+"id": 623,
+"class": "DozerBotClap"
+},
+{
+"id": 622,
+"class": "DozerBotHammerHit"
+},
+{
+"id": 618,
+"class": "DozerBotHappy"
+},
+{
+"id": 613,
+"class": "DozerBotJetpack"
+},
+{
+"id": 612,
+"class": "DozerBotJetpackStay"
+},
+{
+"id": 611,
+"class": "DozerBotJumpBack"
+},
+{
+"id": 610,
+"class": "DozerBotRope"
+},
+{
+"id": 609,
+"class": "DozerBotSad"
+},
+{
+"id": 585,
+"class": "DozerBotStay"
+},
+{
+"id": 584,
+"class": "DozerBotStatic"
+},
+{
+"id": 583,
+"class": "DozerBotThinkCoffee"
+},
+{
+"id": 582,
+"class": "DozerBotThinkDeath"
+},
+{
+"id": 581,
+"class": "DozerBotThinkGrenade"
+},
+{
+"id": 580,
+"class": "DozerBotThinkPizza"
+},
+{
+"id": 567,
+"class": "DozerBotGo"
+},
+{
+"id": 566,
+"class": "DozerBotWave"
+},
+{
+"id": 554,
+"class": "DozerBotWink"
+},
+{
+"id": 535,
+"class": "DozerBotEndJump"
+},
+{
+"id": 534,
+"class": "DozerBotJump"
+},
+{
+"id": 533,
+"class": "DozerBotPiece"
+},
+{
+"id": 532,
+"class": "DozerBotPrepareToJump"
+},
+{
+"id": 530,
+"class": "DozerBotElectrified"
+},
+{
+"id": 507,
+"class": "DozerDroneAiming"
+},
+{
+"id": 504,
+"class": "DozerDroneActive"
+},
+{
+"id": 503,
+"class": "DozerDroneDeactivate"
+},
+{
+"id": 494,
+"class": "DozerBotRoar"
+},
+{
+"id": 468,
+"class": "CutterBotBat"
+},
+{
+"id": 463,
+"class": "CutterBotBoom"
+},
+{
+"id": 457,
+"class": "CutterBotBreath"
+},
+{
+"id": 456,
+"class": "CutterBotClap"
+},
+{
+"id": 455,
+"class": "CutterBotHammerHit"
+},
+{
+"id": 446,
+"class": "CutterBotHappy"
+},
+{
+"id": 441,
+"class": "CutterBotJetpack"
+},
+{
+"id": 440,
+"class": "CutterBotJetpackStay"
+},
+{
+"id": 439,
+"class": "CutterBotJumpBack"
+},
+{
+"id": 438,
+"class": "CutterBotRope"
+},
+{
+"id": 437,
+"class": "CutterBotSad"
+},
+{
+"id": 423,
+"class": "CutterBotStay"
+},
+{
+"id": 422,
+"class": "CutterBotStatic"
+},
+{
+"id": 421,
+"class": "CutterBotThinkCoffee"
+},
+{
+"id": 420,
+"class": "CutterBotThinkDeath"
+},
+{
+"id": 419,
+"class": "CutterBotThinkGrenade"
+},
+{
+"id": 418,
+"class": "CutterBotThinkPizza"
+},
+{
+"id": 402,
+"class": "CutterBotGo"
+},
+{
+"id": 401,
+"class": "CutterBotWave"
+},
+{
+"id": 391,
+"class": "CutterBotWink"
+},
+{
+"id": 371,
+"class": "CutterBotEndJump"
+},
+{
+"id": 370,
+"class": "CutterBotJump"
+},
+{
+"id": 369,
+"class": "CutterBotPiece"
+},
+{
+"id": 368,
+"class": "CutterBotPrepareToJump"
+},
+{
+"id": 365,
+"class": "CutterBotElectrified"
+},
+{
+"id": 336,
+"class": "CutterDroneAiming"
+},
+{
+"id": 333,
+"class": "CutterDroneActive"
+},
+{
+"id": 332,
+"class": "CutterDroneDeactivate"
+},
+{
+"id": 322,
+"class": "CutterBotRoar"
+},
+{
+"id": 294,
+"class": "BotBat"
+},
+{
+"id": 277,
+"class": "BotBoom"
+},
+{
+"id": 272,
+"class": "BotBreath"
+},
+{
+"id": 271,
+"class": "BotClap"
+},
+{
+"id": 270,
+"class": "BotHammerHit"
+},
+{
+"id": 256,
+"class": "BotHappy"
+},
+{
+"id": 251,
+"class": "BotJetpack"
+},
+{
+"id": 247,
+"class": "BotJetpackStay"
+},
+{
+"id": 238,
+"class": "BotJumpBack"
+},
+{
+"id": 237,
+"class": "BotRope"
+},
+{
+"id": 234,
+"class": "BotSad"
+},
+{
+"id": 229,
+"class": "BotStay"
+},
+{
+"id": 228,
+"class": "BotStatic"
+},
+{
+"id": 227,
+"class": "BotThinkCoffee"
+},
+{
+"id": 223,
+"class": "BotThinkDeath"
+},
+{
+"id": 219,
+"class": "BotThinkGrenade"
+},
+{
+"id": 215,
+"class": "BotThinkPizza"
+},
+{
+"id": 183,
+"class": "BotGo"
+},
+{
+"id": 182,
+"class": "BotWave"
+},
+{
+"id": 170,
+"class": "BotWink"
+},
+{
+"id": 150,
+"class": "BotEndJump"
+},
+{
+"id": 149,
+"class": "BotJump"
+},
+{
+"id": 148,
+"class": "BotPiece"
+},
+{
+"id": 147,
+"class": "BotPrepareToJump"
+},
+{
+"id": 145,
+"class": "BotElectrified"
+},
+{
+"id": 92,
+"class": "DroneAiming"
+},
+{
+"id": 77,
+"class": "DroneActive"
+},
+{
+"id": 59,
+"class": "DroneDeactivate"
+},
+{
+"id": 31,
+"class": "BotRoar"
+}
+],
+"common/chars/zombie": [
+{
+"id": 620,
+"class": "AshZombieBat"
+},
+{
+"id": 614,
+"class": "AshZombieBoom"
+},
+{
+"id": 609,
+"class": "AshZombieBreath"
+},
+{
+"id": 608,
+"class": "AshZombieHammerHit"
+},
+{
+"id": 590,
+"class": "AshZombieHappy"
+},
+{
+"id": 585,
+"class": "AshZombieJetpack"
+},
+{
+"id": 584,
+"class": "AshZombieJetpackStay"
+},
+{
+"id": 583,
+"class": "AshZombieJumpBack"
+},
+{
+"id": 582,
+"class": "AshZombieRope"
+},
+{
+"id": 581,
+"class": "AshZombieStay"
+},
+{
+"id": 580,
+"class": "AshZombieStatic"
+},
+{
+"id": 579,
+"class": "AshZombieThinkCoffee"
+},
+{
+"id": 578,
+"class": "AshZombieThinkDeath"
+},
+{
+"id": 577,
+"class": "AshZombieThinkGrenade"
+},
+{
+"id": 576,
+"class": "AshZombieThinkPizza"
+},
+{
+"id": 567,
+"class": "AshZombieGo"
+},
+{
+"id": 566,
+"class": "AshZombieWave"
+},
+{
+"id": 558,
+"class": "AshZombieWink"
+},
+{
+"id": 553,
+"class": "AshZombieClap"
+},
+{
+"id": 538,
+"class": "AshZombieEndJump"
+},
+{
+"id": 537,
+"class": "AshZombieJump"
+},
+{
+"id": 536,
+"class": "AshZombiePiece"
+},
+{
+"id": 535,
+"class": "AshZombiePrepareToJump"
+},
+{
+"id": 534,
+"class": "AshZombieSad"
+},
+{
+"id": 533,
+"class": "zombie_fla.ash_zombie_eyes_poisoned_68"
+},
+{
+"id": 531,
+"class": "zombie_fla.ash_zombie_mouth_poisoned_67"
+},
+{
+"id": 527,
+"class": "AshZombieUngraving"
+},
+{
+"id": 509,
+"class": "RotZombieBat"
+},
+{
+"id": 504,
+"class": "RotZombieBoom"
+},
+{
+"id": 499,
+"class": "RotZombieBreath"
+},
+{
+"id": 498,
+"class": "RotZombieHammerHit"
+},
+{
+"id": 480,
+"class": "RotZombieHappy"
+},
+{
+"id": 475,
+"class": "RotZombieJetpack"
+},
+{
+"id": 474,
+"class": "RotZombieJetpackStay"
+},
+{
+"id": 473,
+"class": "RotZombieJumpBack"
+},
+{
+"id": 472,
+"class": "RotZombieRope"
+},
+{
+"id": 471,
+"class": "RotZombieStay"
+},
+{
+"id": 470,
+"class": "RotZombieStatic"
+},
+{
+"id": 469,
+"class": "RotZombieThinkCoffee"
+},
+{
+"id": 468,
+"class": "RotZombieThinkDeath"
+},
+{
+"id": 467,
+"class": "RotZombieThinkGrenade"
+},
+{
+"id": 466,
+"class": "RotZombieThinkPizza"
+},
+{
+"id": 444,
+"class": "RotZombieGo"
+},
+{
+"id": 443,
+"class": "RotZombieWave"
+},
+{
+"id": 431,
+"class": "RotZombieWink"
+},
+{
+"id": 411,
+"class": "RotZombieClap"
+},
+{
+"id": 395,
+"class": "RotZombieEndJump"
+},
+{
+"id": 394,
+"class": "RotZombieJump"
+},
+{
+"id": 393,
+"class": "RotZombiePiece"
+},
+{
+"id": 392,
+"class": "RotZombiePrepareToJump"
+},
+{
+"id": 391,
+"class": "RotZombieSad"
+},
+{
+"id": 390,
+"class": "zombie_fla.rot_zombie_eyes_poisoned_123"
+},
+{
+"id": 388,
+"class": "zombie_fla.rot_zombie_mouth_poisoned_122"
+},
+{
+"id": 384,
+"class": "RotZombieUngraving"
+},
+{
+"id": 367,
+"class": "ZombieBat"
+},
+{
+"id": 360,
+"class": "ZombieBoom"
+},
+{
+"id": 355,
+"class": "ZombieBreath"
+},
+{
+"id": 354,
+"class": "ZombieHammerHit"
+},
+{
+"id": 335,
+"class": "ZombieHappy"
+},
+{
+"id": 330,
+"class": "ZombieJetpack"
+},
+{
+"id": 329,
+"class": "ZombieJetpackStay"
+},
+{
+"id": 328,
+"class": "ZombieJumpBack"
+},
+{
+"id": 327,
+"class": "ZombieRope"
+},
+{
+"id": 326,
+"class": "ZombieStay"
+},
+{
+"id": 325,
+"class": "ZombieStatic"
+},
+{
+"id": 324,
+"class": "ZombieThinkCoffee"
+},
+{
+"id": 323,
+"class": "ZombieThinkDeath"
+},
+{
+"id": 322,
+"class": "ZombieThinkGrenade"
+},
+{
+"id": 321,
+"class": "ZombieThinkPizza"
+},
+{
+"id": 311,
+"class": "ZombieGo"
+},
+{
+"id": 310,
+"class": "ZombieWave"
+},
+{
+"id": 300,
+"class": "ZombieWink"
+},
+{
+"id": 296,
+"class": "ZombieClap"
+},
+{
+"id": 281,
+"class": "ZombieEndJump"
+},
+{
+"id": 280,
+"class": "ZombieJump"
+},
+{
+"id": 279,
+"class": "ZombiePiece"
+},
+{
+"id": 278,
+"class": "ZombiePrepareToJump"
+},
+{
+"id": 277,
+"class": "ZombieSad"
+},
+{
+"id": 276,
+"class": "zombie_fla.zombie_eyes_poisoned_178"
+},
+{
+"id": 274,
+"class": "zombie_fla.zombie_mouth_poisoned_177"
+},
+{
+"id": 270,
+"class": "ZombieUngraving"
+},
+{
+"id": 253,
+"class": "TalkativeZombieBat"
+},
+{
+"id": 245,
+"class": "TalkativeZombieBoom"
+},
+{
+"id": 240,
+"class": "TalkativeZombieBreath"
+},
+{
+"id": 239,
+"class": "TalkativeZombieHammerHit"
+},
+{
+"id": 229,
+"class": "TalkativeZombieHappy"
+},
+{
+"id": 224,
+"class": "TalkativeZombieJetpack"
+},
+{
+"id": 220,
+"class": "TalkativeZombieJetpackStay"
+},
+{
+"id": 211,
+"class": "TalkativeZombieJumpBack"
+},
+{
+"id": 210,
+"class": "TalkativeZombieRope"
+},
+{
+"id": 208,
+"class": "TalkativeZombieStay"
+},
+{
+"id": 207,
+"class": "TalkativeZombieStatic"
+},
+{
+"id": 206,
+"class": "TalkativeZombieThinkCoffee"
+},
+{
+"id": 202,
+"class": "TalkativeZombieThinkDeath"
+},
+{
+"id": 198,
+"class": "TalkativeZombieThinkGrenade"
+},
+{
+"id": 195,
+"class": "TalkativeZombieThinkPizza"
+},
+{
+"id": 162,
+"class": "TalkativeZombieGo"
+},
+{
+"id": 161,
+"class": "TalkativeZombieWave"
+},
+{
+"id": 158,
+"class": "TalkativeZombieWink"
+},
+{
+"id": 144,
+"class": "TalkativeZombieClap"
+},
+{
+"id": 129,
+"class": "TalkativeZombieEndJump"
+},
+{
+"id": 128,
+"class": "TalkativeZombieJump"
+},
+{
+"id": 127,
+"class": "TalkativeZombiePiece"
+},
+{
+"id": 126,
+"class": "TalkativeZombiePrepareToJump"
+},
+{
+"id": 125,
+"class": "TalkativeZombieSad"
+},
+{
+"id": 123,
+"class": "zombie_fla.Talkativezombie_eyes_poisoned_233"
+},
+{
+"id": 121,
+"class": "zombie_fla.Talkativezombie_mouth_poisoned_232"
+},
+{
+"id": 117,
+"class": "TalkativeZombieUngraving"
+},
+{
+"id": 100,
+"class": "ZombieRoar"
+},
+{
+"id": 78,
+"class": "RotZombieRoar"
+},
+{
+"id": 57,
+"class": "AshZombieRoar"
+},
+{
+"id": 36,
+"class": "TalkativeZombieRoar"
+}
+],
+"common/general/arena": [
+{
+"id": 1757,
+"class": "PvpChestBox"
+},
+{
+"id": 1756,
+"class": "arena_fla.ChestOpenAnimation_3"
+},
+{
+"id": 1721,
+"class": "ArenaMenu"
+},
+{
+"id": 1691,
+"class": "arena_fla.chest_opening_541"
+},
+{
+"id": 542,
+"class": "GladiatorAwardItem"
+},
+{
+"id": 522,
+"class": "ActionQuestMenu"
+},
+{
+"id": 451,
+"class": "QuestGiftItem"
+},
+{
+"id": 450,
+"class": "arena_fla.NYpresent_colors_603"
+},
+{
+"id": 440,
+"class": "arena_fla.boxer_stand_599"
+},
+{
+"id": 412,
+"class": "RopeRaceGiftMenu"
+},
+{
+"id": 383,
+"class": "RopeRaceMenu"
+},
+{
+"id": 366,
+"class": "IconRope"
+},
+{
+"id": 302,
+"class": "ScreamHatBoxer"
+},
+{
+"id": 300,
+"class": "MercsQuestMenu"
+},
+{
+"id": 173,
+"class": "MercsQuestBuildTeamMenu"
+},
+{
+"id": 126,
+"class": "MercsQuestGiftMenu"
+},
+{
+"id": 48,
+"class": "TutorialCard"
+}
+],
+"common/general/mainMenu-mafia": [
+{
+"id": 280,
+"class": "MainMenuScena"
+},
+{
+"id": 222,
+"class": "mainMenu_fla.shop_all_52"
+},
+{
+"id": 221,
+"class": "mainMenu_fla.shop_light_work_53"
+},
+{
+"id": 205,
+"class": "mainMenu_fla.player_house_all_43"
+},
+{
+"id": 204,
+"class": "mainMenu_fla.player_house_light_work_44"
+},
+{
+"id": 188,
+"class": "mainMenu_fla.arena_allcopy_29"
+},
+{
+"id": 187,
+"class": "mainMenu_fla.arena_light_workcopy_30"
+},
+{
+"id": 98,
+"class": "UserInfo"
+}
+],
+"common/general/mainMenu-space": [
+{
+"id": 181,
+"class": "MainMenuScena"
+},
+{
+"id": 179,
+"class": "mainMenu_fla.arena_all_42"
+},
+{
+"id": 178,
+"class": "mainMenu_fla.arena_light_work_43"
+},
+{
+"id": 159,
+"class": "mainMenu_fla.player_house_all_34"
+},
+{
+"id": 158,
+"class": "mainMenu_fla.player_house_light_work_35"
+},
+{
+"id": 146,
+"class": "mainMenu_fla.shop_all_22"
+},
+{
+"id": 145,
+"class": "mainMenu_fla.shop_light_work_23"
+},
+{
+"id": 91,
+"class": "UserInfo"
+}
+],
+"common/general/mainMenu-spring-summer": [
+{
+"id": 103,
+"class": "MainMenuScena"
+},
+{
+"id": 70,
+"class": "mainMenu_fla.player_house_all_27"
+},
+{
+"id": 69,
+"class": "mainMenu_fla.player_house_light_work_28"
+},
+{
+"id": 56,
+"class": "mainMenu_fla.shop_all_19"
+},
+{
+"id": 55,
+"class": "mainMenu_fla.shop_light_work_20"
+},
+{
+"id": 39,
+"class": "mainMenu_fla.arena_allcopy_11"
+},
+{
+"id": 38,
+"class": "mainMenu_fla.arena_light_workcopy_12"
+}
+],
+"common/general/mainMenu-winter-day": [
+{
+"id": 306,
+"class": "MainMenuScena"
+},
+{
+"id": 304,
+"class": "mainMenu_fla.arena_all_82"
+},
+{
+"id": 303,
+"class": "mainMenu_fla.arena_light_work_83"
+},
+{
+"id": 230,
+"class": "mainMenu_fla.player_house_all_56"
+},
+{
+"id": 229,
+"class": "mainMenu_fla.player_house_light_work_57"
+},
+{
+"id": 216,
+"class": "mainMenu_fla.shop_all_48"
+},
+{
+"id": 215,
+"class": "mainMenu_fla.shop_light_work_49"
+},
+{
+"id": 102,
+"class": "mainMenu_fla.sprite19_8"
+},
+{
+"id": 89,
+"class": "UserInfo"
+}
+],
+"common/general/news": [
+{
+"id": 216,
+"class": "NewsWindow"
+},
+{
+"id": 185,
+"class": "news_fla.news_december2024_03_28"
+},
+{
+"id": 178,
+"class": "news_fla.Timeline_42"
+},
+{
+"id": 53,
+"class": "RabbitClown"
+},
+{
+"id": 51,
+"class": "CommonSettingsMenu"
+}
+],
+"common/general/wormix_ui": [
+{
+"id": 2953,
+"class": "FullUserHint"
+},
+{
+"id": 2917,
+"class": "FriendTeamHint"
+},
+{
+"id": 2908,
+"class": "SimpleUserHint"
+},
+{
+"id": 2885,
+"class": "HatHint"
+},
+{
+"id": 2881,
+"class": "UnitHint"
+},
+{
+"id": 2870,
+"class": "SeasonWeaponButton"
+},
+{
+"id": 2862,
+"class": "ItemsSetButton"
+},
+{
+"id": 2856,
+"class": "NewRankSystemButton"
+},
+{
+"id": 2846,
+"class": "ConnectIcon"
+},
+{
+"id": 2830,
+"class": "SeasonRewardItem"
+},
+{
+"id": 2828,
+"class": "wormix_ui_fla.boxer_stand_62"
+},
+{
+"id": 2806,
+"class": "GiftBoxes"
+},
+{
+"id": 2797,
+"class": "RankRewardCell"
+},
+{
+"id": 2793,
+"class": "LoadingMessageWithIcon"
+},
+{
+"id": 2790,
+"class": "UserInfo"
+},
+{
+"id": 2743,
+"class": "BattleTokenAwardIcon"
+},
+{
+"id": 2739,
+"class": "WagerTokenAwardIcon"
+},
+{
+"id": 2735,
+"class": "BossTokenAwardIcon"
+},
+{
+"id": 2731,
+"class": "ExpAwardIcon"
+},
+{
+"id": 2727,
+"class": "ReactionAwardIcon"
+},
+{
+"id": 2725,
+"class": "ReagentAwardIcon"
+},
+{
+"id": 2723,
+"class": "IconUmbrella"
+},
+{
+"id": 2721,
+"class": "LevelUpDialog"
+},
+{
+"id": 2693,
+"class": "UserParamsMenu"
+},
+{
+"id": 2645,
+"class": "wormix_ui_fla.reactionLevelUp_184"
+},
+{
+"id": 2631,
+"class": "IconStatArmor"
+},
+{
+"id": 2629,
+"class": "TeamAwardIcon"
+},
+{
+"id": 2624,
+"class": "SkillPointAwardIcon"
+},
+{
+"id": 2619,
+"class": "HitPointAwardIcon"
+},
+{
+"id": 2614,
+"class": "TournamentBlueButton"
+},
+{
+"id": 2605,
+"class": "TournamentYellowButton"
+},
+{
+"id": 2587,
+"class": "ChristmasBonusPanel"
+},
+{
+"id": 2583,
+"class": "FuzyAwardIcon"
+},
+{
+"id": 2580,
+"class": "RubyAwardIcon"
+},
+{
+"id": 2576,
+"class": "WeaponAwardIcon"
+},
+{
+"id": 2571,
+"class": "HolidayBonusPanel"
+},
+{
+"id": 2557,
+"class": "IconStatAirDamage"
+},
+{
+"id": 2555,
+"class": "IconStatAirDefence"
+},
+{
+"id": 2553,
+"class": "IconStatFireDamage"
+},
+{
+"id": 2551,
+"class": "IconStatFireDefence"
+},
+{
+"id": 2549,
+"class": "IconStatFrostDamage"
+},
+{
+"id": 2547,
+"class": "IconStatFrostDefence"
+},
+{
+"id": 2545,
+"class": "IconStatBack"
+},
+{
+"id": 2543,
+"class": "IconStatPoisonDamage"
+},
+{
+"id": 2541,
+"class": "IconStatPoisonDefence"
+},
+{
+"id": 2539,
+"class": "IconStatAttack"
+},
+{
+"id": 2537,
+"class": "IconStatRegen"
+},
+{
+"id": 2535,
+"class": "IconStatVampyric"
+},
+{
+"id": 2533,
+"class": "IconStatHeal"
+},
+{
+"id": 2531,
+"class": "IconStatDodge"
+},
+{
+"id": 2529,
+"class": "IconStatExplosionDeath"
+},
+{
+"id": 2527,
+"class": "IconStatUnderwaterBreathing"
+},
+{
+"id": 2525,
+"class": "IconStatCriticalHit"
+},
+{
+"id": 2523,
+"class": "IconStatSpeed"
+},
+{
+"id": 2521,
+"class": "IconStatSlowProtection"
+},
+{
+"id": 2519,
+"class": "IconStatExtraJump"
+},
+{
+"id": 2517,
+"class": "IconStatSquadAttack"
+},
+{
+"id": 2515,
+"class": "IconStatSquadArmor"
+},
+{
+"id": 2513,
+"class": "IconStatShockDamage"
+},
+{
+"id": 2511,
+"class": "IconStatShockDefence"
+},
+{
+"id": 2509,
+"class": "IconStatPenetration"
+},
+{
+"id": 2507,
+"class": "IconStatDamageBlock"
+},
+{
+"id": 2505,
+"class": "IconStatWaterProtectionFirstAct"
+},
+{
+"id": 2503,
+"class": "IconStatWaterProtection"
+},
+{
+"id": 2501,
+"class": "IconStatHamHeal"
+},
+{
+"id": 2499,
+"class": "IconStatReactionAddition"
+},
+{
+"id": 2497,
+"class": "IconStatReactionReduction"
+},
+{
+"id": 2495,
+"class": "IconStatRevengeDamage"
+},
+{
+"id": 2493,
+"class": "IconStatRevivalHpBonus"
+},
+{
+"id": 2491,
+"class": "IconStatRepell"
+},
+{
+"id": 2489,
+"class": "IconStatBounceProtection"
+},
+{
+"id": 2487,
+"class": "IconStatFortitude"
+},
+{
+"id": 2485,
+"class": "IconStatImmobilityReduction"
+},
+{
+"id": 2483,
+"class": "IconStatPoisoningReduction"
+},
+{
+"id": 2481,
+"class": "IconStatPoisoningAddition"
+},
+{
+"id": 2479,
+"class": "IconStatImmobilityAddition"
+},
+{
+"id": 2477,
+"class": "VipLockIconMini"
+},
+{
+"id": 2474,
+"class": "VipLockIconMid"
+},
+{
+"id": 2470,
+"class": "IconStatLeechRegen"
+},
+{
+"id": 2468,
+"class": "IconStatAttackPower"
+},
+{
+"id": 2466,
+"class": "BattleInterface"
+},
+{
+"id": 2435,
+"class": "wormix_ui_fla.videoBlock_343"
+},
+{
+"id": 2431,
+"class": "wormix_ui_fla.videoCam_344"
+},
+{
+"id": 2333,
+"class": "HatCell"
+},
+{
+"id": 2326,
+"class": "HPBar"
+},
+{
+"id": 2322,
+"class": "FloodGroundCounterIcon"
+},
+{
+"id": 2318,
+"class": "IconStatBanefulness"
+},
+{
+"id": 2316,
+"class": "IconStatInverter"
+},
+{
+"id": 2314,
+"class": "BuyZeroProfileDialog"
+},
+{
+"id": 2295,
+"class": "ZeroAccSMSConfirmationPanel"
+},
+{
+"id": 2286,
+"class": "EnterPromoCodePanel"
+},
+{
+"id": 2280,
+"class": "SelectMapMenu"
+},
+{
+"id": 2257,
+"class": "ScrollList"
+},
+{
+"id": 2248,
+"class": "SearchFriendMenu"
+},
+{
+"id": 2232,
+"class": "BattleSettingsMenu"
+},
+{
+"id": 2223,
+"class": "CommonSettingsMenu"
+},
+{
+"id": 2096,
+"class": "BattleOfferDialog"
+},
+{
+"id": 2082,
+"class": "WaitForPvpBattleDialog"
+},
+{
+"id": 2073,
+"class": "WaitForPvpOpponentDialog"
+},
+{
+"id": 2059,
+"class": "IconStatSquadSpeed"
+},
+{
+"id": 2057,
+"class": "IconStatDragonSpeed"
+},
+{
+"id": 2055,
+"class": "IconStatDragonSpeedUp"
+},
+{
+"id": 2053,
+"class": "IconStatSquadHp"
+},
+{
+"id": 2051,
+"class": "FloodUpCounterIcon"
+},
+{
+"id": 2047,
+"class": "BuyItemDialog"
+},
+{
+"id": 2019,
+"class": "FloodGroundIcon"
+},
+{
+"id": 2015,
+"class": "FloodOutIcon"
+},
+{
+"id": 2011,
+"class": "FloodUpIcon"
+},
+{
+"id": 2007,
+"class": "ChooseTeamMemberWindow"
+},
+{
+"id": 1955,
+"class": "ChooseTeamMemberCell"
+},
+{
+"id": 1951,
+"class": "DefaultPhoto"
+},
+{
+"id": 1944,
+"class": "IconStatDestroyer"
+},
+{
+"id": 1942,
+"class": "IconStatDeathGrip"
+},
+{
+"id": 1940,
+"class": "PopupMenuItem"
+},
+{
+"id": 1879,
+"class": "IconStatAttackBoost"
+},
+{
+"id": 1877,
+"class": "HalloweenEventMsg"
+},
+{
+"id": 1837,
+"class": "HalloweenEventButton"
+},
+{
+"id": 1833,
+"class": "wormix_ui_fla.HalloweenEventIconAnimation_622"
+},
+{
+"id": 1827,
+"class": "IconStatBag"
+},
+{
+"id": 1825,
+"class": "IconStatSpruce"
+},
+{
+"id": 1823,
+"class": "DailyTasksMenu"
+},
+{
+"id": 1794,
+"class": "ScrollPane"
+},
+{
+"id": 1778,
+"class": "DailyTaskItem"
+},
+{
+"id": 1763,
+"class": "DisabledButtonChestRate1"
+},
+{
+"id": 1759,
+"class": "DisabledButtonChestRate2"
+},
+{
+"id": 1755,
+"class": "DisabledButtonChestRate3"
+},
+{
+"id": 1751,
+"class": "IconStatSquadExtraJump"
+},
+{
+"id": 1749,
+"class": "IconStatCircusCannon"
+},
+{
+"id": 1747,
+"class": "IconStatDurationAddition"
+},
+{
+"id": 1745,
+"class": "MainInterface"
+},
+{
+"id": 1635,
+"class": "AppIcon"
+},
+{
+"id": 1614,
+"class": "IconReactionRate"
+},
+{
+"id": 1612,
+"class": "IconTimerYellow"
+},
+{
+"id": 1609,
+"class": "AchievCell"
+},
+{
+"id": 1584,
+"class": "AchievHint"
+},
+{
+"id": 1559,
+"class": "AchievLevelUpMessage"
+},
+{
+"id": 1480,
+"class": "AwardHintLabel"
+},
+{
+"id": 1475,
+"class": "BossAchieveHint"
+},
+{
+"id": 1462,
+"class": "BossAchievsCell"
+},
+{
+"id": 1442,
+"class": "HintProgressAchiev"
+},
+{
+"id": 1430,
+"class": "ProgressAchievements"
+},
+{
+"id": 1422,
+"class": "StatCell"
+},
+{
+"id": 1418,
+"class": "Bubbles"
+},
+{
+"id": 1415,
+"class": "BattleMedalBronze"
+},
+{
+"id": 1413,
+"class": "BattleMedalGold"
+},
+{
+"id": 1411,
+"class": "BattleMedalRuby"
+},
+{
+"id": 1409,
+"class": "BattleMedalSilver"
+},
+{
+"id": 1407,
+"class": "WeaponTipsPanel"
+},
+{
+"id": 1396,
+"class": "ItemToggleClip"
+},
+{
+"id": 1385,
+"class": "TextItem"
+},
+{
+"id": 1383,
+"class": "CurrentSeasonWeaponsMsg"
+},
+{
+"id": 1361,
+"class": "ItemsSetInfo"
+},
+{
+"id": 1329,
+"class": "NewRankSystemInfo"
+},
+{
+"id": 1309,
+"class": "RankSeasonComplete"
+},
+{
+"id": 1286,
+"class": "RankSeasonRewards"
+},
+{
+"id": 1279,
+"class": "RatingToLevelsInfo"
+},
+{
+"id": 1259,
+"class": "BonusBalloonDark"
+},
+{
+"id": 1255,
+"class": "BonusBalloonWhite"
+},
+{
+"id": 1251,
+"class": "HelpControl"
+},
+{
+"id": 1229,
+"class": "AntitoxinEffect"
+},
+{
+"id": 1139,
+"class": "BotHint"
+},
+{
+"id": 1123,
+"class": "HealthHint"
+},
+{
+"id": 1121,
+"class": "MainMenuBlueHint"
+},
+{
+"id": 1117,
+"class": "MainMenuHint"
+},
+{
+"id": 1113,
+"class": "MultilineQtip"
+},
+{
+"id": 1111,
+"class": "Qtip"
+},
+{
+"id": 1109,
+"class": "ReactionHint"
+},
+{
+"id": 1098,
+"class": "ReagentHint"
+},
+{
+"id": 1094,
+"class": "SimpleItemHint"
+},
+{
+"id": 1092,
+"class": "TeamMemberHint"
+},
+{
+"id": 1080,
+"class": "UnitPanel"
+},
+{
+"id": 1077,
+"class": "UpgradeHint"
+},
+{
+"id": 1071,
+"class": "WeaponHint"
+},
+{
+"id": 1066,
+"class": "BgHintPanel"
+},
+{
+"id": 1064,
+"class": "FindCount"
+},
+{
+"id": 1062,
+"class": "PumpReactionMovie"
+},
+{
+"id": 1060,
+"class": "HouseMenu"
+},
+{
+"id": 1032,
+"class": "wormix_ui_fla.noKeys_searchHouse_983"
+},
+{
+"id": 1029,
+"class": "wormix_ui_fla.chestSearchFriend_973"
+},
+{
+"id": 1026,
+"class": "wormix_ui_fla.awardSearch_981"
+},
+{
+"id": 952,
+"class": "BagMenu"
+},
+{
+"id": 936,
+"class": "BagCell"
+},
+{
+"id": 911,
+"class": "CooldownIcon"
+},
+{
+"id": 908,
+"class": "BattleChatPanel"
+},
+{
+"id": 883,
+"class": "BattleChatTab"
+},
+{
+"id": 859,
+"class": "CheatCode"
+},
+{
+"id": 856,
+"class": "BossGameOverPanel"
+},
+{
+"id": 850,
+"class": "HotSeatGameOverPanel"
+},
+{
+"id": 836,
+"class": "MissionGameOverPanel"
+},
+{
+"id": 834,
+"class": "PvpGameOverPanel"
+},
+{
+"id": 810,
+"class": "wormix_ui_fla.RankUPinsideRuby_1087"
+},
+{
+"id": 779,
+"class": "RankDownAnimation"
+},
+{
+"id": 776,
+"class": "RankUpAnimation"
+},
+{
+"id": 770,
+"class": "RankUpToRubyAnimation"
+},
+{
+"id": 764,
+"class": "wormix_ui_fla.firework1_1105"
+},
+{
+"id": 763,
+"class": "BlueBitClass"
+},
+{
+"id": 743,
+"class": "GameOverRewardCell"
+},
+{
+"id": 739,
+"class": "TutorialGameOverPanel"
+},
+{
+"id": 679,
+"class": "PhotoUpload"
+},
+{
+"id": 670,
+"class": "SaveVideo"
+},
+{
+"id": 662,
+"class": "StartVideoRecording"
+},
+{
+"id": 651,
+"class": "UploadVideo"
+},
+{
+"id": 645,
+"class": "BlackDialog"
+},
+{
+"id": 640,
+"class": "BuyBattleTokensDialog"
+},
+{
+"id": 569,
+"class": "BuyFriendDialog"
+},
+{
+"id": 557,
+"class": "BuySkinDialog"
+},
+{
+"id": 519,
+"class": "SimpleBuyDialog"
+},
+{
+"id": 489,
+"class": "ChooseFriendMenu"
+},
+{
+"id": 470,
+"class": "ChooseFriendForCoopMenu"
+},
+{
+"id": 393,
+"class": "SalesLabel"
+},
+{
+"id": 389,
+"class": "ClanRankIcon2"
+},
+{
+"id": 387,
+"class": "ClanRankIcon3"
+},
+{
+"id": 385,
+"class": "ClanRankIcon1"
+},
+{
+"id": 383,
+"class": "LoadingClan"
+},
+{
+"id": 378,
+"class": "BigItemAwardIcon"
+},
+{
+"id": 373,
+"class": "RaceRewardCell"
+},
+{
+"id": 343,
+"class": "MsgBlackBox"
+},
+{
+"id": 313,
+"class": "MsgBox"
+},
+{
+"id": 310,
+"class": "MsgBoxBan"
+},
+{
+"id": 306,
+"class": "MsgBoxSocialSelect"
+},
+{
+"id": 293,
+"class": "MsgBoxTempWeapons"
+},
+{
+"id": 260,
+"class": "MsgVertBox"
+},
+{
+"id": 234,
+"class": "Surrender"
+},
+{
+"id": 206,
+"class": "BossBattleOfferDialog"
+},
+{
+"id": 201,
+"class": "IconStatHp"
+},
+{
+"id": 133,
+"class": "BuyGladiatorEnterDialog"
+},
+{
+"id": 97,
+"class": "SimpleTextPanel"
+},
+{
+"id": 91,
+"class": "TeamMemberSwapMenu"
+},
+{
+"id": 23,
+"class": "MiniBar"
+},
+{
+"id": 18,
+"class": "CountryBtn"
+},
+{
+"id": 8,
+"class": "PopupMenuBack"
+},
+{
+"id": 6,
+"class": "BattleMessage"
+},
+{
+"id": 2,
+"class": "TitleFont"
+},
+{
+"id": 1,
+"class": "NumberFont"
+}
+],
+"common/objects/OK_action": [
+{
+"id": 51,
+"class": "OKactionButton"
+},
+{
+"id": 47,
+"class": "OKactionWindow"
+},
+{
+"id": 7,
+"class": "OKactionLabel"
+}
+],
+"common/objects/artifacts": [
+{
+"id": 1936,
+"class": "BrokenSword"
+},
+{
+"id": 1934,
+"class": "TrainingShield"
+},
+{
+"id": 1932,
+"class": "Whinger"
+},
+{
+"id": 1930,
+"class": "WoodenShield"
+},
+{
+"id": 1929,
+"class": "WoodenShieldIcon"
+},
+{
+"id": 1927,
+"class": "PirateHook"
+},
+{
+"id": 1926,
+"class": "MetalShield"
+},
+{
+"id": 1924,
+"class": "TotemPoison"
+},
+{
+"id": 1901,
+"class": "ChromeShield"
+},
+{
+"id": 1899,
+"class": "Saw"
+},
+{
+"id": 1893,
+"class": "Blade"
+},
+{
+"id": 1892,
+"class": "RoboShield"
+},
+{
+"id": 1890,
+"class": "Jawblade"
+},
+{
+"id": 1889,
+"class": "SwordGreenEyed"
+},
+{
+"id": 1886,
+"class": "SwordRedEyed"
+},
+{
+"id": 1883,
+"class": "Morgenshtern"
+},
+{
+"id": 1882,
+"class": "Icepike"
+},
+{
+"id": 1881,
+"class": "ShovelSapper"
+},
+{
+"id": 1880,
+"class": "ShovelSapperIcon"
+},
+{
+"id": 1878,
+"class": "JediSword"
+},
+{
+"id": 1876,
+"class": "JediSwordRed"
+},
+{
+"id": 1873,
+"class": "JediSwordRedCross"
+},
+{
+"id": 1862,
+"class": "Talisman"
+},
+{
+"id": 1861,
+"class": "StrategistFan"
+},
+{
+"id": 1859,
+"class": "FireFighterAxe"
+},
+{
+"id": 1857,
+"class": "ColtM"
+},
+{
+"id": 1855,
+"class": "TopographicMap"
+},
+{
+"id": 1853,
+"class": "Flambeau"
+},
+{
+"id": 1820,
+"class": "TotemFire"
+},
+{
+"id": 1797,
+"class": "GoldenHorn"
+},
+{
+"id": 1795,
+"class": "Nunchaku"
+},
+{
+"id": 1790,
+"class": "PhosphorusLamp"
+},
+{
+"id": 1788,
+"class": "WineHorn"
+},
+{
+"id": 1786,
+"class": "Mirage"
+},
+{
+"id": 1785,
+"class": "GnawedBone"
+},
+{
+"id": 1783,
+"class": "ArchbotTotem"
+},
+{
+"id": 1782,
+"class": "DeathTorch"
+},
+{
+"id": 1780,
+"class": "ArcticSwordIcon"
+},
+{
+"id": 1779,
+"class": "ArmyKnife"
+},
+{
+"id": 1778,
+"class": "BlacksmithHammer"
+},
+{
+"id": 1777,
+"class": "BlazingAxe"
+},
+{
+"id": 1775,
+"class": "BottleRose"
+},
+{
+"id": 1773,
+"class": "DeathHammer"
+},
+{
+"id": 1770,
+"class": "EmperorScepter"
+},
+{
+"id": 1768,
+"class": "FieryDagger"
+},
+{
+"id": 1766,
+"class": "FrostShield"
+},
+{
+"id": 1676,
+"class": "HamMace"
+},
+{
+"id": 1674,
+"class": "HealerStaff"
+},
+{
+"id": 1670,
+"class": "artifacts_fla.HealingStaffJumpBack_142"
+},
+{
+"id": 1667,
+"class": "artifacts_fla.HealingStaffRhinoAlien_141"
+},
+{
+"id": 1611,
+"class": "JarlSpear"
+},
+{
+"id": 1609,
+"class": "JarlStoneHammer"
+},
+{
+"id": 1608,
+"class": "MirrorShield"
+},
+{
+"id": 1606,
+"class": "MorningStarUpg"
+},
+{
+"id": 1605,
+"class": "PaladinSword"
+},
+{
+"id": 1603,
+"class": "Pick"
+},
+{
+"id": 1601,
+"class": "ProvokerShield"
+},
+{
+"id": 1599,
+"class": "ScientistDevice"
+},
+{
+"id": 1598,
+"class": "SnakeStaff"
+},
+{
+"id": 1597,
+"class": "SoulmasterStaff"
+},
+{
+"id": 1596,
+"class": "StaffOfNecromancer"
+},
+{
+"id": 1595,
+"class": "SymbioteSword"
+},
+{
+"id": 1593,
+"class": "TankShield"
+},
+{
+"id": 1591,
+"class": "Gatekeeper"
+},
+{
+"id": 1590,
+"class": "GatekeeperIcon"
+},
+{
+"id": 1588,
+"class": "PirateFlag"
+},
+{
+"id": 1555,
+"class": "CursedBroom"
+},
+{
+"id": 1554,
+"class": "CursedBroomIcon"
+},
+{
+"id": 1552,
+"class": "BattleHotPan"
+},
+{
+"id": 1551,
+"class": "BattleHotPanIcon"
+},
+{
+"id": 1549,
+"class": "BattlePan"
+},
+{
+"id": 1548,
+"class": "BattlePanIcon"
+},
+{
+"id": 1545,
+"class": "ZirconSkull"
+},
+{
+"id": 1544,
+"class": "ZirconSkullIcon"
+},
+{
+"id": 1542,
+"class": "CrystalSkull"
+},
+{
+"id": 1541,
+"class": "CrystalSkullIcon"
+},
+{
+"id": 1539,
+"class": "PlasmaShield"
+},
+{
+"id": 1537,
+"class": "JadeAbsorber"
+},
+{
+"id": 1536,
+"class": "JadeAbsorberIcon"
+},
+{
+"id": 1534,
+"class": "JadeSword"
+},
+{
+"id": 1533,
+"class": "JadeSwordIcon"
+},
+{
+"id": 1531,
+"class": "ArcticAbsorber"
+},
+{
+"id": 1530,
+"class": "ArcticAbsorberIcon"
+},
+{
+"id": 1528,
+"class": "RobinhoodBow"
+},
+{
+"id": 1526,
+"class": "SpidersQueenStaff"
+},
+{
+"id": 1525,
+"class": "SpidersQueenStaffIcon"
+},
+{
+"id": 1523,
+"class": "Biolamp"
+},
+{
+"id": 1516,
+"class": "Spyglass"
+},
+{
+"id": 1514,
+"class": "Cloak"
+},
+{
+"id": 1513,
+"class": "CloakIcon"
+},
+{
+"id": 1510,
+"class": "Glefa"
+},
+{
+"id": 1509,
+"class": "GlefaBlack"
+},
+{
+"id": 1500,
+"class": "SoulDestroyerBow1"
+},
+{
+"id": 1498,
+"class": "SoulDestroyerBow2"
+},
+{
+"id": 1496,
+"class": "SoulDestroyerBow3"
+},
+{
+"id": 1494,
+"class": "SoulDestroyerBow4"
+},
+{
+"id": 1492,
+"class": "SoulDestroyerBow5"
+},
+{
+"id": 1487,
+"class": "SoulDestroyerBow6"
+},
+{
+"id": 1430,
+"class": "PulsarStuff"
+},
+{
+"id": 1288,
+"class": "SawIcon"
+},
+{
+"id": 1286,
+"class": "JediSwordIcon"
+},
+{
+"id": 1275,
+"class": "NunchakuIcon"
+},
+{
+"id": 1273,
+"class": "JediSwordRedCrossIcon"
+},
+{
+"id": 1268,
+"class": "JediSwordRedIcon"
+},
+{
+"id": 1262,
+"class": "PulsarStuffIcon"
+},
+{
+"id": 1260,
+"class": "SoulDestroyerBow6Icon"
+},
+{
+"id": 1258,
+"class": "TotemFireIcon"
+},
+{
+"id": 1251,
+"class": "TotemPoisonIcon"
+},
+{
+"id": 1244,
+"class": "GlefaBlackIcon"
+},
+{
+"id": 1242,
+"class": "BiolampIcon"
+},
+{
+"id": 1237,
+"class": "FireAbyss"
+},
+{
+"id": 734,
+"class": "SolarSickle"
+},
+{
+"id": 539,
+"class": "GravityMasterShieldIcon"
+},
+{
+"id": 537,
+"class": "GravityMasterShield"
+},
+{
+"id": 483,
+"class": "PirateFlagIcon"
+},
+{
+"id": 481,
+"class": "FlambeauIcon"
+},
+{
+"id": 479,
+"class": "FireAbyssIcon"
+},
+{
+"id": 474,
+"class": "GlefaIcon"
+},
+{
+"id": 471,
+"class": "Scythe"
+},
+{
+"id": 469,
+"class": "ScytheIcon"
+},
+{
+"id": 467,
+"class": "HealerStaffIcon"
+},
+{
+"id": 465,
+"class": "GrimReaper"
+},
+{
+"id": 209,
+"class": "GrimReaperIcon"
+},
+{
+"id": 207,
+"class": "ChristmasTree"
+},
+{
+"id": 107,
+"class": "ChristmasTreeIcon"
+},
+{
+"id": 105,
+"class": "ArchbotTotemIcon"
+},
+{
+"id": 102,
+"class": "DeathTorchIcon"
+},
+{
+"id": 100,
+"class": "ArcticSword"
+},
+{
+"id": 97,
+"class": "BlacksmithHammerIcon"
+},
+{
+"id": 94,
+"class": "BottleRoseIcon"
+},
+{
+"id": 92,
+"class": "EmperorScepterIcon"
+},
+{
+"id": 90,
+"class": "FieryDaggerIcon"
+},
+{
+"id": 88,
+"class": "JarlSpearIcon"
+},
+{
+"id": 86,
+"class": "ScientistDeviceIcon"
+},
+{
+"id": 83,
+"class": "SolarSickleIcon"
+},
+{
+"id": 81,
+"class": "SoulmasterStaffIcon"
+},
+{
+"id": 78,
+"class": "SymbioteSwordIcon"
+},
+{
+"id": 76,
+"class": "BlazingAxeIcon"
+},
+{
+"id": 74,
+"class": "DeathHammerIcon"
+},
+{
+"id": 72,
+"class": "FrostShieldIcon"
+},
+{
+"id": 70,
+"class": "HamMaceIcon"
+},
+{
+"id": 68,
+"class": "JawbladeIcon"
+},
+{
+"id": 65,
+"class": "MirageIcon"
+},
+{
+"id": 63,
+"class": "SnakeStaffIcon"
+},
+{
+"id": 61,
+"class": "SpyglassIcon"
+},
+{
+"id": 59,
+"class": "StrategistFanIcon"
+},
+{
+"id": 57,
+"class": "MorningStarUpgIcon"
+},
+{
+"id": 54,
+"class": "MorgenshternIcon"
+},
+{
+"id": 51,
+"class": "PickIcon"
+},
+{
+"id": 49,
+"class": "SwordGreenEyedIcon"
+},
+{
+"id": 47,
+"class": "WineHornIcon"
+},
+{
+"id": 45,
+"class": "TalismanIcon"
+},
+{
+"id": 43,
+"class": "ArmyKnifeIcon"
+},
+{
+"id": 40,
+"class": "BladeIcon"
+},
+{
+"id": 38,
+"class": "ColtMIcon"
+},
+{
+"id": 36,
+"class": "FireFighterAxeIcon"
+},
+{
+"id": 34,
+"class": "GnawedBoneIcon"
+},
+{
+"id": 32,
+"class": "GoldenHornIcon"
+},
+{
+"id": 30,
+"class": "IcepikeIcon"
+},
+{
+"id": 27,
+"class": "JarlStoneHammerIcon"
+},
+{
+"id": 24,
+"class": "PaladinSwordIcon"
+},
+{
+"id": 22,
+"class": "PhosphorusLampIcon"
+},
+{
+"id": 20,
+"class": "PirateHookIcon"
+},
+{
+"id": 18,
+"class": "StaffOfNecromancerIcon"
+},
+{
+"id": 16,
+"class": "SwordRedEyedIcon"
+},
+{
+"id": 14,
+"class": "TopographicMapIcon"
+},
+{
+"id": 12,
+"class": "RobinhoodBowIcon"
+},
+{
+"id": 10,
+"class": "SoulDestroyerBow1Icon"
+},
+{
+"id": 8,
+"class": "SoulDestroyerBow2Icon"
+},
+{
+"id": 6,
+"class": "SoulDestroyerBow3Icon"
+},
+{
+"id": 4,
+"class": "SoulDestroyerBow4Icon"
+},
+{
+"id": 2,
+"class": "SoulDestroyerBow5Icon"
+}
+],
+"common/objects/artifacts2": [
+{
+"id": 594,
+"class": "ArchiDemonSpear"
+},
+{
+"id": 592,
+"class": "ArchiDemonSpearIcon"
+},
+{
+"id": 582,
+"class": "ArchiDemonMugFull"
+},
+{
+"id": 419,
+"class": "ArchiDemonMugEmpty"
+},
+{
+"id": 414,
+"class": "ArchiDemonScythe"
+},
+{
+"id": 128,
+"class": "ArchiDemonScytheIcon"
+},
+{
+"id": 124,
+"class": "ArchiDemonSword"
+},
+{
+"id": 120,
+"class": "ArchiDemonMugEmptyIcon"
+},
+{
+"id": 117,
+"class": "ArchiDemonMugFullIcon"
+},
+{
+"id": 103,
+"class": "ArchiDemonSwordIcon"
+},
+{
+"id": 99,
+"class": "ArchiDemonShield"
+},
+{
+"id": 92,
+"class": "ArchiDemonShieldIcon"
+},
+{
+"id": 90,
+"class": "AdjustableWrench"
+},
+{
+"id": 2,
+"class": "AdjustableWrenchIcon"
+}
+],
+"common/objects/battleStuff": [
+{
+"id": 1222,
+"class": "LightningBolt"
+},
+{
+"id": 1211,
+"class": "ProgressBarBoss"
+},
+{
+"id": 1203,
+"class": "ProtectiveDroid"
+},
+{
+"id": 1197,
+"class": "PointerArrow_0"
+},
+{
+"id": 1195,
+"class": "PointerArrow_2"
+},
+{
+"id": 1193,
+"class": "PointerArrow_4"
+},
+{
+"id": 1191,
+"class": "PointerArrow_1"
+},
+{
+"id": 1189,
+"class": "PointerBody_0"
+},
+{
+"id": 1187,
+"class": "PointerBody_2"
+},
+{
+"id": 1185,
+"class": "PointerBody_3"
+},
+{
+"id": 1183,
+"class": "PointerBody_1"
+},
+{
+"id": 1181,
+"class": "PointerBody_4"
+},
+{
+"id": 1179,
+"class": "PointerArrow_3"
+},
+{
+"id": 1177,
+"class": "UnitCursor"
+},
+{
+"id": 1166,
+"class": "OxygenBar"
+},
+{
+"id": 1161,
+"class": "OxyPoint"
+},
+{
+"id": 1159,
+"class": "RedBar"
+},
+{
+"id": 1154,
+"class": "GreenBar"
+},
+{
+"id": 1149,
+"class": "GrayPoint"
+},
+{
+"id": 1147,
+"class": "GreenPoint"
+},
+{
+"id": 1145,
+"class": "RedPoint"
+},
+{
+"id": 1143,
+"class": "OrangeBar"
+},
+{
+"id": 1142,
+"class": "PulsingSphere"
+},
+{
+"id": 1135,
+"class": "PulsingSphereRing"
+},
+{
+"id": 1133,
+"class": "DangerIcon"
+},
+{
+"id": 1128,
+"class": "BiohazardIcon"
+},
+{
+"id": 1125,
+"class": "PiranhaIcon"
+},
+{
+"id": 1122,
+"class": "WhiteZoneIcon"
+},
+{
+"id": 1119,
+"class": "RedZoneIcon"
+},
+{
+"id": 1116,
+"class": "ApocalypseIcon"
+},
+{
+"id": 1113,
+"class": "DangerBorder"
+},
+{
+"id": 1111,
+"class": "AmUnspend"
+},
+{
+"id": 1109,
+"class": "AmConsume"
+},
+{
+"id": 1107,
+"class": "YellowBar"
+},
+{
+"id": 1102,
+"class": "YellowPoint"
+},
+{
+"id": 1101,
+"class": "OrangePoint"
+},
+{
+"id": 1099,
+"class": "Apocalypse2Icon"
+},
+{
+"id": 1096,
+"class": "PointerArrowGray"
+},
+{
+"id": 1093,
+"class": "FrostStasisIdle"
+},
+{
+"id": 1092,
+"class": "IceBlock"
+},
+{
+"id": 1090,
+"class": "FrostExplosionLarge"
+},
+{
+"id": 1075,
+"class": "FireExplosionLarge"
+},
+{
+"id": 1061,
+"class": "PoisonExplosionLarge"
+},
+{
+"id": 1046,
+"class": "ClassicExplosion"
+},
+{
+"id": 1033,
+"class": "PoisoningReduceAppear"
+},
+{
+"id": 1032,
+"class": "battleStuff_fla.PoisononingRed_end_movie1_83"
+},
+{
+"id": 1030,
+"class": "battleStuff_fla.PoisoningRedAnimation_85"
+},
+{
+"id": 986,
+"class": "battleStuff_fla.PoisononingRed_burn2_82"
+},
+{
+"id": 949,
+"class": "PoisoningReduceIdle"
+},
+{
+"id": 946,
+"class": "ColdExplosionSmall"
+},
+{
+"id": 940,
+"class": "ExplosionSmall"
+},
+{
+"id": 934,
+"class": "FrostStasisAppear"
+},
+{
+"id": 931,
+"class": "FreezingAnim"
+},
+{
+"id": 884,
+"class": "ArmorReduceEffect"
+},
+{
+"id": 878,
+"class": "ArmorReduceStartEffect"
+},
+{
+"id": 866,
+"class": "ScytheSweep"
+},
+{
+"id": 865,
+"class": "battleStuff_fla.Timeline_112"
+},
+{
+"id": 826,
+"class": "ScytheSweepShortAlt"
+},
+{
+"id": 825,
+"class": "battleStuff_fla.Timeline_115"
+},
+{
+"id": 800,
+"class": "ScytheSweepShort"
+},
+{
+"id": 799,
+"class": "battleStuff_fla.Timeline_117"
+},
+{
+"id": 749,
+"class": "AimCross"
+},
+{
+"id": 738,
+"class": "DefensiveRoar"
+},
+{
+"id": 735,
+"class": "AlienCrystalAppear"
+},
+{
+"id": 734,
+"class": "AlienCrystalFade"
+},
+{
+"id": 733,
+"class": "AlienCrystalIdle"
+},
+{
+"id": 726,
+"class": "ResistDestruct"
+},
+{
+"id": 693,
+"class": "CheckPoint"
+},
+{
+"id": 690,
+"class": "SpaceRaceSphere1"
+},
+{
+"id": 688,
+"class": "SpaceRaceSphere2"
+},
+{
+"id": 686,
+"class": "Cannonball"
+},
+{
+"id": 684,
+"class": "CrossAdditional"
+},
+{
+"id": 682,
+"class": "CrossHair"
+},
+{
+"id": 680,
+"class": "CrossHairOld"
+},
+{
+"id": 679,
+"class": "Shot"
+},
+{
+"id": 640,
+"class": "BlueClouds"
+},
+{
+"id": 636,
+"class": "WhiteClouds"
+},
+{
+"id": 634,
+"class": "CraftBox"
+},
+{
+"id": 631,
+"class": "CraftBoxParachute"
+},
+{
+"id": 626,
+"class": "WeaponBox"
+},
+{
+"id": 623,
+"class": "WeaponBoxParachute"
+},
+{
+"id": 619,
+"class": "MedkitLarge"
+},
+{
+"id": 615,
+"class": "MedkitMedium"
+},
+{
+"id": 611,
+"class": "MedkitSmall"
+},
+{
+"id": 605,
+"class": "DisappearingStar"
+},
+{
+"id": 588,
+"class": "Star"
+},
+{
+"id": 576,
+"class": "AntitoxinActivation"
+},
+{
+"id": 575,
+"class": "battleStuff_fla.cross_end_movie1_209"
+},
+{
+"id": 572,
+"class": "battleStuff_fla.wh_cross_movie43_208"
+},
+{
+"id": 571,
+"class": "battleStuff_fla.wh_cross_movie33_207"
+},
+{
+"id": 570,
+"class": "battleStuff_fla.wh_cross_movie23_206"
+},
+{
+"id": 569,
+"class": "battleStuff_fla.wh_cross_movie1_204"
+},
+{
+"id": 552,
+"class": "AntitoxinEffect"
+},
+{
+"id": 549,
+"class": "AnimatedText"
+},
+{
+"id": 545,
+"class": "BanefulnessAppear"
+},
+{
+"id": 544,
+"class": "battleStuff_fla.Skull_217"
+},
+{
+"id": 540,
+"class": "BanefulnessFade"
+},
+{
+"id": 539,
+"class": "BanefulnessIdle"
+},
+{
+"id": 532,
+"class": "Blood1"
+},
+{
+"id": 525,
+"class": "Blood2"
+},
+{
+"id": 518,
+"class": "Blood3"
+},
+{
+"id": 511,
+"class": "Blood4"
+},
+{
+"id": 504,
+"class": "Blood5"
+},
+{
+"id": 497,
+"class": "Blood6"
+},
+{
+"id": 490,
+"class": "BoomerangDebuffEffect"
+},
+{
+"id": 487,
+"class": "DemonicDamage"
+},
+{
+"id": 483,
+"class": "ElectricCharge"
+},
+{
+"id": 452,
+"class": "IceCharge"
+},
+{
+"id": 432,
+"class": "LightningHit"
+},
+{
+"id": 422,
+"class": "EncouragingRoar"
+},
+{
+"id": 388,
+"class": "SlowEffect"
+},
+{
+"id": 383,
+"class": "ToxinEffect"
+},
+{
+"id": 380,
+"class": "ToxinActivation"
+},
+{
+"id": 379,
+"class": "battleStuff_fla.HPP_cross_end_movie1_267"
+},
+{
+"id": 374,
+"class": "battleStuff_fla.HPP_wh_cross_movie43_266"
+},
+{
+"id": 373,
+"class": "battleStuff_fla.HPP_wh_cross_movie33_265"
+},
+{
+"id": 372,
+"class": "battleStuff_fla.HPP_wh_cross_movie23_264"
+},
+{
+"id": 371,
+"class": "battleStuff_fla.HPP_wh_cross_movie1_262"
+},
+{
+"id": 330,
+"class": "UnderwaterBreathBuffAppear"
+},
+{
+"id": 329,
+"class": "UnderwaterBreathBuffFade"
+},
+{
+"id": 327,
+"class": "UnderwaterBreathBuffIdle"
+},
+{
+"id": 321,
+"class": "WindAura"
+},
+{
+"id": 320,
+"class": "RageAura"
+},
+{
+"id": 319,
+"class": "RageAuraBig"
+},
+{
+"id": 274,
+"class": "Obsession"
+},
+{
+"id": 202,
+"class": "Heal"
+},
+{
+"id": 189,
+"class": "battleStuff_fla.red_cross_movie4_288"
+},
+{
+"id": 188,
+"class": "battleStuff_fla.red_cross_movie3_287"
+},
+{
+"id": 187,
+"class": "battleStuff_fla.red_cross_movie2_286"
+},
+{
+"id": 186,
+"class": "battleStuff_fla.red_cross_movie_284"
+},
+{
+"id": 182,
+"class": "ExplosionLarge"
+},
+{
+"id": 162,
+"class": "ExplosionMedium"
+},
+{
+"id": 147,
+"class": "ExpParticle"
+},
+{
+"id": 145,
+"class": "DemonicExplosion"
+},
+{
+"id": 130,
+"class": "MetalExplosion"
+},
+{
+"id": 116,
+"class": "BoomExplosion"
+},
+{
+"id": 94,
+"class": "LaserExplosion"
+},
+{
+"id": 87,
+"class": "PoisonExplosionSmall"
+},
+{
+"id": 84,
+"class": "SwapRaceExplosion"
+},
+{
+"id": 46,
+"class": "MinimalExplosion"
+},
+{
+"id": 35,
+"class": "ElectricExplosion"
+},
+{
+"id": 8,
+"class": "MonsterEn"
+},
+{
+"id": 5,
+"class": "MonsterRu"
+},
+{
+"id": 2,
+"class": "Rip"
+}
+],
+"common/objects/boosters": [
+{
+"id": 123,
+"class": "BoosterReactionHighShortMenuIcon"
+},
+{
+"id": 120,
+"class": "BoosterReactionHighLongMenuIcon"
+},
+{
+"id": 116,
+"class": "BoosterReactionMediumMenuIcon"
+},
+{
+"id": 111,
+"class": "BoosterReactionShortMenuIcon"
+},
+{
+"id": 108,
+"class": "BoosterReagentShortMenuIcon"
+},
+{
+"id": 103,
+"class": "BoosterFuzyMediumLongMenuIcon"
+},
+{
+"id": 98,
+"class": "BoosterFuzySmallLongMenuIcon"
+},
+{
+"id": 93,
+"class": "BoosterFuzyMediumMediumMenuIcon"
+},
+{
+"id": 88,
+"class": "BoosterFuzySmallMediumMenuIcon"
+},
+{
+"id": 83,
+"class": "BoosterFuzyMediumShortMenuIcon"
+},
+{
+"id": 78,
+"class": "BoosterFuzySmallShortMenuIcon"
+},
+{
+"id": 72,
+"class": "BoosterReagentMediumMenuIcon"
+},
+{
+"id": 61,
+"class": "VipIcon"
+},
+{
+"id": 59,
+"class": "BoosterMenuHint"
+},
+{
+"id": 50,
+"class": "BoosterFuzyMediumShort"
+},
+{
+"id": 47,
+"class": "BoosterFuzySmallMedium"
+},
+{
+"id": 45,
+"class": "BoosterFuzyMediumMedium"
+},
+{
+"id": 42,
+"class": "BoosterFuzySmallLong"
+},
+{
+"id": 39,
+"class": "BoosterFuzyMediumLong"
+},
+{
+"id": 34,
+"class": "BoosterReagentShort"
+},
+{
+"id": 32,
+"class": "BoosterReagentMedium"
+},
+{
+"id": 30,
+"class": "BoosterReactionShort"
+},
+{
+"id": 25,
+"class": "BoosterReactionHighShort"
+},
+{
+"id": 21,
+"class": "BoosterReactionMedium"
+},
+{
+"id": 16,
+"class": "BoosterReactionHighLong"
+},
+{
+"id": 7,
+"class": "BoosterFuzySmallShort"
+}
+],
+"common/objects/charActions": [
+{
+"id": 371,
+"class": "CrabJetpack"
+},
+{
+"id": 370,
+"class": "CrabJetpackStay"
+},
+{
+"id": 369,
+"class": "DonutJetpack"
+},
+{
+"id": 368,
+"class": "DonutJetpackStay"
+},
+{
+"id": 367,
+"class": "SnailJetpack"
+},
+{
+"id": 363,
+"class": "SnailJetpackStay"
+},
+{
+"id": 352,
+"class": "SnailStay"
+},
+{
+"id": 351,
+"class": "CrabStay"
+},
+{
+"id": 350,
+"class": "DonutStay"
+},
+{
+"id": 349,
+"class": "SnailStatic"
+},
+{
+"id": 348,
+"class": "SnailBreath"
+},
+{
+"id": 347,
+"class": "HotShield"
+},
+{
+"id": 344,
+"class": "AttackShield"
+},
+{
+"id": 341,
+"class": "ArmoryShield"
+},
+{
+"id": 338,
+"class": "AntiFrostShield"
+},
+{
+"id": 335,
+"class": "CrabRoar"
+},
+{
+"id": 331,
+"class": "DonutRoar"
+},
+{
+"id": 316,
+"class": "SnailRoar"
+},
+{
+"id": 308,
+"class": "FlagAura"
+},
+{
+"id": 298,
+"class": "DarkAura"
+},
+{
+"id": 289,
+"class": "ShockerUnit"
+},
+{
+"id": 283,
+"class": "CrabBat"
+},
+{
+"id": 276,
+"class": "CrabBoom"
+},
+{
+"id": 272,
+"class": "CrabBreath"
+},
+{
+"id": 271,
+"class": "CrabClap"
+},
+{
+"id": 269,
+"class": "CrabHammerHit"
+},
+{
+"id": 265,
+"class": "CrabHappy"
+},
+{
+"id": 260,
+"class": "CrabIll"
+},
+{
+"id": 256,
+"class": "CrabJumpBack"
+},
+{
+"id": 255,
+"class": "CrabEndJump"
+},
+{
+"id": 254,
+"class": "CrabPrepareToJump"
+},
+{
+"id": 253,
+"class": "CrabJump"
+},
+{
+"id": 252,
+"class": "CrabRope"
+},
+{
+"id": 251,
+"class": "CrabSad"
+},
+{
+"id": 246,
+"class": "CrabStatic"
+},
+{
+"id": 244,
+"class": "CrabThinkCoffee"
+},
+{
+"id": 243,
+"class": "CrabThinkDeath"
+},
+{
+"id": 242,
+"class": "CrabThinkGrenade"
+},
+{
+"id": 241,
+"class": "CrabThinkPizza"
+},
+{
+"id": 235,
+"class": "CrabGo"
+},
+{
+"id": 231,
+"class": "CrabWave"
+},
+{
+"id": 225,
+"class": "CrabWink"
+},
+{
+"id": 188,
+"class": "DonutBat"
+},
+{
+"id": 185,
+"class": "DonutBoom"
+},
+{
+"id": 184,
+"class": "DonutBreath"
+},
+{
+"id": 183,
+"class": "DonutClap"
+},
+{
+"id": 178,
+"class": "DonutHammerHit"
+},
+{
+"id": 176,
+"class": "DonutHappy"
+},
+{
+"id": 171,
+"class": "DonutIll"
+},
+{
+"id": 167,
+"class": "DonutJumpBack"
+},
+{
+"id": 166,
+"class": "DonutJump"
+},
+{
+"id": 165,
+"class": "DonutEndJump"
+},
+{
+"id": 164,
+"class": "DonutPrepareToJump"
+},
+{
+"id": 163,
+"class": "DonutRope"
+},
+{
+"id": 162,
+"class": "DonutSad"
+},
+{
+"id": 152,
+"class": "DonutStatic"
+},
+{
+"id": 151,
+"class": "DonutThinkCoffee"
+},
+{
+"id": 150,
+"class": "DonutThinkDeath"
+},
+{
+"id": 149,
+"class": "DonutThinkGrenade"
+},
+{
+"id": 148,
+"class": "DonutThinkPizza"
+},
+{
+"id": 142,
+"class": "DonutGo"
+},
+{
+"id": 140,
+"class": "DonutWave"
+},
+{
+"id": 133,
+"class": "DonutWink"
+},
+{
+"id": 116,
+"class": "SnailBat"
+},
+{
+"id": 109,
+"class": "SnailBoom"
+},
+{
+"id": 104,
+"class": "SnailClap"
+},
+{
+"id": 102,
+"class": "SnailHammerHit"
+},
+{
+"id": 93,
+"class": "SnailHappy"
+},
+{
+"id": 89,
+"class": "SnailIll"
+},
+{
+"id": 84,
+"class": "SnailJumpBack"
+},
+{
+"id": 83,
+"class": "SnailJump"
+},
+{
+"id": 82,
+"class": "SnailEndJump"
+},
+{
+"id": 81,
+"class": "SnailPrepareToJump"
+},
+{
+"id": 80,
+"class": "SnailRope"
+},
+{
+"id": 78,
+"class": "SnailSad"
+},
+{
+"id": 74,
+"class": "SnailThinkCoffee"
+},
+{
+"id": 70,
+"class": "SnailThinkDeath"
+},
+{
+"id": 66,
+"class": "SnailThinkGrenade"
+},
+{
+"id": 62,
+"class": "SnailThinkPizza"
+},
+{
+"id": 46,
+"class": "SnailGo"
+},
+{
+"id": 39,
+"class": "SnailWave"
+},
+{
+"id": 37,
+"class": "SnailWink"
+}
+],
+"common/objects/clans_icons": [
+{
+"id": 415,
+"class": "ClanFlagColor5"
+},
+{
+"id": 413,
+"class": "ClanFlagColor12"
+},
+{
+"id": 411,
+"class": "ClanFlagColor7"
+},
+{
+"id": 409,
+"class": "ClanFlagColor8"
+},
+{
+"id": 407,
+"class": "ClanFlagColor13"
+},
+{
+"id": 405,
+"class": "ClanIcon1"
+},
+{
+"id": 403,
+"class": "ClanIcon2"
+},
+{
+"id": 401,
+"class": "ClanIcon3"
+},
+{
+"id": 399,
+"class": "ClanIcon4"
+},
+{
+"id": 397,
+"class": "ClanIcon5"
+},
+{
+"id": 395,
+"class": "ClanIcon6"
+},
+{
+"id": 393,
+"class": "ClanIcon7"
+},
+{
+"id": 391,
+"class": "ClanIcon8"
+},
+{
+"id": 389,
+"class": "ClanIcon9"
+},
+{
+"id": 387,
+"class": "ClanIcon10"
+},
+{
+"id": 385,
+"class": "ClanIcon11"
+},
+{
+"id": 383,
+"class": "ClanIcon12"
+},
+{
+"id": 381,
+"class": "ClanIcon13"
+},
+{
+"id": 379,
+"class": "ClanIcon14"
+},
+{
+"id": 377,
+"class": "ClanIcon15"
+},
+{
+"id": 375,
+"class": "ClanIcon16"
+},
+{
+"id": 373,
+"class": "ClanIcon17"
+},
+{
+"id": 371,
+"class": "ClanIcon18"
+},
+{
+"id": 369,
+"class": "ClanIcon19"
+},
+{
+"id": 367,
+"class": "ClanIcon20"
+},
+{
+"id": 365,
+"class": "ClanIcon21"
+},
+{
+"id": 363,
+"class": "ClanIcon22"
+},
+{
+"id": 361,
+"class": "ClanIcon23"
+},
+{
+"id": 359,
+"class": "ClanIcon24"
+},
+{
+"id": 357,
+"class": "ClanIcon25"
+},
+{
+"id": 355,
+"class": "ClanIcon26"
+},
+{
+"id": 353,
+"class": "ClanIcon27"
+},
+{
+"id": 351,
+"class": "ClanIcon28"
+},
+{
+"id": 349,
+"class": "ClanIcon29"
+},
+{
+"id": 347,
+"class": "ClanIcon30"
+},
+{
+"id": 345,
+"class": "ClanTemplate1Kind1"
+},
+{
+"id": 343,
+"class": "ClanTemplate1Kind2"
+},
+{
+"id": 341,
+"class": "ClanTemplate1Kind3"
+},
+{
+"id": 339,
+"class": "ClanTemplate1Kind4"
+},
+{
+"id": 337,
+"class": "ClanTemplate1Kind5"
+},
+{
+"id": 335,
+"class": "ClanTemplate1Kind6"
+},
+{
+"id": 333,
+"class": "ClanTemplate1Kind7"
+},
+{
+"id": 331,
+"class": "ClanTemplate1Kind8"
+},
+{
+"id": 329,
+"class": "ClanTemplate1Kind9"
+},
+{
+"id": 327,
+"class": "ClanTemplate1Kind10"
+},
+{
+"id": 325,
+"class": "ClanTemplate1Kind11"
+},
+{
+"id": 323,
+"class": "ClanTemplate1Kind12"
+},
+{
+"id": 321,
+"class": "ClanTemplate2Kind1"
+},
+{
+"id": 319,
+"class": "ClanTemplate2Kind2"
+},
+{
+"id": 317,
+"class": "ClanTemplate2Kind3"
+},
+{
+"id": 315,
+"class": "ClanTemplate2Kind4"
+},
+{
+"id": 313,
+"class": "ClanTemplate2Kind5"
+},
+{
+"id": 311,
+"class": "ClanTemplate2Kind6"
+},
+{
+"id": 309,
+"class": "ClanTemplate2Kind7"
+},
+{
+"id": 307,
+"class": "ClanTemplate2Kind8"
+},
+{
+"id": 305,
+"class": "ClanTemplate2Kind9"
+},
+{
+"id": 303,
+"class": "ClanTemplate2Kind10"
+},
+{
+"id": 301,
+"class": "ClanTemplate2Kind11"
+},
+{
+"id": 299,
+"class": "ClanTemplate2Kind12"
+},
+{
+"id": 297,
+"class": "ClanTemplate3Kind1"
+},
+{
+"id": 295,
+"class": "ClanTemplate3Kind2"
+},
+{
+"id": 293,
+"class": "ClanTemplate3Kind3"
+},
+{
+"id": 291,
+"class": "ClanTemplate3Kind4"
+},
+{
+"id": 289,
+"class": "ClanTemplate3Kind5"
+},
+{
+"id": 287,
+"class": "ClanTemplate3Kind6"
+},
+{
+"id": 285,
+"class": "ClanTemplate3Kind7"
+},
+{
+"id": 283,
+"class": "ClanTemplate3Kind8"
+},
+{
+"id": 281,
+"class": "ClanTemplate3Kind9"
+},
+{
+"id": 279,
+"class": "ClanTemplate3Kind10"
+},
+{
+"id": 277,
+"class": "ClanTemplate3Kind11"
+},
+{
+"id": 275,
+"class": "ClanTemplate3Kind12"
+},
+{
+"id": 273,
+"class": "ClanTemplate4Kind1"
+},
+{
+"id": 271,
+"class": "ClanTemplate4Kind2"
+},
+{
+"id": 269,
+"class": "ClanTemplate4Kind3"
+},
+{
+"id": 267,
+"class": "ClanTemplate4Kind4"
+},
+{
+"id": 265,
+"class": "ClanTemplate4Kind5"
+},
+{
+"id": 263,
+"class": "ClanTemplate4Kind6"
+},
+{
+"id": 261,
+"class": "ClanTemplate4Kind7"
+},
+{
+"id": 259,
+"class": "ClanTemplate4Kind8"
+},
+{
+"id": 257,
+"class": "ClanTemplate4Kind9"
+},
+{
+"id": 255,
+"class": "ClanTemplate4Kind10"
+},
+{
+"id": 253,
+"class": "ClanTemplate4Kind11"
+},
+{
+"id": 251,
+"class": "ClanTemplate4Kind12"
+},
+{
+"id": 249,
+"class": "ClanTemplate5Kind1"
+},
+{
+"id": 247,
+"class": "ClanTemplate5Kind2"
+},
+{
+"id": 245,
+"class": "ClanTemplate5Kind3"
+},
+{
+"id": 243,
+"class": "ClanTemplate5Kind4"
+},
+{
+"id": 241,
+"class": "ClanTemplate5Kind5"
+},
+{
+"id": 239,
+"class": "ClanTemplate5Kind6"
+},
+{
+"id": 237,
+"class": "ClanTemplate5Kind7"
+},
+{
+"id": 235,
+"class": "ClanTemplate5Kind8"
+},
+{
+"id": 233,
+"class": "ClanTemplate5Kind9"
+},
+{
+"id": 231,
+"class": "ClanTemplate5Kind10"
+},
+{
+"id": 229,
+"class": "ClanTemplate5Kind11"
+},
+{
+"id": 227,
+"class": "ClanTemplate5Kind12"
+},
+{
+"id": 225,
+"class": "ClanTemplate6Kind1"
+},
+{
+"id": 223,
+"class": "ClanTemplate6Kind2"
+},
+{
+"id": 221,
+"class": "ClanTemplate6Kind3"
+},
+{
+"id": 219,
+"class": "ClanTemplate6Kind4"
+},
+{
+"id": 217,
+"class": "ClanTemplate6Kind5"
+},
+{
+"id": 215,
+"class": "ClanTemplate6Kind6"
+},
+{
+"id": 213,
+"class": "ClanTemplate6Kind7"
+},
+{
+"id": 211,
+"class": "ClanTemplate6Kind8"
+},
+{
+"id": 209,
+"class": "ClanTemplate6Kind9"
+},
+{
+"id": 207,
+"class": "ClanTemplate6Kind10"
+},
+{
+"id": 205,
+"class": "ClanTemplate6Kind11"
+},
+{
+"id": 203,
+"class": "ClanTemplate6Kind12"
+},
+{
+"id": 201,
+"class": "ClanTemplate7Kind1"
+},
+{
+"id": 199,
+"class": "ClanTemplate7Kind2"
+},
+{
+"id": 197,
+"class": "ClanTemplate7Kind3"
+},
+{
+"id": 195,
+"class": "ClanTemplate7Kind4"
+},
+{
+"id": 193,
+"class": "ClanTemplate7Kind5"
+},
+{
+"id": 191,
+"class": "ClanTemplate7Kind6"
+},
+{
+"id": 189,
+"class": "ClanTemplate7Kind7"
+},
+{
+"id": 187,
+"class": "ClanTemplate7Kind8"
+},
+{
+"id": 185,
+"class": "ClanTemplate7Kind9"
+},
+{
+"id": 183,
+"class": "ClanTemplate7Kind10"
+},
+{
+"id": 181,
+"class": "ClanTemplate7Kind11"
+},
+{
+"id": 179,
+"class": "ClanTemplate7Kind12"
+},
+{
+"id": 177,
+"class": "ClanTemplate8Kind1"
+},
+{
+"id": 175,
+"class": "ClanTemplate8Kind2"
+},
+{
+"id": 173,
+"class": "ClanTemplate8Kind3"
+},
+{
+"id": 171,
+"class": "ClanTemplate8Kind4"
+},
+{
+"id": 169,
+"class": "ClanTemplate8Kind5"
+},
+{
+"id": 167,
+"class": "ClanTemplate8Kind6"
+},
+{
+"id": 165,
+"class": "ClanTemplate8Kind7"
+},
+{
+"id": 163,
+"class": "ClanTemplate8Kind8"
+},
+{
+"id": 161,
+"class": "ClanTemplate8Kind9"
+},
+{
+"id": 159,
+"class": "ClanTemplate8Kind10"
+},
+{
+"id": 157,
+"class": "ClanTemplate8Kind11"
+},
+{
+"id": 155,
+"class": "ClanTemplate8Kind12"
+},
+{
+"id": 153,
+"class": "ClanTemplate9Kind1"
+},
+{
+"id": 151,
+"class": "ClanTemplate9Kind2"
+},
+{
+"id": 149,
+"class": "ClanTemplate9Kind3"
+},
+{
+"id": 147,
+"class": "ClanTemplate9Kind4"
+},
+{
+"id": 145,
+"class": "ClanTemplate9Kind5"
+},
+{
+"id": 143,
+"class": "ClanTemplate9Kind6"
+},
+{
+"id": 141,
+"class": "ClanTemplate9Kind7"
+},
+{
+"id": 139,
+"class": "ClanTemplate9Kind8"
+},
+{
+"id": 137,
+"class": "ClanTemplate9Kind9"
+},
+{
+"id": 135,
+"class": "ClanTemplate9Kind10"
+},
+{
+"id": 133,
+"class": "ClanTemplate9Kind11"
+},
+{
+"id": 131,
+"class": "ClanTemplate9Kind12"
+},
+{
+"id": 129,
+"class": "ClanTemplate10Kind1"
+},
+{
+"id": 127,
+"class": "ClanTemplate10Kind2"
+},
+{
+"id": 125,
+"class": "ClanTemplate10Kind3"
+},
+{
+"id": 123,
+"class": "ClanTemplate10Kind4"
+},
+{
+"id": 121,
+"class": "ClanTemplate10Kind5"
+},
+{
+"id": 119,
+"class": "ClanTemplate10Kind6"
+},
+{
+"id": 117,
+"class": "ClanTemplate10Kind7"
+},
+{
+"id": 115,
+"class": "ClanTemplate10Kind8"
+},
+{
+"id": 113,
+"class": "ClanTemplate10Kind9"
+},
+{
+"id": 111,
+"class": "ClanTemplate10Kind10"
+},
+{
+"id": 109,
+"class": "ClanTemplate10Kind11"
+},
+{
+"id": 107,
+"class": "ClanTemplate10Kind12"
+},
+{
+"id": 105,
+"class": "ClanTemplate11Kind1"
+},
+{
+"id": 103,
+"class": "ClanTemplate11Kind2"
+},
+{
+"id": 101,
+"class": "ClanTemplate11Kind3"
+},
+{
+"id": 99,
+"class": "ClanTemplate11Kind4"
+},
+{
+"id": 97,
+"class": "ClanTemplate11Kind5"
+},
+{
+"id": 95,
+"class": "ClanTemplate11Kind6"
+},
+{
+"id": 93,
+"class": "ClanTemplate11Kind7"
+},
+{
+"id": 91,
+"class": "ClanTemplate11Kind8"
+},
+{
+"id": 89,
+"class": "ClanTemplate11Kind9"
+},
+{
+"id": 87,
+"class": "ClanTemplate11Kind10"
+},
+{
+"id": 85,
+"class": "ClanTemplate11Kind11"
+},
+{
+"id": 83,
+"class": "ClanTemplate11Kind12"
+},
+{
+"id": 81,
+"class": "ClanTemplate12Kind1"
+},
+{
+"id": 79,
+"class": "ClanTemplate12Kind2"
+},
+{
+"id": 77,
+"class": "ClanTemplate12Kind3"
+},
+{
+"id": 75,
+"class": "ClanTemplate12Kind4"
+},
+{
+"id": 73,
+"class": "ClanTemplate12Kind5"
+},
+{
+"id": 71,
+"class": "ClanTemplate12Kind6"
+},
+{
+"id": 69,
+"class": "ClanTemplate12Kind7"
+},
+{
+"id": 67,
+"class": "ClanTemplate12Kind8"
+},
+{
+"id": 65,
+"class": "ClanTemplate12Kind9"
+},
+{
+"id": 63,
+"class": "ClanTemplate12Kind10"
+},
+{
+"id": 61,
+"class": "ClanTemplate12Kind11"
+},
+{
+"id": 59,
+"class": "ClanTemplate12Kind12"
+},
+{
+"id": 57,
+"class": "ClanFlagColor1"
+},
+{
+"id": 55,
+"class": "ClanFlagColor2"
+},
+{
+"id": 53,
+"class": "ClanFlagColor3"
+},
+{
+"id": 51,
+"class": "ClanFlagColor4"
+},
+{
+"id": 49,
+"class": "ClanFlagColor6"
+},
+{
+"id": 47,
+"class": "ClanFlagColor9"
+},
+{
+"id": 45,
+"class": "ClanFlagColor10"
+},
+{
+"id": 43,
+"class": "ClanFlagColor11"
+},
+{
+"id": 41,
+"class": "ClanShaft1"
+},
+{
+"id": 39,
+"class": "ClanShaft2"
+},
+{
+"id": 37,
+"class": "ClanShaft3"
+},
+{
+"id": 35,
+"class": "ClanShaft4"
+},
+{
+"id": 33,
+"class": "ClanShaft5"
+}
+],
+"common/objects/clans_ui": [
+{
+"id": 614,
+"class": "ClanDescriptionPopup"
+},
+{
+"id": 610,
+"class": "ClanMemberIntroHint"
+},
+{
+"id": 599,
+"class": "ChatMessage"
+},
+{
+"id": 594,
+"class": "ChatMessageSeparator"
+},
+{
+"id": 592,
+"class": "ChatServiceMessage"
+},
+{
+"id": 590,
+"class": "ClanActionTile"
+},
+{
+"id": 586,
+"class": "ClanActionTileTitle"
+},
+{
+"id": 582,
+"class": "ClanChatPanel"
+},
+{
+"id": 563,
+"class": "ClanChatTab"
+},
+{
+"id": 528,
+"class": "ClanControlPopup"
+},
+{
+"id": 520,
+"class": "ClanDialogBuyOp"
+},
+{
+"id": 487,
+"class": "ClanDialogMemberFire"
+},
+{
+"id": 479,
+"class": "ClanDialogSetMedalCost"
+},
+{
+"id": 461,
+"class": "ClanInfoPopup"
+},
+{
+"id": 458,
+"class": "ClanInviteButtonClip"
+},
+{
+"id": 447,
+"class": "SelfMemberTile"
+},
+{
+"id": 433,
+"class": "ClanMemberTile"
+},
+{
+"id": 402,
+"class": "ClanMessage"
+},
+{
+"id": 397,
+"class": "ClanMessagePopup"
+},
+{
+"id": 376,
+"class": "ClanPopup"
+},
+{
+"id": 354,
+"class": "ClanTile"
+},
+{
+"id": 337,
+"class": "GlobalChatTab"
+},
+{
+"id": 322,
+"class": "PinnedMessageBgDark"
+},
+{
+"id": 320,
+"class": "PinnedMessageBgLight"
+},
+{
+"id": 318,
+"class": "TabClanActivity"
+},
+{
+"id": 316,
+"class": "TabClanCreate"
+},
+{
+"id": 281,
+"class": "TabClanEmpty"
+},
+{
+"id": 280,
+"class": "TabClanInfo"
+},
+{
+"id": 120,
+"class": "TabClanSearch"
+},
+{
+"id": 85,
+"class": "TabClanTreasury"
+},
+{
+"id": 1,
+"class": "TitleFont"
+}
+],
+"common/objects/hats": [
+{
+"id": 1253,
+"class": "RavenMaskIcon"
+},
+{
+"id": 1251,
+"class": "KamikadzeHatIcon"
+},
+{
+"id": 1249,
+"class": "GravityMasterHelmIcon"
+},
+{
+"id": 1247,
+"class": "NeuromancerIcon"
+},
+{
+"id": 1245,
+"class": "BossDarkKnightHatIcon"
+},
+{
+"id": 1243,
+"class": "StetsonIcon"
+},
+{
+"id": 1241,
+"class": "HologramRabbitIcon"
+},
+{
+"id": 1239,
+"class": "HologramIcon"
+},
+{
+"id": 1237,
+"class": "DestroyerIcon"
+},
+{
+"id": 1235,
+"class": "BoxerHatCyberNinjaYellow"
+},
+{
+"id": 1232,
+"class": "BoxerHatCyberNinjaBlue"
+},
+{
+"id": 1229,
+"class": "BoxerHatCyberNinjaBlack"
+},
+{
+"id": 1226,
+"class": "AviatorHatBoxer"
+},
+{
+"id": 1224,
+"class": "VipCrown"
+},
+{
+"id": 1221,
+"class": "HologramAnim"
+},
+{
+"id": 1048,
+"class": "Destroyer"
+},
+{
+"id": 966,
+"class": "BoarHatBoiler"
+},
+{
+"id": 963,
+"class": "AlienHatBoiler"
+},
+{
+"id": 960,
+"class": "RavenMask"
+},
+{
+"id": 922,
+"class": "RobinhoodHat"
+},
+{
+"id": 919,
+"class": "HologramRabbitAnim"
+},
+{
+"id": 639,
+"class": "BlackYetiHatBoxer"
+},
+{
+"id": 637,
+"class": "JarlHatBoxer"
+},
+{
+"id": 634,
+"class": "BoxerBlackSombrero"
+},
+{
+"id": 632,
+"class": "BoxerArtist"
+},
+{
+"id": 630,
+"class": "BoxerAqualung"
+},
+{
+"id": 628,
+"class": "BoxerTribal"
+},
+{
+"id": 626,
+"class": "BoxerVoodoo"
+},
+{
+"id": 624,
+"class": "ArchbotHat"
+},
+{
+"id": 621,
+"class": "BossArchivistHatBoxer"
+},
+{
+"id": 619,
+"class": "ArcticHelm"
+},
+{
+"id": 616,
+"class": "BlackBandage"
+},
+{
+"id": 614,
+"class": "BlacksmithHelm"
+},
+{
+"id": 611,
+"class": "ChemistHairHatBoxer"
+},
+{
+"id": 609,
+"class": "ChemistHatBoxer"
+},
+{
+"id": 607,
+"class": "CyborgHatBoxer"
+},
+{
+"id": 605,
+"class": "DarkCultistBossHatBoxer"
+},
+{
+"id": 603,
+"class": "DarkCultistHatBoxer"
+},
+{
+"id": 601,
+"class": "BossDarkKnightHatAnim"
+},
+{
+"id": 549,
+"class": "BossDeadPirateHatBoxer"
+},
+{
+"id": 547,
+"class": "BossDevoteeHatBoxer"
+},
+{
+"id": 544,
+"class": "BossDevoteeMinionHatBoxer"
+},
+{
+"id": 538,
+"class": "EagleHatBoxer"
+},
+{
+"id": 536,
+"class": "EagleHatDragon"
+},
+{
+"id": 534,
+"class": "ElderDemonHat"
+},
+{
+"id": 533,
+"class": "EmperorHatBoxer"
+},
+{
+"id": 531,
+"class": "BossEnchanterHatBoxer"
+},
+{
+"id": 529,
+"class": "BossEngineerHatBoxer"
+},
+{
+"id": 527,
+"class": "BossGhostHatBoxer"
+},
+{
+"id": 525,
+"class": "GravityMasterHelm"
+},
+{
+"id": 514,
+"class": "BossGuardiansDepthsHatBoxer"
+},
+{
+"id": 512,
+"class": "BossHackerHatBoxer"
+},
+{
+"id": 510,
+"class": "BossIllusionistHatBoxer"
+},
+{
+"id": 507,
+"class": "JarlBaseHat"
+},
+{
+"id": 504,
+"class": "JarlFireHat"
+},
+{
+"id": 501,
+"class": "JarlPoisonHat"
+},
+{
+"id": 498,
+"class": "JarlShockHat"
+},
+{
+"id": 495,
+"class": "BossKingDeadHatBoxer"
+},
+{
+"id": 493,
+"class": "BossKingDeadHatIcon"
+},
+{
+"id": 491,
+"class": "MinerHat"
+},
+{
+"id": 490,
+"class": "BossPaladinHatBoxer"
+},
+{
+"id": 488,
+"class": "BossPhantomHatBoxer"
+},
+{
+"id": 485,
+"class": "PharaohHatBoxer"
+},
+{
+"id": 483,
+"class": "PharaohHatDragon"
+},
+{
+"id": 481,
+"class": "BossPirateHatBoxer"
+},
+{
+"id": 479,
+"class": "BossPsiBioticHatBoxer"
+},
+{
+"id": 477,
+"class": "BossPsiTelepathistHatBoxer"
+},
+{
+"id": 475,
+"class": "RebelBandage"
+},
+{
+"id": 473,
+"class": "RebelBandageDragon"
+},
+{
+"id": 471,
+"class": "RebelBandageRhino"
+},
+{
+"id": 469,
+"class": "BossJulietHatBoxer"
+},
+{
+"id": 467,
+"class": "BossRomeoHatBoxer"
+},
+{
+"id": 463,
+"class": "ScientistHatBoxer"
+},
+{
+"id": 461,
+"class": "BossShamanHatBoxer"
+},
+{
+"id": 459,
+"class": "SolarPriestHat"
+},
+{
+"id": 457,
+"class": "SoulMasterHelm"
+},
+{
+"id": 454,
+"class": "SpidersQueenHelm"
+},
+{
+"id": 451,
+"class": "SymbioteHatBoxer"
+},
+{
+"id": 447,
+"class": "BossThiefHatBoxer"
+},
+{
+"id": 445,
+"class": "BossVikingHatBoxer"
+},
+{
+"id": 443,
+"class": "BossWindMasterHatBoxer"
+},
+{
+"id": 441,
+"class": "BossYakuza1HatBoxer"
+},
+{
+"id": 439,
+"class": "BossYakuza2HatBoxer"
+},
+{
+"id": 437,
+"class": "BossYakuza3HatBoxer"
+},
+{
+"id": 435,
+"class": "ChampionHelmHatBoxer"
+},
+{
+"id": 433,
+"class": "ChampionHelmHatDragon"
+},
+{
+"id": 431,
+"class": "AlienHatCocked"
+},
+{
+"id": 428,
+"class": "BoarHatCocked"
+},
+{
+"id": 425,
+"class": "BoxerHatCocked"
+},
+{
+"id": 422,
+"class": "DragonHatCocked"
+},
+{
+"id": 419,
+"class": "FiendHelm"
+},
+{
+"id": 417,
+"class": "FireMaskHatBoxer"
+},
+{
+"id": 415,
+"class": "FireSheepHatBoxer"
+},
+{
+"id": 413,
+"class": "GeneralsCap"
+},
+{
+"id": 411,
+"class": "BoxerHatGul"
+},
+{
+"id": 408,
+"class": "DragonHatBoiler"
+},
+{
+"id": 405,
+"class": "BoxerHatBoiler"
+},
+{
+"id": 402,
+"class": "RhinoHatBoiler"
+},
+{
+"id": 399,
+"class": "HellRacerHelm"
+},
+{
+"id": 397,
+"class": "BoxerHatHokage"
+},
+{
+"id": 395,
+"class": "Neuromancer"
+},
+{
+"id": 379,
+"class": "NinjaSurgeonWide"
+},
+{
+"id": 378,
+"class": "NinjaSurgeon"
+},
+{
+"id": 376,
+"class": "NordicHelmBoxer"
+},
+{
+"id": 374,
+"class": "PsyherHelmHatBoxer"
+},
+{
+"id": 372,
+"class": "RespiratorHatBoxer"
+},
+{
+"id": 370,
+"class": "BoarHatRonin"
+},
+{
+"id": 367,
+"class": "BoxerHatRonin"
+},
+{
+"id": 364,
+"class": "SapperHelm"
+},
+{
+"id": 362,
+"class": "SithHood"
+},
+{
+"id": 359,
+"class": "SpecOpsHatBoxer"
+},
+{
+"id": 357,
+"class": "SteampunkGlassesBoxer"
+},
+{
+"id": 355,
+"class": "StetsonAnim"
+},
+{
+"id": 252,
+"class": "VileMaskBoxer"
+},
+{
+"id": 250,
+"class": "AlienGlassesHatBoxer"
+},
+{
+"id": 244,
+"class": "AlienHelmHatBoxer"
+},
+{
+"id": 241,
+"class": "AqualungUpg"
+},
+{
+"id": 238,
+"class": "BoxHatBoxer"
+},
+{
+"id": 236,
+"class": "BoxerChromeHat"
+},
+{
+"id": 234,
+"class": "BoxerHatKabuto"
+},
+{
+"id": 231,
+"class": "BoxerPirate"
+},
+{
+"id": 229,
+"class": "BoxerPrincess"
+},
+{
+"id": 226,
+"class": "BoxerRedcap"
+},
+{
+"id": 223,
+"class": "BoxerScorpion"
+},
+{
+"id": 221,
+"class": "BoxerSubzero"
+},
+{
+"id": 219,
+"class": "BoxerViking"
+},
+{
+"id": 217,
+"class": "ChristmasHelmetBoxer"
+},
+{
+"id": 215,
+"class": "BoxerHalloweenHat1"
+},
+{
+"id": 213,
+"class": "BoxerHalloweenHat2"
+},
+{
+"id": 211,
+"class": "BoxerPumpkinGreenHat"
+},
+{
+"id": 209,
+"class": "BoxerPumpkinRedHat"
+},
+{
+"id": 207,
+"class": "BoxerPumpkinOrangeHat"
+},
+{
+"id": 205,
+"class": "MinerHelm"
+},
+{
+"id": 202,
+"class": "MooseHelmBoxer"
+},
+{
+"id": 200,
+"class": "NoBoxerChromeHat"
+},
+{
+"id": 198,
+"class": "RobochikenBoxer"
+},
+{
+"id": 196,
+"class": "RobotHatKabuto"
+},
+{
+"id": 193,
+"class": "WinterHatBoxer"
+},
+{
+"id": 191,
+"class": "BlueYetiHatBoxer"
+},
+{
+"id": 189,
+"class": "WhiteYetiHatBoxer"
+},
+{
+"id": 187,
+"class": "FireFighterHat"
+},
+{
+"id": 185,
+"class": "BoxerChieftain"
+},
+{
+"id": 183,
+"class": "BoxerCowboy"
+},
+{
+"id": 181,
+"class": "BoxerCrown"
+},
+{
+"id": 178,
+"class": "BoxerDartvader"
+},
+{
+"id": 176,
+"class": "BoxerFarmer"
+},
+{
+"id": 174,
+"class": "BoxerFirelord"
+},
+{
+"id": 171,
+"class": "RhinoFirelord"
+},
+{
+"id": 168,
+"class": "BoxerGentleman"
+},
+{
+"id": 166,
+"class": "BoxerGirlberret"
+},
+{
+"id": 164,
+"class": "BoxerJason"
+},
+{
+"id": 162,
+"class": "RhinoJason"
+},
+{
+"id": 160,
+"class": "BoxerLegioner"
+},
+{
+"id": 158,
+"class": "BoxerMaster"
+},
+{
+"id": 156,
+"class": "BoxerNaruto"
+},
+{
+"id": 154,
+"class": "BoxerPinkhat"
+},
+{
+"id": 152,
+"class": "BoxerPinkhelm"
+},
+{
+"id": 149,
+"class": "BoxerPinklegioner"
+},
+{
+"id": 147,
+"class": "BoxerSadomazo"
+},
+{
+"id": 145,
+"class": "BoxerSimplehelm"
+},
+{
+"id": 143,
+"class": "BoxerTankhelm"
+},
+{
+"id": 140,
+"class": "BoxerThief"
+},
+{
+"id": 138,
+"class": "BoxerWhitehat"
+},
+{
+"id": 136,
+"class": "BoxerWizzard"
+},
+{
+"id": 134,
+"class": "BoxerIndian"
+},
+{
+"id": 132,
+"class": "BoxerNazi"
+},
+{
+"id": 130,
+"class": "BoxerSombrero"
+},
+{
+"id": 128,
+"class": "ColoredIroquoisHatBoxer"
+},
+{
+"id": 126,
+"class": "CosmonautHatBoxer"
+},
+{
+"id": 124,
+"class": "BoxerHatCrashHelmet"
+},
+{
+"id": 122,
+"class": "DemonHatBoxer"
+},
+{
+"id": 120,
+"class": "BoxerHatDoctorArmband"
+},
+{
+"id": 118,
+"class": "BoxerHatElvis"
+},
+{
+"id": 116,
+"class": "GiftHatBoxer"
+},
+{
+"id": 114,
+"class": "BoxerGladiatorHelmet"
+},
+{
+"id": 112,
+"class": "GreenIroquoisHatBoxer"
+},
+{
+"id": 110,
+"class": "BoxerHatHeroMask"
+},
+{
+"id": 108,
+"class": "IlusionistHatBoxer"
+},
+{
+"id": 106,
+"class": "IlusionistHatRhino"
+},
+{
+"id": 104,
+"class": "KamikadzeHat"
+},
+{
+"id": 98,
+"class": "BossLavaJawHatBoxer"
+},
+{
+"id": 96,
+"class": "BossLavaJawHatRhino"
+},
+{
+"id": 94,
+"class": "BoxerHatMask"
+},
+{
+"id": 92,
+"class": "MinionHatBoxer"
+},
+{
+"id": 90,
+"class": "MinionHatRhino"
+},
+{
+"id": 88,
+"class": "CasketHatBoxer"
+},
+{
+"id": 86,
+"class": "MegavoltHatBoxer"
+},
+{
+"id": 84,
+"class": "RegenerativeHatBoxer"
+},
+{
+"id": 82,
+"class": "RegenerativeHatRhino"
+},
+{
+"id": 80,
+"class": "BoxerHatNeo"
+},
+{
+"id": 78,
+"class": "BoxerNightHat"
+},
+{
+"id": 76,
+"class": "RhinoNightHat"
+},
+{
+"id": 73,
+"class": "NightVisionHatBoxer"
+},
+{
+"id": 71,
+"class": "NightVisionHatRhino"
+},
+{
+"id": 69,
+"class": "BoxerHatNimbus"
+},
+{
+"id": 67,
+"class": "BoxerHatNinjaTurtles"
+},
+{
+"id": 65,
+"class": "BoxerHatOfficer"
+},
+{
+"id": 63,
+"class": "BoxerPurpleRacingHelmet"
+},
+{
+"id": 61,
+"class": "BoxerRedRacingHelmet"
+},
+{
+"id": 59,
+"class": "BoxerHatRussian"
+},
+{
+"id": 57,
+"class": "ScreamHatBoxer"
+},
+{
+"id": 55,
+"class": "BoxerHatSoviet"
+},
+{
+"id": 53,
+"class": "SportsCapBrown"
+},
+{
+"id": 51,
+"class": "SportsCapDark"
+},
+{
+"id": 49,
+"class": "SportsCapRed"
+},
+{
+"id": 47,
+"class": "AssasinAceHatBoxer"
+},
+{
+"id": 45,
+"class": "AssasinEliteHatBoxer"
+},
+{
+"id": 43,
+"class": "AssasinMasterHatBoxer"
+},
+{
+"id": 41,
+"class": "HockeyPlayerAceHatBoxer"
+},
+{
+"id": 39,
+"class": "HockeyPlayerEliteHatBoxer"
+},
+{
+"id": 37,
+"class": "HockeyPlayerHatBoxer"
+},
+{
+"id": 35,
+"class": "HockeyPlayerMasterHatBoxer"
+},
+{
+"id": 33,
+"class": "KnightAceHatBoxer"
+},
+{
+"id": 31,
+"class": "KnightEliteHatBoxer"
+},
+{
+"id": 29,
+"class": "KnightHatBoxer"
+},
+{
+"id": 27,
+"class": "KnightMasterHatBoxer"
+},
+{
+"id": 25,
+"class": "MonkAceHatBoxer"
+},
+{
+"id": 23,
+"class": "MonkEliteHatBoxer"
+},
+{
+"id": 21,
+"class": "MonkHatBoxer"
+},
+{
+"id": 19,
+"class": "MonkMasterHatBoxer"
+},
+{
+"id": 17,
+"class": "WolfAceHatBoxer"
+},
+{
+"id": 15,
+"class": "WolfEliteHatBoxer"
+},
+{
+"id": 13,
+"class": "WolfMasterHatBoxer"
+},
+{
+"id": 11,
+"class": "ApprenticePyromancer"
+},
+{
+"id": 8,
+"class": "FieryHair"
+},
+{
+"id": 5,
+"class": "HeavenlyPyromancer"
+}
+],
+"common/objects/hats2": [
+{
+"id": 44,
+"class": "KaminaHairstyle"
+},
+{
+"id": 42,
+"class": "HurricaneHairstyle"
+},
+{
+"id": 40,
+"class": "KaminaHairstyleBoxer"
+},
+{
+"id": 38,
+"class": "KaminaHairstyleCat"
+},
+{
+"id": 36,
+"class": "KaminaHairstyleBoar"
+},
+{
+"id": 34,
+"class": "KaminaHairstyleRabbit"
+},
+{
+"id": 32,
+"class": "VampireHat"
+},
+{
+"id": 30,
+"class": "VampireHatBoar"
+},
+{
+"id": 28,
+"class": "VampireHatBoxer"
+},
+{
+"id": 26,
+"class": "VampireHatCat"
+},
+{
+"id": 24,
+"class": "VampireHatRabbit"
+},
+{
+"id": 22,
+"class": "VampireHatZombie"
+},
+{
+"id": 20,
+"class": "HurricaneHairstyleBoar"
+},
+{
+"id": 18,
+"class": "HurricaneHairstyleBoxer"
+},
+{
+"id": 16,
+"class": "HurricaneHairstyleCat"
+},
+{
+"id": 14,
+"class": "HurricaneHairstyleRabbit"
+},
+{
+"id": 12,
+"class": "HurricaneHairstyleZombie"
+},
+{
+"id": 10,
+"class": "GiftBagHat"
+},
+{
+"id": 8,
+"class": "ClownHaircut"
+},
+{
+"id": 6,
+"class": "ClownHaircutBoxer"
+},
+{
+"id": 4,
+"class": "ClownHaircutRhino"
+},
+{
+"id": 2,
+"class": "ClownHaircutBoar"
+}
+],
+"common/objects/learningMissionObjects": [
+{
+"id": 199,
+"class": "ArrowBagMenu"
+},
+{
+"id": 198,
+"class": "PointerBagBtn"
+},
+{
+"id": 191,
+"class": "SelectedItemLight"
+},
+{
+"id": 189,
+"class": "LearningMissionCursor"
+},
+{
+"id": 186,
+"class": "LearningMission1_CentralPart"
+},
+{
+"id": 184,
+"class": "LearningMission1_LeftPart"
+},
+{
+"id": 182,
+"class": "LearningMission1_RightPart"
+},
+{
+"id": 180,
+"class": "LearningMission2_MovingPart"
+},
+{
+"id": 178,
+"class": "LearningMission2_StandingPart"
+},
+{
+"id": 176,
+"class": "LearningMission3_CentralPart"
+},
+{
+"id": 174,
+"class": "LearningMission3_LeftDownPart"
+},
+{
+"id": 172,
+"class": "LearningMission3_LeftUpPart"
+},
+{
+"id": 170,
+"class": "LearningMission3_RightPart"
+},
+{
+"id": 168,
+"class": "LearningMission4_CentralPart"
+},
+{
+"id": 166,
+"class": "Road_7"
+},
+{
+"id": 164,
+"class": "Road_5"
+},
+{
+"id": 162,
+"class": "Road_6"
+},
+{
+"id": 160,
+"class": "Road_11"
+},
+{
+"id": 158,
+"class": "Road_30"
+},
+{
+"id": 156,
+"class": "Road_31"
+},
+{
+"id": 154,
+"class": "Road_15"
+},
+{
+"id": 152,
+"class": "Road_9"
+},
+{
+"id": 150,
+"class": "Road_22"
+},
+{
+"id": 148,
+"class": "Road_10"
+},
+{
+"id": 146,
+"class": "Road_24"
+},
+{
+"id": 144,
+"class": "LearningMission5_CentralPart"
+},
+{
+"id": 140,
+"class": "Road_16"
+},
+{
+"id": 138,
+"class": "Road_20"
+},
+{
+"id": 136,
+"class": "Road_21"
+},
+{
+"id": 134,
+"class": "Road_26"
+},
+{
+"id": 132,
+"class": "Road_25"
+},
+{
+"id": 130,
+"class": "Road_19"
+},
+{
+"id": 128,
+"class": "LearningMissionMark"
+},
+{
+"id": 126,
+"class": "LearningMissionMarkExplosion"
+},
+{
+"id": 125,
+"class": "learningMissionObjects_fla.LearningMissionMarkExplosionPart_41"
+},
+{
+"id": 97,
+"class": "LearningMissionPointerArrow"
+},
+{
+"id": 95,
+"class": "LearningMissionPointerBody"
+},
+{
+"id": 93,
+"class": "ImgHelpPanel"
+},
+{
+"id": 91,
+"class": "LEARNING_1_TURN_1_N2_MC"
+},
+{
+"id": 87,
+"class": "LEARNING_1_TURN_2_MC"
+},
+{
+"id": 82,
+"class": "LEARNING_2_TURN_1_MC"
+},
+{
+"id": 77,
+"class": "LEARNING_2_TURN_2_MC"
+},
+{
+"id": 71,
+"class": "LEARNING_3_TURN_5_N1_MC"
+},
+{
+"id": 70,
+"class": "learningMissionObjects_fla.shot_power_anim_60"
+},
+{
+"id": 61,
+"class": "LEARNING_3_TURN_5_N2_MC"
+},
+{
+"id": 59,
+"class": "TutorialPanel_mc"
+}
+],
+"common/objects/photo_studio": [
+{
+"id": 81,
+"class": "PhotoStudio"
+},
+{
+"id": 47,
+"class": "photo_studio_fla.BackgroundForAvatar_5"
+}
+],
+"common/objects/reagent_icons": [
+{
+"id": 80,
+"class": "IconBadge"
+},
+{
+"id": 78,
+"class": "IconSimpleKey"
+},
+{
+"id": 76,
+"class": "IconChristmasKey"
+},
+{
+"id": 74,
+"class": "IconWeaponPack0"
+},
+{
+"id": 72,
+"class": "IconWeaponPack1"
+},
+{
+"id": 70,
+"class": "IconWeaponPack2"
+},
+{
+"id": 68,
+"class": "IconRewardPack"
+},
+{
+"id": 66,
+"class": "IconRuby"
+},
+{
+"id": 64,
+"class": "IconReaction"
+},
+{
+"id": 62,
+"class": "IconRating"
+},
+{
+"id": 60,
+"class": "IconFuzy"
+},
+{
+"id": 58,
+"class": "IconExp"
+},
+{
+"id": 56,
+"class": "IconExpBonus"
+},
+{
+"id": 54,
+"class": "IconBattleCoin"
+},
+{
+"id": 52,
+"class": "IconMutagen"
+},
+{
+"id": 50,
+"class": "IconRankPoints"
+},
+{
+"id": 48,
+"class": "IconAccumulator"
+},
+{
+"id": 46,
+"class": "IconBattery"
+},
+{
+"id": 44,
+"class": "IconCoal"
+},
+{
+"id": 42,
+"class": "IconCrystal"
+},
+{
+"id": 40,
+"class": "IconGear"
+},
+{
+"id": 38,
+"class": "IconGenerator"
+},
+{
+"id": 36,
+"class": "IconGunpowder"
+},
+{
+"id": 34,
+"class": "IconHammer"
+},
+{
+"id": 32,
+"class": "IconMetalPlate"
+},
+{
+"id": 30,
+"class": "IconMicrochip"
+},
+{
+"id": 28,
+"class": "IconPipe"
+},
+{
+"id": 26,
+"class": "IconSand"
+},
+{
+"id": 24,
+"class": "IconScrewBolt"
+},
+{
+"id": 22,
+"class": "IconScrewdriver"
+},
+{
+"id": 20,
+"class": "IconScrewNut"
+},
+{
+"id": 18,
+"class": "IconSniperScope"
+},
+{
+"id": 16,
+"class": "IconSpring"
+},
+{
+"id": 14,
+"class": "IconSteelBar"
+},
+{
+"id": 12,
+"class": "IconStone"
+},
+{
+"id": 10,
+"class": "IconTitanBar"
+},
+{
+"id": 8,
+"class": "IconUmbrella"
+},
+{
+"id": 6,
+"class": "IconWood"
+},
+{
+"id": 4,
+"class": "IconWrench"
+}
+],
+"common/objects/returnFriendObjects": [
+{
+"id": 204,
+"class": "ChooseReturnFriendMenu"
+},
+{
+"id": 160,
+"class": "ReturnFriendRequestMenu"
+},
+{
+"id": 129,
+"class": "ReturnFriendRequestMenuCell"
+},
+{
+"id": 122,
+"class": "LoadingClan"
+},
+{
+"id": 100,
+"class": "ReturnFriendRewardMenu"
+},
+{
+"id": 94,
+"class": "BirdyAnim"
+},
+{
+"id": 76,
+"class": "ResourceIcon"
+},
+{
+"id": 20,
+"class": "ReturnFriendBtn"
+},
+{
+"id": 5,
+"class": "BirdyStatic"
+},
+{
+"id": 2,
+"class": "TitleFont"
+},
+{
+"id": 1,
+"class": "NumberFont"
+}
+],
+"common/objects/rip": [
+{
+"id": 264,
+"class": "rip_fla.___donut_UNGRAVING_65"
+},
+{
+"id": 242,
+"class": "CatGrave"
+},
+{
+"id": 239,
+"class": "DemonGrave"
+},
+{
+"id": 214,
+"class": "RabbitGrave"
+},
+{
+"id": 210,
+"class": "WormGrave"
+},
+{
+"id": 206,
+"class": "BoxerGrave"
+},
+{
+"id": 203,
+"class": "BigSoul"
+},
+{
+"id": 197,
+"class": "WormSoul"
+},
+{
+"id": 170,
+"class": "DeathBurning"
+},
+{
+"id": 168,
+"class": "rip_fla.immolate_24"
+},
+{
+"id": 123,
+"class": "ZombieGrave"
+},
+{
+"id": 119,
+"class": "DragonGrave"
+},
+{
+"id": 114,
+"class": "RobotGrave"
+},
+{
+"id": 102,
+"class": "RhinoGrave"
+},
+{
+"id": 99,
+"class": "BoarGrave"
+},
+{
+"id": 96,
+"class": "DeathLightning"
+},
+{
+"id": 49,
+"class": "DeathFrozen"
+},
+{
+"id": 23,
+"class": "AlienGrave"
+},
+{
+"id": 19,
+"class": "CrabGrave"
+},
+{
+"id": 15,
+"class": "DonutGrave"
+},
+{
+"id": 8,
+"class": "SnailGrave"
+}
+],
+"common/objects/shopMenu": [
+{
+"id": 459,
+"class": "ShopMenu"
+},
+{
+"id": 325,
+"class": "BundleDecorSantaHat"
+},
+{
+"id": 323,
+"class": "BundleDecorOmela"
+},
+{
+"id": 321,
+"class": "BundleDecorGuirlanda"
+},
+{
+"id": 319,
+"class": "BundleDecorSnowCandy"
+},
+{
+"id": 317,
+"class": "BundleIcons"
+},
+{
+"id": 71,
+"class": "HatStatRow"
+},
+{
+"id": 66,
+"class": "SellStuffMenu"
+},
+{
+"id": 37,
+"class": "shopMenu_fla.ShopCellSelection_63"
+},
+{
+"id": 33,
+"class": "shopMenu_fla.ShopCellNormal_61"
+},
+{
+"id": 1,
+"class": "NumberFont"
+}
+],
+"common/objects/specialDeal": [
+{
+"id": 144,
+"class": "SpecialDealWindow"
+},
+{
+"id": 73,
+"class": "StarterBundleOfferWindow"
+},
+{
+"id": 1,
+"class": "NumberFont"
+}
+],
+"common/objects/topRatingObjects": [
+{
+"id": 346,
+"class": "RankCellDivider"
+},
+{
+"id": 343,
+"class": "RatingCellDivider"
+},
+{
+"id": 334,
+"class": "NobodyInRubyLeagueMsg"
+},
+{
+"id": 310,
+"class": "PlugIfNotEnough"
+},
+{
+"id": 309,
+"class": "NobodyInRatingTopMsg"
+},
+{
+"id": 286,
+"class": "RankTabProgress"
+},
+{
+"id": 262,
+"class": "RatingWindow"
+},
+{
+"id": 246,
+"class": "RatingCellLegend"
+},
+{
+"id": 235,
+"class": "RankCell"
+},
+{
+"id": 224,
+"class": "RatingCell"
+},
+{
+"id": 203,
+"class": "RatingCellClan"
+},
+{
+"id": 132,
+"class": "RatingTabClan"
+},
+{
+"id": 121,
+"class": "RatingSubTabDaily"
+},
+{
+"id": 116,
+"class": "RatingSubTabDailyToday"
+},
+{
+"id": 108,
+"class": "RatingTabDaily"
+},
+{
+"id": 94,
+"class": "TopAwardCell"
+},
+{
+"id": 84,
+"class": "RankTabSeason"
+},
+{
+"id": 70,
+"class": "RatingTabAllTime"
+}
+],
+"common/objects/viral_stuff": [
+{
+"id": 211,
+"class": "IconBeholdYellow"
+},
+{
+"id": 209,
+"class": "IconAwardYellow"
+},
+{
+"id": 207,
+"class": "IconAssembledGreen"
+},
+{
+"id": 205,
+"class": "IconAwardGreen"
+},
+{
+"id": 203,
+"class": "IconUpgradedYellow"
+},
+{
+"id": 201,
+"class": "IconAssembledYellow"
+},
+{
+"id": 199,
+"class": "IconBackBlue"
+},
+{
+"id": 197,
+"class": "IconBackGreen"
+},
+{
+"id": 195,
+"class": "IconBackYellow"
+},
+{
+"id": 193,
+"class": "IconBeholdGreen"
+},
+{
+"id": 191,
+"class": "IconUpgradedGreen"
+},
+{
+"id": 189,
+"class": "IconOntopGreen"
+},
+{
+"id": 187,
+"class": "IconOntopYellow"
+},
+{
+"id": 185,
+"class": "IconRareCyan"
+},
+{
+"id": 183,
+"class": "IconChestYellowLight"
+},
+{
+"id": 181,
+"class": "IconAmazingGreen"
+},
+{
+"id": 179,
+"class": "IconTopClanYellow"
+},
+{
+"id": 177,
+"class": "IconRareViolet"
+},
+{
+"id": 175,
+"class": "IconChestYellow"
+},
+{
+"id": 173,
+"class": "IconAmazingHot"
+},
+{
+"id": 171,
+"class": "IconTopClanRed"
+},
+{
+"id": 169,
+"class": "ButtonViral"
+},
+{
+"id": 111,
+"class": "AchieveIconBorder"
+},
+{
+"id": 92,
+"class": "AchieveIconBack"
+},
+{
+"id": 88,
+"class": "BigPictureVictory"
+}
+],
+"common/objects/weapon_upgrades": [
+{
+"id": 1875,
+"class": "AmBlowTorchUpg1"
+},
+{
+"id": 1866,
+"class": "AmBlowTorchUpg2"
+},
+{
+"id": 1848,
+"class": "AmNapalmBombUpg1"
+},
+{
+"id": 1846,
+"class": "NapalmStrikeUpg1Control"
+},
+{
+"id": 1844,
+"class": "TeleportUpg1a"
+},
+{
+"id": 1842,
+"class": "TeleportUpg1b"
+},
+{
+"id": 1840,
+"class": "UziUpg1"
+},
+{
+"id": 1838,
+"class": "BlowTorchUpg1"
+},
+{
+"id": 1836,
+"class": "BlowTorchUpg2"
+},
+{
+"id": 1834,
+"class": "GirderHUpg1"
+},
+{
+"id": 1829,
+"class": "BatUpg1"
+},
+{
+"id": 1828,
+"class": "AmCumulativeBazooka"
+},
+{
+"id": 1826,
+"class": "CumulativeBazooka"
+},
+{
+"id": 1824,
+"class": "AmBazookaUpg1"
+},
+{
+"id": 1822,
+"class": "BazookaUpg1"
+},
+{
+"id": 1820,
+"class": "CarpetBazookaUpg1"
+},
+{
+"id": 1818,
+"class": "AmCarpetUpg1"
+},
+{
+"id": 1816,
+"class": "CarpetBazookaUpg2A"
+},
+{
+"id": 1814,
+"class": "AmCarpetUpg2A"
+},
+{
+"id": 1812,
+"class": "CarpetBazookaUpg2B"
+},
+{
+"id": 1810,
+"class": "AmCarpetUpg2B"
+},
+{
+"id": 1808,
+"class": "AmCarpetStrikeUpg1"
+},
+{
+"id": 1806,
+"class": "CarpetStrikeUpg1Control"
+},
+{
+"id": 1804,
+"class": "AmClGrenadeMine"
+},
+{
+"id": 1803,
+"class": "ClGrenadeMine"
+},
+{
+"id": 1802,
+"class": "ClGrenadeMineBlink"
+},
+{
+"id": 1799,
+"class": "AmClGrenadeUpg1"
+},
+{
+"id": 1798,
+"class": "ClGrenadeUpg1"
+},
+{
+"id": 1797,
+"class": "ClGrenadeUpg1Blink"
+},
+{
+"id": 1794,
+"class": "AmHomingClGrenade"
+},
+{
+"id": 1793,
+"class": "HomingClGrenade"
+},
+{
+"id": 1792,
+"class": "HomingClGrenadeBlink"
+},
+{
+"id": 1789,
+"class": "HomingClGrenadeSplinter"
+},
+{
+"id": 1787,
+"class": "AmDynamiteUpg1"
+},
+{
+"id": 1782,
+"class": "DynamiteUpg1"
+},
+{
+"id": 1780,
+"class": "DynamiteUpg2"
+},
+{
+"id": 1778,
+"class": "StuffedBouncingGrenade"
+},
+{
+"id": 1777,
+"class": "AmStuffedBouncingGrenade"
+},
+{
+"id": 1776,
+"class": "StuffedBouncingGrenadeBlink"
+},
+{
+"id": 1773,
+"class": "AmGrenadeUpg2"
+},
+{
+"id": 1772,
+"class": "GrenadeUpg2"
+},
+{
+"id": 1771,
+"class": "GrenadeUpg2Blink"
+},
+{
+"id": 1768,
+"class": "AmHolyGrenadeUpg1"
+},
+{
+"id": 1767,
+"class": "HolyGrenadeUpg1"
+},
+{
+"id": 1765,
+"class": "AmHolyGrenadeUpg2"
+},
+{
+"id": 1763,
+"class": "HolyGrenadeUpg2"
+},
+{
+"id": 1761,
+"class": "AmHolyGrenadeUpg2B"
+},
+{
+"id": 1759,
+"class": "HolyGrenadeUpg2B"
+},
+{
+"id": 1757,
+"class": "AmHomingBazookaUpg1"
+},
+{
+"id": 1755,
+"class": "HomingBazookaUpg1"
+},
+{
+"id": 1753,
+"class": "AmHomingBazookaUpg2"
+},
+{
+"id": 1751,
+"class": "HomingBazookaUpg2"
+},
+{
+"id": 1749,
+"class": "AmLaserBarrierUpg1"
+},
+{
+"id": 1748,
+"class": "LaserBarrierUpg1"
+},
+{
+"id": 1746,
+"class": "AmMineUpg1"
+},
+{
+"id": 1742,
+"class": "MineUpg1"
+},
+{
+"id": 1740,
+"class": "MineUpg2"
+},
+{
+"id": 1739,
+"class": "AmMineUpg2"
+},
+{
+"id": 1735,
+"class": "SheepUpgradeA"
+},
+{
+"id": 1734,
+"class": "AmSheepUpgradeA"
+},
+{
+"id": 1711,
+"class": "SheepUpgradeB"
+},
+{
+"id": 1710,
+"class": "AmSheepUpgradeB"
+},
+{
+"id": 1693,
+"class": "SuperSheepUpg1"
+},
+{
+"id": 1692,
+"class": "AmSuperSheepUpUpg1"
+},
+{
+"id": 1682,
+"class": "SuperSheepUpg2"
+},
+{
+"id": 1681,
+"class": "AmSuperSheepUpUpg2"
+},
+{
+"id": 1671,
+"class": "SuperSheepUpg2B"
+},
+{
+"id": 1670,
+"class": "AmSuperSheepUpUpg2B"
+},
+{
+"id": 1661,
+"class": "AmIcicle"
+},
+{
+"id": 1659,
+"class": "AmSnowball"
+},
+{
+"id": 1657,
+"class": "SkyBoulderBall"
+},
+{
+"id": 1655,
+"class": "IconSkyBoulder"
+},
+{
+"id": 1653,
+"class": "AirControlBoulder"
+},
+{
+"id": 1651,
+"class": "GirderHUpg2"
+},
+{
+"id": 1646,
+"class": "FugasRocketBazookaUpg1"
+},
+{
+"id": 1644,
+"class": "AmFugasRocketUpg1"
+},
+{
+"id": 1642,
+"class": "IconFugasRocketUpg1"
+},
+{
+"id": 1640,
+"class": "IconKalashUpg2B"
+},
+{
+"id": 1638,
+"class": "IconKalashUpg1B"
+},
+{
+"id": 1636,
+"class": "KalashUpg1B"
+},
+{
+"id": 1634,
+"class": "KalashUpg2B"
+},
+{
+"id": 1632,
+"class": "KalashUpg2"
+},
+{
+"id": 1630,
+"class": "KalashUpg1"
+},
+{
+"id": 1628,
+"class": "IconGravityGunUpg3"
+},
+{
+"id": 1615,
+"class": "GravityGunUpg3"
+},
+{
+"id": 1612,
+"class": "IconEmergencyTeleportUpg3B"
+},
+{
+"id": 1610,
+"class": "EmergencyTeleportUpg3B"
+},
+{
+"id": 1608,
+"class": "ElectricHarpoonUpg2B"
+},
+{
+"id": 1606,
+"class": "ElectricHarpoonUpg2BTip"
+},
+{
+"id": 1604,
+"class": "IconElectricHarpoonUpg2B"
+},
+{
+"id": 1602,
+"class": "IconFirework1"
+},
+{
+"id": 1600,
+"class": "IconFirework2"
+},
+{
+"id": 1598,
+"class": "AniFirework1"
+},
+{
+"id": 1597,
+"class": "weapon_upgrades_fla.fireworkDragonBreathAnimation_191"
+},
+{
+"id": 1595,
+"class": "Firework2"
+},
+{
+"id": 1594,
+"class": "Firework1"
+},
+{
+"id": 1593,
+"class": "AniFirework2"
+},
+{
+"id": 1592,
+"class": "weapon_upgrades_fla.fireworkNightFuryAnimation_199"
+},
+{
+"id": 1584,
+"class": "AmFirework2"
+},
+{
+"id": 1582,
+"class": "AmFirework1"
+},
+{
+"id": 1565,
+"class": "IconSniperRifleUpg3A"
+},
+{
+"id": 1563,
+"class": "IconSniperRifleUpg3B"
+},
+{
+"id": 1561,
+"class": "AmGunDino"
+},
+{
+"id": 1559,
+"class": "AmGunWasp"
+},
+{
+"id": 1557,
+"class": "SniperRifleUpg3A"
+},
+{
+"id": 1555,
+"class": "SniperRifleUpg3B"
+},
+{
+"id": 1553,
+"class": "AmGasGrenadeUpg2B"
+},
+{
+"id": 1551,
+"class": "GasGrenadeUpg2B"
+},
+{
+"id": 1549,
+"class": "IconGasGrenadeUpg2B"
+},
+{
+"id": 1547,
+"class": "IconGasGrenadeUpg2"
+},
+{
+"id": 1545,
+"class": "GasGrenadeUpg2"
+},
+{
+"id": 1543,
+"class": "AmGasGrenadeUpg2"
+},
+{
+"id": 1541,
+"class": "IconEnergyGun1"
+},
+{
+"id": 1539,
+"class": "IconEnergyGun2"
+},
+{
+"id": 1537,
+"class": "IconEnergyGun3"
+},
+{
+"id": 1535,
+"class": "MainEnergyGun1"
+},
+{
+"id": 1533,
+"class": "MainEnergyGun2"
+},
+{
+"id": 1531,
+"class": "MainEnergyGun3"
+},
+{
+"id": 1529,
+"class": "IconPuppet1"
+},
+{
+"id": 1527,
+"class": "Puppet1"
+},
+{
+"id": 1526,
+"class": "AmPuppet1"
+},
+{
+"id": 1524,
+"class": "PuppetAttached1"
+},
+{
+"id": 1521,
+"class": "IconPuppet2A"
+},
+{
+"id": 1519,
+"class": "Puppet2A"
+},
+{
+"id": 1518,
+"class": "AmPuppet2A"
+},
+{
+"id": 1516,
+"class": "PuppetAttached2A"
+},
+{
+"id": 1513,
+"class": "IconPuppet2B"
+},
+{
+"id": 1511,
+"class": "Puppet2B"
+},
+{
+"id": 1510,
+"class": "AmPuppet2B"
+},
+{
+"id": 1508,
+"class": "PuppetAttached2B"
+},
+{
+"id": 1502,
+"class": "AmSpirit1"
+},
+{
+"id": 1500,
+"class": "SpiritGun1"
+},
+{
+"id": 1498,
+"class": "SpiritGunIcon1"
+},
+{
+"id": 1496,
+"class": "AmSpirit2A"
+},
+{
+"id": 1494,
+"class": "SpiritGun2A"
+},
+{
+"id": 1492,
+"class": "SpiritGunIcon2A"
+},
+{
+"id": 1490,
+"class": "AmSpirit2B"
+},
+{
+"id": 1488,
+"class": "SpiritGunIcon2B"
+},
+{
+"id": 1486,
+"class": "SpiritGun2B"
+},
+{
+"id": 1484,
+"class": "BigCannonUpg1"
+},
+{
+"id": 1482,
+"class": "BigCannonWheelsUpg1"
+},
+{
+"id": 1480,
+"class": "IconBigCannonUpg1"
+},
+{
+"id": 1478,
+"class": "HandleDiscgunUpg1"
+},
+{
+"id": 1476,
+"class": "AmDiscgunUpg1"
+},
+{
+"id": 1474,
+"class": "IconDiscgunUpg1"
+},
+{
+"id": 1472,
+"class": "AttackHelicopter"
+},
+{
+"id": 1460,
+"class": "ArmoredHelicopterIcon"
+},
+{
+"id": 1457,
+"class": "VacuumGrenadeUpgIcon"
+},
+{
+"id": 1455,
+"class": "VacuumGrenadeUpg"
+},
+{
+"id": 1454,
+"class": "AmVacuumGrenadeUpg"
+},
+{
+"id": 1426,
+"class": "AttackHelicopterIcon"
+},
+{
+"id": 1423,
+"class": "ArmoredHelicopter"
+},
+{
+"id": 1409,
+"class": "AmGunStrong2"
+},
+{
+"id": 1407,
+"class": "AmGunStrong1"
+},
+{
+"id": 1405,
+"class": "AmGunStrong3"
+},
+{
+"id": 1403,
+"class": "AmGunStrong4"
+},
+{
+"id": 1401,
+"class": "HealBlockerIdleUpg1"
+},
+{
+"id": 1392,
+"class": "HealBlockerIdleUpg2B"
+},
+{
+"id": 1374,
+"class": "BlockerIconUpg2B"
+},
+{
+"id": 1372,
+"class": "CannonUpg3a"
+},
+{
+"id": 1370,
+"class": "IconCannonUpg3a"
+},
+{
+"id": 1368,
+"class": "IconCannonUpg3b"
+},
+{
+"id": 1366,
+"class": "CannonUpg3b"
+},
+{
+"id": 1358,
+"class": "AmCannonUpg3b"
+},
+{
+"id": 1329,
+"class": "IconCannonUpg1"
+},
+{
+"id": 1327,
+"class": "CannonUpg1"
+},
+{
+"id": 1325,
+"class": "IconCannonUpg2"
+},
+{
+"id": 1323,
+"class": "CannonUpg2"
+},
+{
+"id": 1321,
+"class": "AmCannonUpg2"
+},
+{
+"id": 1319,
+"class": "GasCloudUpg1B"
+},
+{
+"id": 1316,
+"class": "GasCloudUpg1"
+},
+{
+"id": 1313,
+"class": "AntimagnetPoweredIcon"
+},
+{
+"id": 1311,
+"class": "AntimagnetInvertedField"
+},
+{
+"id": 1305,
+"class": "AntimagnetInvertedIcon"
+},
+{
+"id": 1298,
+"class": "AntimagnetPoweredField"
+},
+{
+"id": 1294,
+"class": "AmAntimagnetInvertedThrow"
+},
+{
+"id": 1292,
+"class": "HandleAntimagnetPowered"
+},
+{
+"id": 1290,
+"class": "HandleAntimagnetInverted"
+},
+{
+"id": 1288,
+"class": "AmAntimagnetPoweredThrow"
+},
+{
+"id": 1286,
+"class": "AmAntimagnetPowered"
+},
+{
+"id": 1226,
+"class": "AmAntimagnetInverted"
+},
+{
+"id": 1196,
+"class": "AntimagnetMechIcon"
+},
+{
+"id": 1194,
+"class": "AmAntimagnetMech"
+},
+{
+"id": 1153,
+"class": "HandleAntimagnetMech"
+},
+{
+"id": 1151,
+"class": "AmAntimagnetMechThrow"
+},
+{
+"id": 1148,
+"class": "AntimagnetMechField"
+},
+{
+"id": 1145,
+"class": "SingularFieldRadius"
+},
+{
+"id": 1098,
+"class": "AmBunkerBreakerUpg1"
+},
+{
+"id": 1096,
+"class": "BunkerBusterUpg1Control"
+},
+{
+"id": 1094,
+"class": "IconBunkerBreakerUpg1"
+},
+{
+"id": 1092,
+"class": "AmBunkerBreakerUpg2"
+},
+{
+"id": 1090,
+"class": "IconBunkerBreakerUpg2"
+},
+{
+"id": 1088,
+"class": "IconCarpetStrikeUpg1"
+},
+{
+"id": 1086,
+"class": "IconMeteorUpg1"
+},
+{
+"id": 1084,
+"class": "IconSnowflakeUpg1"
+},
+{
+"id": 1075,
+"class": "IconSnowflakeUpg2A"
+},
+{
+"id": 1069,
+"class": "AmSnowflakeUpg2A"
+},
+{
+"id": 1065,
+"class": "IconSnowflakeUpg2B"
+},
+{
+"id": 1058,
+"class": "AmSnowflakeUpg2B"
+},
+{
+"id": 1048,
+"class": "AmFlightUpg2"
+},
+{
+"id": 1045,
+"class": "IconUfoUpg2"
+},
+{
+"id": 1043,
+"class": "AmFlightUpg1"
+},
+{
+"id": 1040,
+"class": "IconUfoUpg1"
+},
+{
+"id": 1038,
+"class": "IconAirBombUpg1"
+},
+{
+"id": 1036,
+"class": "AirBombUpg1"
+},
+{
+"id": 1034,
+"class": "IconNapalmUpg1"
+},
+{
+"id": 1032,
+"class": "IconDynamiteUpg1"
+},
+{
+"id": 1030,
+"class": "IconDynamiteUpg2"
+},
+{
+"id": 1028,
+"class": "PushingMineUpg1"
+},
+{
+"id": 1026,
+"class": "AmPushingMineUpg1"
+},
+{
+"id": 1023,
+"class": "IconPushingMineUpg1"
+},
+{
+"id": 1021,
+"class": "AmSledgeHammerUpg1"
+},
+{
+"id": 1019,
+"class": "IconSledgehammerUpg1"
+},
+{
+"id": 1017,
+"class": "SledgeHammerUpg1"
+},
+{
+"id": 1016,
+"class": "weapon_upgrades_fla.HammerAppear_356"
+},
+{
+"id": 1013,
+"class": "AmSledgeHammerUpg1B"
+},
+{
+"id": 1011,
+"class": "IconSledgehammerUpg1B"
+},
+{
+"id": 1009,
+"class": "SledgeHammerUpg1B"
+},
+{
+"id": 1008,
+"class": "weapon_upgrades_fla.HammerAppearcopy_361"
+},
+{
+"id": 1005,
+"class": "IconLaserBarrierUpg1"
+},
+{
+"id": 1003,
+"class": "AmLaserBarrierUpg2"
+},
+{
+"id": 1001,
+"class": "IconLaserBarrierUpg2"
+},
+{
+"id": 999,
+"class": "LaserBarrierUpg2"
+},
+{
+"id": 997,
+"class": "IconMineUpg1"
+},
+{
+"id": 995,
+"class": "IconMineUpg2"
+},
+{
+"id": 993,
+"class": "IconShockerUpg1"
+},
+{
+"id": 991,
+"class": "ShockerUpg1"
+},
+{
+"id": 987,
+"class": "IconShockerUpg2"
+},
+{
+"id": 985,
+"class": "ShockerUpg2"
+},
+{
+"id": 977,
+"class": "AmBatUpg2a"
+},
+{
+"id": 975,
+"class": "AmBatUpg2b"
+},
+{
+"id": 973,
+"class": "BatUpg2a"
+},
+{
+"id": 971,
+"class": "BatUpg2b"
+},
+{
+"id": 969,
+"class": "IconBatUpg2a"
+},
+{
+"id": 967,
+"class": "IconBatUpg2b"
+},
+{
+"id": 965,
+"class": "AmBatUpg1"
+},
+{
+"id": 963,
+"class": "IconBatUpg1"
+},
+{
+"id": 961,
+"class": "ElectroGun"
+},
+{
+"id": 959,
+"class": "IconElectroGun"
+},
+{
+"id": 957,
+"class": "IconElectricHarpoonTrajectory"
+},
+{
+"id": 955,
+"class": "MainElectricHarpoonTrajectory"
+},
+{
+"id": 953,
+"class": "MainElectricHarpoonTrajectoryTip"
+},
+{
+"id": 951,
+"class": "ElectricHarpoonUpg2"
+},
+{
+"id": 949,
+"class": "ElectricHarpoonUpg2Tip"
+},
+{
+"id": 947,
+"class": "IconElectricHarpoonUpg2"
+},
+{
+"id": 945,
+"class": "AmParasiteUpg1"
+},
+{
+"id": 938,
+"class": "IconParasiteUpg1"
+},
+{
+"id": 936,
+"class": "ParasiteAttachedBlinkUpg1"
+},
+{
+"id": 933,
+"class": "ParasiteBlinkUpg1"
+},
+{
+"id": 930,
+"class": "ParasiteUpg1"
+},
+{
+"id": 928,
+"class": "AmParasiteUpg2"
+},
+{
+"id": 926,
+"class": "IconParasiteUpg2"
+},
+{
+"id": 924,
+"class": "ParasiteAttachedBlinkUpg2"
+},
+{
+"id": 918,
+"class": "ParasiteBlinkUpg2"
+},
+{
+"id": 913,
+"class": "ParasiteUpg2"
+},
+{
+"id": 911,
+"class": "VacuumFunnelUpg"
+},
+{
+"id": 910,
+"class": "weapon_upgrades_fla.BHGF_part_02_409"
+},
+{
+"id": 909,
+"class": "VacuumFunnelUpgFade"
+},
+{
+"id": 871,
+"class": "AmWatermelonUpg1"
+},
+{
+"id": 870,
+"class": "IconWatermelonUpg1"
+},
+{
+"id": 868,
+"class": "WatermelonUpg1"
+},
+{
+"id": 866,
+"class": "WatermelonPieceUpg1"
+},
+{
+"id": 864,
+"class": "AmGasGrenadeUpg1"
+},
+{
+"id": 862,
+"class": "GasGrenadeUpg1"
+},
+{
+"id": 860,
+"class": "IconGasGrenadeUpg1"
+},
+{
+"id": 858,
+"class": "AmGasGrenadeUpg1B"
+},
+{
+"id": 856,
+"class": "GasGrenadeUpg1B"
+},
+{
+"id": 854,
+"class": "IconGasGrenadeUpg1B"
+},
+{
+"id": 852,
+"class": "IconStuffedBouncingGrenade"
+},
+{
+"id": 850,
+"class": "IconGrenadeUpg2"
+},
+{
+"id": 848,
+"class": "AmStickBombMineSplinter"
+},
+{
+"id": 846,
+"class": "AmStickyBombMine"
+},
+{
+"id": 845,
+"class": "IconStickyBombMine"
+},
+{
+"id": 843,
+"class": "StickyBombMine"
+},
+{
+"id": 842,
+"class": "StickyBombMineBlink"
+},
+{
+"id": 839,
+"class": "AmPoisonStickyBomb"
+},
+{
+"id": 838,
+"class": "IconPoisonStickyBomb"
+},
+{
+"id": 836,
+"class": "PoisonStickyBomb"
+},
+{
+"id": 835,
+"class": "PoisonStickyBombBlink"
+},
+{
+"id": 832,
+"class": "AmStickyBombUpg1"
+},
+{
+"id": 831,
+"class": "IconStickyBombUpg1"
+},
+{
+"id": 829,
+"class": "StickyBombUpg1"
+},
+{
+"id": 828,
+"class": "StickyBombUpg1Blink"
+},
+{
+"id": 825,
+"class": "IconHomingClGrenade"
+},
+{
+"id": 823,
+"class": "IconClGrenadeMine"
+},
+{
+"id": 821,
+"class": "IconClGrenadeUpg1"
+},
+{
+"id": 819,
+"class": "IconHolyGrenadeUpg1"
+},
+{
+"id": 817,
+"class": "IconHolyGrenadeUpg2"
+},
+{
+"id": 815,
+"class": "IconHolyGrenadeUpg2B"
+},
+{
+"id": 813,
+"class": "FireThrowUpg1"
+},
+{
+"id": 780,
+"class": "FireThrowBagUpg1"
+},
+{
+"id": 777,
+"class": "IconFireThrowUpg1"
+},
+{
+"id": 775,
+"class": "AmMolotovUpg1"
+},
+{
+"id": 773,
+"class": "IconMolotovUpg1"
+},
+{
+"id": 771,
+"class": "MolotovUpg1"
+},
+{
+"id": 769,
+"class": "AirBlockerClipUpg1"
+},
+{
+"id": 767,
+"class": "AirBlockerIconUpg1"
+},
+{
+"id": 765,
+"class": "AirBlockerIdleUpg1"
+},
+{
+"id": 729,
+"class": "AirBlockerClipUpg1B"
+},
+{
+"id": 727,
+"class": "AirBlockerIconUpg1B"
+},
+{
+"id": 725,
+"class": "AirBlockerIdleUpg1B"
+},
+{
+"id": 661,
+"class": "BlockerIconUpg1"
+},
+{
+"id": 659,
+"class": "BlockerClipUpg1"
+},
+{
+"id": 657,
+"class": "BlockerIconUpg2A"
+},
+{
+"id": 655,
+"class": "BlockerClipUpg2A"
+},
+{
+"id": 653,
+"class": "HealBlockerIdleUpg2A"
+},
+{
+"id": 633,
+"class": "BlockerClipUpg2B"
+},
+{
+"id": 631,
+"class": "BoomerangUpg1"
+},
+{
+"id": 630,
+"class": "AmBoomerangUpg1"
+},
+{
+"id": 628,
+"class": "IconBoomerangUpg1"
+},
+{
+"id": 626,
+"class": "BoomerangUpg2"
+},
+{
+"id": 625,
+"class": "AmBoomerangUpg2"
+},
+{
+"id": 623,
+"class": "IconBoomerangUpg2"
+},
+{
+"id": 621,
+"class": "BoulderBallUpg1"
+},
+{
+"id": 619,
+"class": "BoulderShopIconUpg1"
+},
+{
+"id": 617,
+"class": "BoulderUpg1"
+},
+{
+"id": 615,
+"class": "BoulderBallUpg2"
+},
+{
+"id": 613,
+"class": "BoulderShopIconUpg2"
+},
+{
+"id": 611,
+"class": "BoulderUpg2"
+},
+{
+"id": 609,
+"class": "GuardingBotNinja"
+},
+{
+"id": 608,
+"class": "AmGuardingBotNinja"
+},
+{
+"id": 606,
+"class": "IconGuardingBotNinja"
+},
+{
+"id": 604,
+"class": "GuardingBotSticky"
+},
+{
+"id": 603,
+"class": "AmGuardingBotSticky"
+},
+{
+"id": 601,
+"class": "IconGuardingBotSticky"
+},
+{
+"id": 599,
+"class": "IconHomingBazookaUpg1"
+},
+{
+"id": 597,
+"class": "IconHomingBazookaUpg2"
+},
+{
+"id": 595,
+"class": "IconSheepUpgradeA"
+},
+{
+"id": 593,
+"class": "IconSheepUpgradeB"
+},
+{
+"id": 591,
+"class": "AmShurikenSaw"
+},
+{
+"id": 590,
+"class": "IconShurikenSaw"
+},
+{
+"id": 588,
+"class": "ShurikenSaw"
+},
+{
+"id": 586,
+"class": "AmShurikenTrajectory"
+},
+{
+"id": 585,
+"class": "IconShurikenTrajectory"
+},
+{
+"id": 583,
+"class": "ShurikenTrajectory"
+},
+{
+"id": 581,
+"class": "AmShurikenUpg1"
+},
+{
+"id": 580,
+"class": "IconShurikenUpg1"
+},
+{
+"id": 578,
+"class": "ShurikenUpg1"
+},
+{
+"id": 575,
+"class": "AmSpiderUpg1"
+},
+{
+"id": 541,
+"class": "IconSpiderUpg1"
+},
+{
+"id": 539,
+"class": "SpiderUpg1"
+},
+{
+"id": 519,
+"class": "AmSpiderUpg1B"
+},
+{
+"id": 517,
+"class": "IceLanceUpg1B"
+},
+{
+"id": 515,
+"class": "IconSpiderUpg1B"
+},
+{
+"id": 513,
+"class": "SpiderUpg1B"
+},
+{
+"id": 478,
+"class": "AmSuperSheepLeftUpg1"
+},
+{
+"id": 477,
+"class": "AmSuperSheepRightUpg1"
+},
+{
+"id": 467,
+"class": "IconSuperSheepUpg1"
+},
+{
+"id": 465,
+"class": "AmSuperSheepLeftUpg2"
+},
+{
+"id": 464,
+"class": "AmSuperSheepRightUpg2"
+},
+{
+"id": 454,
+"class": "IconSuperSheepUpg2"
+},
+{
+"id": 452,
+"class": "AmSuperSheepLeftUpg2B"
+},
+{
+"id": 451,
+"class": "AmSuperSheepRightUpg2B"
+},
+{
+"id": 441,
+"class": "IconSuperSheepUpg2B"
+},
+{
+"id": 439,
+"class": "IconGirderUpg1"
+},
+{
+"id": 437,
+"class": "IconGirderUpg2"
+},
+{
+"id": 434,
+"class": "AntifreezeIconUpg1"
+},
+{
+"id": 432,
+"class": "AntifreezeClipUpg1"
+},
+{
+"id": 430,
+"class": "AntifreezeIconAttackUpg"
+},
+{
+"id": 428,
+"class": "AntifreezeClipAttackUpg"
+},
+{
+"id": 426,
+"class": "AntifreezeIconArmorUpg"
+},
+{
+"id": 424,
+"class": "AntifreezeClipArmorUpg"
+},
+{
+"id": 422,
+"class": "IconCumulativeBazooka"
+},
+{
+"id": 420,
+"class": "IconBazookaUpg1"
+},
+{
+"id": 418,
+"class": "AmDrillUpg1"
+},
+{
+"id": 416,
+"class": "IconDrillUpg1"
+},
+{
+"id": 414,
+"class": "DrillUpg1"
+},
+{
+"id": 412,
+"class": "AmDrillUpg2"
+},
+{
+"id": 410,
+"class": "IconDrillUpg2"
+},
+{
+"id": 408,
+"class": "DrillUpg2"
+},
+{
+"id": 406,
+"class": "GirderGunIconUpg1"
+},
+{
+"id": 404,
+"class": "GirderGunUpg1"
+},
+{
+"id": 402,
+"class": "GirderAmmoUpg1"
+},
+{
+"id": 398,
+"class": "AmMortarDoubleShot"
+},
+{
+"id": 396,
+"class": "IconMortarDoubleShot"
+},
+{
+"id": 394,
+"class": "MortarDoubleShot"
+},
+{
+"id": 391,
+"class": "AmMortarRadius"
+},
+{
+"id": 389,
+"class": "IconMortarUpgRadius"
+},
+{
+"id": 387,
+"class": "MortarRadius"
+},
+{
+"id": 384,
+"class": "AmMortarUpg1"
+},
+{
+"id": 382,
+"class": "IconMortarUpg1"
+},
+{
+"id": 380,
+"class": "MortarUpg1"
+},
+{
+"id": 377,
+"class": "IconCarpetBazookaUpg1"
+},
+{
+"id": 375,
+"class": "IconCarpetBazookaUpg2A"
+},
+{
+"id": 373,
+"class": "IconCarpetBazookaUpg2B"
+},
+{
+"id": 371,
+"class": "AmFreezingBazookaUpg1"
+},
+{
+"id": 369,
+"class": "FreezingBazookaUpg1"
+},
+{
+"id": 367,
+"class": "IconFreezingBazookaUpg1"
+},
+{
+"id": 365,
+"class": "FreezingBazookaUpg1B"
+},
+{
+"id": 363,
+"class": "IconFreezingBazookaUpg1B"
+},
+{
+"id": 361,
+"class": "FreezingBazookaUpg2A"
+},
+{
+"id": 359,
+"class": "IconFreezingBazookaUpg2A"
+},
+{
+"id": 357,
+"class": "FreezingBazookaUpg2B"
+},
+{
+"id": 355,
+"class": "IconFreezingBazookaUpg2B"
+},
+{
+"id": 353,
+"class": "IconKalashUpg1"
+},
+{
+"id": 349,
+"class": "IconKalashUpg2"
+},
+{
+"id": 347,
+"class": "LaserGunUpg1"
+},
+{
+"id": 345,
+"class": "IconLaserGunUpg1"
+},
+{
+"id": 343,
+"class": "LaserFireUpg1"
+},
+{
+"id": 331,
+"class": "LaserGunUpg2A"
+},
+{
+"id": 329,
+"class": "IconLaserGunUpg2A"
+},
+{
+"id": 327,
+"class": "LaserFireUpg2A"
+},
+{
+"id": 316,
+"class": "LaserGunUpg2B"
+},
+{
+"id": 314,
+"class": "IconLaserGunUpg2B"
+},
+{
+"id": 312,
+"class": "LaserFireUpg2B"
+},
+{
+"id": 296,
+"class": "IconShotgunDoubleShot"
+},
+{
+"id": 294,
+"class": "ShotgunDoubleShot"
+},
+{
+"id": 292,
+"class": "IconSlowingShotgun"
+},
+{
+"id": 290,
+"class": "SlowingShotgun"
+},
+{
+"id": 288,
+"class": "IconShotgunUpg1"
+},
+{
+"id": 286,
+"class": "ShotgunUpg1"
+},
+{
+"id": 284,
+"class": "IconSniperRifleUpgSight"
+},
+{
+"id": 282,
+"class": "SniperRifleUpgSight"
+},
+{
+"id": 280,
+"class": "IconSniperRifleUpg2A"
+},
+{
+"id": 278,
+"class": "SniperRifleUpg2A"
+},
+{
+"id": 276,
+"class": "IconSniperRifleUpg2B"
+},
+{
+"id": 274,
+"class": "SniperRifleUpg2B"
+},
+{
+"id": 272,
+"class": "SoulGunUpg1"
+},
+{
+"id": 270,
+"class": "SoulGunUpg2a"
+},
+{
+"id": 268,
+"class": "SoulGunUpg2b"
+},
+{
+"id": 266,
+"class": "SoulGunIconUpg1"
+},
+{
+"id": 264,
+"class": "SoulGunIconUpg2a"
+},
+{
+"id": 262,
+"class": "SoulGunIconUpg2b"
+},
+{
+"id": 260,
+"class": "ThunderBoltUpg1"
+},
+{
+"id": 224,
+"class": "IconThunderboltUpg1"
+},
+{
+"id": 222,
+"class": "IconUziUpg1"
+},
+{
+"id": 220,
+"class": "GravityGunUpg1"
+},
+{
+"id": 206,
+"class": "IconGravityGunUpg1"
+},
+{
+"id": 202,
+"class": "IconGravityGunUpg2"
+},
+{
+"id": 198,
+"class": "GravityGunUpg2"
+},
+{
+"id": 177,
+"class": "IconMinigunReduceArmor"
+},
+{
+"id": 175,
+"class": "MinigunReduceArmor"
+},
+{
+"id": 173,
+"class": "IconRocketMinigun"
+},
+{
+"id": 171,
+"class": "RocketMinigun"
+},
+{
+"id": 169,
+"class": "IconMinigunUpg1"
+},
+{
+"id": 167,
+"class": "MinigunUpg1"
+},
+{
+"id": 165,
+"class": "IconRifleUpg1"
+},
+{
+"id": 163,
+"class": "RifleUpg1"
+},
+{
+"id": 161,
+"class": "IconRifleUpg2"
+},
+{
+"id": 159,
+"class": "RifleUpg2"
+},
+{
+"id": 157,
+"class": "IconBlowTorchUpg1"
+},
+{
+"id": 155,
+"class": "IconBlowTorchUpg2"
+},
+{
+"id": 153,
+"class": "AmPneumaticDrillUpg1"
+},
+{
+"id": 151,
+"class": "IconPneumaticDrillUpg1"
+},
+{
+"id": 149,
+"class": "PneumaticDrillUpg1"
+},
+{
+"id": 147,
+"class": "AmPneumaticDrillUpg2"
+},
+{
+"id": 145,
+"class": "IconPneumaticDrillUpg2"
+},
+{
+"id": 143,
+"class": "PneumaticDrillUpg2"
+},
+{
+"id": 141,
+"class": "AnchorTeleportUpg1"
+},
+{
+"id": 139,
+"class": "AnchorTeleportIconUpg1"
+},
+{
+"id": 137,
+"class": "AnchorTeleportMarkUpg1"
+},
+{
+"id": 134,
+"class": "AnchorTeleportUpg2"
+},
+{
+"id": 132,
+"class": "AnchorTeleportIconUpg2"
+},
+{
+"id": 130,
+"class": "AnchorTeleportMarkUpg2"
+},
+{
+"id": 127,
+"class": "IconTeleportUpg1a"
+},
+{
+"id": 125,
+"class": "IconTeleportUpg1b"
+},
+{
+"id": 123,
+"class": "EmergencyTeleportUpg1"
+},
+{
+"id": 121,
+"class": "IconEmergencyTeleportUpg1"
+},
+{
+"id": 119,
+"class": "EmergencyTeleportUpg2"
+},
+{
+"id": 117,
+"class": "IconEmergencyTeleportUpg2"
+},
+{
+"id": 115,
+"class": "EmergencyTeleportUpg3"
+},
+{
+"id": 113,
+"class": "IconEmergencyTeleportUpg3"
+},
+{
+"id": 111,
+"class": "IconRopeUpg1"
+},
+{
+"id": 109,
+"class": "RopeUpg1"
+},
+{
+"id": 107,
+"class": "RopeTipUpg1"
+},
+{
+"id": 105,
+"class": "IconRopeUpg2"
+},
+{
+"id": 103,
+"class": "RopeUpg2"
+},
+{
+"id": 101,
+"class": "RopeTipUpg2"
+},
+{
+"id": 99,
+"class": "AmRopeUpg2"
+},
+{
+"id": 97,
+"class": "AmTeleportThrowerUpg1"
+},
+{
+"id": 95,
+"class": "TeleportThrowerBlinkUpg1"
+},
+{
+"id": 92,
+"class": "TeleportThrowerIconUpg1"
+},
+{
+"id": 90,
+"class": "TeleportThrowerUpg1"
+}
+],
+"common/objects/weapons": [
+{
+"id": 1774,
+"class": "MainBazooka"
+},
+{
+"id": 1772,
+"class": "MainGrenade"
+},
+{
+"id": 1771,
+"class": "PneumaticDrill"
+},
+{
+"id": 1770,
+"class": "Dynamite"
+},
+{
+"id": 1768,
+"class": "Rope"
+},
+{
+"id": 1766,
+"class": "RopeTip"
+},
+{
+"id": 1764,
+"class": "MainStickyBomb"
+},
+{
+"id": 1763,
+"class": "Sheep"
+},
+{
+"id": 1762,
+"class": "MainElectricHarpoon"
+},
+{
+"id": 1759,
+"class": "MainElectricHarpoonTip"
+},
+{
+"id": 1757,
+"class": "Crossbow"
+},
+{
+"id": 1755,
+"class": "MainHomingBazooka"
+},
+{
+"id": 1753,
+"class": "Cannon"
+},
+{
+"id": 1751,
+"class": "Molotov"
+},
+{
+"id": 1750,
+"class": "SledgeHammer"
+},
+{
+"id": 1749,
+"class": "weapons_fla.HammerAppear_70"
+},
+{
+"id": 1746,
+"class": "FugasRocketBazooka"
+},
+{
+"id": 1744,
+"class": "GuardingBotWeapon"
+},
+{
+"id": 1743,
+"class": "Birdgun"
+},
+{
+"id": 1741,
+"class": "AmBirdgun"
+},
+{
+"id": 1739,
+"class": "Discgun"
+},
+{
+"id": 1737,
+"class": "AmDiscgun"
+},
+{
+"id": 1735,
+"class": "Defrost"
+},
+{
+"id": 1733,
+"class": "Boomerang"
+},
+{
+"id": 1732,
+"class": "AmBoomerang"
+},
+{
+"id": 1730,
+"class": "Helicopter"
+},
+{
+"id": 1721,
+"class": "AmFlight"
+},
+{
+"id": 1720,
+"class": "BigCannon"
+},
+{
+"id": 1718,
+"class": "BigCannonWheels"
+},
+{
+"id": 1716,
+"class": "PumpkinBomb"
+},
+{
+"id": 1715,
+"class": "GravityGun"
+},
+{
+"id": 1700,
+"class": "ThunderBolt"
+},
+{
+"id": 1664,
+"class": "MainMortar"
+},
+{
+"id": 1662,
+"class": "MainShuriken"
+},
+{
+"id": 1660,
+"class": "MainShotgun"
+},
+{
+"id": 1658,
+"class": "MainSniperRifle"
+},
+{
+"id": 1656,
+"class": "MainHolyGrenade"
+},
+{
+"id": 1655,
+"class": "FreezingBazooka"
+},
+{
+"id": 1653,
+"class": "FireThrow"
+},
+{
+"id": 1640,
+"class": "Firework"
+},
+{
+"id": 1639,
+"class": "TeleportThrower"
+},
+{
+"id": 1638,
+"class": "AtomBomb"
+},
+{
+"id": 1636,
+"class": "GasGrenade"
+},
+{
+"id": 1635,
+"class": "Shocker"
+},
+{
+"id": 1630,
+"class": "SuperSheep"
+},
+{
+"id": 1629,
+"class": "AmSuperSheepUp"
+},
+{
+"id": 1619,
+"class": "MainSpider"
+},
+{
+"id": 1618,
+"class": "AmMainSpider"
+},
+{
+"id": 1605,
+"class": "Drill"
+},
+{
+"id": 1603,
+"class": "ChromeOrb"
+},
+{
+"id": 1602,
+"class": "ChromeOrbBall"
+},
+{
+"id": 1600,
+"class": "Watermelon"
+},
+{
+"id": 1599,
+"class": "EmergencyTeleport"
+},
+{
+"id": 1597,
+"class": "BlockerClip"
+},
+{
+"id": 1595,
+"class": "ShopBallClip"
+},
+{
+"id": 1593,
+"class": "DeepFreezeClip"
+},
+{
+"id": 1573,
+"class": "FireworkBarrelClip"
+},
+{
+"id": 1570,
+"class": "FireworkBarrelBox"
+},
+{
+"id": 1568,
+"class": "BoxHatClip"
+},
+{
+"id": 1567,
+"class": "LaserRay"
+},
+{
+"id": 1564,
+"class": "Kalash"
+},
+{
+"id": 1562,
+"class": "VacuumGrenade"
+},
+{
+"id": 1560,
+"class": "LullabyElixir"
+},
+{
+"id": 1558,
+"class": "FirearmTurret"
+},
+{
+"id": 1554,
+"class": "MortarTurret"
+},
+{
+"id": 1551,
+"class": "GaryAppear"
+},
+{
+"id": 1550,
+"class": "weapons_fla.GaryHeadAppear_166"
+},
+{
+"id": 1549,
+"class": "weapons_fla.GaryBaseAppear_162"
+},
+{
+"id": 1548,
+"class": "weapons_fla.GaryNeckAppear_160"
+},
+{
+"id": 1547,
+"class": "GaryIdle"
+},
+{
+"id": 1543,
+"class": "GrenadeBunch"
+},
+{
+"id": 1541,
+"class": "RoboPiranhaAm"
+},
+{
+"id": 1534,
+"class": "RoboPiranhaControl"
+},
+{
+"id": 1532,
+"class": "Antimagnit"
+},
+{
+"id": 1530,
+"class": "AmSuperBunkerBuster"
+},
+{
+"id": 1528,
+"class": "AirControl"
+},
+{
+"id": 1526,
+"class": "MessyBombardmentControl"
+},
+{
+"id": 1524,
+"class": "SoulGun"
+},
+{
+"id": 1522,
+"class": "FireMinigun"
+},
+{
+"id": 1520,
+"class": "MainBlowTorch"
+},
+{
+"id": 1518,
+"class": "AmMainBlowTorch"
+},
+{
+"id": 1500,
+"class": "MainRifle"
+},
+{
+"id": 1498,
+"class": "AmNapalmBomb"
+},
+{
+"id": 1496,
+"class": "AirBomb"
+},
+{
+"id": 1494,
+"class": "LeftAirCursor"
+},
+{
+"id": 1492,
+"class": "RightAirCursor"
+},
+{
+"id": 1490,
+"class": "Teleport"
+},
+{
+"id": 1488,
+"class": "SwitchTurn"
+},
+{
+"id": 1486,
+"class": "SwapTeleport"
+},
+{
+"id": 1484,
+"class": "SwapTeleportArrows"
+},
+{
+"id": 1482,
+"class": "AmBunkerBreaker"
+},
+{
+"id": 1480,
+"class": "MainMinigun"
+},
+{
+"id": 1478,
+"class": "MainUzi"
+},
+{
+"id": 1476,
+"class": "GirderH"
+},
+{
+"id": 1474,
+"class": "AmMainBazooka"
+},
+{
+"id": 1472,
+"class": "CarpetBazooka"
+},
+{
+"id": 1470,
+"class": "AmCarpetBazooka"
+},
+{
+"id": 1468,
+"class": "AmCarpetStrike"
+},
+{
+"id": 1466,
+"class": "AmClMainGrenade"
+},
+{
+"id": 1465,
+"class": "ClMainGrenade"
+},
+{
+"id": 1464,
+"class": "ClMainGrenadeBlink"
+},
+{
+"id": 1461,
+"class": "AmDynamite"
+},
+{
+"id": 1456,
+"class": "AmMainGrenade"
+},
+{
+"id": 1455,
+"class": "MainGrenadeBlink"
+},
+{
+"id": 1452,
+"class": "AmMainHolyGrenade"
+},
+{
+"id": 1450,
+"class": "AmMainHomingBazooka"
+},
+{
+"id": 1448,
+"class": "AmMainMine"
+},
+{
+"id": 1445,
+"class": "MainMine"
+},
+{
+"id": 1443,
+"class": "AmSheep"
+},
+{
+"id": 1426,
+"class": "SoulGunFrost"
+},
+{
+"id": 1424,
+"class": "SpiritGun"
+},
+{
+"id": 1422,
+"class": "AmSpirit"
+},
+{
+"id": 1420,
+"class": "AmSuperDrill"
+},
+{
+"id": 1401,
+"class": "SuperDrill"
+},
+{
+"id": 1399,
+"class": "AmDrill"
+},
+{
+"id": 1397,
+"class": "SledgeHammerRed"
+},
+{
+"id": 1396,
+"class": "weapons_fla.HammerAppearRed_243"
+},
+{
+"id": 1393,
+"class": "AmBatHammer"
+},
+{
+"id": 1391,
+"class": "BatHammer"
+},
+{
+"id": 1389,
+"class": "Bat"
+},
+{
+"id": 1388,
+"class": "AmBat"
+},
+{
+"id": 1386,
+"class": "AniFirework"
+},
+{
+"id": 1385,
+"class": "weapons_fla.fireworkAnimation_250"
+},
+{
+"id": 1377,
+"class": "MeteorVolleyClip"
+},
+{
+"id": 1356,
+"class": "SacrificeClip"
+},
+{
+"id": 1335,
+"class": "AmGun"
+},
+{
+"id": 1333,
+"class": "HeavyKnifeClip"
+},
+{
+"id": 1332,
+"class": "AmHeavyKnife"
+},
+{
+"id": 1330,
+"class": "AmFanOfKnives"
+},
+{
+"id": 1325,
+"class": "FanOfKnivesClip"
+},
+{
+"id": 1322,
+"class": "AmGasGrenadeShock"
+},
+{
+"id": 1320,
+"class": "GasGrenadeShock"
+},
+{
+"id": 1317,
+"class": "ChainGun"
+},
+{
+"id": 1315,
+"class": "ReverseGravityBazooka"
+},
+{
+"id": 1313,
+"class": "AmReverseGravityBazooka"
+},
+{
+"id": 1311,
+"class": "MainEnergyGun"
+},
+{
+"id": 1309,
+"class": "AmEnergyGun"
+},
+{
+"id": 1307,
+"class": "MainHandicraftedSniperRifle"
+},
+{
+"id": 1305,
+"class": "MainElectromagneticWeapon"
+},
+{
+"id": 1303,
+"class": "AmElectromagneticWeapon"
+},
+{
+"id": 1301,
+"class": "AirBlockerIdle"
+},
+{
+"id": 1243,
+"class": "BarrierLauncherMain"
+},
+{
+"id": 1241,
+"class": "IonCannonMain"
+},
+{
+"id": 1238,
+"class": "MechPuppet"
+},
+{
+"id": 1236,
+"class": "HandleBuoy"
+},
+{
+"id": 1235,
+"class": "AmBuoy"
+},
+{
+"id": 1233,
+"class": "HandleBobber"
+},
+{
+"id": 1232,
+"class": "AmBobber"
+},
+{
+"id": 1230,
+"class": "IconHelicopter"
+},
+{
+"id": 1228,
+"class": "AlchemistPotion"
+},
+{
+"id": 1226,
+"class": "PoisonousHealPotion"
+},
+{
+"id": 1225,
+"class": "AmPoisonousHealPotion"
+},
+{
+"id": 1223,
+"class": "DefaultShard"
+},
+{
+"id": 1221,
+"class": "FireShot"
+},
+{
+"id": 1219,
+"class": "Fire"
+},
+{
+"id": 1198,
+"class": "HealBrakePhase"
+},
+{
+"id": 1173,
+"class": "HealBlockerIdle"
+},
+{
+"id": 1146,
+"class": "GasCloudShock"
+},
+{
+"id": 1103,
+"class": "GasCloud"
+},
+{
+"id": 1100,
+"class": "PaperPlaneHand"
+},
+{
+"id": 1098,
+"class": "PaperPlaneAmmo"
+},
+{
+"id": 1083,
+"class": "PaperPlaneIcon"
+},
+{
+"id": 1081,
+"class": "ElectricSurface"
+},
+{
+"id": 1078,
+"class": "GrenadeTurret"
+},
+{
+"id": 1073,
+"class": "RocketTurret"
+},
+{
+"id": 1068,
+"class": "KamikazeBuff"
+},
+{
+"id": 1062,
+"class": "PulsatingWave"
+},
+{
+"id": 1058,
+"class": "CarrotAm"
+},
+{
+"id": 1055,
+"class": "AmAnvil"
+},
+{
+"id": 1053,
+"class": "IconAnvil"
+},
+{
+"id": 1051,
+"class": "AmAtomBomb"
+},
+{
+"id": 1049,
+"class": "AmFakeAtomBomb"
+},
+{
+"id": 1047,
+"class": "CrossAtomBomb"
+},
+{
+"id": 1045,
+"class": "IconFakeAtomBomb"
+},
+{
+"id": 1043,
+"class": "IconAtomBomb"
+},
+{
+"id": 1041,
+"class": "IconBunkerBreaker"
+},
+{
+"id": 1039,
+"class": "IconCarpetStrike"
+},
+{
+"id": 1037,
+"class": "MessyBombardmentIcon"
+},
+{
+"id": 1035,
+"class": "IconMeteor"
+},
+{
+"id": 1033,
+"class": "Meteor"
+},
+{
+"id": 1022,
+"class": "MeteorShard"
+},
+{
+"id": 1020,
+"class": "IconSnowflake"
+},
+{
+"id": 1017,
+"class": "AmSnowflake"
+},
+{
+"id": 1006,
+"class": "IconSuperBunkerBuster"
+},
+{
+"id": 1004,
+"class": "IconAirBomb"
+},
+{
+"id": 1002,
+"class": "IconNapalm"
+},
+{
+"id": 1000,
+"class": "AmFreight"
+},
+{
+"id": 993,
+"class": "IconUfo"
+},
+{
+"id": 991,
+"class": "DemonicMine"
+},
+{
+"id": 984,
+"class": "DemonicMineActive"
+},
+{
+"id": 976,
+"class": "IconDynamite"
+},
+{
+"id": 974,
+"class": "PushingMine"
+},
+{
+"id": 972,
+"class": "AmPushingMine"
+},
+{
+"id": 969,
+"class": "IconPushingMine"
+},
+{
+"id": 967,
+"class": "AmGuardingBot"
+},
+{
+"id": 964,
+"class": "IconGuardingBotWeapon"
+},
+{
+"id": 962,
+"class": "AmSledgeHammer"
+},
+{
+"id": 960,
+"class": "AmSledgeHammerRed"
+},
+{
+"id": 958,
+"class": "IconSledgehammer"
+},
+{
+"id": 956,
+"class": "IconSledgehammerRed"
+},
+{
+"id": 954,
+"class": "AmIceMine"
+},
+{
+"id": 949,
+"class": "IceMine"
+},
+{
+"id": 947,
+"class": "IconIceMine"
+},
+{
+"id": 945,
+"class": "AmMainLaserBarrier"
+},
+{
+"id": 944,
+"class": "IconMainLaserBarrier"
+},
+{
+"id": 942,
+"class": "MainLaserBarrier"
+},
+{
+"id": 940,
+"class": "IconMainMine"
+},
+{
+"id": 938,
+"class": "AmShocker"
+},
+{
+"id": 932,
+"class": "IconShocker"
+},
+{
+"id": 930,
+"class": "AmStickyMine"
+},
+{
+"id": 926,
+"class": "IconStickyMine"
+},
+{
+"id": 924,
+"class": "StickyMine"
+},
+{
+"id": 922,
+"class": "IconBat"
+},
+{
+"id": 920,
+"class": "IconBatHammer"
+},
+{
+"id": 918,
+"class": "IconElectricHarpoon"
+},
+{
+"id": 916,
+"class": "FoulWatermelon"
+},
+{
+"id": 914,
+"class": "AmFoulWatermelon"
+},
+{
+"id": 912,
+"class": "FoulWatermelonPiece"
+},
+{
+"id": 910,
+"class": "IconFoulWatermelon"
+},
+{
+"id": 908,
+"class": "GrenadeBunchIcon"
+},
+{
+"id": 906,
+"class": "AmNailGrenade"
+},
+{
+"id": 904,
+"class": "NailGrenadeFragment"
+},
+{
+"id": 902,
+"class": "NailGrenade"
+},
+{
+"id": 900,
+"class": "NailGrenadeBlink"
+},
+{
+"id": 897,
+"class": "NailGrenadeRotate"
+},
+{
+"id": 893,
+"class": "IconNailGrenade"
+},
+{
+"id": 890,
+"class": "AmParasite"
+},
+{
+"id": 888,
+"class": "IconParasite"
+},
+{
+"id": 886,
+"class": "Parasite"
+},
+{
+"id": 884,
+"class": "ParasiteAttachedBlink"
+},
+{
+"id": 881,
+"class": "ParasiteBlink"
+},
+{
+"id": 877,
+"class": "AmMechPuppet"
+},
+{
+"id": 875,
+"class": "IconMechPuppet"
+},
+{
+"id": 873,
+"class": "MechPuppetAttached"
+},
+{
+"id": 870,
+"class": "MechPuppetStealHP"
+},
+{
+"id": 864,
+"class": "AmPuppet"
+},
+{
+"id": 862,
+"class": "IconPuppet"
+},
+{
+"id": 860,
+"class": "Puppet"
+},
+{
+"id": 858,
+"class": "PuppetAttached"
+},
+{
+"id": 852,
+"class": "PuppetStealHp"
+},
+{
+"id": 824,
+"class": "AmVacuumGrenade"
+},
+{
+"id": 822,
+"class": "VacuumFunnel"
+},
+{
+"id": 815,
+"class": "VacuumFunnelFade"
+},
+{
+"id": 814,
+"class": "weapons_fla.vacuum_part_08_456"
+},
+{
+"id": 801,
+"class": "VacuumGrenadeIcon"
+},
+{
+"id": 799,
+"class": "AmWatermelon"
+},
+{
+"id": 797,
+"class": "IconWatermelon"
+},
+{
+"id": 795,
+"class": "WatermelonPiece"
+},
+{
+"id": 793,
+"class": "AmGasGrenade"
+},
+{
+"id": 791,
+"class": "IconGasGrenade"
+},
+{
+"id": 789,
+"class": "IconGasGrenadeShock"
+},
+{
+"id": 787,
+"class": "IconBobber"
+},
+{
+"id": 785,
+"class": "IconBuoy"
+},
+{
+"id": 783,
+"class": "IconMainGrenade"
+},
+{
+"id": 781,
+"class": "AmStickBombSplinter"
+},
+{
+"id": 779,
+"class": "AmMainStickyBomb"
+},
+{
+"id": 778,
+"class": "IconMainStickyBomb"
+},
+{
+"id": 776,
+"class": "MainStickyBombBlink"
+},
+{
+"id": 773,
+"class": "IconMainClGrenade"
+},
+{
+"id": 771,
+"class": "IconMainHolyGrenade"
+},
+{
+"id": 769,
+"class": "AmPumpkinBomb"
+},
+{
+"id": 766,
+"class": "IconPumpkinBomb"
+},
+{
+"id": 764,
+"class": "PumkinBombLigthBolt"
+},
+{
+"id": 762,
+"class": "PumkinBombParticle"
+},
+{
+"id": 759,
+"class": "IconAlchemistPotion"
+},
+{
+"id": 757,
+"class": "AmAlchemistPotion"
+},
+{
+"id": 755,
+"class": "AntiPoison"
+},
+{
+"id": 753,
+"class": "AntiPoisonIcon"
+},
+{
+"id": 750,
+"class": "FireInjection"
+},
+{
+"id": 747,
+"class": "FireInjectionIcon"
+},
+{
+"id": 744,
+"class": "AmLullabyElixir"
+},
+{
+"id": 742,
+"class": "IconLullabyElixir"
+},
+{
+"id": 740,
+"class": "IconPoisonousHealPotion"
+},
+{
+"id": 738,
+"class": "AmDefrost"
+},
+{
+"id": 736,
+"class": "IconDefrost"
+},
+{
+"id": 734,
+"class": "AmMolotov"
+},
+{
+"id": 732,
+"class": "IconMolotov"
+},
+{
+"id": 730,
+"class": "FireThrowBag"
+},
+{
+"id": 728,
+"class": "IconFireThrow"
+},
+{
+"id": 726,
+"class": "AirBlockerIcon"
+},
+{
+"id": 722,
+"class": "AirBlockerClip"
+},
+{
+"id": 718,
+"class": "AnchorTeleportMark"
+},
+{
+"id": 715,
+"class": "AnchorTeleportIcon"
+},
+{
+"id": 713,
+"class": "AnchorTeleport"
+},
+{
+"id": 711,
+"class": "ArcticTorch"
+},
+{
+"id": 710,
+"class": "ArcticTorchAm"
+},
+{
+"id": 678,
+"class": "ArcticTorchIcon"
+},
+{
+"id": 675,
+"class": "AmArtilleryStrike"
+},
+{
+"id": 673,
+"class": "IconArtilleryStrike"
+},
+{
+"id": 671,
+"class": "AniArtilleryStrike"
+},
+{
+"id": 669,
+"class": "ArtilleryStrike"
+},
+{
+"id": 668,
+"class": "ArtilleryStrikeShoot"
+},
+{
+"id": 649,
+"class": "HealBrakeClip"
+},
+{
+"id": 595,
+"class": "BlockerIcon"
+},
+{
+"id": 593,
+"class": "BoneKey"
+},
+{
+"id": 590,
+"class": "BoneKeyAnim"
+},
+{
+"id": 556,
+"class": "BoneKeyIcon"
+},
+{
+"id": 554,
+"class": "IconBoomerang"
+},
+{
+"id": 552,
+"class": "BoulderBall"
+},
+{
+"id": 550,
+"class": "BoulderShopIcon"
+},
+{
+"id": 548,
+"class": "Boulder"
+},
+{
+"id": 546,
+"class": "BoxHatIcon"
+},
+{
+"id": 545,
+"class": "AmBoxHatClip"
+},
+{
+"id": 543,
+"class": "CooldownRemover"
+},
+{
+"id": 540,
+"class": "CooldownRemoverIcon"
+},
+{
+"id": 537,
+"class": "AmDeepFreeze"
+},
+{
+"id": 531,
+"class": "DeepFreezeIcon"
+},
+{
+"id": 529,
+"class": "IconMeteorVolley"
+},
+{
+"id": 527,
+"class": "IconSacrifice"
+},
+{
+"id": 525,
+"class": "IconDoctorBag"
+},
+{
+"id": 523,
+"class": "DoctorBag"
+},
+{
+"id": 521,
+"class": "IconGlazeDonut"
+},
+{
+"id": 519,
+"class": "GlazeDonut"
+},
+{
+"id": 517,
+"class": "AmGlazeDonut"
+},
+{
+"id": 515,
+"class": "IconFanOfKnives"
+},
+{
+"id": 513,
+"class": "AmFieryPumpkin"
+},
+{
+"id": 511,
+"class": "FieryPumpkin"
+},
+{
+"id": 509,
+"class": "IconFieryPumpkin"
+},
+{
+"id": 507,
+"class": "FireworkBarrelIcon"
+},
+{
+"id": 505,
+"class": "AmFirework"
+},
+{
+"id": 488,
+"class": "IconFirework"
+},
+{
+"id": 486,
+"class": "IconMainHomingBazooka"
+},
+{
+"id": 484,
+"class": "IconHeavyKnife"
+},
+{
+"id": 482,
+"class": "IceBlockAm"
+},
+{
+"id": 480,
+"class": "IceBlockIcon"
+},
+{
+"id": 478,
+"class": "InterferenceGeneratorAm"
+},
+{
+"id": 477,
+"class": "InterferenceGeneratorIcon"
+},
+{
+"id": 474,
+"class": "InterferenceGeneratorMain"
+},
+{
+"id": 471,
+"class": "IonCannonIcon"
+},
+{
+"id": 466,
+"class": "IonExplode"
+},
+{
+"id": 459,
+"class": "IonRay"
+},
+{
+"id": 457,
+"class": "Mole"
+},
+{
+"id": 453,
+"class": "MoleAm"
+},
+{
+"id": 439,
+"class": "MoleIcon"
+},
+{
+"id": 437,
+"class": "NecroBook"
+},
+{
+"id": 435,
+"class": "IconNecroBook"
+},
+{
+"id": 433,
+"class": "NecroSeal"
+},
+{
+"id": 422,
+"class": "NecroSealIcon"
+},
+{
+"id": 419,
+"class": "FirearmTurretIcon"
+},
+{
+"id": 417,
+"class": "FirearmTurretMain"
+},
+{
+"id": 411,
+"class": "MortarTurretIcon"
+},
+{
+"id": 409,
+"class": "MortarTurretMain"
+},
+{
+"id": 403,
+"class": "Radar"
+},
+{
+"id": 400,
+"class": "RadarIcon"
+},
+{
+"id": 398,
+"class": "RadarAm"
+},
+{
+"id": 387,
+"class": "RoboPiranhaIcon"
+},
+{
+"id": 385,
+"class": "IconSheep"
+},
+{
+"id": 383,
+"class": "ShopBallIcon"
+},
+{
+"id": 381,
+"class": "AmShopBallClip"
+},
+{
+"id": 376,
+"class": "AmMainShuriken"
+},
+{
+"id": 374,
+"class": "IconMainShuriken"
+},
+{
+"id": 372,
+"class": "IconMainSpider"
+},
+{
+"id": 370,
+"class": "AmSuperSheepLeft"
+},
+{
+"id": 369,
+"class": "AmSuperSheepRight"
+},
+{
+"id": 359,
+"class": "IconSuperSheep"
+},
+{
+"id": 357,
+"class": "SwapTeleportIcon"
+},
+{
+"id": 355,
+"class": "UnderwaterBreathPotion"
+},
+{
+"id": 353,
+"class": "IconUnderwaterBreathPotion"
+},
+{
+"id": 351,
+"class": "AmAntimagnit"
+},
+{
+"id": 348,
+"class": "IconAntimagnit"
+},
+{
+"id": 346,
+"class": "CallReinforcementsMark"
+},
+{
+"id": 343,
+"class": "IconCallReinforcements"
+},
+{
+"id": 341,
+"class": "Antitoxin"
+},
+{
+"id": 339,
+"class": "IconAntitoxin"
+},
+{
+"id": 337,
+"class": "Bandage"
+},
+{
+"id": 335,
+"class": "IconBandage"
+},
+{
+"id": 333,
+"class": "IconSwitchTurn"
+},
+{
+"id": 331,
+"class": "IconTitaniumGirder"
+},
+{
+"id": 330,
+"class": "IconGirder"
+},
+{
+"id": 328,
+"class": "IconMainBazooka"
+},
+{
+"id": 326,
+"class": "IconReverseGravityBazooka"
+},
+{
+"id": 324,
+"class": "IconBlizzard"
+},
+{
+"id": 322,
+"class": "AmBlizzard"
+},
+{
+"id": 320,
+"class": "Blizzard"
+},
+{
+"id": 311,
+"class": "IconBirdgun"
+},
+{
+"id": 309,
+"class": "ChromeOrbIcePiece"
+},
+{
+"id": 307,
+"class": "IconChromeOrb"
+},
+{
+"id": 305,
+"class": "AmCrossbow"
+},
+{
+"id": 303,
+"class": "IconCrossbow"
+},
+{
+"id": 301,
+"class": "DoubleBazookaIcon"
+},
+{
+"id": 299,
+"class": "DoubleBazookaMain"
+},
+{
+"id": 296,
+"class": "AmElectromagneticBazooka"
+},
+{
+"id": 293,
+"class": "IconElectromagneticBazooka"
+},
+{
+"id": 290,
+"class": "MainElectromagneticBazooka"
+},
+{
+"id": 287,
+"class": "AmAlternativeFreezing"
+},
+{
+"id": 277,
+"class": "AmFreezingBazooka"
+},
+{
+"id": 275,
+"class": "IceWorm"
+},
+{
+"id": 273,
+"class": "IconFreezingBazooka"
+},
+{
+"id": 271,
+"class": "AmFugasRocket"
+},
+{
+"id": 269,
+"class": "IconFugasRocket"
+},
+{
+"id": 267,
+"class": "GirderAmmo"
+},
+{
+"id": 263,
+"class": "GirderGun"
+},
+{
+"id": 259,
+"class": "GirderGunIcon"
+},
+{
+"id": 257,
+"class": "GuidingBazookaCursor"
+},
+{
+"id": 253,
+"class": "AmMainMortar"
+},
+{
+"id": 251,
+"class": "IconMainMortar"
+},
+{
+"id": 249,
+"class": "IconCarpetBazooka"
+},
+{
+"id": 247,
+"class": "IconDrill"
+},
+{
+"id": 245,
+"class": "IconSuperDrill"
+},
+{
+"id": 243,
+"class": "BarrierLauncherIcon"
+},
+{
+"id": 241,
+"class": "AmCannon"
+},
+{
+"id": 239,
+"class": "IconCannon"
+},
+{
+"id": 237,
+"class": "IconChainGun"
+},
+{
+"id": 235,
+"class": "IconElectromagneticWeapon"
+},
+{
+"id": 233,
+"class": "IconEnergyGun"
+},
+{
+"id": 231,
+"class": "IconHandicraftedSniperRifle"
+},
+{
+"id": 229,
+"class": "IconKalash"
+},
+{
+"id": 227,
+"class": "IconLaserGun"
+},
+{
+"id": 225,
+"class": "LaserGun"
+},
+{
+"id": 223,
+"class": "LaserFire"
+},
+{
+"id": 212,
+"class": "PlasmoGun"
+},
+{
+"id": 209,
+"class": "PlasmoGunIcon"
+},
+{
+"id": 207,
+"class": "PlasmoGunAmmo"
+},
+{
+"id": 182,
+"class": "AmShotgun"
+},
+{
+"id": 180,
+"class": "IconMainShotgun"
+},
+{
+"id": 178,
+"class": "IconMainSniperRifle"
+},
+{
+"id": 176,
+"class": "AmThunderBolt"
+},
+{
+"id": 174,
+"class": "IconThunderbolt"
+},
+{
+"id": 172,
+"class": "IconMainUzi"
+},
+{
+"id": 170,
+"class": "IconGravityGun"
+},
+{
+"id": 168,
+"class": "IconDiscgun"
+},
+{
+"id": 166,
+"class": "IconMainMinigun"
+},
+{
+"id": 164,
+"class": "IconMainRifle"
+},
+{
+"id": 162,
+"class": "SpiritGunIcon"
+},
+{
+"id": 160,
+"class": "IconMainBlowTorch"
+},
+{
+"id": 158,
+"class": "AmPneumaticDrill"
+},
+{
+"id": 156,
+"class": "IconPneumaticDrill"
+},
+{
+"id": 154,
+"class": "GaryAttack"
+},
+{
+"id": 153,
+"class": "weapons_fla.GaryHeadBite_749"
+},
+{
+"id": 152,
+"class": "weapons_fla.GaryBaseAttack_748"
+},
+{
+"id": 151,
+"class": "weapons_fla.GaryNeckAttack_747"
+},
+{
+"id": 150,
+"class": "GaryFade"
+},
+{
+"id": 138,
+"class": "GaryIcon"
+},
+{
+"id": 123,
+"class": "IconJetpack"
+},
+{
+"id": 121,
+"class": "IconTeleport"
+},
+{
+"id": 119,
+"class": "IconEmergencyTeleport"
+},
+{
+"id": 117,
+"class": "IconBigCannon"
+},
+{
+"id": 115,
+"class": "IconRope"
+},
+{
+"id": 113,
+"class": "AmRope"
+},
+{
+"id": 111,
+"class": "AmTeleportThrower"
+},
+{
+"id": 110,
+"class": "TeleportThrowerBlink"
+},
+{
+"id": 109,
+"class": "IconTeleportThrower"
+},
+{
+"id": 107,
+"class": "AmDarkPact"
+},
+{
+"id": 105,
+"class": "DarkPact"
+},
+{
+"id": 103,
+"class": "IconDarkPact"
+},
+{
+"id": 101,
+"class": "AmPumpkin"
+},
+{
+"id": 98,
+"class": "Pumpkin"
+},
+{
+"id": 8,
+"class": "IconPumpkin"
+},
+{
+"id": 6,
+"class": "FireMinigunIcon"
+},
+{
+"id": 4,
+"class": "SoulGunFrostIcon"
+},
+{
+"id": 2,
+"class": "SoulGunIcon"
+}
+],
+"common/rooms/achiev_icons": [
+{
+"id": 829,
+"class": "RisingZombiesFour2"
+},
+{
+"id": 820,
+"class": "RisingZombiesWinner3"
+},
+{
+"id": 818,
+"class": "RisingZombiesRare1"
+},
+{
+"id": 816,
+"class": "RisingZombiesRare2"
+},
+{
+"id": 811,
+"class": "RisingZombiesRare3"
+},
+{
+"id": 805,
+"class": "RisingZombiesFour1"
+},
+{
+"id": 801,
+"class": "RisingZombiesWinner1"
+},
+{
+"id": 794,
+"class": "RisingZombiesWinner2"
+},
+{
+"id": 789,
+"class": "RisingZombiesFour3"
+},
+{
+"id": 784,
+"class": "MercsWin3"
+},
+{
+"id": 782,
+"class": "MercsWin1"
+},
+{
+"id": 780,
+"class": "MercsWin2"
+},
+{
+"id": 778,
+"class": "RopeRace1"
+},
+{
+"id": 772,
+"class": "RopeRace2"
+},
+{
+"id": 766,
+"class": "RopeRace3"
+},
+{
+"id": 764,
+"class": "BossExtras1"
+},
+{
+"id": 762,
+"class": "BossExtras2"
+},
+{
+"id": 760,
+"class": "BossExtras3"
+},
+{
+"id": 758,
+"class": "ElectroKill1"
+},
+{
+"id": 756,
+"class": "ElectroKill2"
+},
+{
+"id": 754,
+"class": "ElectroKill3"
+},
+{
+"id": 747,
+"class": "PaladinMerman"
+},
+{
+"id": 744,
+"class": "PaladinOldGod"
+},
+{
+"id": 741,
+"class": "PaladinSurviveAll"
+},
+{
+"id": 738,
+"class": "GuardiansAlarm"
+},
+{
+"id": 736,
+"class": "GuardiansCataclysm"
+},
+{
+"id": 734,
+"class": "DarkKnightRitual"
+},
+{
+"id": 728,
+"class": "DarkKnightDownWith"
+},
+{
+"id": 726,
+"class": "DarkKnightUnderwater"
+},
+{
+"id": 724,
+"class": "AlchemistElements"
+},
+{
+"id": 722,
+"class": "AlchemistEmployee"
+},
+{
+"id": 720,
+"class": "GuardiansTeleport"
+},
+{
+"id": 718,
+"class": "AssassinShredder"
+},
+{
+"id": 716,
+"class": "AssassinJumps"
+},
+{
+"id": 714,
+"class": "AssassinDancer"
+},
+{
+"id": 712,
+"class": "AlchemistSafety"
+},
+{
+"id": 710,
+"class": "ArchbotLast"
+},
+{
+"id": 708,
+"class": "ArchbotDroid"
+},
+{
+"id": 706,
+"class": "ArchbotMagic"
+},
+{
+"id": 704,
+"class": "Accurate"
+},
+{
+"id": 702,
+"class": "Soldier"
+},
+{
+"id": 700,
+"class": "Bazutchik"
+},
+{
+"id": 696,
+"class": "Aeronaut"
+},
+{
+"id": 694,
+"class": "Killer"
+},
+{
+"id": 692,
+"class": "MorningRun"
+},
+{
+"id": 690,
+"class": "Pyromaniac"
+},
+{
+"id": 688,
+"class": "Buffy"
+},
+{
+"id": 686,
+"class": "Celebrity"
+},
+{
+"id": 684,
+"class": "Hero"
+},
+{
+"id": 682,
+"class": "Plunderer"
+},
+{
+"id": 679,
+"class": "DeceivedDeath"
+},
+{
+"id": 677,
+"class": "ComeWithMe"
+},
+{
+"id": 672,
+"class": "Dandy"
+},
+{
+"id": 670,
+"class": "Demolitions"
+},
+{
+"id": 668,
+"class": "DeathGrip"
+},
+{
+"id": 666,
+"class": "Consigliere"
+},
+{
+"id": 661,
+"class": "Neptune"
+},
+{
+"id": 659,
+"class": "Merman"
+},
+{
+"id": 657,
+"class": "Dilettant"
+},
+{
+"id": 653,
+"class": "Friend"
+},
+{
+"id": 651,
+"class": "Fan"
+},
+{
+"id": 649,
+"class": "Photographer"
+},
+{
+"id": 647,
+"class": "Buddy"
+},
+{
+"id": 645,
+"class": "Spender"
+},
+{
+"id": 643,
+"class": "Topitel"
+},
+{
+"id": 641,
+"class": "Diplomat"
+},
+{
+"id": 636,
+"class": "HatLover"
+},
+{
+"id": 634,
+"class": "Idol"
+},
+{
+"id": 632,
+"class": "Inquisitor"
+},
+{
+"id": 630,
+"class": "Pilot"
+},
+{
+"id": 628,
+"class": "Jeweler"
+},
+{
+"id": 623,
+"class": "Kamikadze"
+},
+{
+"id": 618,
+"class": "Apothecary"
+},
+{
+"id": 615,
+"class": "Secretive"
+},
+{
+"id": 613,
+"class": "MadHatter"
+},
+{
+"id": 611,
+"class": "Maniac"
+},
+{
+"id": 609,
+"class": "WormaxPayne"
+},
+{
+"id": 607,
+"class": "Militant"
+},
+{
+"id": 605,
+"class": "Miner"
+},
+{
+"id": 597,
+"class": "RapidFire"
+},
+{
+"id": 592,
+"class": "Embezzler"
+},
+{
+"id": 587,
+"class": "MovieDirector"
+},
+{
+"id": 582,
+"class": "Stable"
+},
+{
+"id": 580,
+"class": "Negotiator"
+},
+{
+"id": 578,
+"class": "Exterminator"
+},
+{
+"id": 576,
+"class": "Operator"
+},
+{
+"id": 572,
+"class": "Reporter"
+},
+{
+"id": 567,
+"class": "Paranoik"
+},
+{
+"id": 565,
+"class": "KingOfParties"
+},
+{
+"id": 563,
+"class": "Paparazzi"
+},
+{
+"id": 558,
+"class": "Gamer"
+},
+{
+"id": 554,
+"class": "Lucky2"
+},
+{
+"id": 552,
+"class": "Ace"
+},
+{
+"id": 550,
+"class": "Doctor"
+},
+{
+"id": 548,
+"class": "King"
+},
+{
+"id": 546,
+"class": "Lucky"
+},
+{
+"id": 544,
+"class": "Cool"
+},
+{
+"id": 539,
+"class": "Rich"
+},
+{
+"id": 536,
+"class": "WormixGump"
+},
+{
+"id": 534,
+"class": "Saint"
+},
+{
+"id": 532,
+"class": "SeaDog"
+},
+{
+"id": 530,
+"class": "UnderTaker"
+},
+{
+"id": 528,
+"class": "Slayer"
+},
+{
+"id": 526,
+"class": "Rock"
+},
+{
+"id": 524,
+"class": "Unshakable"
+},
+{
+"id": 519,
+"class": "SuperMiner"
+},
+{
+"id": 514,
+"class": "Diver"
+},
+{
+"id": 512,
+"class": "Champion"
+},
+{
+"id": 510,
+"class": "Winner"
+},
+{
+"id": 508,
+"class": "Gunner"
+},
+{
+"id": 506,
+"class": "TreasureHunter"
+},
+{
+"id": 501,
+"class": "Unstoppable"
+},
+{
+"id": 499,
+"class": "Cinemaddict"
+},
+{
+"id": 490,
+"class": "Walkman"
+},
+{
+"id": 488,
+"class": "Shaman"
+},
+{
+"id": 486,
+"class": "WindMaster"
+},
+{
+"id": 482,
+"class": "Sage"
+},
+{
+"id": 477,
+"class": "MasterBazooka"
+},
+{
+"id": 475,
+"class": "Millionaire"
+},
+{
+"id": 470,
+"class": "GameManiac"
+},
+{
+"id": 466,
+"class": "AddInMenu"
+},
+{
+"id": 460,
+"class": "DestroyerMiner"
+},
+{
+"id": 444,
+"class": "DestroyGeneratorsHunter"
+},
+{
+"id": 440,
+"class": "DodgeHookManiacs"
+},
+{
+"id": 429,
+"class": "DodgerBurningDead"
+},
+{
+"id": 425,
+"class": "DodgerMiner"
+},
+{
+"id": 421,
+"class": "DodgerSamurai"
+},
+{
+"id": 414,
+"class": "DodgerSergeant"
+},
+{
+"id": 405,
+"class": "DontDamageClones"
+},
+{
+"id": 402,
+"class": "DontLetRegenerate"
+},
+{
+"id": 399,
+"class": "DontLetSpawnThreeIlls"
+},
+{
+"id": 395,
+"class": "DrownIllusionistFiveTimes"
+},
+{
+"id": 392,
+"class": "DrownVikings"
+},
+{
+"id": 389,
+"class": "FailDropMeteorsBurningDead"
+},
+{
+"id": 385,
+"class": "CollectorFarmer"
+},
+{
+"id": 380,
+"class": "FireKillSamurai"
+},
+{
+"id": 356,
+"class": "FloodingManiacs"
+},
+{
+"id": 352,
+"class": "IronFarmer"
+},
+{
+"id": 348,
+"class": "KillDemonAfterTeleport"
+},
+{
+"id": 345,
+"class": "KillLatestSergeant"
+},
+{
+"id": 334,
+"class": "KillOnFirstStepSergeant"
+},
+{
+"id": 330,
+"class": "KillShamanInTwoTurns"
+},
+{
+"id": 324,
+"class": "KillShamanLast"
+},
+{
+"id": 320,
+"class": "KillSoulBoundedInTurn"
+},
+{
+"id": 317,
+"class": "KillTogetherManiacs"
+},
+{
+"id": 309,
+"class": "KillTwoVikingsInTurn"
+},
+{
+"id": 305,
+"class": "MeteorsOnZombieBurningDead"
+},
+{
+"id": 301,
+"class": "NotDamageHunter"
+},
+{
+"id": 295,
+"class": "DeadPirateSink"
+},
+{
+"id": 270,
+"class": "DeadPirateAvoidMeteors"
+},
+{
+"id": 264,
+"class": "DeadPirateDrownSupports"
+},
+{
+"id": 261,
+"class": "NotDestroyGenerationsHunter"
+},
+{
+"id": 252,
+"class": "PickApplesFarmer"
+},
+{
+"id": 248,
+"class": "PirateDontSink"
+},
+{
+"id": 245,
+"class": "PirateDrownAllSupports"
+},
+{
+"id": 242,
+"class": "PirateKillLast"
+},
+{
+"id": 239,
+"class": "ScoundrelMiner"
+},
+{
+"id": 236,
+"class": "SinkAllSamurai"
+},
+{
+"id": 233,
+"class": "WindMasterDontDrownEnemies"
+},
+{
+"id": 207,
+"class": "WindMasterDrownGuardians"
+},
+{
+"id": 204,
+"class": "WindMasterKillLast"
+},
+{
+"id": 201,
+"class": "WinWithFullHp"
+},
+{
+"id": 192,
+"class": "WinWithHalfHp"
+},
+{
+"id": 189,
+"class": "YakuzaDoMonsterThreeTimes"
+},
+{
+"id": 186,
+"class": "YakuzaKillSteelLast"
+},
+{
+"id": 183,
+"class": "YakuzaKillTwoInTurn"
+},
+{
+"id": 180,
+"class": "EngineerAvoidLasers"
+},
+{
+"id": 177,
+"class": "EngineerDontLetsSpawnDrones"
+},
+{
+"id": 174,
+"class": "EngineerKillWithRockets"
+},
+{
+"id": 171,
+"class": "GhostAvoidClouds"
+},
+{
+"id": 168,
+"class": "GhostKillLast"
+},
+{
+"id": 165,
+"class": "GhostKillWithClouds"
+},
+{
+"id": 162,
+"class": "KingDeadDontLetSpawn"
+},
+{
+"id": 159,
+"class": "KingDeadKillInTurn"
+},
+{
+"id": 156,
+"class": "KingDeadKillLast"
+},
+{
+"id": 153,
+"class": "RomeoKillAsZombies"
+},
+{
+"id": 150,
+"class": "RomeoKillWithOneShot"
+},
+{
+"id": 147,
+"class": "RomeoWinWithHalfHP"
+},
+{
+"id": 144,
+"class": "HackerDoMonster"
+},
+{
+"id": 142,
+"class": "HackerFirewall"
+},
+{
+"id": 140,
+"class": "HackerNumerator"
+},
+{
+"id": 138,
+"class": "PhantomsFantomas"
+},
+{
+"id": 136,
+"class": "PhantomsGhostbuster"
+},
+{
+"id": 134,
+"class": "PhantomsPoltergeist"
+},
+{
+"id": 132,
+"class": "TelepathistLifesaver"
+},
+{
+"id": 130,
+"class": "TelepathistPedant"
+},
+{
+"id": 126,
+"class": "TelepathistPsionic"
+},
+{
+"id": 124,
+"class": "ThievesAuthority"
+},
+{
+"id": 121,
+"class": "ThievesDigger"
+},
+{
+"id": 119,
+"class": "ThievesGangLeader"
+},
+{
+"id": 118,
+"class": "AchieveIconBorder"
+},
+{
+"id": 108,
+"class": "CollectorLvl1"
+},
+{
+"id": 106,
+"class": "CollectorLvl2"
+},
+{
+"id": 104,
+"class": "CollectorLvl3"
+},
+{
+"id": 93,
+"class": "PartisanLvl1"
+},
+{
+"id": 91,
+"class": "PartisanLvl2"
+},
+{
+"id": 89,
+"class": "PartisanLvl3"
+},
+{
+"id": 87,
+"class": "DropWaterFirstTurn1"
+},
+{
+"id": 85,
+"class": "DropWaterFirstTurn2"
+},
+{
+"id": 83,
+"class": "DropWaterFirstTurn3"
+},
+{
+"id": 81,
+"class": "WeaponsUpgrade1"
+},
+{
+"id": 79,
+"class": "WeaponsUpgrade2"
+},
+{
+"id": 77,
+"class": "WeaponsUpgrade3"
+},
+{
+"id": 75,
+"class": "GunsInBox1"
+},
+{
+"id": 73,
+"class": "GunsInBox2"
+},
+{
+"id": 71,
+"class": "GunsInBox3"
+},
+{
+"id": 69,
+"class": "SuperBossesWinsLvl1"
+},
+{
+"id": 67,
+"class": "SuperBossesWinsLvl3"
+},
+{
+"id": 65,
+"class": "SuperBossesWinsLvl2"
+},
+{
+"id": 63,
+"class": "EpicCrafterLvl1"
+},
+{
+"id": 61,
+"class": "EpicCrafterLvl2"
+},
+{
+"id": 59,
+"class": "EpicCrafterLvl3"
+},
+{
+"id": 57,
+"class": "SocialPostLvl1"
+},
+{
+"id": 55,
+"class": "SocialPostLvl2"
+},
+{
+"id": 53,
+"class": "SocialPostLvl3"
+},
+{
+"id": 51,
+"class": "GladiatorTenWinner1"
+},
+{
+"id": 49,
+"class": "GladiatorTenWinner2"
+},
+{
+"id": 47,
+"class": "GladiatorTenWinner3"
+},
+{
+"id": 45,
+"class": "CoopFriendWinner1"
+},
+{
+"id": 43,
+"class": "CoopFriendWinner2"
+},
+{
+"id": 41,
+"class": "CoopFriendWinner3"
+},
+{
+"id": 39,
+"class": "GladiatorWinner1"
+},
+{
+"id": 37,
+"class": "GladiatorWinner2"
+},
+{
+"id": 35,
+"class": "GladiatorWinner3"
+},
+{
+"id": 33,
+"class": "OpenRace1"
+},
+{
+"id": 31,
+"class": "OpenRace2"
+},
+{
+"id": 29,
+"class": "OpenRace3"
+},
+{
+"id": 27,
+"class": "ReturnFriends1"
+},
+{
+"id": 25,
+"class": "ReturnFriends2"
+},
+{
+"id": 23,
+"class": "ReturnFriends3"
+},
+{
+"id": 21,
+"class": "ExoticWeaponMaster1"
+},
+{
+"id": 19,
+"class": "ExoticWeaponMaster2"
+},
+{
+"id": 17,
+"class": "ExoticWeaponMaster3"
+},
+{
+"id": 15,
+"class": "RewardChest1"
+},
+{
+"id": 10,
+"class": "RewardChest2"
+},
+{
+"id": 8,
+"class": "RewardChest3"
+},
+{
+"id": 6,
+"class": "OpenSkin1"
+},
+{
+"id": 4,
+"class": "OpenSkin2"
+},
+{
+"id": 2,
+"class": "OpenSkin3"
+}
+],
+"common/rooms/achiev_room": [
+{
+"id": 315,
+"class": "AchievRoom"
+},
+{
+"id": 184,
+"class": "AchievTabAwards"
+},
+{
+"id": 95,
+"class": "AwardCell"
+},
+{
+"id": 62,
+"class": "AchievTabPage"
+}
+],
+"common/rooms/armory_room": [
+{
+"id": 146,
+"class": "Armory"
+},
+{
+"id": 25,
+"class": "CooldownIcon"
+},
+{
+"id": 22,
+"class": "ArmoryHelpWindow"
+},
+{
+"id": 7,
+"class": "BigRedCellBack"
+},
+{
+"id": 6,
+"class": "GreenCellBack"
+},
+{
+"id": 4,
+"class": "RedCellBack"
+},
+{
+"id": 2,
+"class": "YellowCellBack"
+}
+],
+"common/rooms/craft_room": [
+{
+"id": 340,
+"class": "CraftRoom"
+},
+{
+"id": 293,
+"class": "PanelWithReagent"
+},
+{
+"id": 280,
+"class": "CraftEquipInfoHint"
+},
+{
+"id": 277,
+"class": "BgHintPanel"
+},
+{
+"id": 275,
+"class": "CraftEquipCompleteDialog"
+},
+{
+"id": 237,
+"class": "PanelWeaponCollection"
+},
+{
+"id": 160,
+"class": "ReagentItem"
+},
+{
+"id": 158,
+"class": "PanelCraftEquip"
+},
+{
+"id": 84,
+"class": "BuyEquipIcon"
+},
+{
+"id": 63,
+"class": "CraftReagentIcon"
+},
+{
+"id": 54,
+"class": "DoubleArrowLong"
+},
+{
+"id": 52,
+"class": "DoubleArrowShort"
+},
+{
+"id": 50,
+"class": "SingleArrow"
+},
+{
+"id": 48,
+"class": "SingleShortArrow"
+},
+{
+"id": 46,
+"class": "TripleArrowLong"
+},
+{
+"id": 44,
+"class": "TripleArrowShort"
+},
+{
+"id": 42,
+"class": "UpgradeBtn"
+}
+],
+"common/rooms/fullscreenCommonObjects": [
+{
+"id": 4,
+"class": "GateLeft"
+},
+{
+"id": 2,
+"class": "GateRight"
+}
+],
+"common/rooms/race_room": [
+{
+"id": 443,
+"class": "RaceRoom"
+},
+{
+"id": 178,
+"class": "RaceCell"
+},
+{
+"id": 148,
+"class": "SkinCell"
+},
+{
+"id": 9,
+"class": "RaceAbilHint"
+}
+],
+"common/rooms/team_room": [
+{
+"id": 327,
+"class": "TeamRoom"
+},
+{
+"id": 5,
+"class": "LoadingClan"
+}
+],
+"preloader_251": [
+{
+"id": 7,
+"class": "PreloaderMessage"
+},
+{
+"id": 4,
+"class": "AdLibTitleFont"
+},
+{
+"id": 233,
+"class": "PreloaderScreen"
+},
+{
+"id": 235,
+"class": "TitleTextField"
+},
+{
+"id": 232,
+"class": "preloaderScreen_1200x600_1_fla.WHITE_start_82"
+},
+{
+"id": 203,
+"class": "preloaderScreen_1200x600_1_fla.logo_smashing_69"
+},
+{
+"id": 36,
+"class": "preloaderScreen_1200x600_1_fla.Explosion_animation_1_7"
+},
+{
+"id": 106,
+"class": "preloaderScreen_1200x600_1_fla.Exp_medium_38"
+},
+{
+"id": 202,
+"class": "preloaderScreen_1200x600_1_fla.logo_appear_70"
+},
+{
+"id": 4,
+"class": "AdLibTitleFont"
+},
+{
+"id": 202,
+"class": "preloaderScreen_1200x600_1_fla.logo_appear_70"
+},
+{
+"id": 203,
+"class": "preloaderScreen_1200x600_1_fla.logo_smashing_69"
+},
+{
+"id": 7,
+"class": "2!"
+},
+{
+"id": 235,
+"class": "0%"
+},
+{
+"id": 106,
+"class": "preloaderScreen_1200x600_1_fla.Exp_medium_38"
+},
+{
+"id": 233,
+"class": "PreloaderScreen"
+},
+{
+"id": 232,
+"class": "preloaderScreen_1200x600_1_fla.WHITE_start_82"
+},
+{
+"id": 36,
+"class": "preloaderScreen_1200x600_1_fla.Explosion_animation_1_7"
+},
+{
+"id": 0,
+"class": "ru.pragmatix.preloader.-\\\""
+}
+],
+"social/vkontakte/bank": [
+{
+"id": 214,
+"class": "BankMenu"
+},
+{
+"id": 1,
+"class": "NumberFont"
+}
+]
+}

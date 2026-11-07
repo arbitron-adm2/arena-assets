@@ -1,0 +1,36 @@
+{
+  "measured_at": "2026-11-07T20:28:20+0300",
+  "target": "wormixtest.ru:49197",
+  "command": "PING(16) -> PONG(10017)",
+  "bursts": [
+    {
+      "sent": 1,
+      "pongs": 1,
+      "rtt_ms_median": 799.2,
+      "rtt_ms_max": 799.2,
+      "burst": 1
+    },
+    {
+      "sent": 5,
+      "pongs": 5,
+      "rtt_ms_median": 760.9,
+      "rtt_ms_max": 761.0,
+      "burst": 5
+    },
+    {
+      "sent": 10,
+      "pongs": 10,
+      "rtt_ms_median": 708.3,
+      "rtt_ms_max": 708.3,
+      "burst": 10
+    },
+    {
+      "sent": 20,
+      "pongs": 20,
+      "rtt_ms_median": 710.7,
+      "rtt_ms_max": 710.8,
+      "burst": 20
+    }
+  ],
+  "conclusion": "no throttle observed; sustained 1 ping per burst of up to 20 back-to-back frames is answered"
+}

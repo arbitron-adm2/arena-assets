@@ -1,0 +1,614 @@
+package §2#i§
+{
+   import §!$d§.§<$c§;
+   import §"#x§.§'"$§;
+   import §##y§.CollisionEvent;
+   import §%"1§.§@%;§;
+   import §%L§.§%%w§;
+   import §'!Z§.§1"-§;
+   import §'!Z§.§;n§;
+   import §0%[§.§^"5§;
+   import §6"'§.§&"3§;
+   import §7$t§.§;#_§;
+   import §9%W§.§!"G§;
+   import §<"?§.*;
+   import §<%k§.§`!v§;
+   import §=&!§.§<$Z§;
+   import §=&!§.§]$d§;
+   import §?$L§.§ "N§;
+   import §@!i§.§8%6§;
+   import §`%&§.§5$1§;
+   import flash.events.Event;
+   import flash.geom.Point;
+   import ru.pragmatix.wormix.messages.client.EndTurn;
+   import ru.pragmatix.wormix.messages.server.EquipExpired;
+   import ru.pragmatix.wormix.messages.server.WithdrawSeasonWeaponsResult;
+   import ru.pragmatix.wormix.messages.structures.ReconnectToSimpleBattleResultStructure;
+   import ru.pragmatix.wormix.model.user.§4! §;
+   import ru.pragmatix.wormix.model.user.UserProfile;
+   import ru.pragmatix.wormix.physics.§<H§;
+   import ru.pragmatix.wormix.utils.§-q§;
+   import ru.pragmatix.wormix.weapons.ammo.§&!E§;
+   
+   public class §9##§ implements §!$A§
+   {
+      
+      public static const §;9§:int = 10000;
+      
+      private static const §]%0§:Object = {};
+      
+      private static const §;"f§:Array = [{
+         "id":10004,
+         "hideInShop":true,
+         "refId":§+%z§.RIFLE,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":1,
+         "infinite":false
+      },{
+         "id":10005,
+         "hideInShop":true,
+         "refId":§+%z§.§4"k§,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":15,
+         "infinite":false
+      },{
+         "id":10007,
+         "hideInShop":true,
+         "refId":§+%z§.UZI,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":12,
+         "infinite":false
+      },{
+         "id":10009,
+         "hideInShop":true,
+         "refId":§+%z§.MORTAR,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":12,
+         "infinite":false
+      },{
+         "id":10010,
+         "hideInShop":true,
+         "refId":§+%z§.MINIGUN,
+         "dropWeight":60,
+         "dropMinLevel":5,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10012,
+         "hideInShop":true,
+         "refId":§+%z§.§!`§,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10014,
+         "hideInShop":true,
+         "refId":§+%z§.SHOTGUN,
+         "dropWeight":80,
+         "dropMinLevel":3,
+         "dropMaxLevel":20,
+         "infinite":false
+      },{
+         "id":10016,
+         "hideInShop":true,
+         "refId":§+%z§.DRILL,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":1,
+         "infinite":false
+      },{
+         "id":10017,
+         "hideInShop":true,
+         "refId":§+%z§.BLOW_TORCH,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":1,
+         "infinite":false
+      },{
+         "id":10019,
+         "hideInShop":true,
+         "refId":§+%z§.DYNAMITE,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":10,
+         "infinite":false
+      },{
+         "id":10023,
+         "hideInShop":true,
+         "refId":§+%z§.SNIPER_RIFLE,
+         "dropWeight":80,
+         "dropMinLevel":7,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10024,
+         "hideInShop":true,
+         "refId":§+%z§.WATERMELON,
+         "dropWeight":12,
+         "dropMinLevel":18,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10025,
+         "hideInShop":true,
+         "refId":§+%z§.HOLY_GRENADE,
+         "dropWeight":12,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10026,
+         "hideInShop":true,
+         "refId":§+%z§.TELEPORT,
+         "dropWeight":20,
+         "dropMinLevel":17,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10027,
+         "hideInShop":true,
+         "refId":§+%z§.AIR_STRIKE,
+         "dropWeight":10,
+         "dropMinLevel":17,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10028,
+         "hideInShop":true,
+         "refId":§+%z§.METEOR,
+         "dropWeight":10,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10029,
+         "hideInShop":true,
+         "refId":§+%z§.STICKY_GRENADE,
+         "dropWeight":80,
+         "dropMinLevel":5,
+         "dropMaxLevel":20,
+         "infinite":false
+      },{
+         "id":10030,
+         "hideInShop":true,
+         "refId":§+%z§.§^";§,
+         "dropWeight":20,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10032,
+         "hideInShop":true,
+         "refId":§+%z§.FIREWORK,
+         "dropWeight":10,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10033,
+         "hideInShop":true,
+         "refId":§+%z§.SHOCKER,
+         "dropWeight":80,
+         "dropMinLevel":5,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10034,
+         "hideInShop":true,
+         "refId":§+%z§.§]!]§,
+         "dropWeight":20,
+         "dropMinLevel":4,
+         "dropMaxLevel":30,
+         "infinite":false,
+         "dropQuantity":2
+      },{
+         "id":10035,
+         "hideInShop":true,
+         "refId":§+%z§.JETPACK,
+         "dropWeight":10,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10036,
+         "hideInShop":true,
+         "refId":§+%z§.CARPET_STRIKE,
+         "dropWeight":10,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10037,
+         "hideInShop":true,
+         "refId":§+%z§.MOLOTOV,
+         "dropWeight":20,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10038,
+         "hideInShop":true,
+         "refId":§+%z§.§5&,§,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10039,
+         "hideInShop":true,
+         "refId":§+%z§.MINE,
+         "dropWeight":80,
+         "dropMinLevel":1,
+         "dropMaxLevel":6,
+         "infinite":false
+      },{
+         "id":10040,
+         "hideInShop":true,
+         "refId":§+%z§.SHEEP,
+         "dropWeight":60,
+         "dropMinLevel":5,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10041,
+         "hideInShop":true,
+         "refId":§+%z§.SUPER_SHEEP,
+         "dropWeight":15,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10043,
+         "hideInShop":true,
+         "refId":§+%z§.NAPALM_STRIKE,
+         "dropWeight":10,
+         "dropMinLevel":17,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10044,
+         "hideInShop":true,
+         "refId":§+%z§.CARPET_BAZOOKA,
+         "dropWeight":40,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10045,
+         "hideInShop":true,
+         "refId":§+%z§.SHURIKEN,
+         "dropWeight":80,
+         "dropMinLevel":3,
+         "dropMaxLevel":25,
+         "infinite":false
+      },{
+         "id":10046,
+         "hideInShop":true,
+         "refId":§+%z§.CANNON,
+         "dropWeight":20,
+         "dropMinLevel":13,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10047,
+         "hideInShop":true,
+         "refId":§+%z§.SLEDGEHAMMER,
+         "dropWeight":15,
+         "dropMinLevel":18,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10048,
+         "hideInShop":true,
+         "refId":§+%z§.SPIDER,
+         "dropWeight":15,
+         "dropMinLevel":18,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10049,
+         "hideInShop":true,
+         "refId":§+%z§.ROPE,
+         "dropWeight":80,
+         "dropMinLevel":6,
+         "dropMaxLevel":7,
+         "infinite":false,
+         "dropQuantity":2
+      },{
+         "id":10050,
+         "hideInShop":true,
+         "refId":§+%z§.HARPOON,
+         "dropWeight":40,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10051,
+         "hideInShop":true,
+         "refId":§+%z§.BAT,
+         "dropWeight":10,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10052,
+         "hideInShop":true,
+         "refId":§+%z§.AK_47,
+         "dropWeight":20,
+         "dropMinLevel":11,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10053,
+         "hideInShop":true,
+         "refId":§+%z§.GIRDER,
+         "dropWeight":20,
+         "dropMinLevel":13,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10054,
+         "hideInShop":true,
+         "refId":§+%z§.§8#d§,
+         "dropWeight":40,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10055,
+         "hideInShop":true,
+         "refId":§+%z§.CROSSBOW,
+         "dropWeight":80,
+         "dropMinLevel":5,
+         "dropMaxLevel":25,
+         "infinite":false
+      },{
+         "id":10056,
+         "hideInShop":true,
+         "refId":§+%z§.FREEZING_MINE,
+         "dropWeight":60,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10057,
+         "hideInShop":true,
+         "refId":§+%z§.§'#?§,
+         "dropWeight":10,
+         "dropMinLevel":25,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10058,
+         "hideInShop":true,
+         "refId":§+%z§.BUNKER_BUSTER,
+         "dropWeight":10,
+         "dropMinLevel":15,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10060,
+         "hideInShop":true,
+         "refId":§+%z§.GUARDING_BOT,
+         "dropWeight":10,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10065,
+         "hideInShop":true,
+         "refId":§+%z§.UFO,
+         "dropWeight":10,
+         "dropMinLevel":11,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10066,
+         "hideInShop":true,
+         "refId":§+%z§.ANTIFREEZE,
+         "dropWeight":20,
+         "dropMinLevel":9,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10069,
+         "hideInShop":true,
+         "refId":§+%z§.BOOMERANG,
+         "dropWeight":25,
+         "dropMinLevel":7,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10071,
+         "hideInShop":true,
+         "refId":§+%z§.EMERGENCY_TELEPORT,
+         "dropWeight":15,
+         "dropMinLevel":9,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10073,
+         "hideInShop":true,
+         "refId":§+%z§.GRAVITY_GUN,
+         "dropWeight":15,
+         "dropMinLevel":7,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10074,
+         "hideInShop":true,
+         "refId":§+%z§.THUNDERBOLT,
+         "dropWeight":10,
+         "dropMinLevel":16,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10076,
+         "hideInShop":true,
+         "refId":§+%z§.§]h§,
+         "dropWeight":50,
+         "dropMinLevel":12,
+         "dropMaxLevel":30,
+         "infinite":false,
+         "dropQuantity":2
+      },{
+         "id":10081,
+         "hideInShop":true,
+         "refId":§+%z§.GAS_GRENADE,
+         "dropWeight":12,
+         "dropMinLevel":12,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10082,
+         "hideInShop":true,
+         "refId":§+%z§.§"!S§,
+         "dropWeight":20,
+         "dropMinLevel":12,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10083,
+         "hideInShop":true,
+         "refId":§+%z§.PARASITE,
+         "dropWeight":20,
+         "dropMinLevel":10,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10086,
+         "hideInShop":true,
+         "refId":§+%z§.SOUL_GUN,
+         "dropWeight":10,
+         "dropMinLevel":12,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10089,
+         "hideInShop":true,
+         "refId":§+%z§.FIREWORK_BARREL,
+         "dropWeight":10,
+         "dropMinLevel":8,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10131,
+         "hideInShop":true,
+         "refId":§+%z§.PUPPET,
+         "dropWeight":10,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10098,
+         "hideInShop":true,
+         "refId":§+%z§.SOUL_GUN_FREEZE,
+         "dropWeight":7,
+         "dropMinLevel":15,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10124,
+         "hideInShop":true,
+         "refId":§+%z§.MESSY_BOMBARDMENT,
+         "dropWeight":7,
+         "dropMinLevel":15,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10133,
+         "hideInShop":true,
+         "refId":§+%z§.HUNGRY_GARY,
+         "dropWeight":7,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10138,
+         "hideInShop":true,
+         "refId":§+%z§.THUNDER_HAMMER,
+         "dropWeight":7,
+         "dropMinLevel":22,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10139,
+         "hideInShop":true,
+         "refId":§+%z§.RED_HOT_HAMMER,
+         "dropWeight":7,
+         "dropMinLevel":22,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10140,
+         "hideInShop":true,
+         "refId":§+%z§.HANDICRAFTED_RIFLE,
+         "dropWeight":7,
+         "dropMinLevel":18,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10141,
+         "hideInShop":true,
+         "refId":§+%z§.GAS_GRENADE_SHOCK,
+         "dropWeight":7,
+         "dropMinLevel":20,
+         "dropMaxLevel":30,
+         "infinite":false
+      },{
+         "id":10149,
+         "hideInShop":true,
+         "refId":§+%z§.BARRIERS_LAUNCHER,
+         "dropWeight":7,
+         "dropMinLevel":16,
+         "dropMaxLevel":30,
+         "infinite":false
+      }];
+      
+      public function §9##§()
+      {
+         super();
+      }
+      
+      public static function §1^§() : Array
+      {
+         return §;"f§;
+      }
+      
+      public static function §;$"§() : void
+      {
+         var _loc2_:Object = null;
+         var _loc3_:§;#_§ = null;
+         var _loc1_:int = 0;
+         for each(_loc2_ in §;"f§)
+         {
+            _loc3_ = §<$c§.§ !=§(_loc2_.refId);
+            if(_loc3_)
+            {
+               _loc1_++;
+            }
+         }
+      }
+      
+      public function get renderDefaults() : Object
+      {
+         return §]%0§;
+      }
+      
+      public function get config() : Array
+      {
+         return §1^§();
+      }
+      
+      public function get customConfigs() : Object
+      {
+         return null;
+      }
+   }
+}
+

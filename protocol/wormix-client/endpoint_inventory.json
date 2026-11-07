@@ -1,0 +1,3333 @@
+{
+ "_meta": {
+  "generated_from": "Wormix.swf 1.26.0 (decompiled with JPEXS FFDec 26.4.0)",
+  "generated_at": "2026-11-07",
+  "total_serializers": 193,
+  "numeric_command_ids": 133,
+  "client_to_server": 79,
+  "live_confirmed_client_commands": 6,
+  "note": "serializers whose getCommandId() returns a constant expression (clan/pvp subsystems) keep command=null; the expression is recorded verbatim. Those subsystems were not reachable for live testing."
+ },
+ "transport": {
+  "http": [
+   {
+    "method": "GET",
+    "url": "https://wormixtest.com/bingo?version=new",
+    "purpose": "game launcher page; requires the logged-in site session cookie",
+    "evidence": "live fetch with saved cookies returns the launcher iframe"
+   },
+   {
+    "method": "GET",
+    "url": "https://wormixtest.com/bingo (query: preloader.html?api_url=…&auth_key=…)",
+    "purpose": "FlashVars: api_id, viewer_id, auth_key, api_url - the auth_key is what the game server validates",
+    "evidence": "decompiled 1.26.0 §#\"Z§.init()/getAuthKey() reads getFlashVars()._masterKey"
+   },
+   {
+    "method": "GET/POST",
+    "url": "https://wormixtest.com/api",
+    "purpose": "VK-compatible social API used by the Flash client (users.get, getUserSettings, …)",
+    "evidence": "runner harness logs: users.get 200, getUserSettings 200"
+   }
+  ],
+  "tcp": {
+   "host": "wormixtest.ru",
+   "ports": {
+    "49197": "main world: LOGIN -> ENTER_ACCOUNT, ping/profiles/friends/arena/coliseum answered",
+    "49198": "separate world (login rejected for this account during the 2026-11-07 probe)",
+    "49199": "separate world (no login reply during the probe)",
+    "49297": "separate world (no login reply during the probe)",
+    "49298": "separate world (no login reply during the probe)",
+    "49299": "separate world (no login reply during the probe)",
+    "49300": "separate world (no login reply during the probe)",
+    "60101": "1.61.x-era port; closes the connection right after the login frame"
+   },
+   "framing": "7-byte header (flags, uint16 command, uint32 length) + body + 16-byte md5 trailer",
+   "signature": "md5(body || '<REDACTED_PROTOCOL_SECRET>') appended as the last 16 body bytes",
+   "policy": "client calls Security.loadPolicyFile('xmlsocket://<host>:<policyPort>') before connecting"
+  }
+ },
+ "messages": [
+  {
+   "command": 1,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "LoginBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "id"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "referrerId"
+    },
+    {
+     "type": "UTF",
+     "field": "authKey"
+    },
+    {
+     "type": "Int",
+     "field": "version"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "ids"
+    },
+    {
+     "type": "Byte",
+     "field": "socialCode"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "UTF",
+     "field": "params"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/LoginBinarySerializer.as",
+   "response_command": 10001,
+   "live": "login accepted, ENTER_ACCOUNT parsed (tests/test_smoke.py::test_login)"
+  },
+  {
+   "command": 2,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "NeedMoneyBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "value"
+    },
+    {
+     "type": "Int",
+     "field": "moneyType"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/NeedMoneyBinarySerializer.as",
+   "response_command": 10002,
+   "live": "unconfirmed: no reply on WormixTest"
+  },
+  {
+   "command": 3,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BuyShopItemsBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/BuyShopItemsBinarySerializer.as",
+   "response_command": 10003,
+   "live": "not exercised"
+  },
+  {
+   "command": 5,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetProfilesBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "UTF",
+     "field": "ids"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetProfilesBinarySerializer.as",
+   "response_command": 10005,
+   "live": "ProfilesResult parsed (::test_profiles)"
+  },
+  {
+   "command": 6,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "StartBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "missionId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/StartBattleBinarySerializer.as",
+   "response_command": 10006,
+   "live": "not exercised"
+  },
+  {
+   "command": 11,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BuyBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "moneyType"
+    },
+    {
+     "type": "Boolean",
+     "field": "bulk"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/BuyBattleBinarySerializer.as",
+   "response_command": 10011,
+   "live": "not exercised"
+  },
+  {
+   "command": 12,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "AddToGroupBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "profileId"
+    },
+    {
+     "type": "Short",
+     "field": "moneyType"
+    },
+    {
+     "type": "Short",
+     "field": "teamMemberType"
+    },
+    {
+     "type": "Int",
+     "field": "replaceableId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/AddToGroupBinarySerializer.as",
+   "response_command": 10012,
+   "live": "not exercised"
+  },
+  {
+   "command": 13,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "RemoveFromGroupBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "profileId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/RemoveFromGroupBinarySerializer.as",
+   "response_command": 10013,
+   "live": "not exercised"
+  },
+  {
+   "command": 14,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "DistributePointsBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "armor"
+    },
+    {
+     "type": "Int",
+     "field": "attack"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/DistributePointsBinarySerializer.as",
+   "response_command": 10014,
+   "live": "not exercised"
+  },
+  {
+   "command": 15,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ResetParametersBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "moneyType"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ResetParametersBinarySerializer.as",
+   "response_command": 10015,
+   "live": "not exercised"
+  },
+  {
+   "command": 16,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PingBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PingBinarySerializer.as",
+   "response_command": 10016,
+   "live": "Pong received (::test_ping)"
+  },
+  {
+   "command": 18,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetFriendListPageBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "pageIndex"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetFriendListPageBinarySerializer.as",
+   "response_command": 10018,
+   "live": "friend list page received (::test_friend_list)"
+  },
+  {
+   "command": 19,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetRatingBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "ratingType"
+    },
+    {
+     "type": "Short",
+     "field": "battleWager"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetRatingBinarySerializer.as",
+   "response_command": 10019,
+   "live": "unconfirmed: no reply on any WormixTest world (probed 2026-11-07, 4s window each)"
+  },
+  {
+   "command": 20,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "LoginByProfileStringIdBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "id"
+    },
+    {
+     "type": "UTF",
+     "field": "referrerId"
+    },
+    {
+     "type": "UTF",
+     "field": "authKey"
+    },
+    {
+     "type": "Int",
+     "field": "version"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "UTF",
+     "field": "ids"
+    },
+    {
+     "type": "Byte",
+     "field": "socialCode"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "UTF",
+     "field": "params"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/LoginByProfileStringIdBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 22,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ReorderGroupBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Int",
+     "field": "reorderedWormGroup"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ReorderGroupBinarySerializer.as",
+   "response_command": 10022,
+   "live": "not exercised"
+  },
+  {
+   "command": 25,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "SelectStuffBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/SelectStuffBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 36,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ChangeRaceBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "raceId"
+    },
+    {
+     "type": "Byte",
+     "field": "moneyType"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ChangeRaceBinarySerializer.as",
+   "response_command": 10036,
+   "live": "not exercised"
+  },
+  {
+   "command": 46,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetWhoPumpedReactionBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Boolean",
+     "field": "todayOnly"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetWhoPumpedReactionBinarySerializer.as",
+   "response_command": null,
+   "live": "unconfirmed: no reply on WormixTest"
+  },
+  {
+   "command": 48,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "WipeProfileBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "confirmCode"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/WipeProfileBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 49,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BuyReactionRateBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "reactionRateCount"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/BuyReactionRateBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 51,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ChatMessageBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "fromProfileId"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "toFriendId"
+    },
+    {
+     "type": "UTF",
+     "field": "msg"
+    },
+    {
+     "type": "Byte",
+     "field": "predefinedMsgType"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ChatMessageBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 52,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "SendWipeConfirmCodeBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "level"
+    },
+    {
+     "type": "Int",
+     "field": "experience"
+    },
+    {
+     "type": "Int",
+     "field": "rating"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/SendWipeConfirmCodeBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 57,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "SyncInvestedAwardPointsBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/SyncInvestedAwardPointsBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 58,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BuyUnlockMissionBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "missionId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/BuyUnlockMissionBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 81,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "SearchTheHouseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "friendId"
+    },
+    {
+     "type": "Byte",
+     "field": "keyNum"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/SearchTheHouseBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 84,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "EndBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "_loc5_.§!!7§(1,20)"
+    },
+    {
+     "type": "Int",
+     "field": "result"
+    },
+    {
+     "type": "UTF",
+     "field": "_loc5_.§!!7§(1,10)"
+    },
+    {
+     "type": "Int",
+     "field": "type"
+    },
+    {
+     "type": "UTF",
+     "field": "_loc5_.§!!7§(1,5)"
+    },
+    {
+     "type": "Int",
+     "field": "expBonus"
+    },
+    {
+     "type": "UTF",
+     "field": "_loc5_.§!!7§(1,5)"
+    },
+    {
+     "type": "Int",
+     "field": "battleId"
+    },
+    {
+     "type": "Short",
+     "field": "missionId"
+    },
+    {
+     "type": "Short",
+     "field": "_loc8_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Short",
+     "field": "banType"
+    },
+    {
+     "type": "UTF",
+     "field": "banNote"
+    },
+    {
+     "type": "Short",
+     "field": "_loc9_"
+    },
+    {
+     "type": "Byte",
+     "field": "collectedReagents"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/EndBattleBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 85,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetReagentsForProfileBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "profileId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetReagentsForProfileBinarySerializer.as",
+   "response_command": 10085,
+   "live": "unconfirmed: no reply on any WormixTest world (probed 2026-11-07)"
+  },
+  {
+   "command": 86,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "UpgradeWeaponBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "recipeId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/UpgradeWeaponBinarySerializer.as",
+   "response_command": 10086,
+   "live": "not exercised"
+  },
+  {
+   "command": 88,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "DowngradeWeaponBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "recipeId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/DowngradeWeaponBinarySerializer.as",
+   "response_command": 10088,
+   "live": "not exercised"
+  },
+  {
+   "command": 89,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetAbandonedFriendsBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "page"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetAbandonedFriendsBinarySerializer.as",
+   "response_command": 10089,
+   "live": "unconfirmed: no reply on WormixTest"
+  },
+  {
+   "command": 90,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ReturnFriendBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "friendId"
+    },
+    {
+     "type": "UTF",
+     "field": "§9\"M§.§-$Z§.getSessionKey()"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ReturnFriendBinarySerializer.as",
+   "response_command": 10090,
+   "live": "not exercised"
+  },
+  {
+   "command": 92,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "RewardReturnFriendBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "friendId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/RewardReturnFriendBinarySerializer.as",
+   "response_command": 10092,
+   "live": "not exercised"
+  },
+  {
+   "command": 93,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetFriendsForBossBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetFriendsForBossBinarySerializer.as",
+   "response_command": 10093,
+   "live": "not exercised"
+  },
+  {
+   "command": 94,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "InviteFriendToClanBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.main.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/main/server/InviteFriendToClanBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 95,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ClanSummaryMainRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.main.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/main/server/ClanSummaryMainRequestBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 96,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "TopClansMainRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.main.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/main/server/TopClansMainRequestBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 97,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ListClansRequestMainBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.main.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/main/server/ListClansRequestMainBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 98,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetJoinClansMainRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.main.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/main/server/GetJoinClansMainRequestBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 99,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "AssembleEquipBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "familyId"
+    },
+    {
+     "type": "Short",
+     "field": "moneyType"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/AssembleEquipBinarySerializer.as",
+   "response_command": 10099,
+   "live": "not exercised"
+  },
+  {
+   "command": 100,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "FbFullfillPaymentBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "paymentId"
+    },
+    {
+     "type": "UTF",
+     "field": "signedRequest"
+    },
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/FbFullfillPaymentBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 101,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "FbRegisterPaymentBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "itemId"
+    },
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/FbRegisterPaymentBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 102,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "OpenChestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "recipeId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/OpenChestBinarySerializer.as",
+   "response_command": 10102,
+   "live": "not exercised"
+  },
+  {
+   "command": 103,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "SetBackpackConfBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/SetBackpackConfBinarySerializer.as",
+   "response_command": 10103,
+   "live": "not exercised"
+  },
+  {
+   "command": 104,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "SetHotkeysBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/SetHotkeysBinarySerializer.as",
+   "response_command": 10104,
+   "live": "not exercised"
+  },
+  {
+   "command": 105,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "FbRegisterMobilePaymentBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "pricepointId"
+    },
+    {
+     "type": "Short",
+     "field": "moneyType"
+    },
+    {
+     "type": "Int",
+     "field": "amount"
+    },
+    {
+     "type": "Float",
+     "field": "cost_USD"
+    },
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/FbRegisterMobilePaymentBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 106,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ToggleTeamMemberBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "teamMemberId"
+    },
+    {
+     "type": "Boolean",
+     "field": "active"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ToggleTeamMemberBinarySerializer.as",
+   "response_command": 10106,
+   "live": "not exercised"
+  },
+  {
+   "command": 107,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetDailyBonusBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetDailyBonusBinarySerializer.as",
+   "response_command": 10107,
+   "live": "unconfirmed: no reply on WormixTest"
+  },
+  {
+   "command": 108,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetSpecialDealBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetSpecialDealBinarySerializer.as",
+   "response_command": 10108,
+   "live": "not exercised"
+  },
+  {
+   "command": 109,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ExecuteSpecialDealBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "weaponId"
+    },
+    {
+     "type": "Byte",
+     "field": "rubyPrice"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ExecuteSpecialDealBinarySerializer.as",
+   "response_command": 10109,
+   "live": "not exercised"
+  },
+  {
+   "command": 110,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetColiseumStateBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetColiseumStateBinarySerializer.as",
+   "response_command": 10110,
+   "live": "ColiseumStateResponse received (::test_coliseum_state)"
+  },
+  {
+   "command": 111,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "AddGladiatorTeamMemberBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "teamMemberIndex"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/AddGladiatorTeamMemberBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 112,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BuyColiseumTicketBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/BuyColiseumTicketBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 114,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetColiseumRewardBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetColiseumRewardBinarySerializer.as",
+   "response_command": 10114,
+   "live": "unconfirmed: no reply on WormixTest"
+  },
+  {
+   "command": 115,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ColliseumInterruptSeriesBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ColliseumInterruptSeriesBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 704,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PumpReactionRateBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "friendId"
+    },
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PumpReactionRateBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 705,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PumpReactionRatesBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "friendIds"
+    },
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PumpReactionRatesBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 708,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetArenaBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetArenaBinarySerializer.as",
+   "response_command": 10004,
+   "live": "ArenaResult parsed (::test_arena)"
+  },
+  {
+   "command": 1006,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpDropPlayerBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "playerNum"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    },
+    {
+     "type": "Short",
+     "field": "type"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PvpDropPlayerBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1007,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpActionExBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "_loc7_"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "length"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "commandId"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "params"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "firstFrame"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "lastFrame"
+    },
+    {
+     "type": "Short",
+     "field": "turnNum"
+    },
+    {
+     "type": "Short",
+     "field": "commandNum"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    },
+    {
+     "type": "Byte",
+     "field": "playerNum"
+    },
+    {
+     "type": "Short",
+     "field": "_loc6_"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PvpActionExBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1014,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpEndTurnBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "turnNum"
+    },
+    {
+     "type": "Short",
+     "field": "commandNum"
+    },
+    {
+     "type": "Int",
+     "field": "battleId"
+    },
+    {
+     "type": "Byte",
+     "field": "playerNum"
+    },
+    {
+     "type": "Short",
+     "field": "_loc6_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Int",
+     "field": "battleState"
+    },
+    {
+     "type": "Boolean",
+     "field": "forced"
+    },
+    {
+     "type": "Short",
+     "field": "banType"
+    },
+    {
+     "type": "UTF",
+     "field": "banNote"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PvpEndTurnBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1015,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BattleReconnectBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "id"
+    },
+    {
+     "type": "UTF",
+     "field": "authKey"
+    },
+    {
+     "type": "UTF",
+     "field": "mainHost"
+    },
+    {
+     "type": "Int",
+     "field": "mainPort"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    },
+    {
+     "type": "Short",
+     "field": "turnNum"
+    },
+    {
+     "type": "Byte",
+     "field": "playerNum"
+    },
+    {
+     "type": "Short",
+     "field": "lastCommandNum"
+    },
+    {
+     "type": "Byte",
+     "field": "socialId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/BattleReconnectBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1016,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpRetryCommandRequestServerBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    },
+    {
+     "type": "Short",
+     "field": "turnNum"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/PvpRetryCommandRequestServerBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1017,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpEndTurnResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "turnNum"
+    },
+    {
+     "type": "Short",
+     "field": "commandNum"
+    },
+    {
+     "type": "Int",
+     "field": "battleId"
+    },
+    {
+     "type": "Short",
+     "field": "_loc6_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Int",
+     "field": "battleState"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PvpEndTurnResponseBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1018,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpRetryCommandRequestClientBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "commandNum"
+    },
+    {
+     "type": "Short",
+     "field": "turnNum"
+    },
+    {
+     "type": "Int",
+     "field": "battleId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PvpRetryCommandRequestClientBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1019,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpStartTurnBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "battleId"
+    },
+    {
+     "type": "Byte",
+     "field": "nextPlayerNum"
+    },
+    {
+     "type": "Short",
+     "field": "turnNum"
+    },
+    {
+     "type": "Short",
+     "field": "commandNum"
+    },
+    {
+     "type": "Short",
+     "field": "droppedNums"
+    },
+    {
+     "type": "Byte",
+     "field": "_loc6_"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/PvpStartTurnBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1021,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpEndBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PvpEndBattleBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1022,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ReorderGroupResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ReorderGroupResultBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1093,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetFriendsForBossResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetFriendsForBossResultBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1098,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetJoinClansMainResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/GetJoinClansMainResponseBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 1099,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "FbRegisterPaymentResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/FbRegisterPaymentResultBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 2004,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BattleLoginErrorBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/BattleLoginErrorBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 2021,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "PvpSystemMessageBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/PvpSystemMessageBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 3001,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "AchieveLoginBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "applicationId"
+    },
+    {
+     "type": "UTF",
+     "field": "socialNetworkId"
+    },
+    {
+     "type": "UTF",
+     "field": "id"
+    },
+    {
+     "type": "UTF",
+     "field": "authKey"
+    },
+    {
+     "type": "Boolean",
+     "field": "sendAchievements"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/AchieveLoginBinarySerializer.as",
+   "response_command": 13001,
+   "live": "not exercised"
+  },
+  {
+   "command": 3002,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "GetAchievementsBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "profileId"
+    },
+    {
+     "type": "Byte",
+     "field": "investedAwardPoints"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/GetAchievementsBinarySerializer.as",
+   "response_command": 13003,
+   "live": "unconfirmed: no reply on WormixTest"
+  },
+  {
+   "command": 3003,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "IncreaseAchievementsBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "sessionId"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Byte",
+     "field": "achievementsIndex"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "achievementsRise"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Int",
+     "field": "boolAchievements"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "timeScale"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/IncreaseAchievementsBinarySerializer.as",
+   "response_command": 13003,
+   "live": "not exercised"
+  },
+  {
+   "command": 3005,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "ChooseBonusItemBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "itemId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/ChooseBonusItemBinarySerializer.as",
+   "response_command": null,
+   "live": "not exercised"
+  },
+  {
+   "command": 3010,
+   "command_expression": null,
+   "direction": "client_to_server",
+   "class": "BuyResetBonusItemsBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "requestNum"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/BuyResetBonusItemsBinarySerializer.as",
+   "response_command": 13010,
+   "live": "not exercised"
+  },
+  {
+   "command": 10001,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "EnterAccountBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/EnterAccountBinarySerializer.as"
+  },
+  {
+   "command": 10002,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "LoginErrorBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "code"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/LoginErrorBinarySerializer.as"
+  },
+  {
+   "command": 10003,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ShopResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ShopResultBinarySerializer.as"
+  },
+  {
+   "command": 10004,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ArenaResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ArenaResultBinarySerializer.as"
+  },
+  {
+   "command": 10005,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ProfilesResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ProfilesResultBinarySerializer.as"
+  },
+  {
+   "command": 10006,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "StartBattleResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/StartBattleResultBinarySerializer.as"
+  },
+  {
+   "command": 10007,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ArenaLockedBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "delay"
+    },
+    {
+     "type": "Short",
+     "field": "currentMission"
+    },
+    {
+     "type": "Byte",
+     "field": "errorCode"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ArenaLockedBinarySerializer.as"
+  },
+  {
+   "command": 10008,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "NeedMoneyResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "value"
+    },
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/NeedMoneyResultBinarySerializer.as"
+  },
+  {
+   "command": 10011,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ShowSystemMessageBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "msg"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ShowSystemMessageBinarySerializer.as"
+  },
+  {
+   "command": 10012,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "BuyBattleResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/BuyBattleResultBinarySerializer.as"
+  },
+  {
+   "command": 10013,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "AddToGroupResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/AddToGroupResultBinarySerializer.as"
+  },
+  {
+   "command": 10014,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "RemoveFromGroupResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/RemoveFromGroupResultBinarySerializer.as"
+  },
+  {
+   "command": 10015,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "DistributePointsResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/DistributePointsResultBinarySerializer.as"
+  },
+  {
+   "command": 10016,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ResetParametersResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ResetParametersResultBinarySerializer.as"
+  },
+  {
+   "command": 10017,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "PongBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/PongBinarySerializer.as"
+  },
+  {
+   "command": 10018,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "GetFriendListPageResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetFriendListPageResultBinarySerializer.as"
+  },
+  {
+   "command": 10019,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "GetRatingResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Int",
+     "field": "rating"
+    },
+    {
+     "type": "Int",
+     "field": "oldPlace"
+    },
+    {
+     "type": "Int",
+     "field": "place"
+    },
+    {
+     "type": "Int",
+     "field": "ratingType"
+    },
+    {
+     "type": "Int",
+     "field": "battleWager"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetRatingResultBinarySerializer.as"
+  },
+  {
+   "command": 10021,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "SearchTheHouseResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "result"
+    },
+    {
+     "type": "Int",
+     "field": "value"
+    },
+    {
+     "type": "Byte",
+     "field": "availableSearchKeys"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "friendId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/SearchTheHouseResultBinarySerializer.as"
+  },
+  {
+   "command": 10022,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "SelectStuffResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/SelectStuffResultBinarySerializer.as"
+  },
+  {
+   "command": 10023,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "UserIsBannedBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "reason"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "endDate"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/UserIsBannedBinarySerializer.as"
+  },
+  {
+   "command": 10028,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ChangeRaceResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ChangeRaceResultBinarySerializer.as"
+  },
+  {
+   "command": 10031,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "IncomingPaymentBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "moneyType"
+    },
+    {
+     "type": "Int",
+     "field": "count"
+    },
+    {
+     "type": "UTF",
+     "field": "§9\"M§.§-$Z§.getSessionKey()"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/IncomingPaymentBinarySerializer.as"
+  },
+  {
+   "command": 10032,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "PumpReactionRateResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/PumpReactionRateResultBinarySerializer.as"
+  },
+  {
+   "command": 10033,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "PumpReactionRatesResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc7_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/PumpReactionRatesResultBinarySerializer.as"
+  },
+  {
+   "command": 10034,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "WhoPumpedReactionResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "_loc8_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Short",
+     "field": "_loc8_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    },
+    {
+     "type": "Short",
+     "field": "_loc8_"
+    },
+    {
+     "type": "Short",
+     "field": "length"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/WhoPumpedReactionResultBinarySerializer.as"
+  },
+  {
+   "command": 10036,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "WipeProfileResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/WipeProfileResultBinarySerializer.as"
+  },
+  {
+   "command": 10037,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "BuyReactionRateResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    },
+    {
+     "type": "Byte",
+     "field": "reactionRateCount"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/BuyReactionRateResultBinarySerializer.as"
+  },
+  {
+   "command": 10039,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ChatMessageResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ChatMessageResponseBinarySerializer.as"
+  },
+  {
+   "command": 10040,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "SendWipeConfirmCodeResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/SendWipeConfirmCodeResponseBinarySerializer.as"
+  },
+  {
+   "command": 10041,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "SyncInvestedAwardPointsResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/SyncInvestedAwardPointsResultBinarySerializer.as"
+  },
+  {
+   "command": 10042,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "BuyUnlockMissionResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/BuyUnlockMissionResultBinarySerializer.as"
+  },
+  {
+   "command": 10044,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "PairRatingResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/PairRatingResultBinarySerializer.as"
+  },
+  {
+   "command": 10085,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ReagentsForProfileBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "_loc6_"
+    },
+    {
+     "type": "Int",
+     "field": "reagents"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ReagentsForProfileBinarySerializer.as"
+  },
+  {
+   "command": 10086,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "UpgradeWeaponResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "recipeId"
+    },
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/UpgradeWeaponResultBinarySerializer.as"
+  },
+  {
+   "command": 10088,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "DowngradeWeaponResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/DowngradeWeaponResultBinarySerializer.as"
+  },
+  {
+   "command": 10089,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "GetAbandonedFriendsResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetAbandonedFriendsResultBinarySerializer.as"
+  },
+  {
+   "command": 10090,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ReturnFriendResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ReturnFriendResultBinarySerializer.as"
+  },
+  {
+   "command": 10091,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "AwardedFriendsComebackBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/AwardedFriendsComebackBinarySerializer.as"
+  },
+  {
+   "command": 10092,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "RewardReturnFriendResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/RewardReturnFriendResultBinarySerializer.as"
+  },
+  {
+   "command": 10093,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "EquipExpiredBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/EquipExpiredBinarySerializer.as"
+  },
+  {
+   "command": 10099,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "AssembleEquipResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/AssembleEquipResultBinarySerializer.as"
+  },
+  {
+   "command": 10102,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "OpenChestResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/OpenChestResultBinarySerializer.as"
+  },
+  {
+   "command": 10103,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "SetBackpackConfResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/SetBackpackConfResultBinarySerializer.as"
+  },
+  {
+   "command": 10104,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ItemGrantedBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ItemGrantedBinarySerializer.as"
+  },
+  {
+   "command": 10106,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ToggleTeamMemberResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ToggleTeamMemberResultBinarySerializer.as"
+  },
+  {
+   "command": 10107,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "GetDailyBonusResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetDailyBonusResultBinarySerializer.as"
+  },
+  {
+   "command": 10108,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "GetSpecialDealResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetSpecialDealResponseBinarySerializer.as"
+  },
+  {
+   "command": 10109,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ExecuteSpecialDealResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ExecuteSpecialDealResponseBinarySerializer.as"
+  },
+  {
+   "command": 10110,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ColiseumStateResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ColiseumStateResponseBinarySerializer.as"
+  },
+  {
+   "command": 10114,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "GetColiseumRewardResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetColiseumRewardResponseBinarySerializer.as"
+  },
+  {
+   "command": 13001,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "AchieveLoginSuccessBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "sessionId"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "loginTime"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/AchieveLoginSuccessBinarySerializer.as"
+  },
+  {
+   "command": 13002,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "AchieveLoginErrorBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Int",
+     "field": "code"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/AchieveLoginErrorBinarySerializer.as"
+  },
+  {
+   "command": 13003,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "GetAchievementsResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "profileId"
+    },
+    {
+     "type": "Byte",
+     "field": "investedAwardPoints"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/GetAchievementsResultBinarySerializer.as"
+  },
+  {
+   "command": 13004,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "IncreaseAchievementResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "timeSequence"
+    },
+    {
+     "type": "Byte",
+     "field": "investedAwardPoints"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/IncreaseAchievementResultBinarySerializer.as"
+  },
+  {
+   "command": 13006,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "ChooseBonusItemResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [
+    {
+     "type": "Short",
+     "field": "result"
+    },
+    {
+     "type": "Int",
+     "field": "itemId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/ChooseBonusItemResultBinarySerializer.as"
+  },
+  {
+   "command": 13010,
+   "command_expression": null,
+   "direction": "server_to_client",
+   "class": "BuyResetBonusItemsResultBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.server",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/server/BuyResetBonusItemsResultBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.AUDIT_ACTIONS_REQUEST",
+   "direction": "server_to_client",
+   "class": "AuditActionsRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/AuditActionsRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.AUDIT_ACTIONS_RESPONSE",
+   "direction": "server_to_client",
+   "class": "AuditActionsResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/AuditActionsResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "BattleCreated.ID",
+   "direction": "server_to_client",
+   "class": "BattleCreatedBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/BattleCreatedBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "BattleCreationFailure.ID",
+   "direction": "server_to_client",
+   "class": "BattleCreationFailureBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/BattleCreationFailureBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "CallToBattle.ID",
+   "direction": "server_to_client",
+   "class": "CallToBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/CallToBattleBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "CancelBattle.ID",
+   "direction": "server_to_client",
+   "class": "CancelBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    },
+    {
+     "type": "Short",
+     "field": "error"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/CancelBattleBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CASH_MEDALS_REQUEST",
+   "direction": "server_to_client",
+   "class": "CashMedalsClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.treasury",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/treasury/CashMedalsClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CASH_MEDALS_RESPONSE",
+   "direction": "server_to_client",
+   "class": "CashMedalsClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.treasury",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/treasury/CashMedalsClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_DESCRIPTION_REQUEST",
+   "direction": "server_to_client",
+   "class": "ChangeClanDescriptionRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/edit/ChangeClanDescriptionRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_DESCRIPTION_RESPONSE",
+   "direction": "server_to_client",
+   "class": "ChangeClanDescriptionResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/edit/ChangeClanDescriptionResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_EMBLEM_REQUEST",
+   "direction": "server_to_client",
+   "class": "ChangeClanEmblemRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/edit/ChangeClanEmblemRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_EMBLEM_RESPONSE",
+   "direction": "server_to_client",
+   "class": "ChangeClanEmblemResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/edit/ChangeClanEmblemResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_JOIN_RATING_REQUEST",
+   "direction": "server_to_client",
+   "class": "ChangeClanJoinRatingRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/edit/ChangeClanJoinRatingRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_JOIN_RATING_RESPONSE",
+   "direction": "server_to_client",
+   "class": "ChangeClanJoinRatingResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/edit/ChangeClanJoinRatingResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_MEDAL_PRICE_REQUEST",
+   "direction": "server_to_client",
+   "class": "ChangeClanMedalPriceRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.treasury",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/treasury/ChangeClanMedalPriceRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_MEDAL_PRICE_RESPONSE",
+   "direction": "server_to_client",
+   "class": "ChangeClanMedalPriceResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.treasury",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/treasury/ChangeClanMedalPriceResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ID.value",
+   "direction": "client_to_server",
+   "class": "CheatDetectedBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "UTF",
+     "field": "sessionKey"
+    },
+    {
+     "type": "Short",
+     "field": "banType"
+    },
+    {
+     "type": "UTF",
+     "field": "banNote"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/CheatDetectedBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CLAN_SUMMARY_REQUEST",
+   "direction": "server_to_client",
+   "class": "ClanSummaryRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/ClanSummaryRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CLAN_SUMMARY_RESPONSE",
+   "direction": "server_to_client",
+   "class": "ClanSummaryResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/ClanSummaryResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_CLOSE_EXIT_REQUEST",
+   "direction": "server_to_client",
+   "class": "CloseExitClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/edit/CloseExitClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHANGE_CLAN_CLOSE_EXIT_RESPONSE",
+   "direction": "server_to_client",
+   "class": "CloseExitClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/edit/CloseExitClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "CreateBattleRequest.ID",
+   "direction": "server_to_client",
+   "class": "CreateBattleRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "profileId"
+    },
+    {
+     "type": "UTF",
+     "field": "profileSocialId"
+    },
+    {
+     "type": "Byte",
+     "field": "socialNetworkId"
+    },
+    {
+     "type": "UTF",
+     "field": "authKey"
+    },
+    {
+     "type": "UTF",
+     "field": "playerNames"
+    },
+    {
+     "type": "Short",
+     "field": "mainServerId"
+    },
+    {
+     "type": "Short",
+     "field": "battleType"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "mapId"
+    },
+    {
+     "type": "Boolean",
+     "field": "isRandomWeapons"
+    },
+    {
+     "type": "Boolean",
+     "field": "isRandomMap"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/CreateBattleRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.DELETE_CLAN_REQUEST",
+   "direction": "server_to_client",
+   "class": "DeleteClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/DeleteClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.DELETE_CLAN_RESPONSE",
+   "direction": "server_to_client",
+   "class": "DeleteClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/DeleteClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.DONATE_REQUEST",
+   "direction": "server_to_client",
+   "class": "DonateClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.treasury",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/treasury/DonateClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.DONATE_RESPONSE",
+   "direction": "server_to_client",
+   "class": "DonateClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.treasury",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/treasury/DonateClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.EXPEL_FROM_CLAN_REQUEST",
+   "direction": "server_to_client",
+   "class": "ExpelFromClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/ExpelFromClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.EXPEL_FROM_CLAN_RESPONSE",
+   "direction": "server_to_client",
+   "class": "ExpelFromClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/ExpelFromClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.CHAT_MESSAGE_EVENT",
+   "direction": "server_to_client",
+   "class": "IncomingClanMessageBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.main",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/main/IncomingClanMessageBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.INCREASE_LEVEL_CLAN_REQUEST",
+   "direction": "server_to_client",
+   "class": "IncreaseLevelClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/edit/IncreaseLevelClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.INCREASE_LEVEL_CLAN_RESPONSE",
+   "direction": "server_to_client",
+   "class": "IncreaseLevelClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/edit/IncreaseLevelClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.INVITE_TO_CLAN_REQUEST",
+   "direction": "server_to_client",
+   "class": "InviteToClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/InviteToClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.INVITE_TO_CLAN_RESPONSE",
+   "direction": "server_to_client",
+   "class": "InviteToClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/InviteToClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "JoinToBattle.ID",
+   "direction": "server_to_client",
+   "class": "JoinToBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "profileId"
+    },
+    {
+     "type": "UTF",
+     "field": "profileSocialId"
+    },
+    {
+     "type": "Byte",
+     "field": "socialNetworkId"
+    },
+    {
+     "type": "UTF",
+     "field": "authKey"
+    },
+    {
+     "type": "UTF",
+     "field": "playerNames"
+    },
+    {
+     "type": "Short",
+     "field": "mainServerId"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/JoinToBattleBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LIST_CLANS_REQUEST",
+   "direction": "server_to_client",
+   "class": "ListClansRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/ListClansRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LIST_CLANS_RESPONSE",
+   "direction": "server_to_client",
+   "class": "ListClansResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/ListClansResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LOGIN_RESPONSE",
+   "direction": "server_to_client",
+   "class": "LoginClanEnterAccountBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/LoginClanEnterAccountBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LOGIN_ERROR_RESPONSE",
+   "direction": "server_to_client",
+   "class": "LoginClanErrorResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/LoginClanErrorResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LOGIN_REQUEST",
+   "direction": "server_to_client",
+   "class": "LoginClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.login",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/login/LoginClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LOGIN_CREATE_REQUEST",
+   "direction": "server_to_client",
+   "class": "LoginCreateClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.login",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/login/LoginCreateClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LOGIN_JOIN_REQUEST",
+   "direction": "server_to_client",
+   "class": "LoginJoinClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.login",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/login/LoginJoinClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LOWER_IN_RANK_REQUEST",
+   "direction": "server_to_client",
+   "class": "LowerRankInClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/LowerRankInClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.LOWER_IN_RANK_RESPONSE",
+   "direction": "server_to_client",
+   "class": "LowerRankInClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/LowerRankInClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.POST_NEWS_REQUEST",
+   "direction": "server_to_client",
+   "class": "PostClanNewsRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/PostClanNewsRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.POST_NEWS_RESPONSE",
+   "direction": "server_to_client",
+   "class": "PostClanNewsResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/PostClanNewsResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.POST_TO_CHAT_REQUEST",
+   "direction": "server_to_client",
+   "class": "PostToClanChatRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/PostToClanChatRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.POST_TO_CHAT_RESPONSE",
+   "direction": "server_to_client",
+   "class": "PostToClanChatResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/PostToClanChatResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.PROMOTE_IN_RANK_REQUEST",
+   "direction": "server_to_client",
+   "class": "PromoteRankInClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/PromoteRankInClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.PROMOTE_IN_RANK_RESPONSE",
+   "direction": "server_to_client",
+   "class": "PromoteRankInClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/PromoteRankInClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "PvpChatMessage.ID",
+   "direction": "client_to_server",
+   "class": "PvpChatMessageBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.client",
+   "request_fields": [
+    {
+     "type": "Byte",
+     "field": "playerNum"
+    },
+    {
+     "type": "UTF",
+     "field": "message"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    },
+    {
+     "type": "Boolean",
+     "field": "isTeamMsg"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/client/PvpChatMessageBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.QUIT_CLAN_REQUEST",
+   "direction": "server_to_client",
+   "class": "QuitClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/QuitClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.QUIT_FROM_CLAN_RESPONSE",
+   "direction": "server_to_client",
+   "class": "QuitClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/QuitClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ReadyForBattle.ID",
+   "direction": "server_to_client",
+   "class": "ReadyForBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/ReadyForBattleBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "RejectBattleOffer.ID",
+   "direction": "server_to_client",
+   "class": "RejectBattleOfferBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [
+    {
+     "type": "UnsignedInt",
+     "field": "profileId"
+    },
+    {
+     "type": "UTF",
+     "field": "profileSocialId"
+    },
+    {
+     "type": "Byte",
+     "field": "socialNetworkId"
+    },
+    {
+     "type": "UTF",
+     "field": "authKey"
+    },
+    {
+     "type": "UTF",
+     "field": "playerNames"
+    },
+    {
+     "type": "Short",
+     "field": "mainServerId"
+    },
+    {
+     "type": "UnsignedInt",
+     "field": "battleId"
+    },
+    {
+     "type": "Boolean",
+     "field": "manual"
+    }
+   ],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/RejectBattleOfferBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.RENAME_CLAN_REQUEST",
+   "direction": "server_to_client",
+   "class": "RenameClanRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/edit/RenameClanRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.RENAME_CLAN_RESPONSE",
+   "direction": "server_to_client",
+   "class": "RenameClanResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response.edit",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/edit/RenameClanResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "StartBattle.ID",
+   "direction": "server_to_client",
+   "class": "StartBattleBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/StartBattleBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.TOP_CLANS_REQUEST",
+   "direction": "server_to_client",
+   "class": "TopClansRequestBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.request",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/request/TopClansRequestBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "ClanMessages.TOP_CLANS_RESPONSE",
+   "direction": "server_to_client",
+   "class": "TopClansResponseBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.clans.response",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/clans/response/TopClansResponseBinarySerializer.as"
+  },
+  {
+   "command": null,
+   "command_expression": "WidenSearch.ID",
+   "direction": "server_to_client",
+   "class": "WidenSearchBinarySerializer",
+   "package": "ru.pragmatix.wormix.serialization.pvp.ex",
+   "request_fields": [],
+   "response_fields": [],
+   "source": "scripts/ru/pragmatix/wormix/serialization/pvp/ex/WidenSearchBinarySerializer.as"
+  }
+ ]
+}

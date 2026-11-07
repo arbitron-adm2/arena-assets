@@ -1,0 +1,9 @@
+package §^"y§
+{
+   public interface §[";§
+   {
+      
+      
+   }
+}
+
