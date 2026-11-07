@@ -113,6 +113,10 @@ java -jar ffdec.jar -format sprite:webp_animated -selectid 1234 \
 Не в git: `packs/` (≈700 МБ растровых и звуковых выгрузок) — они полностью
 воспроизводятся из `swf/` скриптами `tools/export-packs.sh` и `tools/export-sprites.sh`.
 
+## Протокол
+
+Сводка по транспорту, кадрам и карте команд: [`protocol/PROTOCOL.md`](protocol/PROTOCOL.md).
+
 ## Назначение
 
 Набор собран для локальной отладки и восстановления совместимости собственного
